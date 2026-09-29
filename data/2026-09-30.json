@@ -1,23 +1,21 @@
 {
   "fecha": "2026-09-30",
-  "nota": "Es fecha FIFA: las ligas europeas están en pausa y la Nations League jugó el martes. Sumé la Liga 1 de Perú para no depender solo de dos partidos, pero hay pocos partidos fiables y las tres combinadas comparten equipos. Horas en hora de Colombia.",
+  "nota": "Mañana es fecha FIFA y solo hay 4 partidos fiables, así que las combinadas repiten partidos. Desde el fin de semana, con muchos más partidos, cada combinada usará partidos distintos. Horas en hora de Colombia.",
   "combinadas": [
     {
       "nivel": "segura",
-      "titulo": "Tres favoritos en casa",
-      "cuota": 1.99,
+      "titulo": "Cuatro favoritos que no deberían fallar",
       "prob": 0.43,
-      "estado": "pendiente",
-      "razon": "Tres locales claros: Argentina ante un rival muy inferior, Cienciano en la altura del Cusco ante un Los Chankas que lleva 6 partidos sin ganar, y Nacional líder ante Junior (le basta con no perder).",
+      "razon": "Cuatro selecciones de cuota baja: Argentina ante un rival muy inferior, Cienciano en la altura del Cusco, y Nacional y Southend cubiertos con el empate.",
       "selecciones": [
         {
           "partido": "Argentina vs Bolivia",
           "competencia": "Amistoso internacional",
           "hora": "7:00 p. m.",
           "estado": "pendiente",
-          "mercado": "Argentina hándicap -1.5 (gana por 2 o más)",
-          "cuota": 1.3,
-          "estimada": true
+          "mercado": "Gana Argentina",
+          "cuota": 1.06,
+          "estimada": false
         },
         {
           "partido": "Cienciano vs Los Chankas",
@@ -36,17 +34,35 @@
           "mercado": "Nacional o empate (doble oportunidad)",
           "cuota": 1.12,
           "estimada": true
+        },
+        {
+          "partido": "Eastleigh vs Southend United",
+          "competencia": "National League (Inglaterra)",
+          "hora": "1:45 p. m.",
+          "estado": "pendiente",
+          "mercado": "Southend o empate (doble oportunidad)",
+          "cuota": 1.22,
+          "estimada": true
         }
-      ]
+      ],
+      "cuota": 1.98,
+      "estado": "pendiente"
     },
     {
       "nivel": "media",
-      "titulo": "Goleada, altura y Nacional con goles",
-      "cuota": 4.86,
-      "prob": 0.17,
-      "estado": "pendiente",
-      "razon": "La predicción más repetida para Argentina es 3-0 o 4-0. Cienciano es muy fuerte en el Cusco. Nacional y Junior se hicieron 8 goles en sus 3 cruces de 2026, así que una victoria verdolaga con 2 o más goles es el escenario más probable.",
+      "titulo": "Los cuatro locales y visitantes fuertes ganan",
+      "prob": 0.15,
+      "razon": "Los mismos cuatro partidos, pero pidiendo victoria a cada favorito. Argentina ganó sin recibir gol sus dos últimos partidos ante Bolivia (3-0 y 6-0), y Southend no ha perdido de visitante esta temporada.",
       "selecciones": [
+        {
+          "partido": "Argentina vs Bolivia",
+          "competencia": "Amistoso internacional",
+          "hora": "7:00 p. m.",
+          "estado": "pendiente",
+          "mercado": "Argentina gana sin recibir gol",
+          "cuota": 1.6,
+          "estimada": false
+        },
         {
           "partido": "Cienciano vs Los Chankas",
           "competencia": "Liga 1 Perú · Clausura",
@@ -57,12 +73,49 @@
           "estimada": false
         },
         {
+          "partido": "Atlético Nacional vs Junior",
+          "competencia": "Liga BetPlay 2026-II",
+          "hora": "8:00 p. m.",
+          "estado": "pendiente",
+          "mercado": "Gana Nacional",
+          "cuota": 1.52,
+          "estimada": false
+        },
+        {
+          "partido": "Eastleigh vs Southend United",
+          "competencia": "National League (Inglaterra)",
+          "hora": "1:45 p. m.",
+          "estado": "pendiente",
+          "mercado": "Gana Southend",
+          "cuota": 1.7,
+          "estimada": false
+        }
+      ],
+      "cuota": 5.66,
+      "estado": "pendiente"
+    },
+    {
+      "nivel": "arriesgada",
+      "titulo": "Favoritos con margen",
+      "prob": 0.07,
+      "razon": "Sube la exigencia en cada partido: Cienciano por 2 goles o más, que es lo que recomiendan los analistas, y Nacional ganando en un partido con goles.",
+      "selecciones": [
+        {
           "partido": "Argentina vs Bolivia",
           "competencia": "Amistoso internacional",
           "hora": "7:00 p. m.",
           "estado": "pendiente",
-          "mercado": "Argentina hándicap -2.5 (gana por 3 o más)",
-          "cuota": 1.82,
+          "mercado": "Argentina gana sin recibir gol",
+          "cuota": 1.6,
+          "estimada": false
+        },
+        {
+          "partido": "Cienciano vs Los Chankas",
+          "competencia": "Liga 1 Perú · Clausura",
+          "hora": "3:00 p. m.",
+          "estado": "pendiente",
+          "mercado": "Cienciano hándicap -1.5 (gana por 2 o más)",
+          "cuota": 1.83,
           "estimada": false
         },
         {
@@ -73,48 +126,50 @@
           "mercado": "Gana Nacional y más de 1.5 goles",
           "cuota": 1.95,
           "estimada": true
-        }
-      ]
-    },
-    {
-      "nivel": "arriesgada",
-      "titulo": "Paliza limpia y partido abierto en Medellín",
-      "cuota": 10.73,
-      "prob": 0.1,
-      "estado": "pendiente",
-      "razon": "Bolivia rara vez le marca a Argentina de visitante. Junior necesita ganar y va a atacar, lo que abre el partido para que Nacional gane con 3 o más goles en total.",
-      "selecciones": [
+        },
         {
-          "partido": "Cienciano vs Los Chankas",
-          "competencia": "Liga 1 Perú · Clausura",
-          "hora": "3:00 p. m.",
+          "partido": "Eastleigh vs Southend United",
+          "competencia": "National League (Inglaterra)",
+          "hora": "1:45 p. m.",
           "estado": "pendiente",
-          "mercado": "Gana Cienciano",
-          "cuota": 1.37,
+          "mercado": "Gana Southend",
+          "cuota": 1.7,
           "estimada": false
-        },
-        {
-          "partido": "Argentina vs Bolivia",
-          "competencia": "Amistoso internacional",
-          "hora": "7:00 p. m.",
-          "estado": "pendiente",
-          "mercado": "Argentina gana por 3+ sin recibir gol (crear apuesta)",
-          "cuota": 2.9,
-          "estimada": true
-        },
-        {
-          "partido": "Atlético Nacional vs Junior",
-          "competencia": "Liga BetPlay 2026-II",
-          "hora": "8:00 p. m.",
-          "estado": "pendiente",
-          "mercado": "Gana Nacional y más de 2.5 goles",
-          "cuota": 2.7,
-          "estimada": true
         }
-      ]
+      ],
+      "cuota": 9.71,
+      "estado": "pendiente"
     }
   ],
   "partidos": [
+    {
+      "partido": "Eastleigh vs Southend United",
+      "competencia": "National League (quinta división inglesa)",
+      "hora": "1:45 p. m.",
+      "estadio": "Silverlake Stadium, Eastleigh",
+      "cuotas": [
+        {
+          "m": "Southend",
+          "c": 1.7
+        }
+      ],
+      "claves": [
+        "Southend no ha perdido en sus 5 salidas de esta temporada y promedia casi 2 goles de visitante.",
+        "Viene de perder 4-2 en casa ante Barrow, lo que cortó una racha de 5 partidos sin perder.",
+        "Eastleigh está a mitad de tabla con 1 victoria en 6 partidos, pero no ha perdido en casa (3 triunfos y 2 empates).",
+        "Southend ganó 4 de los últimos 5 cruces. William Hill pronostica 0-2."
+      ],
+      "fuentes": [
+        {
+          "nombre": "William Hill News",
+          "url": "https://news.williamhill.com/football/national-league/best-bets-and-predictions-wednesday-30th-september-2026/"
+        },
+        {
+          "nombre": "Oddspedia",
+          "url": "https://oddspedia.com/football/southend-united-eastleigh-813217"
+        }
+      ]
+    },
     {
       "partido": "Cienciano vs Los Chankas",
       "competencia": "Liga 1 Perú · Clausura, fecha 10",
@@ -180,6 +235,10 @@
         {
           "m": "Argentina -2.5",
           "c": 1.82
+        },
+        {
+          "m": "Argentina gana sin recibir gol",
+          "c": 1.6
         }
       ],
       "claves": [
@@ -205,6 +264,10 @@
         {
           "nombre": "El Tiempo",
           "url": "https://www.eltiempo.com/deportes/futbol-internacional/argentina-vs-bolivia-alineaciones-hora-como-y-donde-ver-en-vivo-el-partido-amistoso-3589812"
+        },
+        {
+          "nombre": "Oddschecker",
+          "url": "https://www.oddschecker.com/es/pronosticos/futbol/2026/septiembre/pronostico-argentina-vs-bolivia-30-09-26"
         }
       ]
     },
