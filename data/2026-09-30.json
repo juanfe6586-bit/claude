@@ -1,0 +1,94 @@
+{
+  "fecha": "2026-09-30",
+  "nota": "Es fecha FIFA: las ligas europeas están en pausa y la Nations League jugó el martes. Solo hay dos partidos fiables en tus ligas (Argentina vs Bolivia y Nacional vs Junior), así que las tres combinadas dependen de ellos. Si Nacional no gana, caen las tres. Horas en hora de Colombia.",
+  "combinadas": [
+    {
+      "nivel": "segura",
+      "titulo": "Argentina golea, Nacional gana",
+      "cuota": 1.98,
+      "prob": 0.45,
+      "estado": "pendiente",
+      "razon": "Argentina ganó 6-0 el último cruce y los modelos le dan más de 75% de ganar por dos o más. Nacional es líder con 19 puntos en 9 partidos y juega en casa ante un Junior obligado a atacar.",
+      "selecciones": [
+        { "partido": "Argentina vs Bolivia", "competencia": "Amistoso internacional", "hora": "7:00 p. m.", "mercado": "Argentina hándicap -1.5 (gana por 2 o más)", "cuota": 1.30, "estimada": true, "estado": "pendiente" },
+        { "partido": "Atlético Nacional vs Junior", "competencia": "Liga BetPlay 2026-II", "hora": "8:00 p. m.", "mercado": "Gana Atlético Nacional", "cuota": 1.52, "estimada": false, "estado": "pendiente" }
+      ]
+    },
+    {
+      "nivel": "media",
+      "titulo": "Goleada y partido abierto en Medellín",
+      "cuota": 4.91,
+      "prob": 0.20,
+      "estado": "pendiente",
+      "razon": "La predicción más repetida para Argentina es 3-0 o 4-0. Nacional y Junior se hicieron 8 goles en sus 3 cruces de 2026 y Junior necesita ganar, así que el partido debería tener goles.",
+      "selecciones": [
+        { "partido": "Argentina vs Bolivia", "competencia": "Amistoso internacional", "hora": "7:00 p. m.", "mercado": "Argentina hándicap -2.5 (gana por 3 o más)", "cuota": 1.82, "estimada": false, "estado": "pendiente" },
+        { "partido": "Atlético Nacional vs Junior", "competencia": "Liga BetPlay 2026-II", "hora": "8:00 p. m.", "mercado": "Gana Nacional y más de 2.5 goles", "cuota": 2.70, "estimada": true, "estado": "pendiente" }
+      ]
+    },
+    {
+      "nivel": "arriesgada",
+      "titulo": "Paliza limpia y Nacional con ida y vuelta",
+      "cuota": 9.86,
+      "prob": 0.11,
+      "estado": "pendiente",
+      "razon": "Bolivia llega muy lejos del nivel del subcampeón y rara vez marca de visitante ante Argentina. Junior tiene gol con Teófilo y Fydriszewski, así que una victoria de Nacional con gol de ambos es un escenario muy posible.",
+      "selecciones": [
+        { "partido": "Argentina vs Bolivia", "competencia": "Amistoso internacional", "hora": "7:00 p. m.", "mercado": "Argentina gana por 3+ sin recibir gol (crear apuesta)", "cuota": 2.90, "estimada": true, "estado": "pendiente" },
+        { "partido": "Atlético Nacional vs Junior", "competencia": "Liga BetPlay 2026-II", "hora": "8:00 p. m.", "mercado": "Gana Nacional y ambos marcan", "cuota": 3.40, "estimada": true, "estado": "pendiente" }
+      ]
+    }
+  ],
+  "partidos": [
+    {
+      "partido": "Argentina vs Bolivia",
+      "competencia": "Amistoso internacional",
+      "hora": "7:00 p. m. (9:00 p. m. en Argentina)",
+      "estadio": "Mario Alberto Kempes, Córdoba",
+      "cuotas": [
+        { "m": "Argentina", "c": 1.06 },
+        { "m": "Empate", "c": 9.5 },
+        { "m": "Bolivia", "c": 30 },
+        { "m": "Más de 3.5 goles", "c": 1.72 },
+        { "m": "Argentina -2.5", "c": 1.82 }
+      ],
+      "claves": [
+        "Primer partido de Argentina tras perder la final del Mundial 2026 ante España, y el primero en casa ante su público.",
+        "Messi no juega: lo reservan para su despedida del 6 de octubre ante Benín.",
+        "Once probable: E. Martínez; Giay, Romero, Lisandro Martínez, Medina; Palacios, Mac Allister; Barco o Mastantuono, Nico Paz; Julián Álvarez, Lautaro.",
+        "El último Argentina-Bolivia terminó 6-0 (octubre de 2024). Los modelos dan 77% al más de 2.5 goles y pronostican 3-0 o 4-0.",
+        "Riesgo: en amistosos hay muchos cambios en el segundo tiempo, y eso puede frenar la goleada."
+      ],
+      "fuentes": [
+        { "nombre": "La Página Millonaria", "url": "https://lapaginamillonaria.com/apuestas/pronosticos/el-regreso-de-la-scaloneta-tras-el-mundial-cuanto-paga-el-triunfo-de-argentina-ante-bolivia" },
+        { "nombre": "Sportskeeda", "url": "https://www.sportskeeda.com/football/argentina-vs-bolivia-prediction-betting-tips-september-30th-2026" },
+        { "nombre": "Infobae", "url": "https://www.infobae.com/espana/agencias/2026/09/29/argentina-recibe-a-bolivia-sin-messi-y-en-su-primer-partido-tras-la-final-del-mundial/" },
+        { "nombre": "El Tiempo", "url": "https://www.eltiempo.com/deportes/futbol-internacional/argentina-vs-bolivia-alineaciones-hora-como-y-donde-ver-en-vivo-el-partido-amistoso-3589812" }
+      ]
+    },
+    {
+      "partido": "Atlético Nacional vs Junior",
+      "competencia": "Liga BetPlay 2026-II · aplazado de la fecha 3",
+      "hora": "8:00 p. m.",
+      "estadio": "Atanasio Girardot, Medellín",
+      "cuotas": [
+        { "m": "Nacional", "c": 1.52 },
+        { "m": "Empate", "c": 4.2 },
+        { "m": "Junior", "c": 5.75 }
+      ],
+      "claves": [
+        "Nacional va líder con 19 puntos en 9 partidos. Viene de empatar el clásico con Millonarios y tiene bajas por lesión y convocatorias.",
+        "James Rodríguez podría ser titular por primera vez con Nacional.",
+        "Junior viene de ganarle a Medellín y necesita puntos para meterse entre los ocho.",
+        "En 2026 se enfrentaron 3 veces (incluida la final del primer semestre): 2 triunfos de Nacional, 1 de Junior y 4 goles por lado.",
+        "Los modelos dan a Nacional un 60% de ganar, un 25% al empate y un 15% a Junior."
+      ],
+      "fuentes": [
+        { "nombre": "Codere Colombia", "url": "https://blog.codere.com.co/futbol/2026/09/previa-y-estadisticas-de-atletico-nacional-vs-junior/" },
+        { "nombre": "Wincomparator", "url": "https://www.wincomparator.com/predictions/atletico-nacional-club-atletico-junior-8572589/" },
+        { "nombre": "ClaroSports", "url": "https://www.clarosports.com/colombia/liga-bet-play/posibles-alineaciones-de-atletico-nacional-vs-junior-por-la-liga-betplay-dimayor-2026-ii/" },
+        { "nombre": "Infobae", "url": "https://www.infobae.com/colombia/deportes/2026/09/29/james-rodriguez-seria-titular-por-primera-vez-con-atletico-nacional-contra-junior-por-la-liga-betplay-fecha-y-hora-del-partido/" }
+      ]
+    }
+  ]
+}

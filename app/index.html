@@ -1,0 +1,311 @@
+<title>Boleto del Día</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: una columna tipo boleto de apuestas; cada combinada es un ticket perforado, seguido del análisis de partidos y el historial. */
+:root {
+  --bg: #eef1ee;
+  --paper: #fbfcfa;
+  --ink: #14211c;
+  --muted: #5d6b64;
+  --line: #d3dbd5;
+  --pitch: #1f6b4a;
+  --gold: #b7860b;
+  --safe: #1f7a4d;
+  --mid: #b86e00;
+  --risk: #c2413a;
+  --safe-soft: #dff0e6;
+  --mid-soft: #f7ead2;
+  --risk-soft: #f7dfdc;
+  --chip: #e3e9e4;
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1613; --paper: #16211c; --ink: #e7eee9; --muted: #98a8a0; --line: #2a3a33;
+    --pitch: #4fbf8a; --gold: #e2b43c; --safe: #5bd092; --mid: #f0a23a; --risk: #f07a70;
+    --safe-soft: #173a29; --mid-soft: #3a2c14; --risk-soft: #3d1f1c; --chip: #22302a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1613; --paper: #16211c; --ink: #e7eee9; --muted: #98a8a0; --line: #2a3a33;
+  --pitch: #4fbf8a; --gold: #e2b43c; --safe: #5bd092; --mid: #f0a23a; --risk: #f07a70;
+  --safe-soft: #173a29; --mid-soft: #3a2c14; --risk-soft: #3d1f1c; --chip: #22302a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; display: flex; flex-direction: column; gap: 28px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: .01em; }
+.num { font-family: var(--font-display); font-variant-numeric: tabular-nums; }
+.eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; }
+
+/* Encabezado */
+header { display: flex; flex-direction: column; gap: 14px; }
+.brand { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.brand h1 { font-size: clamp(34px, 8vw, 48px); font-weight: 800; text-transform: uppercase; line-height: .95; }
+.brand h1 span { color: var(--pitch); }
+.brand .fecha { font-size: 14px; color: var(--muted); font-weight: 600; }
+.dias { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+.dia { flex: none; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 999px; padding: 6px 14px; font: 600 13px var(--font-body); cursor: pointer; }
+.dia[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.dia:focus-visible, button:focus-visible { outline: 2px solid var(--pitch); outline-offset: 2px; }
+.aviso { background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 6px; padding: 12px 14px; font-size: 14px; color: var(--ink); }
+.aviso strong { font-weight: 700; }
+
+/* Tickets */
+.tickets { display: flex; flex-direction: column; gap: 18px; }
+.ticket { --tone: var(--safe); --tone-soft: var(--safe-soft); background: var(--paper); border-radius: 10px; position: relative; overflow: hidden; border: 1px solid var(--line); }
+.ticket[data-nivel="media"] { --tone: var(--mid); --tone-soft: var(--mid-soft); }
+.ticket[data-nivel="arriesgada"] { --tone: var(--risk); --tone-soft: var(--risk-soft); }
+.t-head { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; align-items: end; padding: 16px 18px 14px; background: var(--tone-soft); }
+.t-head .eyebrow { color: var(--tone); }
+.t-head h2 { font-size: 26px; font-weight: 700; text-transform: uppercase; }
+.cuota { text-align: right; grid-row: span 2; }
+.cuota .label { font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; }
+.cuota .valor { font-size: 44px; font-weight: 800; line-height: 1; color: var(--tone); }
+.perf { height: 0; border-top: 2px dashed var(--line); margin: 0 14px; position: relative; }
+.perf::before, .perf::after { content: ""; position: absolute; top: -10px; width: 18px; height: 18px; border-radius: 50%; background: var(--bg); border: 1px solid var(--line); }
+.perf::before { left: -24px; } .perf::after { right: -24px; }
+.sels { list-style: none; margin: 0; padding: 6px 18px; display: flex; flex-direction: column; }
+.sel { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.sel:last-child { border-bottom: 0; }
+.sel .partido { font-weight: 700; min-width: 0; }
+.sel .meta { font-size: 12px; color: var(--muted); grid-column: 1; }
+.sel .mercado { grid-column: 1; font-size: 14px; }
+.sel .mercado b { color: var(--tone); }
+.sel .c { grid-row: 1 / span 3; grid-column: 2; align-self: center; text-align: right; }
+.sel .c .num { font-size: 26px; font-weight: 700; }
+.sel .c small { display: block; font-size: 11px; color: var(--muted); }
+.est { display: inline-block; font-size: 10px; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; padding: 1px 6px; border-radius: 4px; background: var(--chip); color: var(--muted); margin-left: 4px; vertical-align: 2px; }
+.t-foot { display: flex; flex-direction: column; gap: 10px; padding: 12px 18px 16px; background: var(--paper); border-top: 1px solid var(--line); }
+.prob { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; font-size: 13px; }
+.bar { height: 8px; background: var(--chip); border-radius: 999px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--tone); border-radius: 999px; }
+.razon { font-size: 14px; color: var(--ink); margin: 0; }
+.estado { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 3px 10px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+.estado[data-e="ganada"] { background: var(--safe-soft); color: var(--safe); }
+.estado[data-e="perdida"] { background: var(--risk-soft); color: var(--risk); }
+.estado::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.sel .estado { font-size: 10px; padding: 1px 8px; justify-self: start; grid-column: 1; margin-top: 4px; }
+
+/* Análisis */
+section > h2 { font-size: 26px; text-transform: uppercase; font-weight: 700; margin-bottom: 12px; }
+.partidos { display: flex; flex-direction: column; gap: 12px; }
+.pcard { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; }
+.pcard h3 { font-size: 22px; font-weight: 700; }
+.pcard .meta { font-size: 13px; color: var(--muted); }
+.pcard ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
+.odds { display: flex; flex-wrap: wrap; gap: 8px; }
+.odd { background: var(--chip); border-radius: 6px; padding: 4px 10px; font-size: 13px; }
+.odd b { font-family: var(--font-display); font-size: 16px; margin-left: 4px; }
+.fuentes { font-size: 12px; color: var(--muted); }
+.fuentes a { color: var(--pitch); }
+
+/* Historial */
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
+.stat { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.stat .num { font-size: 30px; font-weight: 800; line-height: 1.1; }
+.stat .eyebrow { font-size: 11px; }
+.stat[data-nivel="segura"] .num { color: var(--safe); }
+.stat[data-nivel="media"] .num { color: var(--mid); }
+.stat[data-nivel="arriesgada"] .num { color: var(--risk); }
+.stat small { display: block; color: var(--muted); font-size: 12px; }
+.tabla { overflow-x: auto; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 600; }
+tr:last-child td { border-bottom: 0; }
+td.num { font-size: 17px; }
+.vacio { background: var(--paper); border: 1px dashed var(--line); border-radius: 10px; padding: 24px; text-align: center; color: var(--muted); }
+footer { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+@media (max-width: 460px) {
+  .stats { grid-template-columns: 1fr; }
+  .cuota .valor { font-size: 38px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bar i { transition: width .6s ease; }
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <h1>Boleto <span>del día</span></h1>
+      <div class="fecha" id="fecha">Cargando…</div>
+    </div>
+    <div class="dias" id="dias" role="group" aria-label="Elegir día"></div>
+    <div class="aviso" id="aviso" hidden></div>
+  </header>
+
+  <div class="tickets" id="tickets">
+    <div class="vacio">Cargando las combinadas del día…</div>
+  </div>
+
+  <section id="sec-partidos" hidden>
+    <h2>Análisis de partidos</h2>
+    <div class="partidos" id="partidos"></div>
+  </section>
+
+  <section>
+    <h2>Historial</h2>
+    <div class="stats" id="stats"></div>
+    <div class="tabla"><table>
+      <thead><tr><th>Fecha</th><th>Segura</th><th>Media</th><th>Arriesgada</th></tr></thead>
+      <tbody id="hist"><tr><td colspan="4">Aún no hay días cerrados.</td></tr></tbody>
+    </table></div>
+  </section>
+
+  <footer>
+    Análisis con datos públicos de cuotas, forma y bajas. Las cuotas marcadas como <span class="est">estimada</span> son aproximadas: confírmalas en tu casa de apuestas antes de jugar, porque cambian durante el día.
+    Ninguna combinada es segura. Apuesta solo lo que estés dispuesto a perder. Solo mayores de 18 años.
+  </footer>
+</div>
+
+<script>
+const NIVELES = [
+  { key: "segura", nombre: "Segura", objetivo: 2 },
+  { key: "media", nombre: "Media", objetivo: 5 },
+  { key: "arriesgada", nombre: "Arriesgada", objetivo: 10 },
+];
+const ESTADOS = { pendiente: "Pendiente", ganada: "Ganada", perdida: "Perdida", nula: "Nula" };
+let dias = [];
+let elegido = null;
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtCuota = (n) => (typeof n === "number" ? n.toFixed(2) : "—");
+const fmtFecha = (iso, largo) => {
+  const [y, m, d] = iso.split("-").map(Number);
+  const f = new Date(Date.UTC(y, m - 1, d, 12));
+  return f.toLocaleDateString("es-CO", largo
+    ? { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }
+    : { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
+};
+
+function renderDias() {
+  $("dias").innerHTML = dias.map((d) =>
+    `<button class="dia" type="button" data-f="${esc(d.fecha)}" aria-pressed="${d.fecha === elegido}">${esc(fmtFecha(d.fecha))}</button>`
+  ).join("");
+}
+
+function renderDia() {
+  const d = dias.find((x) => x.fecha === elegido);
+  if (!d) return;
+  $("fecha").textContent = fmtFecha(d.fecha, true);
+  const aviso = $("aviso");
+  aviso.hidden = !d.nota;
+  aviso.innerHTML = d.nota ? `<strong>Nota del día.</strong> ${esc(d.nota)}` : "";
+
+  $("tickets").innerHTML = NIVELES.map((n) => {
+    const c = (d.combinadas || []).find((x) => x.nivel === n.key);
+    if (!c) return "";
+    const prob = Math.round((c.prob || 0) * 100);
+    const impl = c.cuota ? Math.round(100 / c.cuota) : 0;
+    const sels = (c.selecciones || []).map((s) => `
+      <li class="sel">
+        <span class="partido">${esc(s.partido)}</span>
+        <span class="meta">${esc(s.competencia)} · ${esc(s.hora)}</span>
+        <span class="mercado"><b>${esc(s.mercado)}</b></span>
+        ${s.estado && s.estado !== "pendiente" ? `<span class="estado" data-e="${esc(s.estado)}">${esc(ESTADOS[s.estado] || s.estado)}</span>` : ""}
+        <span class="c"><span class="num">${fmtCuota(s.cuota)}</span>${s.estimada ? `<small><span class="est">estimada</span></small>` : `<small>cuota</small>`}</span>
+      </li>`).join("");
+    return `
+      <article class="ticket" data-nivel="${n.key}">
+        <div class="t-head">
+          <span class="eyebrow">Combinada ${esc(n.nombre)} · objetivo ×${n.objetivo}</span>
+          <div class="cuota"><div class="label">Cuota total</div><div class="valor num">${fmtCuota(c.cuota)}</div></div>
+          <h2>${esc(c.titulo || n.nombre)}</h2>
+        </div>
+        <ul class="sels">${sels}</ul>
+        <div class="perf" aria-hidden="true"></div>
+        <div class="t-foot">
+          <div class="prob"><span>Probabilidad estimada</span><div class="bar"><i style="width:${prob}%"></i></div><span class="num" style="font-size:18px;font-weight:700">${prob}%</span></div>
+          <div class="prob" style="color:var(--muted)"><span>Implícita en la cuota</span><div class="bar"><i style="width:${impl}%;background:var(--muted)"></i></div><span class="num" style="font-size:18px">${impl}%</span></div>
+          <p class="razon">${esc(c.razon)}</p>
+          <span class="estado" data-e="${esc(c.estado || "pendiente")}">${esc(ESTADOS[c.estado] || "Pendiente")}</span>
+        </div>
+      </article>`;
+  }).join("") || `<div class="vacio">Este día no tiene combinadas.</div>`;
+
+  const ps = d.partidos || [];
+  $("sec-partidos").hidden = ps.length === 0;
+  $("partidos").innerHTML = ps.map((p) => `
+    <article class="pcard">
+      <div><h3>${esc(p.partido)}</h3><div class="meta">${esc(p.competencia)} · ${esc(p.hora)} · ${esc(p.estadio)}</div></div>
+      ${p.cuotas?.length ? `<div class="odds">${p.cuotas.map((o) => `<span class="odd">${esc(o.m)}<b>${fmtCuota(o.c)}</b></span>`).join("")}</div>` : ""}
+      <ul>${(p.claves || []).map((k) => `<li>${esc(k)}</li>`).join("")}</ul>
+      ${p.fuentes?.length ? `<div class="fuentes">Fuentes: ${p.fuentes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nombre)}</a>`).join(" · ")}</div>` : ""}
+    </article>`).join("");
+}
+
+function renderHistorial() {
+  const res = {};
+  NIVELES.forEach((n) => (res[n.key] = { g: 0, p: 0, u: 0 }));
+  const cerrados = [];
+  dias.forEach((d) => {
+    let fila = false;
+    (d.combinadas || []).forEach((c) => {
+      const r = res[c.nivel];
+      if (!r) return;
+      if (c.estado === "ganada") { r.g++; r.u += c.cuota - 1; fila = true; }
+      else if (c.estado === "perdida") { r.p++; r.u -= 1; fila = true; }
+    });
+    if (fila) cerrados.push(d);
+  });
+  $("stats").innerHTML = NIVELES.map((n) => {
+    const r = res[n.key];
+    const total = r.g + r.p;
+    return `<div class="stat" data-nivel="${n.key}">
+      <div class="eyebrow">${n.nombre} ×${n.objetivo}</div>
+      <div class="num">${r.g}/${total}</div>
+      <small>${total ? `Balance ${r.u >= 0 ? "+" : ""}${r.u.toFixed(2)} unidades` : "Sin resultados todavía"}</small>
+    </div>`;
+  }).join("");
+  $("hist").innerHTML = cerrados.length ? cerrados.map((d) => `<tr><td>${esc(fmtFecha(d.fecha))}</td>${NIVELES.map((n) => {
+    const c = (d.combinadas || []).find((x) => x.nivel === n.key);
+    return `<td>${c ? `<span class="estado" data-e="${esc(c.estado)}">${esc(ESTADOS[c.estado] || c.estado)}</span> <span class="num">${fmtCuota(c.cuota)}</span>` : "—"}</td>`;
+  }).join("")}</tr>`).join("") : `<tr><td colspan="4">Aún no hay días cerrados.</td></tr>`;
+}
+
+function render() {
+  if (!dias.length) {
+    $("fecha").textContent = "";
+    $("tickets").innerHTML = `<div class="vacio">Todavía no hay combinadas publicadas. Aparecen aquí cada mañana.</div>`;
+    $("sec-partidos").hidden = true;
+    renderHistorial();
+    return;
+  }
+  if (!elegido || !dias.some((d) => d.fecha === elegido)) elegido = dias[0].fecha;
+  renderDias();
+  renderDia();
+  renderHistorial();
+}
+
+$("dias").addEventListener("click", (e) => {
+  const b = e.target.closest(".dia");
+  if (!b) return;
+  elegido = b.dataset.f;
+  renderDias();
+  renderDia();
+});
+
+(async () => {
+  const db = window.claude ? await window.claude.use("db") : null;
+  if (!db) {
+    $("fecha").textContent = "";
+    $("tickets").innerHTML = `<div class="vacio">Abre esta página con tu cuenta de claude.ai para ver las combinadas.</div>`;
+    renderHistorial();
+    return;
+  }
+  db.collection("dias").orderBy("fecha", "desc").limit(60).onSnapshot((snap) => {
+    dias = snap.docs.map((doc) => doc.data()).filter((d) => d && d.fecha);
+    render();
+  }, () => {
+    $("tickets").innerHTML = `<div class="vacio">No se pudieron cargar las combinadas. Recarga la página en un momento.</div>`;
+  });
+})();
+</script>
