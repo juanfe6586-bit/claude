@@ -56,6 +56,19 @@ header { display: flex; flex-direction: column; gap: 14px; }
 .aviso { background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 6px; padding: 12px 14px; font-size: 14px; color: var(--ink); }
 .aviso strong { font-weight: 700; }
 
+/* Calculadora */
+.calc { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 14px; }
+.calc label { font-weight: 700; }
+.campo { display: flex; align-items: center; gap: 4px; border: 1px solid var(--line); border-radius: 8px; padding: 2px 10px; background: var(--bg); }
+.campo span { font-family: var(--font-display); font-size: 20px; color: var(--muted); }
+.campo input { width: 9ch; border: 0; background: transparent; color: var(--ink); font: 700 22px var(--font-display); font-variant-numeric: tabular-nums; padding: 4px 0; }
+.campo input:focus { outline: none; }
+.campo:focus-within { outline: 2px solid var(--pitch); outline-offset: 1px; }
+.calc-nota { color: var(--muted); }
+.cobro { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; background: var(--tone-soft); border-radius: 8px; padding: 8px 12px; }
+.cobro span { font-size: 13px; }
+.cobro b { font-family: var(--font-display); font-size: 26px; color: var(--tone); font-variant-numeric: tabular-nums; }
+
 /* Tickets */
 .tickets { display: flex; flex-direction: column; gap: 18px; }
 .ticket { --tone: var(--safe); --tone-soft: var(--safe-soft); background: var(--paper); border-radius: 10px; position: relative; overflow: hidden; border: 1px solid var(--line); }
@@ -139,6 +152,11 @@ footer { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line)
     </div>
     <div class="dias" id="dias" role="group" aria-label="Elegir día"></div>
     <div class="aviso" id="aviso" hidden></div>
+    <div class="calc">
+      <label for="monto">Si apuesto</label>
+      <div class="campo"><span>$</span><input id="monto" type="text" inputmode="numeric" autocomplete="off" value="10.000"></div>
+      <span class="calc-nota">en cada combinada, veo cuánto cobraría abajo.</span>
+    </div>
   </header>
 
   <div class="tickets" id="tickets">
@@ -186,6 +204,19 @@ const fmtFecha = (iso, largo) => {
     : { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
 };
 
+const fmtPesos = (n) => "$" + Math.round(n).toLocaleString("es-CO");
+const monto = () => Number(($("monto").value || "").replace(/\D/g, "")) || 0;
+try {
+  const guardado = localStorage.getItem("boleto-monto");
+  if (guardado) $("monto").value = Number(guardado).toLocaleString("es-CO");
+} catch (e) {}
+$("monto").addEventListener("input", () => {
+  const m = monto();
+  document.querySelectorAll(".cobro b").forEach((b) => (b.textContent = fmtPesos(m * Number(b.dataset.cuota))));
+  try { localStorage.setItem("boleto-monto", String(m)); } catch (e) {}
+});
+$("monto").addEventListener("blur", () => { $("monto").value = monto().toLocaleString("es-CO"); });
+
 function renderDias() {
   $("dias").innerHTML = dias.map((d) =>
     `<button class="dia" type="button" data-f="${esc(d.fecha)}" aria-pressed="${d.fecha === elegido}">${esc(fmtFecha(d.fecha))}</button>`
@@ -225,6 +256,7 @@ function renderDia() {
         <div class="t-foot">
           <div class="prob"><span>Probabilidad estimada</span><div class="bar"><i style="width:${prob}%"></i></div><span class="num" style="font-size:18px;font-weight:700">${prob}%</span></div>
           <div class="prob" style="color:var(--muted)"><span>Implícita en la cuota</span><div class="bar"><i style="width:${impl}%;background:var(--muted)"></i></div><span class="num" style="font-size:18px">${impl}%</span></div>
+          <div class="cobro"><span>Cobrarías</span><b data-cuota="${c.cuota}">${fmtPesos(monto() * c.cuota)}</b></div>
           <p class="razon">${esc(c.razon)}</p>
           <span class="estado" data-e="${esc(c.estado || "pendiente")}">${esc(ESTADOS[c.estado] || "Pendiente")}</span>
         </div>
