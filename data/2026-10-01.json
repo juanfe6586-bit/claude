@@ -1,0 +1,335 @@
+{
+  "fecha": "2026-10-01",
+  "nota": "Todavía es fecha FIFA: casi todo es Nations League. Con 7 partidos fiables, algunas combinadas comparten partido pero con mercados distintos. Cuotas de referencia: confírmalas en Stake antes de apostar. Horas en hora de Colombia.",
+  "combinadas": [
+    {
+      "nivel": "segura",
+      "titulo": "Tres locales que no deberían fallar",
+      "prob": 0.45,
+      "razon": "Alemania en casa ante una Serbia que perdió sus dos partidos, Azerbaiyán ante un Liechtenstein que perdió 17 de sus últimos 18, y Japón (2 victorias seguidas tras el Mundial) cubierto con el empate ante un Ecuador que perdió 0-3 en el debut de Gallardo.",
+      "selecciones": [
+        {
+          "partido": "Japón vs Ecuador",
+          "competencia": "Copa Kirin (amistoso)",
+          "hora": "5:10 a. m.",
+          "mercado": "Japón o empate",
+          "cuota": 1.25,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Azerbaiyán vs Liechtenstein",
+          "competencia": "Nations League D",
+          "hora": "11:00 a. m.",
+          "mercado": "Gana Azerbaiyán",
+          "cuota": 1.28,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Alemania vs Serbia",
+          "competencia": "Nations League A",
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Alemania",
+          "cuota": 1.25,
+          "estimada": false,
+          "estado": "pendiente"
+        }
+      ],
+      "cuota": 2.0,
+      "estado": "pendiente"
+    },
+    {
+      "nivel": "media",
+      "titulo": "Noruega de Haaland y la noche de Nations League",
+      "prob": 0.16,
+      "razon": "Noruega llega con Haaland en racha (10 goles en 7 partidos) ante un Gales con 7 bajas. Países Bajos es favorito en Grecia, Portugal no debería perder en Copenhague, y en Techo se esperan pocos goles.",
+      "selecciones": [
+        {
+          "partido": "Gales vs Noruega",
+          "competencia": "Nations League A",
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Noruega",
+          "cuota": 1.5,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Grecia vs Países Bajos",
+          "competencia": "Nations League A",
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Países Bajos",
+          "cuota": 2.15,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Dinamarca vs Portugal",
+          "competencia": "Nations League A",
+          "hora": "1:45 p. m.",
+          "mercado": "Portugal o empate",
+          "cuota": 1.3,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Inter de Bogotá vs Once Caldas",
+          "competencia": "Liga BetPlay",
+          "hora": "8:00 p. m.",
+          "mercado": "Menos de 3.5 goles",
+          "cuota": 1.22,
+          "estimada": true,
+          "estado": "pendiente"
+        }
+      ],
+      "cuota": 5.11,
+      "estado": "pendiente"
+    },
+    {
+      "nivel": "arriesgada",
+      "titulo": "Favoritos con goles y margen",
+      "prob": 0.08,
+      "razon": "Serbia es la peor defensa del grupo, Liechtenstein casi no crea peligro, Japón viene ganando y Portugal es favorito en Dinamarca. Más exigente, por eso paga más.",
+      "selecciones": [
+        {
+          "partido": "Japón vs Ecuador",
+          "competencia": "Copa Kirin (amistoso)",
+          "hora": "5:10 a. m.",
+          "mercado": "Gana Japón",
+          "cuota": 1.88,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Azerbaiyán vs Liechtenstein",
+          "competencia": "Nations League D",
+          "hora": "11:00 a. m.",
+          "mercado": "Azerbaiyán gana por 2 o más",
+          "cuota": 1.6,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Alemania vs Serbia",
+          "competencia": "Nations League A",
+          "hora": "1:45 p. m.",
+          "mercado": "Más de 2.5 goles en Alemania vs Serbia",
+          "cuota": 1.4,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Dinamarca vs Portugal",
+          "competencia": "Nations League A",
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Portugal",
+          "cuota": 2.02,
+          "estimada": false,
+          "estado": "pendiente"
+        }
+      ],
+      "cuota": 8.51,
+      "estado": "pendiente"
+    }
+  ],
+  "partidos": [
+    {
+      "partido": "Japón vs Ecuador",
+      "competencia": "Copa Kirin (amistoso)",
+      "hora": "5:10 a. m.",
+      "estadio": "Nissan Stadium, Yokohama",
+      "cuotas": [
+        {
+          "m": "Japón",
+          "c": 1.88
+        }
+      ],
+      "claves": [
+        "Japón ganó sus 2 partidos tras el Mundial: 3-1 a Uruguay y 2-1 a Venezuela, aunque recibió gol en ambos.",
+        "Ecuador perdió 0-3 ante Corea del Sur en el debut de Marcelo Gallardo.",
+        "Los dos cruces anteriores terminaron en empate (1-1 y 0-0)."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/japan/preview/japan-vs-ecuador-prediction-team-news-lineups_605992.html"
+        }
+      ]
+    },
+    {
+      "partido": "Azerbaiyán vs Liechtenstein",
+      "competencia": "Nations League D",
+      "hora": "11:00 a. m.",
+      "estadio": "Tofiq Bahramov, Bakú",
+      "cuotas": [
+        {
+          "m": "Azerbaiyán -1.5",
+          "c": 1.6
+        },
+        {
+          "m": "Ambos marcan: No",
+          "c": 1.49
+        }
+      ],
+      "claves": [
+        "Liechtenstein perdió sus últimos 5 partidos y 17 de los últimos 18.",
+        "Azerbaiyán viene de empatar 1-1 en Lituania.",
+        "Se espera victoria azerí sin recibir gol."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sportskeeda",
+          "url": "https://www.sportskeeda.com/football/azerbaijan-vs-liechtenstein-prediction-betting-tips-october-1st-2026"
+        },
+        {
+          "nombre": "Football Whispers",
+          "url": "https://footballwhispers.com/blog/azerbaijan-vs-liechtenstein-prediction-01-10-2026/"
+        }
+      ]
+    },
+    {
+      "partido": "Alemania vs Serbia",
+      "competencia": "Nations League A",
+      "hora": "1:45 p. m.",
+      "estadio": "Allianz Arena, Múnich",
+      "cuotas": [
+        {
+          "m": "Alemania",
+          "c": 1.25
+        },
+        {
+          "m": "Serbia",
+          "c": 9.7
+        },
+        {
+          "m": "Más de 2.5 goles",
+          "c": 1.4
+        }
+      ],
+      "claves": [
+        "Serbia es última del grupo con 0 puntos tras perder sus 2 partidos.",
+        "Alemania todavía no gana en el grupo (1 derrota y 1 empate) y necesita la victoria.",
+        "Los modelos pronostican 3-0 o 2-1."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Wincomparator",
+          "url": "https://www.wincomparator.com/predictions/germany-serbia-8318323/"
+        },
+        {
+          "nombre": "Football Faithful",
+          "url": "https://thefootballfaithful.com/germany-vs-serbia-prediction-betting-tips-01-10-2026/"
+        }
+      ]
+    },
+    {
+      "partido": "Gales vs Noruega",
+      "competencia": "Nations League A",
+      "hora": "1:45 p. m.",
+      "estadio": "Cardiff City Stadium",
+      "cuotas": [
+        {
+          "m": "Noruega",
+          "c": 1.5
+        }
+      ],
+      "claves": [
+        "Haaland lleva 10 goles en sus últimos 7 partidos y 4 en esta Nations League.",
+        "Gales tiene 7 bajas, entre ellas Joe Rodon, y no ha marcado en la Liga A.",
+        "Duda en Noruega: Ødegaard tiene un problema en el tobillo."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sportsgambler",
+          "url": "https://www.sportsgambler.com/betting-tips/football/wales-vs-norway-prediction-lineups-odds-2026-10-01/"
+        },
+        {
+          "nombre": "FreeTips",
+          "url": "https://www.freetips.com/football/wales-vs-norway-predictions-tips-20260929-0043/"
+        }
+      ]
+    },
+    {
+      "partido": "Grecia vs Países Bajos",
+      "competencia": "Nations League A",
+      "hora": "1:45 p. m.",
+      "estadio": "Toumba, Salónica",
+      "cuotas": [
+        {
+          "m": "Países Bajos",
+          "c": 2.15
+        }
+      ],
+      "claves": [
+        "Primer partido de Grecia en la Liga A.",
+        "Las casas ponen a Países Bajos como favorito, con entre 2.00 y 2.21."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sportytrader",
+          "url": "https://www.sportytrader.com/en/betting-tips/greece-netherlands-375975/"
+        }
+      ]
+    },
+    {
+      "partido": "Dinamarca vs Portugal",
+      "competencia": "Nations League A",
+      "hora": "1:45 p. m.",
+      "estadio": "Parken, Copenhague",
+      "cuotas": [
+        {
+          "m": "Portugal",
+          "c": 2.02
+        },
+        {
+          "m": "Dinamarca",
+          "c": 3.5
+        }
+      ],
+      "claves": [
+        "Portugal es favorito a ganar de visitante.",
+        "Pronósticos: 2-1 o 3-1 para Portugal."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sportskeeda",
+          "url": "https://www.sportskeeda.com/football/denmark-vs-portugal-prediction-betting-tips-october-1st-2026"
+        }
+      ]
+    },
+    {
+      "partido": "Inter de Bogotá vs Once Caldas",
+      "competencia": "Liga BetPlay",
+      "hora": "8:00 p. m.",
+      "estadio": "Metropolitano de Techo, Bogotá",
+      "cuotas": [
+        {
+          "m": "Inter",
+          "c": 2.65
+        },
+        {
+          "m": "Empate",
+          "c": 3.0
+        },
+        {
+          "m": "Once Caldas",
+          "c": 2.7
+        },
+        {
+          "m": "Menos de 2.5",
+          "c": 1.7
+        }
+      ],
+      "claves": [
+        "Partido parejo: aplazado de la fecha 17.",
+        "La tendencia reciente de ambos es de marcadores cortos, con menos de 2.5 goles."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Codere",
+          "url": "https://blog.codere.com.co/futbol/2026/09/inter-bogota-vs-once-caldas-donde-ver-y-estadisticas/"
+        }
+      ]
+    }
+  ]
+}
