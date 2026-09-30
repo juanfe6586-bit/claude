@@ -19,6 +19,7 @@
   --mid-soft: #f7ead2;
   --risk-soft: #f7dfdc;
   --chip: #e3e9e4;
+  --week-soft: #f5edd6;
   --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
   --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -26,14 +27,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0e1613; --paper: #16211c; --ink: #e7eee9; --muted: #98a8a0; --line: #2a3a33;
     --pitch: #4fbf8a; --gold: #e2b43c; --safe: #5bd092; --mid: #f0a23a; --risk: #f07a70;
-    --safe-soft: #173a29; --mid-soft: #3a2c14; --risk-soft: #3d1f1c; --chip: #22302a;
+    --safe-soft: #173a29; --mid-soft: #3a2c14; --risk-soft: #3d1f1c; --chip: #22302a; --week-soft: #37301a;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0e1613; --paper: #16211c; --ink: #e7eee9; --muted: #98a8a0; --line: #2a3a33;
   --pitch: #4fbf8a; --gold: #e2b43c; --safe: #5bd092; --mid: #f0a23a; --risk: #f07a70;
-  --safe-soft: #173a29; --mid-soft: #3a2c14; --risk-soft: #3d1f1c; --chip: #22302a;
+  --safe-soft: #173a29; --mid-soft: #3a2c14; --risk-soft: #3d1f1c; --chip: #22302a; --week-soft: #37301a;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -74,6 +75,8 @@ header { display: flex; flex-direction: column; gap: 14px; }
 .ticket { --tone: var(--safe); --tone-soft: var(--safe-soft); background: var(--paper); border-radius: 10px; position: relative; overflow: hidden; border: 1px solid var(--line); }
 .ticket[data-nivel="media"] { --tone: var(--mid); --tone-soft: var(--mid-soft); }
 .ticket[data-nivel="arriesgada"] { --tone: var(--risk); --tone-soft: var(--risk-soft); }
+.ticket.semanal { --tone: var(--gold); --tone-soft: var(--week-soft); }
+.sel .dia-sel { font-weight: 700; color: var(--tone); }
 .t-head { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; align-items: end; padding: 16px 18px 14px; background: var(--tone-soft); }
 .t-head .eyebrow { color: var(--tone); }
 .t-head h2 { font-size: 26px; font-weight: 700; text-transform: uppercase; }
@@ -162,6 +165,11 @@ footer { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line)
   <div class="tickets" id="tickets">
     <div class="vacio">Cargando las combinadas del día…</div>
   </div>
+
+  <section id="sec-semana" hidden>
+    <h2>Apuesta de la semana</h2>
+    <article class="ticket semanal" id="semana"></article>
+  </section>
 
   <section id="sec-partidos" hidden>
     <h2>Análisis de partidos</h2>
@@ -303,6 +311,38 @@ function renderHistorial() {
   }).join("")}</tr>`).join("") : `<tr><td colspan="4">Aún no hay días cerrados.</td></tr>`;
 }
 
+function renderSemana(w) {
+  const sec = $("sec-semana");
+  sec.hidden = !w;
+  if (!w) return;
+  const prob = Math.round((w.prob || 0) * 100);
+  const impl = w.cuota ? Math.round(100 / w.cuota) : 0;
+  const sels = (w.selecciones || []).map((s) => `
+    <li class="sel">
+      <span class="partido">${esc(s.partido)}</span>
+      <span class="meta"><span class="dia-sel">${esc(s.dia)}</span> · ${esc(s.hora)} · ${esc(s.competencia)}</span>
+      <span class="mercado"><b>${esc(s.mercado)}</b></span>
+      ${s.estado && s.estado !== "pendiente" ? `<span class="estado" data-e="${esc(s.estado)}">${esc(ESTADOS[s.estado] || s.estado)}</span>` : ""}
+      <span class="c"><span class="num">${fmtCuota(s.cuota)}</span>${s.estimada ? `<small><span class="est">estimada</span></small>` : `<small>cuota</small>`}</span>
+    </li>`).join("");
+  $("semana").innerHTML = `
+    <div class="t-head">
+      <span class="eyebrow">Semana del ${esc(fmtFecha(w.semana, true))} · ${(w.selecciones || []).length} selecciones</span>
+      <div class="cuota"><div class="label">Cuota total</div><div class="valor num">${fmtCuota(w.cuota)}</div></div>
+      <h2>${esc(w.titulo || "Combinada semanal")}</h2>
+    </div>
+    ${w.nota ? `<div class="aviso" style="margin:12px 18px 0">${esc(w.nota)}</div>` : ""}
+    <ul class="sels">${sels}</ul>
+    <div class="perf" aria-hidden="true"></div>
+    <div class="t-foot">
+      <div class="prob"><span>Probabilidad estimada</span><div class="bar"><i style="width:${prob}%"></i></div><span class="num" style="font-size:18px;font-weight:700">${prob}%</span></div>
+      <div class="prob" style="color:var(--muted)"><span>Implícita en la cuota</span><div class="bar"><i style="width:${impl}%;background:var(--muted)"></i></div><span class="num" style="font-size:18px">${impl}%</span></div>
+      <div class="cobro"><span>Cobrarías</span><b data-cuota="${w.cuota}">${fmtPesos(monto() * w.cuota)}</b></div>
+      <p class="razon">${esc(w.razon)}</p>
+      <span class="estado" data-e="${esc(w.estado || "pendiente")}">${esc(ESTADOS[w.estado] || "Pendiente")}</span>
+    </div>`;
+}
+
 function render() {
   if (!dias.length) {
     $("fecha").textContent = "";
@@ -339,5 +379,8 @@ $("dias").addEventListener("click", (e) => {
   }, () => {
     $("tickets").innerHTML = `<div class="vacio">No se pudieron cargar las combinadas. Recarga la página en un momento.</div>`;
   });
+  db.collection("semanas").orderBy("semana", "desc").limit(1).onSnapshot((snap) => {
+    renderSemana(snap.docs.map((doc) => doc.data()).find((w) => w && w.semana));
+  }, () => {});
 })();
 </script>
