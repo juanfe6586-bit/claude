@@ -3,7 +3,7 @@
   "titulo": "Semana especial: 10 favoritos hasta el sábado",
   "cuota": 9.07,
   "prob": 0.08,
-  "estado": "pendiente",
+  "estado": "perdida",
   "nota": "Semana especial, de mañana miércoles al domingo, porque es fecha FIFA y las ligas europeas no juegan. La normal sale el lunes 5 de octubre. Horas en hora de Colombia.",
   "razon": "Diez favoritos claros: Eslovaquia y Bielorrusia ante dos de las selecciones más débiles de Europa, Argentina en casa en sus dos amistosos, Tolima (3.º) ante Chicó (último), Cienciano en la altura y Colombia ante Paraguay. Nacional, Cali y Southend van cubiertos con el empate.",
   "selecciones": [
@@ -15,7 +15,8 @@
       "mercado": "Southend o empate",
       "cuota": 1.22,
       "estimada": true,
-      "estado": "pendiente"
+      "estado": "ganada",
+      "resultado": "1-1"
     },
     {
       "partido": "Cienciano vs Los Chankas",
@@ -25,7 +26,8 @@
       "mercado": "Gana Cienciano",
       "cuota": 1.37,
       "estimada": false,
-      "estado": "pendiente"
+      "estado": "perdida",
+      "resultado": "1-1"
     },
     {
       "partido": "Argentina vs Bolivia",

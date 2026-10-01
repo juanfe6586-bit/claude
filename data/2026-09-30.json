@@ -21,10 +21,11 @@
           "partido": "Cienciano vs Los Chankas",
           "competencia": "Liga 1 Perú · Clausura",
           "hora": "3:00 p. m.",
-          "estado": "pendiente",
+          "estado": "perdida",
           "mercado": "Gana Cienciano",
           "cuota": 1.37,
-          "estimada": false
+          "estimada": false,
+          "resultado": "1-1"
         },
         {
           "partido": "Atlético Nacional vs Junior",
@@ -39,14 +40,15 @@
           "partido": "Eastleigh vs Southend United",
           "competencia": "National League (Inglaterra)",
           "hora": "1:45 p. m.",
-          "estado": "pendiente",
+          "estado": "ganada",
           "mercado": "Southend o empate (doble oportunidad)",
           "cuota": 1.22,
-          "estimada": true
+          "estimada": true,
+          "resultado": "1-1"
         }
       ],
       "cuota": 1.98,
-      "estado": "pendiente"
+      "estado": "perdida"
     },
     {
       "nivel": "media",
@@ -67,10 +69,11 @@
           "partido": "Cienciano vs Los Chankas",
           "competencia": "Liga 1 Perú · Clausura",
           "hora": "3:00 p. m.",
-          "estado": "pendiente",
+          "estado": "perdida",
           "mercado": "Gana Cienciano",
           "cuota": 1.37,
-          "estimada": false
+          "estimada": false,
+          "resultado": "1-1"
         },
         {
           "partido": "Atlético Nacional vs Junior",
@@ -85,14 +88,15 @@
           "partido": "Eastleigh vs Southend United",
           "competencia": "National League (Inglaterra)",
           "hora": "1:45 p. m.",
-          "estado": "pendiente",
+          "estado": "perdida",
           "mercado": "Gana Southend",
           "cuota": 1.7,
-          "estimada": false
+          "estimada": false,
+          "resultado": "1-1"
         }
       ],
       "cuota": 5.66,
-      "estado": "pendiente"
+      "estado": "perdida"
     },
     {
       "nivel": "arriesgada",
@@ -113,10 +117,11 @@
           "partido": "Cienciano vs Los Chankas",
           "competencia": "Liga 1 Perú · Clausura",
           "hora": "3:00 p. m.",
-          "estado": "pendiente",
+          "estado": "perdida",
           "mercado": "Cienciano hándicap -1.5 (gana por 2 o más)",
           "cuota": 1.83,
-          "estimada": false
+          "estimada": false,
+          "resultado": "1-1"
         },
         {
           "partido": "Atlético Nacional vs Junior",
@@ -131,14 +136,15 @@
           "partido": "Eastleigh vs Southend United",
           "competencia": "National League (Inglaterra)",
           "hora": "1:45 p. m.",
-          "estado": "pendiente",
+          "estado": "perdida",
           "mercado": "Gana Southend",
           "cuota": 1.7,
-          "estimada": false
+          "estimada": false,
+          "resultado": "1-1"
         }
       ],
       "cuota": 9.71,
-      "estado": "pendiente"
+      "estado": "perdida"
     }
   ],
   "partidos": [

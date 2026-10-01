@@ -247,7 +247,7 @@ function renderDia() {
     const sels = (c.selecciones || []).map((s) => `
       <li class="sel">
         <span class="partido">${esc(s.partido)}</span>
-        <span class="meta">${esc(s.competencia)} · ${esc(s.hora)}</span>
+        <span class="meta">${esc(s.competencia)} · ${esc(s.hora)}${s.resultado ? ` · <b>Final ${esc(s.resultado)}</b>` : ""}</span>
         <span class="mercado"><b>${esc(s.mercado)}</b></span>
         ${s.estado && s.estado !== "pendiente" ? `<span class="estado" data-e="${esc(s.estado)}">${esc(ESTADOS[s.estado] || s.estado)}</span>` : ""}
         <span class="c"><span class="num">${fmtCuota(s.cuota)}</span>${s.estimada ? `<small><span class="est">estimada</span></small>` : `<small>cuota</small>`}</span>
@@ -320,7 +320,7 @@ function renderSemana(w) {
   const sels = (w.selecciones || []).map((s) => `
     <li class="sel">
       <span class="partido">${esc(s.partido)}</span>
-      <span class="meta"><span class="dia-sel">${esc(s.dia)}</span> · ${esc(s.hora)} · ${esc(s.competencia)}</span>
+      <span class="meta"><span class="dia-sel">${esc(s.dia)}</span> · ${esc(s.hora)} · ${esc(s.competencia)}${s.resultado ? ` · <b>Final ${esc(s.resultado)}</b>` : ""}</span>
       <span class="mercado"><b>${esc(s.mercado)}</b></span>
       ${s.estado && s.estado !== "pendiente" ? `<span class="estado" data-e="${esc(s.estado)}">${esc(ESTADOS[s.estado] || s.estado)}</span>` : ""}
       <span class="c"><span class="num">${fmtCuota(s.cuota)}</span>${s.estimada ? `<small><span class="est">estimada</span></small>` : `<small>cuota</small>`}</span>
