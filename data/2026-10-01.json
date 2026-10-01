@@ -1,6 +1,6 @@
 {
   "fecha": "2026-10-01",
-  "nota": "Todavía es fecha FIFA: casi todo es Nations League. Con 7 partidos fiables, algunas combinadas comparten partido pero con mercados distintos. Cuotas de referencia: confírmalas en Stake antes de apostar. Horas en hora de Colombia.",
+  "nota": "Todavía es fecha FIFA: casi todo es Nations League. Ajustada con lo aprendido el 30 de septiembre: visitantes cubiertos con el empate y ningún partido en las tres combinadas. Cuotas de referencia: confírmalas en Stake. Horas en hora de Colombia.",
   "combinadas": [
     {
       "nivel": "segura",
@@ -41,9 +41,9 @@
     },
     {
       "nivel": "media",
-      "titulo": "Noruega de Haaland y la noche de Nations League",
-      "prob": 0.16,
-      "razon": "Noruega llega con Haaland en racha (10 goles en 7 partidos) ante un Gales con 7 bajas. Países Bajos es favorito en Grecia, Portugal no debería perder en Copenhague, y en Techo se esperan pocos goles.",
+      "titulo": "Noruega de Haaland y visitantes cubiertos",
+      "prob": 0.17,
+      "razon": "Noruega llega con Haaland en racha (10 goles en 7) ante un Gales con 7 bajas. Por lo aprendido ayer, Países Bajos y Portugal (visitantes) van cubiertos con el empate. Irlanda recibe a una Austria con muchas bajas, y en Techo se esperan pocos goles.",
       "selecciones": [
         {
           "partido": "Gales vs Noruega",
@@ -58,9 +58,9 @@
           "partido": "Grecia vs Países Bajos",
           "competencia": "Nations League A",
           "hora": "1:45 p. m.",
-          "mercado": "Gana Países Bajos",
-          "cuota": 2.15,
-          "estimada": false,
+          "mercado": "Países Bajos o empate",
+          "cuota": 1.38,
+          "estimada": true,
           "estado": "pendiente"
         },
         {
@@ -69,6 +69,15 @@
           "hora": "1:45 p. m.",
           "mercado": "Portugal o empate",
           "cuota": 1.3,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Irlanda vs Austria",
+          "competencia": "Nations League B",
+          "hora": "1:45 p. m.",
+          "mercado": "Irlanda o empate",
+          "cuota": 1.4,
           "estimada": true,
           "estado": "pendiente"
         },
@@ -82,7 +91,7 @@
           "estado": "pendiente"
         }
       ],
-      "cuota": 5.11,
+      "cuota": 4.6,
       "estado": "pendiente"
     },
     {
@@ -294,6 +303,23 @@
         {
           "nombre": "Sportskeeda",
           "url": "https://www.sportskeeda.com/football/denmark-vs-portugal-prediction-betting-tips-october-1st-2026"
+        }
+      ]
+    },
+    {
+      "partido": "Irlanda vs Austria",
+      "competencia": "Nations League B",
+      "hora": "1:45 p. m.",
+      "estadio": "Aviva Stadium, Dublín",
+      "cuotas": [],
+      "claves": [
+        "Austria llega con muchas bajas por lesión.",
+        "Los analistas ven valor en el local."
+      ],
+      "fuentes": [
+        {
+          "nombre": "FreeTips",
+          "url": "https://www.freetips.com/football/uefa-nations-league-predictions-1-october-2026-20260930-0018/"
         }
       ]
     },

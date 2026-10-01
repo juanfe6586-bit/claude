@@ -1,0 +1,63 @@
+{
+  "selecciones_cerradas": 4,
+  "por_mercado": {
+    "Gana el favorito": {
+      "ganadas": 0,
+      "perdidas": 2,
+      "acierto": 0.0
+    },
+    "Doble oportunidad": {
+      "ganadas": 1,
+      "perdidas": 0,
+      "acierto": 1.0
+    },
+    "Hándicap / ganar por margen": {
+      "ganadas": 0,
+      "perdidas": 1,
+      "acierto": 0.0
+    }
+  },
+  "por_competencia": {
+    "Liga 1 Perú": {
+      "ganadas": 0,
+      "perdidas": 2,
+      "acierto": 0.0
+    },
+    "National League": {
+      "ganadas": 1,
+      "perdidas": 1,
+      "acierto": 0.5
+    }
+  },
+  "por_cuota": {
+    "1.60-1.99": {
+      "ganadas": 0,
+      "perdidas": 2,
+      "acierto": 0.0
+    },
+    "1.35-1.59": {
+      "ganadas": 0,
+      "perdidas": 1,
+      "acierto": 0.0
+    },
+    "1.20-1.34": {
+      "ganadas": 1,
+      "perdidas": 0,
+      "acierto": 1.0
+    }
+  },
+  "combinadas": {
+    "segura": {
+      "ganadas": 0,
+      "perdidas": 1
+    },
+    "media": {
+      "ganadas": 0,
+      "perdidas": 1
+    },
+    "arriesgada": {
+      "ganadas": 0,
+      "perdidas": 1
+    }
+  }
+}

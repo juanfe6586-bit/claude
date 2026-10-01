@@ -137,6 +137,13 @@ th { font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: va
 tr:last-child td { border-bottom: 0; }
 td.num { font-size: 17px; }
 .vacio { background: var(--paper); border: 1px dashed var(--line); border-radius: 10px; padding: 24px; text-align: center; color: var(--muted); }
+.aprende { display: flex; flex-direction: column; gap: 12px; }
+.reglas { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+.reglas small { display: block; color: var(--muted); font-size: 12px; }
+.mercados { display: flex; flex-direction: column; gap: 10px; }
+.mrow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; font-size: 14px; }
+.mrow .bar { grid-column: 1 / -1; }
+.mrow .num { font-size: 16px; font-weight: 700; }
 footer { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
 @media (max-width: 460px) {
   .stats { grid-template-columns: 1fr; }
@@ -183,6 +190,14 @@ footer { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line)
       <thead><tr><th>Fecha</th><th>Segura</th><th>Media</th><th>Arriesgada</th></tr></thead>
       <tbody id="hist"><tr><td colspan="4">Aún no hay días cerrados.</td></tr></tbody>
     </table></div>
+  </section>
+
+  <section id="sec-aprende" hidden>
+    <h2>Lo que vamos aprendiendo</h2>
+    <div class="aprende">
+      <div class="pcard"><h3>Reglas activas</h3><ol class="reglas" id="reglas"></ol></div>
+      <div class="pcard"><h3>Acierto por tipo de apuesta</h3><div class="mercados" id="mercados"></div><div class="fuentes" id="aprende-fecha"></div></div>
+    </div>
   </section>
 
   <footer>
@@ -343,6 +358,19 @@ function renderSemana(w) {
     </div>`;
 }
 
+function renderAprende(a) {
+  $("sec-aprende").hidden = !a;
+  if (!a) return;
+  $("reglas").innerHTML = (a.reglas || []).map((r) => `<li>${esc(r.texto)}${r.origen ? `<small>${esc(r.origen)}</small>` : ""}</li>`).join("");
+  $("mercados").innerHTML = (a.mercados || []).map((m) => {
+    const t = m.ganadas + m.perdidas;
+    const pct = t ? Math.round((100 * m.ganadas) / t) : 0;
+    const color = pct >= 70 ? "var(--safe)" : pct >= 50 ? "var(--mid)" : "var(--risk)";
+    return `<div class="mrow"><span>${esc(m.tipo)}</span><span class="num">${m.ganadas}/${t}</span><div class="bar"><i style="width:${pct}%;background:${color}"></i></div></div>`;
+  }).join("") || `<span class="fuentes">Todavía no hay selecciones cerradas.</span>`;
+  $("aprende-fecha").textContent = a.actualizado ? `Actualizado el ${fmtFecha(a.actualizado, true)}` : "";
+}
+
 function render() {
   if (!dias.length) {
     $("fecha").textContent = "";
@@ -379,6 +407,7 @@ $("dias").addEventListener("click", (e) => {
   }, () => {
     $("tickets").innerHTML = `<div class="vacio">No se pudieron cargar las combinadas. Recarga la página en un momento.</div>`;
   });
+  db.doc("meta/aprendizaje").onSnapshot((snap) => renderAprende(snap.exists ? snap.data() : null), () => {});
   db.collection("semanas").orderBy("semana", "desc").limit(1).onSnapshot((snap) => {
     renderSemana(snap.docs.map((doc) => doc.data()).find((w) => w && w.semana));
   }, () => {});

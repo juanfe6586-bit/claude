@@ -1,0 +1,38 @@
+{
+  "actualizado": "2026-09-30",
+  "reglas": [
+    {
+      "texto": "Un mismo partido no puede estar en las tres combinadas; como máximo en dos y con mercados distintos.",
+      "origen": "30 sep: Cienciano 1-1 tumbó las tres combinadas y la semanal."
+    },
+    {
+      "texto": "Favorito en mala racha o en la mitad baja de la tabla: se juega gana o empata, no la victoria.",
+      "origen": "30 sep: Cienciano, 14.º y viniendo de perder, empató en casa."
+    },
+    {
+      "texto": "Ligas débiles o con poca información (Perú, ligas inferiores inglesas): solo doble oportunidad.",
+      "origen": "30 sep: Gana Southend falló; Southend o empate se ganó."
+    },
+    {
+      "texto": "Visitantes favoritos: preferir doble oportunidad.",
+      "origen": "30 sep: Southend empató 1-1 en el minuto 89."
+    }
+  ],
+  "mercados": [
+    {
+      "tipo": "Gana el favorito",
+      "ganadas": 0,
+      "perdidas": 2
+    },
+    {
+      "tipo": "Doble oportunidad",
+      "ganadas": 1,
+      "perdidas": 0
+    },
+    {
+      "tipo": "Hándicap / ganar por margen",
+      "ganadas": 0,
+      "perdidas": 1
+    }
+  ]
+}
