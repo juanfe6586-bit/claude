@@ -1,176 +1,174 @@
 {
-  "fecha": "2026-09-30",
-  "nota": "Mañana es fecha FIFA y solo hay 4 partidos fiables, así que las combinadas repiten partidos. Desde el fin de semana, con muchos más partidos, cada combinada usará partidos distintos. Horas en hora de Colombia.",
   "combinadas": [
     {
+      "cuota": 1.98,
+      "estado": "perdida",
       "nivel": "segura",
-      "titulo": "Cuatro favoritos que no deberían fallar",
       "prob": 0.43,
       "razon": "Cuatro selecciones de cuota baja: Argentina ante un rival muy inferior, Cienciano en la altura del Cusco, y Nacional y Southend cubiertos con el empate.",
       "selecciones": [
         {
-          "partido": "Argentina vs Bolivia",
           "competencia": "Amistoso internacional",
-          "hora": "7:00 p. m.",
-          "estado": "ganada",
-          "mercado": "Gana Argentina",
           "cuota": 1.06,
+          "estado": "ganada",
           "estimada": false,
+          "hora": "7:00 p. m.",
+          "mercado": "Gana Argentina",
+          "partido": "Argentina vs Bolivia",
           "resultado": "4-0"
         },
         {
-          "partido": "Cienciano vs Los Chankas",
           "competencia": "Liga 1 Perú · Clausura",
-          "hora": "3:00 p. m.",
-          "estado": "perdida",
-          "mercado": "Gana Cienciano",
           "cuota": 1.37,
+          "estado": "perdida",
           "estimada": false,
+          "hora": "3:00 p. m.",
+          "mercado": "Gana Cienciano",
+          "partido": "Cienciano vs Los Chankas",
           "resultado": "1-1"
         },
         {
-          "partido": "Atlético Nacional vs Junior",
           "competencia": "Liga BetPlay 2026-II",
-          "hora": "8:00 p. m.",
-          "estado": "ganada",
-          "mercado": "Nacional o empate (doble oportunidad)",
           "cuota": 1.12,
+          "estado": "ganada",
           "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Nacional o empate (doble oportunidad)",
+          "partido": "Atlético Nacional vs Junior",
           "resultado": "3-1"
         },
         {
-          "partido": "Eastleigh vs Southend United",
           "competencia": "National League (Inglaterra)",
-          "hora": "1:45 p. m.",
-          "estado": "ganada",
-          "mercado": "Southend o empate (doble oportunidad)",
           "cuota": 1.22,
+          "estado": "ganada",
           "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Southend o empate (doble oportunidad)",
+          "partido": "Eastleigh vs Southend United",
           "resultado": "1-1"
         }
       ],
-      "cuota": 1.98,
-      "estado": "perdida"
+      "titulo": "Cuatro favoritos que no deberían fallar"
     },
     {
+      "cuota": 5.66,
+      "estado": "perdida",
       "nivel": "media",
-      "titulo": "Los cuatro locales y visitantes fuertes ganan",
       "prob": 0.15,
       "razon": "Los mismos cuatro partidos, pero pidiendo victoria a cada favorito. Argentina ganó sin recibir gol sus dos últimos partidos ante Bolivia (3-0 y 6-0), y Southend no ha perdido de visitante esta temporada.",
       "selecciones": [
         {
-          "partido": "Argentina vs Bolivia",
           "competencia": "Amistoso internacional",
-          "hora": "7:00 p. m.",
-          "estado": "ganada",
-          "mercado": "Argentina gana sin recibir gol",
           "cuota": 1.6,
+          "estado": "ganada",
           "estimada": false,
+          "hora": "7:00 p. m.",
+          "mercado": "Argentina gana sin recibir gol",
+          "partido": "Argentina vs Bolivia",
           "resultado": "4-0"
         },
         {
-          "partido": "Cienciano vs Los Chankas",
           "competencia": "Liga 1 Perú · Clausura",
-          "hora": "3:00 p. m.",
-          "estado": "perdida",
-          "mercado": "Gana Cienciano",
           "cuota": 1.37,
+          "estado": "perdida",
           "estimada": false,
+          "hora": "3:00 p. m.",
+          "mercado": "Gana Cienciano",
+          "partido": "Cienciano vs Los Chankas",
           "resultado": "1-1"
         },
         {
-          "partido": "Atlético Nacional vs Junior",
           "competencia": "Liga BetPlay 2026-II",
-          "hora": "8:00 p. m.",
-          "estado": "ganada",
-          "mercado": "Gana Nacional",
           "cuota": 1.52,
+          "estado": "ganada",
           "estimada": false,
+          "hora": "8:00 p. m.",
+          "mercado": "Gana Nacional",
+          "partido": "Atlético Nacional vs Junior",
           "resultado": "3-1"
         },
         {
-          "partido": "Eastleigh vs Southend United",
           "competencia": "National League (Inglaterra)",
-          "hora": "1:45 p. m.",
-          "estado": "perdida",
-          "mercado": "Gana Southend",
           "cuota": 1.7,
+          "estado": "perdida",
           "estimada": false,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Southend",
+          "partido": "Eastleigh vs Southend United",
           "resultado": "1-1"
         }
       ],
-      "cuota": 5.66,
-      "estado": "perdida"
+      "titulo": "Los cuatro locales y visitantes fuertes ganan"
     },
     {
+      "cuota": 9.71,
+      "estado": "perdida",
       "nivel": "arriesgada",
-      "titulo": "Favoritos con margen",
       "prob": 0.07,
       "razon": "Sube la exigencia en cada partido: Cienciano por 2 goles o más, que es lo que recomiendan los analistas, y Nacional ganando en un partido con goles.",
       "selecciones": [
         {
-          "partido": "Argentina vs Bolivia",
           "competencia": "Amistoso internacional",
-          "hora": "7:00 p. m.",
-          "estado": "ganada",
-          "mercado": "Argentina gana sin recibir gol",
           "cuota": 1.6,
+          "estado": "ganada",
           "estimada": false,
+          "hora": "7:00 p. m.",
+          "mercado": "Argentina gana sin recibir gol",
+          "partido": "Argentina vs Bolivia",
           "resultado": "4-0"
         },
         {
-          "partido": "Cienciano vs Los Chankas",
           "competencia": "Liga 1 Perú · Clausura",
-          "hora": "3:00 p. m.",
-          "estado": "perdida",
-          "mercado": "Cienciano hándicap -1.5 (gana por 2 o más)",
           "cuota": 1.83,
+          "estado": "perdida",
           "estimada": false,
+          "hora": "3:00 p. m.",
+          "mercado": "Cienciano hándicap -1.5 (gana por 2 o más)",
+          "partido": "Cienciano vs Los Chankas",
           "resultado": "1-1"
         },
         {
-          "partido": "Atlético Nacional vs Junior",
           "competencia": "Liga BetPlay 2026-II",
-          "hora": "8:00 p. m.",
-          "estado": "ganada",
-          "mercado": "Gana Nacional y más de 1.5 goles",
           "cuota": 1.95,
+          "estado": "ganada",
           "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Gana Nacional y más de 1.5 goles",
+          "partido": "Atlético Nacional vs Junior",
           "resultado": "3-1"
         },
         {
-          "partido": "Eastleigh vs Southend United",
           "competencia": "National League (Inglaterra)",
-          "hora": "1:45 p. m.",
-          "estado": "perdida",
-          "mercado": "Gana Southend",
           "cuota": 1.7,
+          "estado": "perdida",
           "estimada": false,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Southend",
+          "partido": "Eastleigh vs Southend United",
           "resultado": "1-1"
         }
       ],
-      "cuota": 9.71,
-      "estado": "perdida"
+      "titulo": "Favoritos con margen"
     }
   ],
+  "fecha": "2026-09-30",
+  "nota": "Mañana es fecha FIFA y solo hay 4 partidos fiables, así que las combinadas repiten partidos. Desde el fin de semana, con muchos más partidos, cada combinada usará partidos distintos. Horas en hora de Colombia.",
   "partidos": [
     {
-      "partido": "Eastleigh vs Southend United",
-      "competencia": "National League (quinta división inglesa)",
-      "hora": "1:45 p. m.",
-      "estadio": "Silverlake Stadium, Eastleigh",
-      "cuotas": [
-        {
-          "m": "Southend",
-          "c": 1.7
-        }
-      ],
       "claves": [
         "Southend no ha perdido en sus 5 salidas de esta temporada y promedia casi 2 goles de visitante.",
         "Viene de perder 4-2 en casa ante Barrow, lo que cortó una racha de 5 partidos sin perder.",
         "Eastleigh está a mitad de tabla con 1 victoria en 6 partidos, pero no ha perdido en casa (3 triunfos y 2 empates).",
         "Southend ganó 4 de los últimos 5 cruces. William Hill pronostica 0-2."
       ],
+      "competencia": "National League (quinta división inglesa)",
+      "cuotas": [
+        {
+          "c": 1.7,
+          "m": "Southend"
+        }
+      ],
+      "estadio": "Silverlake Stadium, Eastleigh",
       "fuentes": [
         {
           "nombre": "William Hill News",
@@ -180,37 +178,37 @@
           "nombre": "Oddspedia",
           "url": "https://oddspedia.com/football/southend-united-eastleigh-813217"
         }
-      ]
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Eastleigh vs Southend United"
     },
     {
-      "partido": "Cienciano vs Los Chankas",
-      "competencia": "Liga 1 Perú · Clausura, fecha 10",
-      "hora": "3:00 p. m.",
-      "estadio": "Inca Garcilaso de la Vega, Cusco (3.400 m de altura)",
-      "cuotas": [
-        {
-          "m": "Cienciano",
-          "c": 1.37
-        },
-        {
-          "m": "Empate",
-          "c": 5.2
-        },
-        {
-          "m": "Los Chankas",
-          "c": 7.4
-        },
-        {
-          "m": "Cienciano -1.5",
-          "c": 1.83
-        }
-      ],
       "claves": [
         "Cienciano va 14.º con 7 puntos y viene de perder 2-1 con ADT, pero en el Cusco la altura le da mucha ventaja.",
         "Los Chankas va 16.º con 7 puntos: lleva 6 partidos sin ganar (5 derrotas y 1 empate) desde el 31 de julio.",
         "En los últimos 5 cruces: 2 triunfos de Cienciano, 2 empates y 1 de Los Chankas.",
         "Los analistas esperan un partido controlado, con menos de 3.5 goles."
       ],
+      "competencia": "Liga 1 Perú · Clausura, fecha 10",
+      "cuotas": [
+        {
+          "c": 1.37,
+          "m": "Cienciano"
+        },
+        {
+          "c": 5.2,
+          "m": "Empate"
+        },
+        {
+          "c": 7.4,
+          "m": "Los Chankas"
+        },
+        {
+          "c": 1.83,
+          "m": "Cienciano -1.5"
+        }
+      ],
+      "estadio": "Inca Garcilaso de la Vega, Cusco (3.400 m de altura)",
       "fuentes": [
         {
           "nombre": "Apuestas Deportivas Perú",
@@ -220,39 +218,11 @@
           "nombre": "Casasdeapuestas.com",
           "url": "https://www.casasdeapuestas.com/pronosticos/cienciano-los-chankas-20260930/"
         }
-      ]
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Cienciano vs Los Chankas"
     },
     {
-      "partido": "Argentina vs Bolivia",
-      "competencia": "Amistoso internacional",
-      "hora": "7:00 p. m. (9:00 p. m. en Argentina)",
-      "estadio": "Mario Alberto Kempes, Córdoba",
-      "cuotas": [
-        {
-          "m": "Argentina",
-          "c": 1.06
-        },
-        {
-          "m": "Empate",
-          "c": 9.5
-        },
-        {
-          "m": "Bolivia",
-          "c": 30
-        },
-        {
-          "m": "Más de 3.5 goles",
-          "c": 1.72
-        },
-        {
-          "m": "Argentina -2.5",
-          "c": 1.82
-        },
-        {
-          "m": "Argentina gana sin recibir gol",
-          "c": 1.6
-        }
-      ],
       "claves": [
         "Primer partido de Argentina tras perder la final del Mundial 2026 ante España, y el primero en casa ante su público.",
         "Messi no juega: lo reservan para su despedida del 6 de octubre ante Benín.",
@@ -260,6 +230,34 @@
         "El último Argentina-Bolivia terminó 6-0 (octubre de 2024). Los modelos dan 77% al más de 2.5 goles y pronostican 3-0 o 4-0.",
         "Riesgo: en amistosos hay muchos cambios en el segundo tiempo, y eso puede frenar la goleada."
       ],
+      "competencia": "Amistoso internacional",
+      "cuotas": [
+        {
+          "c": 1.06,
+          "m": "Argentina"
+        },
+        {
+          "c": 9.5,
+          "m": "Empate"
+        },
+        {
+          "c": 30,
+          "m": "Bolivia"
+        },
+        {
+          "c": 1.72,
+          "m": "Más de 3.5 goles"
+        },
+        {
+          "c": 1.82,
+          "m": "Argentina -2.5"
+        },
+        {
+          "c": 1.6,
+          "m": "Argentina gana sin recibir gol"
+        }
+      ],
+      "estadio": "Mario Alberto Kempes, Córdoba",
       "fuentes": [
         {
           "nombre": "La Página Millonaria",
@@ -281,27 +279,11 @@
           "nombre": "Oddschecker",
           "url": "https://www.oddschecker.com/es/pronosticos/futbol/2026/septiembre/pronostico-argentina-vs-bolivia-30-09-26"
         }
-      ]
+      ],
+      "hora": "7:00 p. m. (9:00 p. m. en Argentina)",
+      "partido": "Argentina vs Bolivia"
     },
     {
-      "partido": "Atlético Nacional vs Junior",
-      "competencia": "Liga BetPlay 2026-II · aplazado de la fecha 3",
-      "hora": "8:00 p. m.",
-      "estadio": "Atanasio Girardot, Medellín",
-      "cuotas": [
-        {
-          "m": "Nacional",
-          "c": 1.52
-        },
-        {
-          "m": "Empate",
-          "c": 4.2
-        },
-        {
-          "m": "Junior",
-          "c": 5.75
-        }
-      ],
       "claves": [
         "Nacional va líder con 19 puntos en 9 partidos. Viene de empatar el clásico con Millonarios y tiene bajas por lesión y convocatorias.",
         "James Rodríguez podría ser titular por primera vez con Nacional.",
@@ -309,6 +291,22 @@
         "En 2026 se enfrentaron 3 veces (incluida la final del primer semestre): 2 triunfos de Nacional, 1 de Junior y 4 goles por lado.",
         "Los modelos dan a Nacional un 60% de ganar, un 25% al empate y un 15% a Junior."
       ],
+      "competencia": "Liga BetPlay 2026-II · aplazado de la fecha 3",
+      "cuotas": [
+        {
+          "c": 1.52,
+          "m": "Nacional"
+        },
+        {
+          "c": 4.2,
+          "m": "Empate"
+        },
+        {
+          "c": 5.75,
+          "m": "Junior"
+        }
+      ],
+      "estadio": "Atanasio Girardot, Medellín",
       "fuentes": [
         {
           "nombre": "Codere Colombia",
@@ -326,7 +324,9 @@
           "nombre": "Infobae",
           "url": "https://www.infobae.com/colombia/deportes/2026/09/29/james-rodriguez-seria-titular-por-primera-vez-con-atletico-nacional-contra-junior-por-la-liga-betplay-fecha-y-hora-del-partido/"
         }
-      ]
+      ],
+      "hora": "8:00 p. m.",
+      "partido": "Atlético Nacional vs Junior"
     }
   ]
 }

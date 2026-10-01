@@ -1,14 +1,14 @@
-"""Calcula el porcentaje de acierto por tipo de mercado, competencia y rango de cuota.
+"""Acierto por tipo de mercado, competencia y rango de cuota.
 
-Lee data/*.json (días) y data/semanas/*.json y escribe data/estadisticas.json.
+Escribe data/estadisticas.json y actualiza "mercados" y "actualizado" en data/meta/aprendizaje.json
+(las reglas de ese archivo se editan a mano). Imprime un resumen compacto.
 Uso: python3 tools/estadisticas.py
 """
-import glob
 import json
 import os
 import re
 
-RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from comun import DATA, documentos, guardar, hoy
 
 
 def tipo_mercado(m):
@@ -31,14 +31,9 @@ def tipo_mercado(m):
 
 
 def rango_cuota(c):
-    if c < 1.20:
-        return "1.00-1.19"
-    if c < 1.35:
-        return "1.20-1.34"
-    if c < 1.60:
-        return "1.35-1.59"
-    if c < 2.00:
-        return "1.60-1.99"
+    for tope, nombre in ((1.20, "1.00-1.19"), (1.35, "1.20-1.34"), (1.60, "1.35-1.59"), (2.00, "1.60-1.99")):
+        if c < tope:
+            return nombre
     return "2.00+"
 
 
@@ -48,16 +43,8 @@ def liga(comp):
 
 def selecciones():
     vistos = set()
-    archivos = sorted(glob.glob(os.path.join(RAIZ, "data", "*.json"))) + sorted(
-        glob.glob(os.path.join(RAIZ, "data", "semanas", "*.json"))
-    )
-    for ruta in archivos:
-        if os.path.basename(ruta) == "estadisticas.json":
-            continue
-        d = json.load(open(ruta))
-        grupos = [s for c in d.get("combinadas", []) for s in c["selecciones"]]
-        grupos += d.get("selecciones", [])
-        for s in grupos:
+    for _, _, doc in documentos():
+        for s in [s for c in doc.get("combinadas", []) for s in c["selecciones"]] + doc.get("selecciones", []):
             # Una misma selección puede aparecer en varias combinadas: se cuenta una vez.
             clave = (s["partido"], re.sub(r"\s*\(.*\)", "", s["mercado"]).strip().lower())
             if clave in vistos or s.get("estado") not in ("ganada", "perdida"):
@@ -69,8 +56,7 @@ def selecciones():
 def resumir(filas, clave):
     out = {}
     for s in filas:
-        k = clave(s)
-        r = out.setdefault(k, {"ganadas": 0, "perdidas": 0})
+        r = out.setdefault(clave(s), {"ganadas": 0, "perdidas": 0})
         r["ganadas" if s["estado"] == "ganada" else "perdidas"] += 1
     for r in out.values():
         r["acierto"] = round(r["ganadas"] / (r["ganadas"] + r["perdidas"]), 2)
@@ -79,12 +65,10 @@ def resumir(filas, clave):
 
 def combinadas():
     out = {}
-    for ruta in sorted(glob.glob(os.path.join(RAIZ, "data", "*.json"))):
-        if os.path.basename(ruta) == "estadisticas.json":
-            continue
-        for c in json.load(open(ruta)).get("combinadas", []):
+    for _, col, doc in documentos():
+        for c in doc.get("combinadas", []) if col == "dias" else [doc]:
             if c.get("estado") in ("ganada", "perdida"):
-                r = out.setdefault(c["nivel"], {"ganadas": 0, "perdidas": 0})
+                r = out.setdefault(c.get("nivel", "semanal"), {"ganadas": 0, "perdidas": 0})
                 r["ganadas" if c["estado"] == "ganada" else "perdidas"] += 1
     return out
 
@@ -98,5 +82,14 @@ if __name__ == "__main__":
         "por_cuota": resumir(filas, lambda s: rango_cuota(s["cuota"])),
         "combinadas": combinadas(),
     }
-    json.dump(stats, open(os.path.join(RAIZ, "data", "estadisticas.json"), "w"), ensure_ascii=False, indent=2)
-    print(json.dumps(stats, ensure_ascii=False, indent=2))
+    guardar(os.path.join(DATA, "estadisticas.json"), stats)
+
+    ruta_meta = os.path.join(DATA, "meta", "aprendizaje.json")
+    meta = json.load(open(ruta_meta))
+    meta["mercados"] = [{"tipo": k, "ganadas": v["ganadas"], "perdidas": v["perdidas"]} for k, v in stats["por_mercado"].items()]
+    meta["actualizado"] = hoy().isoformat()
+    guardar(ruta_meta, meta)
+
+    print(f"{len(filas)} selecciones cerradas")
+    for nombre in ("por_mercado", "por_competencia", "por_cuota", "combinadas"):
+        print(nombre + ": " + "; ".join(f"{k} {v['ganadas']}/{v['ganadas'] + v['perdidas']}" for k, v in stats[nombre].items()))

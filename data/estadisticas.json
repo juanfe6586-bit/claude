@@ -88,6 +88,10 @@
     "arriesgada": {
       "ganadas": 0,
       "perdidas": 2
+    },
+    "semanal": {
+      "ganadas": 0,
+      "perdidas": 1
     }
   }
 }
