@@ -1,210 +1,322 @@
 <title>Boleto del Día</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap">
 <style>
-/* Layout: una columna tipo boleto de apuestas; cada combinada es un ticket perforado, seguido del análisis de partidos y el historial. */
+/* Layout: app de una columna al estilo iOS. Título grande que se compacta en una barra translúcida al hacer scroll,
+   contenido en listas agrupadas, carrusel de combinadas con control segmentado y barra de pestañas translúcida abajo. */
 :root {
-  --bg: #eef1ee;
-  --paper: #fbfcfa;
-  --ink: #14211c;
-  --muted: #5d6b64;
-  --line: #d3dbd5;
-  --pitch: #1f6b4a;
-  --gold: #b7860b;
-  --safe: #1f7a4d;
-  --mid: #b86e00;
-  --risk: #c2413a;
-  --safe-soft: #dff0e6;
-  --mid-soft: #f7ead2;
-  --risk-soft: #f7dfdc;
-  --chip: #e3e9e4;
-  --week-soft: #f5edd6;
-  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
-  --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --bg: #f2f2f7;
+  --card: #ffffff;
+  --fill: rgba(118, 118, 128, 0.12);
+  --fill-2: rgba(118, 118, 128, 0.2);
+  --label: #000000;
+  --label-2: rgba(60, 60, 67, 0.6);
+  --label-3: rgba(60, 60, 67, 0.3);
+  --sep: rgba(60, 60, 67, 0.18);
+  --blue: #007aff;
+  --green: #34c759;
+  --orange: #ff9500;
+  --red: #ff3b30;
+  --gold: #c99400;
+  --green-soft: rgba(52, 199, 89, 0.14);
+  --orange-soft: rgba(255, 149, 0, 0.14);
+  --red-soft: rgba(255, 59, 48, 0.12);
+  --gold-soft: rgba(255, 204, 0, 0.18);
+  --chrome: rgba(249, 249, 249, 0.72);
+  --chrome-edge: rgba(0, 0, 0, 0.12);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-round: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif;
+  --spring: cubic-bezier(0.2, 0.9, 0.25, 1);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0e1613; --paper: #16211c; --ink: #e7eee9; --muted: #98a8a0; --line: #2a3a33;
-    --pitch: #4fbf8a; --gold: #e2b43c; --safe: #5bd092; --mid: #f0a23a; --risk: #f07a70;
-    --safe-soft: #173a29; --mid-soft: #3a2c14; --risk-soft: #3d1f1c; --chip: #22302a; --week-soft: #37301a;
+    --bg: #000000; --card: #1c1c1e; --fill: rgba(118, 118, 128, 0.24); --fill-2: rgba(118, 118, 128, 0.32);
+    --label: #ffffff; --label-2: rgba(235, 235, 245, 0.6); --label-3: rgba(235, 235, 245, 0.3); --sep: rgba(84, 84, 88, 0.6);
+    --blue: #0a84ff; --green: #30d158; --orange: #ff9f0a; --red: #ff453a; --gold: #ffd60a;
+    --green-soft: rgba(48, 209, 88, 0.18); --orange-soft: rgba(255, 159, 10, 0.18); --red-soft: rgba(255, 69, 58, 0.18); --gold-soft: rgba(255, 214, 10, 0.16);
+    --chrome: rgba(22, 22, 24, 0.72); --chrome-edge: rgba(255, 255, 255, 0.1); --shadow: none;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0e1613; --paper: #16211c; --ink: #e7eee9; --muted: #98a8a0; --line: #2a3a33;
-  --pitch: #4fbf8a; --gold: #e2b43c; --safe: #5bd092; --mid: #f0a23a; --risk: #f07a70;
-  --safe-soft: #173a29; --mid-soft: #3a2c14; --risk-soft: #3d1f1c; --chip: #22302a; --week-soft: #37301a;
+  --bg: #000000; --card: #1c1c1e; --fill: rgba(118, 118, 128, 0.24); --fill-2: rgba(118, 118, 128, 0.32);
+  --label: #ffffff; --label-2: rgba(235, 235, 245, 0.6); --label-3: rgba(235, 235, 245, 0.3); --sep: rgba(84, 84, 88, 0.6);
+  --blue: #0a84ff; --green: #30d158; --orange: #ff9f0a; --red: #ff453a; --gold: #ffd60a;
+  --green-soft: rgba(48, 209, 88, 0.18); --orange-soft: rgba(255, 159, 10, 0.18); --red-soft: rgba(255, 69, 58, 0.18); --gold-soft: rgba(255, 214, 10, 0.16);
+  --chrome: rgba(22, 22, 24, 0.72); --chrome-edge: rgba(255, 255, 255, 0.1); --shadow: none;
   color-scheme: dark;
 }
-* { box-sizing: border-box; }
-body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
-.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; display: flex; flex-direction: column; gap: 28px; }
-h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: .01em; }
-.num { font-family: var(--font-display); font-variant-numeric: tabular-nums; }
-.eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; }
 
-/* Encabezado */
-header { display: flex; flex-direction: column; gap: 14px; }
-.brand { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.brand h1 { font-size: clamp(34px, 8vw, 48px); font-weight: 800; text-transform: uppercase; line-height: .95; }
-.brand h1 span { color: var(--pitch); }
-.brand .fecha { font-size: 14px; color: var(--muted); font-weight: 600; }
-.dias { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
-.dia { flex: none; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 999px; padding: 6px 14px; font: 600 13px var(--font-body); cursor: pointer; }
-.dia[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-.dia:focus-visible, button:focus-visible { outline: 2px solid var(--pitch); outline-offset: 2px; }
-.aviso { background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 6px; padding: 12px 14px; font-size: 14px; color: var(--ink); }
-.aviso strong { font-weight: 700; }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body { background: var(--bg); color: var(--label); font: 100%/1.47 var(--font); letter-spacing: -0.01em; -webkit-font-smoothing: antialiased; }
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; border: 0; background: none; touch-action: manipulation; }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 8px; }
+.num { font-variant-numeric: tabular-nums; font-family: var(--font-round); }
+
+/* Barra superior translúcida (aparece al hacer scroll) */
+.navbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  height: 44px; display: flex; align-items: center; justify-content: center;
+  background: transparent; border-bottom: 0.5px solid transparent;
+  transition: background 200ms ease, border-color 200ms ease;
+}
+.navbar.scrolled { background: var(--chrome); border-bottom-color: var(--chrome-edge); -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%); }
+.navbar span { font-weight: 600; font-size: 1.0625rem; letter-spacing: -0.02em; opacity: 0; transform: translateY(4px); transition: opacity 200ms ease, transform 300ms var(--spring); }
+.navbar.scrolled span { opacity: 1; transform: none; }
+
+.wrap { max-width: 640px; margin: 0 auto; padding-inline: 16px; padding-block: 0 calc(96px + env(safe-area-inset-bottom, 0px)); }
+.large-title { padding-block: 4px 12px; }
+.large-title h1 { margin: 0; font: 700 2.125rem/1.12 var(--font-display); letter-spacing: -0.025em; text-wrap: balance; }
+.large-title p { margin: 2px 0 0; color: var(--label-2); font-size: 0.9375rem; }
+
+/* Vistas (pestañas) */
+.view { display: flex; flex-direction: column; gap: 22px; }
+.view[hidden] { display: none !important; }
+.view.entering { animation: viewIn 280ms var(--spring); }
+@keyframes viewIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* Encabezados de sección y listas agrupadas */
+.sec-title { margin: 0 0 6px; padding-inline: 4px; font: 600 1.375rem/1.2 var(--font-display); letter-spacing: -0.02em; }
+.sec-foot { margin: 6px 0 0; padding-inline: 16px; color: var(--label-2); font-size: 0.8125rem; line-height: 1.38; }
+.group { background: var(--card); border-radius: 12px; overflow: hidden; }
+.row { display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 11px 16px; position: relative; }
+.row + .row::before { content: ""; position: absolute; top: 0; left: 16px; right: 0; border-top: 0.5px solid var(--sep); }
+
+/* Días */
+.days { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding-block: 2px; margin-inline: -16px; padding-inline: 16px; scroll-padding-inline: 16px; scroll-snap-type: x proximity; }
+.days::-webkit-scrollbar { display: none; }
+.day { flex: none; scroll-snap-align: start; padding: 7px 14px; border-radius: 999px; background: var(--fill); font-size: 0.9375rem; font-weight: 500; transition: transform 100ms ease-out, background 200ms ease; }
+.day[aria-pressed="true"] { background: var(--label); color: var(--bg); }
+.day:active, .seg button:active, .tab:active, .press:active { transform: scale(0.96); }
+
+/* Nota */
+.note { display: flex; gap: 10px; padding: 12px 14px; border-radius: 12px; background: var(--card); font-size: 0.875rem; line-height: 1.4; color: var(--label-2); }
+.note b { color: var(--label); font-weight: 600; }
+.note svg { flex: none; margin-top: 1px; color: var(--blue); }
 
 /* Calculadora */
-.calc { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 14px; }
-.calc label { font-weight: 700; }
-.campo { display: flex; align-items: center; gap: 4px; border: 1px solid var(--line); border-radius: 8px; padding: 2px 10px; background: var(--bg); }
-.campo span { font-family: var(--font-display); font-size: 20px; color: var(--muted); }
-.campo input { width: 9ch; border: 0; background: transparent; color: var(--ink); font: 700 22px var(--font-display); font-variant-numeric: tabular-nums; padding: 4px 0; }
-.campo input:focus { outline: none; }
-.campo:focus-within { outline: 2px solid var(--pitch); outline-offset: 1px; }
-.calc-nota { color: var(--muted); }
-.cobro { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; background: var(--tone-soft); border-radius: 8px; padding: 8px 12px; }
-.cobro span { font-size: 13px; }
-.cobro b { font-family: var(--font-display); font-size: 26px; color: var(--tone); font-variant-numeric: tabular-nums; }
+.calc label { font-size: 1.0625rem; }
+.calc .field { margin-left: auto; display: flex; align-items: baseline; gap: 2px; }
+.calc .field span { color: var(--label-2); font-size: 1.0625rem; }
+.calc input { width: 8ch; text-align: right; border: 0; background: transparent; font: 600 1.0625rem var(--font-round); font-variant-numeric: tabular-nums; color: var(--blue); }
+.calc input:focus { outline: none; }
 
-/* Tickets */
-.tickets { display: flex; flex-direction: column; gap: 18px; }
-.ticket { --tone: var(--safe); --tone-soft: var(--safe-soft); background: var(--paper); border-radius: 10px; position: relative; overflow: hidden; border: 1px solid var(--line); }
-.ticket[data-nivel="media"] { --tone: var(--mid); --tone-soft: var(--mid-soft); }
-.ticket[data-nivel="arriesgada"] { --tone: var(--risk); --tone-soft: var(--risk-soft); }
-.ticket.semanal { --tone: var(--gold); --tone-soft: var(--week-soft); }
-.sel .dia-sel { font-weight: 700; color: var(--tone); }
-.t-head { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; align-items: end; padding: 16px 18px 14px; background: var(--tone-soft); }
-.t-head .eyebrow { color: var(--tone); }
-.t-head h2 { font-size: 26px; font-weight: 700; text-transform: uppercase; }
-.cuota { text-align: right; grid-row: span 2; }
-.cuota .label { font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; }
-.cuota .valor { font-size: 44px; font-weight: 800; line-height: 1; color: var(--tone); }
-.perf { height: 0; border-top: 2px dashed var(--line); margin: 0 14px; position: relative; }
-.perf::before, .perf::after { content: ""; position: absolute; top: -10px; width: 18px; height: 18px; border-radius: 50%; background: var(--bg); border: 1px solid var(--line); }
-.perf::before { left: -24px; } .perf::after { right: -24px; }
-.sels { list-style: none; margin: 0; padding: 6px 18px; display: flex; flex-direction: column; }
-.sel { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
-.sel:last-child { border-bottom: 0; }
-.sel .partido { font-weight: 700; min-width: 0; }
-.sel .meta { font-size: 12px; color: var(--muted); grid-column: 1; }
-.sel .mercado { grid-column: 1; font-size: 14px; }
-.sel .mercado b { color: var(--tone); }
-.sel .c { grid-row: 1 / span 3; grid-column: 2; align-self: center; text-align: right; }
-.sel .c .num { font-size: 26px; font-weight: 700; }
-.sel .c small { display: block; font-size: 11px; color: var(--muted); }
-.est { display: inline-block; font-size: 10px; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; padding: 1px 6px; border-radius: 4px; background: var(--chip); color: var(--muted); margin-left: 4px; vertical-align: 2px; }
-.t-foot { display: flex; flex-direction: column; gap: 10px; padding: 12px 18px 16px; background: var(--paper); border-top: 1px solid var(--line); }
-.prob { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; font-size: 13px; }
-.bar { height: 8px; background: var(--chip); border-radius: 999px; overflow: hidden; }
-.bar i { display: block; height: 100%; background: var(--tone); border-radius: 999px; }
-.razon { font-size: 14px; color: var(--ink); margin: 0; }
-.estado { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 3px 10px; border-radius: 999px; background: var(--chip); color: var(--muted); }
-.estado[data-e="ganada"] { background: var(--safe-soft); color: var(--safe); }
-.estado[data-e="perdida"] { background: var(--risk-soft); color: var(--risk); }
-.estado::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
-.sel .estado { font-size: 10px; padding: 1px 8px; justify-self: start; grid-column: 1; margin-top: 4px; }
+/* Control segmentado */
+.seg { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); padding: 2px; border-radius: 9px; background: var(--fill); }
+.seg .thumb { position: absolute; top: 2px; bottom: 2px; left: 2px; width: calc((100% - 4px) / 3); border-radius: 7px; background: var(--card); box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12), 0 3px 1px rgba(0, 0, 0, 0.04); transition: transform 320ms var(--spring); }
+:root[data-theme="dark"] .seg .thumb { background: #636366; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .seg .thumb { background: #636366; } }
+.seg button { position: relative; z-index: 1; padding: 6px 4px; font-size: 0.8125rem; font-weight: 500; border-radius: 7px; transition: transform 100ms ease-out; }
+.seg button[aria-selected="true"] { font-weight: 600; }
+
+/* Carrusel de combinadas */
+.carousel { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; scroll-padding-inline: 16px; overscroll-behavior-x: contain; }
+.carousel::-webkit-scrollbar { display: none; }
+.carousel > * { flex: 0 0 100%; scroll-snap-align: start; scroll-snap-stop: always; min-width: 0; }
+
+.combo { --tone: var(--green); --tone-soft: var(--green-soft); background: var(--card); border-radius: 16px; box-shadow: var(--shadow); overflow: hidden; display: flex; flex-direction: column; }
+.combo[data-nivel="media"] { --tone: var(--orange); --tone-soft: var(--orange-soft); }
+.combo[data-nivel="arriesgada"] { --tone: var(--red); --tone-soft: var(--red-soft); }
+.combo[data-nivel="semanal"] { --tone: var(--gold); --tone-soft: var(--gold-soft); }
+.combo-head { padding: 16px 16px 14px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: end; }
+.combo-kicker { display: inline-flex; align-items: center; gap: 6px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; color: var(--tone); }
+.combo-kicker::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--tone); }
+.combo-head h2 { grid-column: 1; margin: 2px 0 0; font: 600 1.25rem/1.2 var(--font-display); letter-spacing: -0.02em; text-wrap: balance; }
+.odds-big { grid-row: 1 / span 2; grid-column: 2; text-align: right; }
+.odds-big small { display: block; font-size: 0.6875rem; color: var(--label-2); font-weight: 500; letter-spacing: 0.01em; }
+.odds-big b { display: block; font: 700 2.5rem/1 var(--font-round); letter-spacing: -0.03em; color: var(--tone); font-variant-numeric: tabular-nums; }
+
+.legs { list-style: none; margin: 0; padding: 0; border-top: 0.5px solid var(--sep); }
+.leg { display: grid; grid-template-columns: 20px minmax(0, 1fr) auto; gap: 0 12px; align-items: center; padding: 10px 16px; position: relative; }
+.leg + .leg::before { content: ""; position: absolute; top: 0; left: 48px; right: 0; border-top: 0.5px solid var(--sep); }
+.dot { width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--label-3); display: grid; place-items: center; }
+.dot[data-e="ganada"] { background: var(--green); border-color: var(--green); }
+.dot[data-e="perdida"] { background: var(--red); border-color: var(--red); }
+.dot[data-e="nula"] { background: var(--label-3); border-color: transparent; }
+.dot svg { width: 12px; height: 12px; color: #fff; }
+.leg-main { min-width: 0; }
+.leg-market { font-size: 0.9375rem; font-weight: 600; line-height: 1.3; }
+.leg-match { font-size: 0.8125rem; color: var(--label-2); line-height: 1.35; }
+.leg-match b { color: var(--label); font-weight: 600; }
+.leg-odd { text-align: right; }
+.leg-odd b { display: block; font: 600 1.0625rem var(--font-round); font-variant-numeric: tabular-nums; }
+.leg-odd small { font-size: 0.6875rem; color: var(--label-2); }
+.est { color: var(--orange); }
+
+.combo-foot { margin-top: auto; padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 12px; border-top: 0.5px solid var(--sep); }
+.meter { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; font-size: 0.8125rem; color: var(--label-2); }
+.meter b { color: var(--label); font: 600 0.9375rem var(--font-round); }
+.track { grid-column: 1 / -1; height: 6px; border-radius: 3px; background: var(--fill); overflow: hidden; display: flex; }
+.track i { height: 100%; background: var(--tone); border-radius: 3px; }
+.track i + i { background: var(--label-3); border-radius: 0; }
+.payout { display: flex; justify-content: space-between; align-items: baseline; padding: 10px 12px; border-radius: 10px; background: var(--tone-soft); }
+.payout span { font-size: 0.875rem; }
+.payout b { font: 700 1.375rem var(--font-round); color: var(--tone); font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+.why { margin: 0; font-size: 0.875rem; line-height: 1.45; color: var(--label-2); }
+.pill { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-size: 0.75rem; font-weight: 600; background: var(--fill); color: var(--label-2); }
+.pill[data-e="ganada"] { background: var(--green-soft); color: var(--green); }
+.pill[data-e="perdida"] { background: var(--red-soft); color: var(--red); }
 
 /* Análisis */
-section > h2 { font-size: 26px; text-transform: uppercase; font-weight: 700; margin-bottom: 12px; }
-.partidos { display: flex; flex-direction: column; gap: 12px; }
-.pcard { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; }
-.pcard h3 { font-size: 22px; font-weight: 700; }
-.pcard .meta { font-size: 13px; color: var(--muted); }
-.pcard ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
-.odds { display: flex; flex-wrap: wrap; gap: 8px; }
-.odd { background: var(--chip); border-radius: 6px; padding: 4px 10px; font-size: 13px; }
-.odd b { font-family: var(--font-display); font-size: 16px; margin-left: 4px; }
-.fuentes { font-size: 12px; color: var(--muted); }
-.fuentes a { color: var(--pitch); }
+.match { padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+.match + .match { border-top: 0.5px solid var(--sep); }
+.match h3 { margin: 0; font: 600 1.0625rem/1.3 var(--font-display); letter-spacing: -0.015em; }
+.match .sub { font-size: 0.8125rem; color: var(--label-2); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { padding: 4px 9px; border-radius: 8px; background: var(--fill); font-size: 0.8125rem; }
+.chip b { margin-left: 4px; font-family: var(--font-round); font-variant-numeric: tabular-nums; }
+.match ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 0.875rem; line-height: 1.42; }
+.src { font-size: 0.75rem; color: var(--label-2); }
+.src a { color: var(--blue); text-decoration: none; }
 
 /* Historial */
-.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
-.stat { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
-.stat .num { font-size: 30px; font-weight: 800; line-height: 1.1; }
-.stat .eyebrow { font-size: 11px; }
-.stat[data-nivel="segura"] .num { color: var(--safe); }
-.stat[data-nivel="media"] .num { color: var(--mid); }
-.stat[data-nivel="arriesgada"] .num { color: var(--risk); }
-.stat small { display: block; color: var(--muted); font-size: 12px; }
-.tabla { overflow-x: auto; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; }
-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
-th { font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 600; }
-tr:last-child td { border-bottom: 0; }
-td.num { font-size: 17px; }
-.vacio { background: var(--paper); border: 1px dashed var(--line); border-radius: 10px; padding: 24px; text-align: center; color: var(--muted); }
-.aprende { display: flex; flex-direction: column; gap: 12px; }
-.reglas { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
-.reglas small { display: block; color: var(--muted); font-size: 12px; }
-.mercados { display: flex; flex-direction: column; gap: 10px; }
-.mrow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; font-size: 14px; }
-.mrow .bar { grid-column: 1 / -1; }
-.mrow .num { font-size: 16px; font-weight: 700; }
-footer { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
-@media (max-width: 460px) {
-  .stats { grid-template-columns: 1fr; }
-  .cuota .valor { font-size: 38px; }
+.tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.tile { background: var(--card); border-radius: 12px; padding: 12px; }
+.tile small { display: block; font-size: 0.75rem; color: var(--label-2); font-weight: 500; }
+.tile b { display: block; margin-top: 2px; font: 700 1.75rem/1.1 var(--font-round); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.tile[data-nivel="segura"] b { color: var(--green); }
+.tile[data-nivel="media"] b { color: var(--orange); }
+.tile[data-nivel="arriesgada"] b { color: var(--red); }
+.tile span { display: block; margin-top: 2px; font-size: 0.75rem; color: var(--label-2); }
+.hist-row { display: grid; grid-template-columns: minmax(0, 1fr) repeat(3, auto); gap: 10px; align-items: center; }
+.hist-row .d { font-size: 0.9375rem; }
+.mini { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: var(--fill); }
+.mini[data-e="ganada"] { background: var(--green); }
+.mini[data-e="perdida"] { background: var(--red); }
+.mini svg { width: 12px; height: 12px; color: #fff; }
+.rule { align-items: flex-start; }
+.rule .n { flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--blue); color: #fff; font: 600 0.75rem/22px var(--font-round); text-align: center; margin-top: 1px; }
+.rule p { margin: 0; font-size: 0.9375rem; line-height: 1.4; }
+.rule small { display: block; margin-top: 2px; color: var(--label-2); font-size: 0.8125rem; }
+.mkt { flex-wrap: wrap; }
+.mkt .t { flex: 1; min-width: 0; font-size: 0.9375rem; }
+.mkt b { font: 600 0.9375rem var(--font-round); font-variant-numeric: tabular-nums; }
+.mkt .track { flex: 0 0 100%; }
+
+.empty { padding: 28px 20px; text-align: center; color: var(--label-2); background: var(--card); border-radius: 16px; font-size: 0.9375rem; }
+.fine { color: var(--label-2); font-size: 0.75rem; line-height: 1.45; padding-inline: 4px; }
+
+/* Barra de pestañas translúcida */
+.tabbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  padding: 6px max(8px, env(safe-area-inset-left, 0px)) calc(6px + env(safe-area-inset-bottom, 0px));
+  background: var(--chrome); border-top: 0.5px solid var(--chrome-edge);
+  -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
 }
-@media (prefers-reduced-motion: no-preference) {
-  .bar i { transition: width .6s ease; }
+.tab { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 4px 0; color: var(--label-2); font-size: 0.625rem; font-weight: 500; letter-spacing: 0.01em; transition: transform 100ms ease-out, color 150ms ease; }
+.tab svg { width: 24px; height: 24px; }
+.tab[aria-selected="true"] { color: var(--blue); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }
+  .view.entering { animation: fade 150ms ease !important; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .tabbar, .navbar.scrolled { background: var(--card); -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+@media (prefers-contrast: more) {
+  .group, .combo, .tile, .note { border: 1px solid var(--label-3); }
+  :root { --label-2: rgba(60, 60, 67, 0.85); }
+}
+@media (max-width: 380px) {
+  .odds-big b { font-size: 2.125rem; }
+  .tiles { gap: 8px; }
+  .tile b { font-size: 1.5rem; }
 }
 </style>
 
-<div class="wrap">
-  <header>
-    <div class="brand">
-      <h1>Boleto <span>del día</span></h1>
-      <div class="fecha" id="fecha">Cargando…</div>
-    </div>
-    <div class="dias" id="dias" role="group" aria-label="Elegir día"></div>
-    <div class="aviso" id="aviso" hidden></div>
-    <div class="calc">
-      <label for="monto">Si apuesto</label>
-      <div class="campo"><span>$</span><input id="monto" type="text" inputmode="numeric" autocomplete="off" value="10.000"></div>
-      <span class="calc-nota">en cada combinada, veo cuánto cobraría abajo.</span>
-    </div>
+<div class="navbar" id="navbar"><span id="nav-title">Hoy</span></div>
+
+<main class="wrap">
+  <header class="large-title" id="large-title">
+    <h1 id="title">Hoy</h1>
+    <p id="subtitle">Cargando…</p>
   </header>
 
-  <div class="tickets" id="tickets">
-    <div class="vacio">Cargando las combinadas del día…</div>
-  </div>
+  <!-- HOY -->
+  <section class="view" id="view-hoy" role="tabpanel" aria-labelledby="tab-hoy">
+    <div class="days" id="dias" role="group" aria-label="Elegir día"></div>
+    <div class="note" id="aviso" hidden></div>
 
-  <section id="sec-semana" hidden>
-    <h2>Apuesta de la semana</h2>
-    <article class="ticket semanal" id="semana"></article>
-  </section>
+    <div class="group calc">
+      <div class="row">
+        <label for="monto">Si apuesto</label>
+        <div class="field"><span>$</span><input id="monto" type="text" inputmode="numeric" autocomplete="off" value="10.000"></div>
+      </div>
+    </div>
 
-  <section id="sec-partidos" hidden>
-    <h2>Análisis de partidos</h2>
-    <div class="partidos" id="partidos"></div>
-  </section>
-
-  <section>
-    <h2>Historial</h2>
-    <div class="stats" id="stats"></div>
-    <div class="tabla"><table>
-      <thead><tr><th>Fecha</th><th>Segura</th><th>Media</th><th>Arriesgada</th></tr></thead>
-      <tbody id="hist"><tr><td colspan="4">Aún no hay días cerrados.</td></tr></tbody>
-    </table></div>
-  </section>
-
-  <section id="sec-aprende" hidden>
-    <h2>Lo que vamos aprendiendo</h2>
-    <div class="aprende">
-      <div class="pcard"><h3>Reglas activas</h3><ol class="reglas" id="reglas"></ol></div>
-      <div class="pcard"><h3>Acierto por tipo de apuesta</h3><div class="mercados" id="mercados"></div><div class="fuentes" id="aprende-fecha"></div></div>
+    <div>
+      <div class="seg" id="seg" role="tablist" aria-label="Nivel de la combinada">
+        <span class="thumb" id="thumb" aria-hidden="true"></span>
+        <button type="button" role="tab" aria-selected="true" data-i="0">Segura</button>
+        <button type="button" role="tab" aria-selected="false" data-i="1">Media</button>
+        <button type="button" role="tab" aria-selected="false" data-i="2">Arriesgada</button>
+      </div>
+    </div>
+    <div class="carousel" id="tickets" aria-live="polite">
+      <div class="empty">Cargando las combinadas del día…</div>
     </div>
   </section>
 
-  <footer>
-    Análisis con datos públicos de cuotas, forma y bajas. Las cuotas marcadas como <span class="est">estimada</span> son aproximadas: confírmalas en Stake antes de jugar, porque cambian durante el día y de una casa a otra.
-    Ninguna combinada es segura. Apuesta solo lo que estés dispuesto a perder. Solo mayores de 18 años.
-  </footer>
-</div>
+  <!-- SEMANAL -->
+  <section class="view" id="view-semana" role="tabpanel" aria-labelledby="tab-semana" hidden>
+    <div id="semana"><div class="empty">La apuesta semanal aparece cada lunes por la mañana.</div></div>
+  </section>
+
+  <!-- ANÁLISIS -->
+  <section class="view" id="view-analisis" role="tabpanel" aria-labelledby="tab-analisis" hidden>
+    <div>
+      <div class="group" id="partidos"><div class="empty">Elige un día en la pestaña Hoy.</div></div>
+      <p class="sec-foot">Análisis con datos públicos de cuotas, forma, bajas y enfrentamientos directos.</p>
+    </div>
+  </section>
+
+  <!-- HISTORIAL -->
+  <section class="view" id="view-historial" role="tabpanel" aria-labelledby="tab-historial" hidden>
+    <div>
+      <h2 class="sec-title">Resultados</h2>
+      <div class="tiles" id="stats"></div>
+    </div>
+    <div>
+      <div class="group" id="hist"></div>
+      <p class="sec-foot">Balance en unidades: apostar 1 en cada combinada.</p>
+    </div>
+    <div id="sec-aprende" hidden>
+      <h2 class="sec-title">Lo que vamos aprendiendo</h2>
+      <div class="group" id="reglas"></div>
+      <p class="sec-foot">Cada regla dice de qué resultado salió. Se revisan cada mañana.</p>
+    </div>
+    <div id="sec-mercados" hidden>
+      <h2 class="sec-title">Acierto por tipo de apuesta</h2>
+      <div class="group" id="mercados"></div>
+      <p class="sec-foot" id="aprende-fecha"></p>
+    </div>
+  </section>
+
+  <p class="fine" style="margin-top:28px">Las cuotas en naranja son estimadas: confírmalas en Stake antes de jugar. Ninguna combinada es segura. Apuesta solo lo que estés dispuesto a perder. Solo mayores de 18 años.</p>
+</main>
+
+<nav class="tabbar" role="tablist" aria-label="Secciones">
+  <button class="tab" id="tab-hoy" role="tab" aria-selected="true" data-view="hoy">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4z"/><path d="M14 5v12" stroke-dasharray="2 2.5"/></svg>
+    Hoy
+  </button>
+  <button class="tab" id="tab-semana" role="tab" aria-selected="false" data-view="semana">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2.5"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>
+    Semanal
+  </button>
+  <button class="tab" id="tab-analisis" role="tab" aria-selected="false" data-view="analisis">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v3.2M12 17.3v3.2M3.5 12h3.2M17.3 12h3.2M9 9.5l3-2 3 2-1.1 3.6h-3.8z"/></svg>
+    Análisis
+  </button>
+  <button class="tab" id="tab-historial" role="tab" aria-selected="false" data-view="historial">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19V11M10 19V6M15 19v-5M20 19V9"/></svg>
+    Historial
+  </button>
+</nav>
 
 <script>
 const NIVELES = [
@@ -213,8 +325,14 @@ const NIVELES = [
   { key: "arriesgada", nombre: "Arriesgada", objetivo: 10 },
 ];
 const ESTADOS = { pendiente: "Pendiente", ganada: "Ganada", perdida: "Perdida", nula: "Nula" };
+const VISTAS = { hoy: "Hoy", semana: "Semanal", analisis: "Análisis", historial: "Historial" };
+const ICON_OK = '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.2 4.7-5"/></svg>';
+const ICON_X = '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3l6 6M9 3l-6 6"/></svg>';
 let dias = [];
+let semana = null;
 let elegido = null;
+let vista = "hoy";
+let nivelIdx = 0;
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -222,11 +340,15 @@ const fmtCuota = (n) => (typeof n === "number" ? n.toFixed(2) : "—");
 const fmtFecha = (iso, largo) => {
   const [y, m, d] = iso.split("-").map(Number);
   const f = new Date(Date.UTC(y, m - 1, d, 12));
-  return f.toLocaleDateString("es-CO", largo
-    ? { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }
+  const t = f.toLocaleDateString("es-CO", largo
+    ? { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" }
     : { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
+  return t.charAt(0).toUpperCase() + t.slice(1);
 };
+const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const iconoEstado = (e) => (e === "ganada" ? ICON_OK : e === "perdida" ? ICON_X : "");
 
+/* Calculadora */
 const fmtPesos = (n) => "$" + Math.round(n).toLocaleString("es-CO");
 const monto = () => Number(($("monto").value || "").replace(/\D/g, "")) || 0;
 try {
@@ -235,68 +357,128 @@ try {
 } catch (e) {}
 $("monto").addEventListener("input", () => {
   const m = monto();
-  document.querySelectorAll(".cobro b").forEach((b) => (b.textContent = fmtPesos(m * Number(b.dataset.cuota))));
+  document.querySelectorAll(".payout b").forEach((b) => (b.textContent = fmtPesos(m * Number(b.dataset.cuota))));
   try { localStorage.setItem("boleto-monto", String(m)); } catch (e) {}
 });
 $("monto").addEventListener("blur", () => { $("monto").value = monto().toLocaleString("es-CO"); });
 
+/* Componentes */
+function legHTML(s, semanal) {
+  const hora = esc(s.hora).replace(/ /g, "&nbsp;");
+  const cuando = semanal ? `<b>${esc(s.dia)}</b> · ${hora}` : hora;
+  return `<li class="leg">
+    <span class="dot" data-e="${esc(s.estado || "pendiente")}" aria-label="${esc(ESTADOS[s.estado] || "Pendiente")}">${iconoEstado(s.estado)}</span>
+    <div class="leg-main">
+      <div class="leg-market">${esc(s.mercado)}</div>
+      <div class="leg-match">${esc(s.partido)} · ${cuando}${s.resultado ? ` · <b>${esc(s.resultado)}</b>` : ""}</div>
+    </div>
+    <div class="leg-odd"><b${s.estimada ? ' class="est"' : ""}>${fmtCuota(s.cuota)}</b><small>${s.estimada ? "estimada" : "cuota"}</small></div>
+  </li>`;
+}
+
+function comboHTML(c, nivel, kicker, semanal) {
+  const prob = Math.round((c.prob || 0) * 100);
+  const impl = c.cuota ? Math.round(100 / c.cuota) : 0;
+  const estado = c.estado || "pendiente";
+  return `<article class="combo" data-nivel="${nivel}">
+    <div class="combo-head">
+      <span class="combo-kicker">${esc(kicker)}</span>
+      <div class="odds-big"><small>Cuota total</small><b>${fmtCuota(c.cuota)}</b></div>
+      <h2>${esc(c.titulo || "")}</h2>
+    </div>
+    ${c.nota && semanal ? `<div class="note" style="margin:0 16px 12px;background:var(--fill)">${esc(c.nota)}</div>` : ""}
+    <ul class="legs">${(c.selecciones || []).map((s) => legHTML(s, semanal)).join("")}</ul>
+    <div class="combo-foot">
+      <div class="meter"><span>Probabilidad estimada</span><b>${prob}%</b>
+        <div class="track" role="img" aria-label="Probabilidad estimada ${prob}%, implícita en la cuota ${impl}%"><i style="width:${Math.min(prob, impl)}%"></i>${impl > prob ? `<i style="width:${impl - prob}%"></i>` : ""}</div>
+      </div>
+      <div class="meter" style="margin-top:-6px"><span>Implícita en la cuota</span><span class="num">${impl}%</span></div>
+      <div class="payout"><span>Cobrarías</span><b data-cuota="${c.cuota}">${fmtPesos(monto() * c.cuota)}</b></div>
+      <p class="why">${esc(c.razon)}</p>
+      <span class="pill" data-e="${esc(estado)}">${iconoEstado(estado).replace("<svg", '<svg width="11" height="11"')}${esc(ESTADOS[estado] || "Pendiente")}</span>
+    </div>
+  </article>`;
+}
+
+/* Hoy */
 function renderDias() {
   $("dias").innerHTML = dias.map((d) =>
-    `<button class="dia" type="button" data-f="${esc(d.fecha)}" aria-pressed="${d.fecha === elegido}">${esc(fmtFecha(d.fecha))}</button>`
+    `<button class="day" type="button" data-f="${esc(d.fecha)}" aria-pressed="${d.fecha === elegido}">${esc(fmtFecha(d.fecha))}</button>`
   ).join("");
+  const activo = $("dias").querySelector('[aria-pressed="true"]');
+  if (activo) activo.scrollIntoView({ block: "nearest", inline: "nearest" });
 }
 
 function renderDia() {
   const d = dias.find((x) => x.fecha === elegido);
   if (!d) return;
-  $("fecha").textContent = fmtFecha(d.fecha, true);
+  setSubtitle();
   const aviso = $("aviso");
   aviso.hidden = !d.nota;
-  aviso.innerHTML = d.nota ? `<strong>Nota del día.</strong> ${esc(d.nota)}` : "";
+  aviso.innerHTML = d.nota ? `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5v.5"/></svg><span><b>Nota del día.</b> ${esc(d.nota)}</span>` : "";
 
-  $("tickets").innerHTML = NIVELES.map((n) => {
+  const html = NIVELES.map((n) => {
     const c = (d.combinadas || []).find((x) => x.nivel === n.key);
-    if (!c) return "";
-    const prob = Math.round((c.prob || 0) * 100);
-    const impl = c.cuota ? Math.round(100 / c.cuota) : 0;
-    const sels = (c.selecciones || []).map((s) => `
-      <li class="sel">
-        <span class="partido">${esc(s.partido)}</span>
-        <span class="meta">${esc(s.competencia)} · ${esc(s.hora)}${s.resultado ? ` · <b>Final ${esc(s.resultado)}</b>` : ""}</span>
-        <span class="mercado"><b>${esc(s.mercado)}</b></span>
-        ${s.estado && s.estado !== "pendiente" ? `<span class="estado" data-e="${esc(s.estado)}">${esc(ESTADOS[s.estado] || s.estado)}</span>` : ""}
-        <span class="c"><span class="num">${fmtCuota(s.cuota)}</span>${s.estimada ? `<small><span class="est">estimada</span></small>` : `<small>cuota</small>`}</span>
-      </li>`).join("");
-    return `
-      <article class="ticket" data-nivel="${n.key}">
-        <div class="t-head">
-          <span class="eyebrow">Combinada ${esc(n.nombre)} · objetivo ×${n.objetivo}</span>
-          <div class="cuota"><div class="label">Cuota total</div><div class="valor num">${fmtCuota(c.cuota)}</div></div>
-          <h2>${esc(c.titulo || n.nombre)}</h2>
-        </div>
-        <ul class="sels">${sels}</ul>
-        <div class="perf" aria-hidden="true"></div>
-        <div class="t-foot">
-          <div class="prob"><span>Probabilidad estimada</span><div class="bar"><i style="width:${prob}%"></i></div><span class="num" style="font-size:18px;font-weight:700">${prob}%</span></div>
-          <div class="prob" style="color:var(--muted)"><span>Implícita en la cuota</span><div class="bar"><i style="width:${impl}%;background:var(--muted)"></i></div><span class="num" style="font-size:18px">${impl}%</span></div>
-          <div class="cobro"><span>Cobrarías</span><b data-cuota="${c.cuota}">${fmtPesos(monto() * c.cuota)}</b></div>
-          <p class="razon">${esc(c.razon)}</p>
-          <span class="estado" data-e="${esc(c.estado || "pendiente")}">${esc(ESTADOS[c.estado] || "Pendiente")}</span>
-        </div>
-      </article>`;
-  }).join("") || `<div class="vacio">Este día no tiene combinadas.</div>`;
+    return c ? comboHTML(c, n.key, `${n.nombre} · objetivo ×${n.objetivo}`, false) : "";
+  }).join("");
+  $("tickets").innerHTML = html || `<div class="empty">Este día no tiene combinadas.</div>`;
+  $("tickets").scrollLeft = 0;
+  setNivel(0, false);
 
   const ps = d.partidos || [];
-  $("sec-partidos").hidden = ps.length === 0;
-  $("partidos").innerHTML = ps.map((p) => `
-    <article class="pcard">
-      <div><h3>${esc(p.partido)}</h3><div class="meta">${esc(p.competencia)} · ${esc(p.hora)} · ${esc(p.estadio)}</div></div>
-      ${p.cuotas?.length ? `<div class="odds">${p.cuotas.map((o) => `<span class="odd">${esc(o.m)}<b>${fmtCuota(o.c)}</b></span>`).join("")}</div>` : ""}
+  $("partidos").innerHTML = ps.length ? ps.map((p) => `
+    <article class="match">
+      <div><h3>${esc(p.partido)}</h3><div class="sub">${esc(p.competencia)} · ${esc(p.hora)}${p.estadio ? " · " + esc(p.estadio) : ""}</div></div>
+      ${p.cuotas?.length ? `<div class="chips">${p.cuotas.map((o) => `<span class="chip">${esc(o.m)}<b>${fmtCuota(o.c)}</b></span>`).join("")}</div>` : ""}
       <ul>${(p.claves || []).map((k) => `<li>${esc(k)}</li>`).join("")}</ul>
-      ${p.fuentes?.length ? `<div class="fuentes">Fuentes: ${p.fuentes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nombre)}</a>`).join(" · ")}</div>` : ""}
-    </article>`).join("");
+      ${p.fuentes?.length ? `<div class="src">Fuentes: ${p.fuentes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nombre)}</a>`).join(" · ")}</div>` : ""}
+    </article>`).join("") : `<div class="empty">Este día no tiene análisis.</div>`;
 }
 
+/* Control segmentado sincronizado con el carrusel */
+function setNivel(i, desplazar) {
+  nivelIdx = i;
+  $("thumb").style.transform = `translateX(${i * 100}%)`;
+  $("seg").querySelectorAll("button").forEach((b, j) => b.setAttribute("aria-selected", String(j === i)));
+  if (desplazar) {
+    const card = $("tickets").children[i];
+    if (card) $("tickets").scrollTo({ left: i * ($("tickets").clientWidth - 20), behavior: reduceMotion() ? "auto" : "smooth" });
+  }
+}
+$("seg").addEventListener("click", (e) => {
+  const b = e.target.closest("button");
+  if (b) setNivel(Number(b.dataset.i), true);
+});
+let scrollRaf = 0;
+$("tickets").addEventListener("scroll", () => {
+  cancelAnimationFrame(scrollRaf);
+  scrollRaf = requestAnimationFrame(() => {
+    const t = $("tickets");
+    const w = t.clientWidth - 20; // ancho de la tarjeta (100% menos el margen de 16px a cada lado) + 12px de separación
+    const i = Math.max(0, Math.min(2, Math.round(t.scrollLeft / w)));
+    // El indicador sigue al dedo de forma continua mientras se desliza.
+    $("thumb").style.transition = "none";
+    $("thumb").style.transform = `translateX(${Math.min(200, (t.scrollLeft / w) * 100)}%)`;
+    if (i !== nivelIdx) {
+      nivelIdx = i;
+      $("seg").querySelectorAll("button").forEach((b, j) => b.setAttribute("aria-selected", String(j === i)));
+    }
+    clearTimeout(t._fin);
+    t._fin = setTimeout(() => { $("thumb").style.transition = ""; setNivel(nivelIdx, false); }, 120);
+  });
+}, { passive: true });
+
+/* Semanal */
+function renderSemana() {
+  if (!semana) {
+    $("semana").innerHTML = `<div class="empty">La apuesta semanal aparece cada lunes por la mañana.</div>`;
+    return;
+  }
+  const n = (semana.selecciones || []).length;
+  $("semana").innerHTML = comboHTML(semana, "semanal", `Semana del ${fmtFecha(semana.semana, true)} · ${n} selecciones`, true);
+}
+
+/* Historial */
 function renderHistorial() {
   const res = {};
   NIVELES.forEach((n) => (res[n.key] = { g: 0, p: 0, u: 0 }));
@@ -314,68 +496,74 @@ function renderHistorial() {
   $("stats").innerHTML = NIVELES.map((n) => {
     const r = res[n.key];
     const total = r.g + r.p;
-    return `<div class="stat" data-nivel="${n.key}">
-      <div class="eyebrow">${n.nombre} ×${n.objetivo}</div>
-      <div class="num">${r.g}/${total}</div>
-      <small>${total ? `Balance ${r.u >= 0 ? "+" : ""}${r.u.toFixed(2)} unidades` : "Sin resultados todavía"}</small>
-    </div>`;
+    return `<div class="tile" data-nivel="${n.key}"><small>${n.nombre}</small><b>${r.g}/${total}</b><span>${total ? `${r.u >= 0 ? "+" : ""}${r.u.toFixed(2)} u.` : "Sin datos"}</span></div>`;
   }).join("");
-  $("hist").innerHTML = cerrados.length ? cerrados.map((d) => `<tr><td>${esc(fmtFecha(d.fecha))}</td>${NIVELES.map((n) => {
+  $("hist").innerHTML = cerrados.length ? cerrados.map((d) => `<div class="row hist-row"><span class="d">${esc(fmtFecha(d.fecha))}</span>${NIVELES.map((n) => {
     const c = (d.combinadas || []).find((x) => x.nivel === n.key);
-    return `<td>${c ? `<span class="estado" data-e="${esc(c.estado)}">${esc(ESTADOS[c.estado] || c.estado)}</span> <span class="num">${fmtCuota(c.cuota)}</span>` : "—"}</td>`;
-  }).join("")}</tr>`).join("") : `<tr><td colspan="4">Aún no hay días cerrados.</td></tr>`;
-}
-
-function renderSemana(w) {
-  const sec = $("sec-semana");
-  sec.hidden = !w;
-  if (!w) return;
-  const prob = Math.round((w.prob || 0) * 100);
-  const impl = w.cuota ? Math.round(100 / w.cuota) : 0;
-  const sels = (w.selecciones || []).map((s) => `
-    <li class="sel">
-      <span class="partido">${esc(s.partido)}</span>
-      <span class="meta"><span class="dia-sel">${esc(s.dia)}</span> · ${esc(s.hora)} · ${esc(s.competencia)}${s.resultado ? ` · <b>Final ${esc(s.resultado)}</b>` : ""}</span>
-      <span class="mercado"><b>${esc(s.mercado)}</b></span>
-      ${s.estado && s.estado !== "pendiente" ? `<span class="estado" data-e="${esc(s.estado)}">${esc(ESTADOS[s.estado] || s.estado)}</span>` : ""}
-      <span class="c"><span class="num">${fmtCuota(s.cuota)}</span>${s.estimada ? `<small><span class="est">estimada</span></small>` : `<small>cuota</small>`}</span>
-    </li>`).join("");
-  $("semana").innerHTML = `
-    <div class="t-head">
-      <span class="eyebrow">Semana del ${esc(fmtFecha(w.semana, true))} · ${(w.selecciones || []).length} selecciones</span>
-      <div class="cuota"><div class="label">Cuota total</div><div class="valor num">${fmtCuota(w.cuota)}</div></div>
-      <h2>${esc(w.titulo || "Combinada semanal")}</h2>
-    </div>
-    ${w.nota ? `<div class="aviso" style="margin:12px 18px 0">${esc(w.nota)}</div>` : ""}
-    <ul class="sels">${sels}</ul>
-    <div class="perf" aria-hidden="true"></div>
-    <div class="t-foot">
-      <div class="prob"><span>Probabilidad estimada</span><div class="bar"><i style="width:${prob}%"></i></div><span class="num" style="font-size:18px;font-weight:700">${prob}%</span></div>
-      <div class="prob" style="color:var(--muted)"><span>Implícita en la cuota</span><div class="bar"><i style="width:${impl}%;background:var(--muted)"></i></div><span class="num" style="font-size:18px">${impl}%</span></div>
-      <div class="cobro"><span>Cobrarías</span><b data-cuota="${w.cuota}">${fmtPesos(monto() * w.cuota)}</b></div>
-      <p class="razon">${esc(w.razon)}</p>
-      <span class="estado" data-e="${esc(w.estado || "pendiente")}">${esc(ESTADOS[w.estado] || "Pendiente")}</span>
-    </div>`;
+    const e = c ? c.estado : "pendiente";
+    return `<span class="mini" data-e="${esc(e)}" title="${esc(n.nombre)}: ${esc(ESTADOS[e] || e)}" aria-label="${esc(n.nombre)}: ${esc(ESTADOS[e] || e)}">${iconoEstado(e)}</span>`;
+  }).join("")}</div>`).join("") : `<div class="row" style="color:var(--label-2)">Aún no hay días cerrados.</div>`;
 }
 
 function renderAprende(a) {
   $("sec-aprende").hidden = !a;
+  $("sec-mercados").hidden = !a;
   if (!a) return;
-  $("reglas").innerHTML = (a.reglas || []).map((r) => `<li>${esc(r.texto)}${r.origen ? `<small>${esc(r.origen)}</small>` : ""}</li>`).join("");
+  $("reglas").innerHTML = (a.reglas || []).map((r, i) => `<div class="row rule"><span class="n">${i + 1}</span><p>${esc(r.texto)}${r.origen ? `<small>${esc(r.origen)}</small>` : ""}</p></div>`).join("");
   $("mercados").innerHTML = (a.mercados || []).map((m) => {
     const t = m.ganadas + m.perdidas;
     const pct = t ? Math.round((100 * m.ganadas) / t) : 0;
-    const color = pct >= 70 ? "var(--safe)" : pct >= 50 ? "var(--mid)" : "var(--risk)";
-    return `<div class="mrow"><span>${esc(m.tipo)}</span><span class="num">${m.ganadas}/${t}</span><div class="bar"><i style="width:${pct}%;background:${color}"></i></div></div>`;
-  }).join("") || `<span class="fuentes">Todavía no hay selecciones cerradas.</span>`;
-  $("aprende-fecha").textContent = a.actualizado ? `Actualizado el ${fmtFecha(a.actualizado, true)}` : "";
+    const color = pct >= 70 ? "var(--green)" : pct >= 50 ? "var(--orange)" : "var(--red)";
+    return `<div class="row mkt"><span class="t">${esc(m.tipo)}</span><b>${m.ganadas}/${t}</b><div class="track"><i style="width:${pct}%;background:${color}"></i></div></div>`;
+  }).join("") || `<div class="row" style="color:var(--label-2)">Todavía no hay selecciones cerradas.</div>`;
+  $("aprende-fecha").textContent = a.actualizado ? `Actualizado el ${fmtFecha(a.actualizado, true)}.` : "";
 }
+
+/* Navegación */
+function setSubtitle() {
+  const d = dias.find((x) => x.fecha === elegido);
+  const sub = vista === "semana" && semana ? `Semana del ${fmtFecha(semana.semana, true)}`
+    : (vista === "hoy" || vista === "analisis") && d ? fmtFecha(d.fecha, true)
+    : vista === "historial" ? "Cómo nos ha ido" : "";
+  $("subtitle").textContent = sub;
+}
+function setVista(v, animar = true) {
+  if (!VISTAS[v]) v = "hoy";
+  vista = v;
+  Object.keys(VISTAS).forEach((k) => {
+    const el = $("view-" + k);
+    el.hidden = k !== v;
+    $("tab-" + k).setAttribute("aria-selected", String(k === v));
+    if (k === v && animar) { el.classList.remove("entering"); void el.offsetWidth; el.classList.add("entering"); }
+  });
+  $("title").textContent = VISTAS[v];
+  $("nav-title").textContent = VISTAS[v];
+  setSubtitle();
+  try { localStorage.setItem("boleto-vista", v); } catch (e) {}
+}
+document.querySelector(".tabbar").addEventListener("click", (e) => {
+  const t = e.target.closest(".tab");
+  if (!t) return;
+  if (t.dataset.view === vista) { window.scrollTo({ top: 0, behavior: reduceMotion() ? "auto" : "smooth" }); return; }
+  setVista(t.dataset.view);
+  window.scrollTo({ top: 0 });
+});
+$("dias").addEventListener("click", (e) => {
+  const b = e.target.closest(".day");
+  if (!b) return;
+  elegido = b.dataset.f;
+  renderDias();
+  renderDia();
+});
+
+/* Título grande que se compacta en la barra translúcida */
+const obs = new IntersectionObserver(([en]) => $("navbar").classList.toggle("scrolled", !en.isIntersecting), { rootMargin: "-44px 0px 0px 0px" });
+obs.observe($("title"));
 
 function render() {
   if (!dias.length) {
-    $("fecha").textContent = "";
-    $("tickets").innerHTML = `<div class="vacio">Todavía no hay combinadas publicadas. Aparecen aquí cada mañana.</div>`;
-    $("sec-partidos").hidden = true;
+    $("subtitle").textContent = "";
+    $("tickets").innerHTML = `<div class="empty">Todavía no hay combinadas publicadas. Aparecen aquí cada mañana.</div>`;
     renderHistorial();
     return;
   }
@@ -385,31 +573,29 @@ function render() {
   renderHistorial();
 }
 
-$("dias").addEventListener("click", (e) => {
-  const b = e.target.closest(".dia");
-  if (!b) return;
-  elegido = b.dataset.f;
-  renderDias();
-  renderDia();
-});
+let inicial = "hoy";
+try { inicial = location.hash.slice(1) || localStorage.getItem("boleto-vista") || "hoy"; } catch (e) {}
+setVista(inicial, false);
+renderHistorial();
 
 (async () => {
   const db = window.claude ? await window.claude.use("db") : null;
   if (!db) {
-    $("fecha").textContent = "";
-    $("tickets").innerHTML = `<div class="vacio">Abre esta página con tu cuenta de claude.ai para ver las combinadas.</div>`;
-    renderHistorial();
+    $("subtitle").textContent = "";
+    $("tickets").innerHTML = `<div class="empty">Abre esta página con tu cuenta de claude.ai para ver las combinadas.</div>`;
     return;
   }
   db.collection("dias").orderBy("fecha", "desc").limit(60).onSnapshot((snap) => {
     dias = snap.docs.map((doc) => doc.data()).filter((d) => d && d.fecha);
     render();
   }, () => {
-    $("tickets").innerHTML = `<div class="vacio">No se pudieron cargar las combinadas. Recarga la página en un momento.</div>`;
+    $("tickets").innerHTML = `<div class="empty">No se pudieron cargar las combinadas. Recarga la página en un momento.</div>`;
   });
   db.doc("meta/aprendizaje").onSnapshot((snap) => renderAprende(snap.exists ? snap.data() : null), () => {});
   db.collection("semanas").orderBy("semana", "desc").limit(1).onSnapshot((snap) => {
-    renderSemana(snap.docs.map((doc) => doc.data()).find((w) => w && w.semana));
+    semana = snap.docs.map((doc) => doc.data()).find((w) => w && w.semana) || null;
+    renderSemana();
+    setSubtitle();
   }, () => {});
 })();
 </script>
