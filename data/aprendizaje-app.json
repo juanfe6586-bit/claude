@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-30",
+  "actualizado": "2026-10-01",
   "reglas": [
     {
       "texto": "Un mismo partido no puede estar en las tres combinadas; como máximo en dos y con mercados distintos.",
@@ -16,16 +16,34 @@
     {
       "texto": "Visitantes favoritos: preferir doble oportunidad.",
       "origen": "30 sep: Southend empató 1-1 en el minuto 89."
+    },
+    {
+      "texto": "Cuotas de 1.60 o más solo en la arriesgada; la segura y la media van con selecciones de hasta 1.40.",
+      "origen": "Hasta el 1 oct: cuotas menores a 1.35 acertaron 5 de 5; de 1.60 o más, 2 de 5."
+    },
+    {
+      "texto": "En amistosos, el favorito con gana o empata, no la victoria sola.",
+      "origen": "1 oct: Japón vs Ecuador 0-0 (Japón ganó en penales, que no cuentan)."
     }
   ],
   "mercados": [
     {
       "tipo": "Gana el favorito",
-      "ganadas": 0,
-      "perdidas": 2
+      "ganadas": 2,
+      "perdidas": 3
     },
     {
       "tipo": "Doble oportunidad",
+      "ganadas": 3,
+      "perdidas": 0
+    },
+    {
+      "tipo": "Gana + goles",
+      "ganadas": 2,
+      "perdidas": 0
+    },
+    {
+      "tipo": "Gana sin recibir gol",
       "ganadas": 1,
       "perdidas": 0
     },

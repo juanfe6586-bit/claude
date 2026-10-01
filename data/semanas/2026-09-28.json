@@ -37,7 +37,8 @@
       "mercado": "Gana Argentina y más de 1.5 goles",
       "cuota": 1.22,
       "estimada": true,
-      "estado": "pendiente"
+      "estado": "ganada",
+      "resultado": "4-0"
     },
     {
       "partido": "Atlético Nacional vs Junior",
@@ -47,7 +48,8 @@
       "mercado": "Nacional o empate",
       "cuota": 1.12,
       "estimada": true,
-      "estado": "pendiente"
+      "estado": "ganada",
+      "resultado": "3-1"
     },
     {
       "partido": "Islas Feroe vs Eslovaquia",

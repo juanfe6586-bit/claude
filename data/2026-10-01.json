@@ -15,7 +15,8 @@
           "mercado": "Japón o empate",
           "cuota": 1.25,
           "estimada": true,
-          "estado": "pendiente"
+          "estado": "ganada",
+          "resultado": "0-0 (Japón ganó 5-4 en penales; cuentan los 90 minutos)"
         },
         {
           "partido": "Azerbaiyán vs Liechtenstein",
@@ -107,7 +108,8 @@
           "mercado": "Gana Japón",
           "cuota": 1.88,
           "estimada": true,
-          "estado": "pendiente"
+          "estado": "perdida",
+          "resultado": "0-0 (Japón ganó 5-4 en penales; cuentan los 90 minutos)"
         },
         {
           "partido": "Azerbaiyán vs Liechtenstein",
@@ -138,7 +140,7 @@
         }
       ],
       "cuota": 8.51,
-      "estado": "pendiente"
+      "estado": "perdida"
     }
   ],
   "partidos": [
@@ -218,7 +220,8 @@
       "claves": [
         "Serbia es última del grupo con 0 puntos tras perder sus 2 partidos.",
         "Alemania todavía no gana en el grupo (1 derrota y 1 empate) y necesita la victoria.",
-        "Los modelos pronostican 3-0 o 2-1."
+        "Los modelos pronostican 3-0 o 2-1.",
+        "Última hora: Alemania pierde a Musiala, Havertz y Schlotterbeck; Serbia sigue sin Mitrović. Se mantiene la selección."
       ],
       "fuentes": [
         {
@@ -245,7 +248,8 @@
       "claves": [
         "Haaland lleva 10 goles en sus últimos 7 partidos y 4 en esta Nations League.",
         "Gales tiene 7 bajas, entre ellas Joe Rodon, y no ha marcado en la Liga A.",
-        "Duda en Noruega: Ødegaard tiene un problema en el tobillo."
+        "Duda en Noruega: Ødegaard tiene un problema en el tobillo.",
+        "Última hora: Ødegaard tiene prueba física por el tobillo y Sørloth está lesionado; Haaland juega."
       ],
       "fuentes": [
         {

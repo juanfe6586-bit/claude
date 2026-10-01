@@ -12,10 +12,11 @@
           "partido": "Argentina vs Bolivia",
           "competencia": "Amistoso internacional",
           "hora": "7:00 p. m.",
-          "estado": "pendiente",
+          "estado": "ganada",
           "mercado": "Gana Argentina",
           "cuota": 1.06,
-          "estimada": false
+          "estimada": false,
+          "resultado": "4-0"
         },
         {
           "partido": "Cienciano vs Los Chankas",
@@ -31,10 +32,11 @@
           "partido": "Atlético Nacional vs Junior",
           "competencia": "Liga BetPlay 2026-II",
           "hora": "8:00 p. m.",
-          "estado": "pendiente",
+          "estado": "ganada",
           "mercado": "Nacional o empate (doble oportunidad)",
           "cuota": 1.12,
-          "estimada": true
+          "estimada": true,
+          "resultado": "3-1"
         },
         {
           "partido": "Eastleigh vs Southend United",
@@ -60,10 +62,11 @@
           "partido": "Argentina vs Bolivia",
           "competencia": "Amistoso internacional",
           "hora": "7:00 p. m.",
-          "estado": "pendiente",
+          "estado": "ganada",
           "mercado": "Argentina gana sin recibir gol",
           "cuota": 1.6,
-          "estimada": false
+          "estimada": false,
+          "resultado": "4-0"
         },
         {
           "partido": "Cienciano vs Los Chankas",
@@ -79,10 +82,11 @@
           "partido": "Atlético Nacional vs Junior",
           "competencia": "Liga BetPlay 2026-II",
           "hora": "8:00 p. m.",
-          "estado": "pendiente",
+          "estado": "ganada",
           "mercado": "Gana Nacional",
           "cuota": 1.52,
-          "estimada": false
+          "estimada": false,
+          "resultado": "3-1"
         },
         {
           "partido": "Eastleigh vs Southend United",
@@ -108,10 +112,11 @@
           "partido": "Argentina vs Bolivia",
           "competencia": "Amistoso internacional",
           "hora": "7:00 p. m.",
-          "estado": "pendiente",
+          "estado": "ganada",
           "mercado": "Argentina gana sin recibir gol",
           "cuota": 1.6,
-          "estimada": false
+          "estimada": false,
+          "resultado": "4-0"
         },
         {
           "partido": "Cienciano vs Los Chankas",
@@ -127,10 +132,11 @@
           "partido": "Atlético Nacional vs Junior",
           "competencia": "Liga BetPlay 2026-II",
           "hora": "8:00 p. m.",
-          "estado": "pendiente",
+          "estado": "ganada",
           "mercado": "Gana Nacional y más de 1.5 goles",
           "cuota": 1.95,
-          "estimada": true
+          "estimada": true,
+          "resultado": "3-1"
         },
         {
           "partido": "Eastleigh vs Southend United",
