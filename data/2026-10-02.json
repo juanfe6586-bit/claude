@@ -1,0 +1,430 @@
+{
+  "fecha": "2026-10-02",
+  "nota": "Último día de la fecha FIFA entre semana: casi todo es Nations League. Armada con las 6 reglas aprendidas. Ningún partido está en las tres combinadas. Cuotas de referencia: confírmalas en Stake. Horas en hora de Colombia.",
+  "combinadas": [
+    {
+      "nivel": "segura",
+      "titulo": "Cinco favoritos con el empate cubierto",
+      "prob": 0.43,
+      "razon": "Aplica las reglas aprendidas: todas las selecciones de 1.20 o menos, y en los amistosos (Corea, Colombia) se cubre el empate. Eslovaquia va con victoria porque su cuota ya es muy baja ante Islas Feroe.",
+      "selecciones": [
+        {
+          "partido": "Corea del Sur vs Venezuela",
+          "competencia": "Amistoso internacional",
+          "hora": "6:00 a. m.",
+          "mercado": "Corea del Sur o empate",
+          "cuota": 1.2,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Islas Feroe vs Eslovaquia",
+          "competencia": "Nations League C",
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Eslovaquia",
+          "cuota": 1.17,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Francia vs Italia",
+          "competencia": "Nations League A",
+          "hora": "1:45 p. m.",
+          "mercado": "Francia o empate",
+          "cuota": 1.12,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Colombia vs Paraguay",
+          "competencia": "Amistoso internacional (Nueva Jersey)",
+          "hora": "6:00 p. m.",
+          "mercado": "Colombia o empate",
+          "cuota": 1.15,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Deportivo Cali vs Alianza Valledupar",
+          "competencia": "Liga BetPlay",
+          "hora": "7:45 p. m.",
+          "mercado": "Cali o empate",
+          "cuota": 1.15,
+          "estimada": true,
+          "estado": "pendiente"
+        }
+      ],
+      "cuota": 2.08,
+      "estado": "pendiente"
+    },
+    {
+      "nivel": "media",
+      "titulo": "Nations League de la mañana",
+      "prob": 0.16,
+      "razon": "Seis selecciones, casi todas de gana o empata: Kazajistán en Astana, Montenegro (líder con puntaje perfecto) de visitante, Ucrania, Chipre en casa ante una Armenia que recibe muchos goles, Francia ganando en casa y goles en Corea, que viene de golear.",
+      "selecciones": [
+        {
+          "partido": "Corea del Sur vs Venezuela",
+          "competencia": "Amistoso internacional",
+          "hora": "6:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.3,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Kazajistán vs Moldavia",
+          "competencia": "Nations League C",
+          "hora": "9:00 a. m.",
+          "mercado": "Kazajistán o empate",
+          "cuota": 1.22,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Letonia vs Montenegro",
+          "competencia": "Nations League C",
+          "hora": "11:00 a. m.",
+          "mercado": "Montenegro o empate",
+          "cuota": 1.25,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Chipre vs Armenia",
+          "competencia": "Nations League C",
+          "hora": "11:00 a. m.",
+          "mercado": "Chipre o empate",
+          "cuota": 1.4,
+          "estimada": true,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Francia vs Italia",
+          "competencia": "Nations League A",
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Francia",
+          "cuota": 1.44,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Ucrania vs Irlanda del Norte",
+          "competencia": "Nations League B",
+          "hora": "Hora por confirmar",
+          "mercado": "Ucrania o empate",
+          "cuota": 1.25,
+          "estimada": true,
+          "estado": "pendiente"
+        }
+      ],
+      "cuota": 5.0,
+      "estado": "pendiente"
+    },
+    {
+      "nivel": "arriesgada",
+      "titulo": "Cinco favoritos a ganar",
+      "prob": 0.07,
+      "razon": "Aquí sí se pide la victoria a cinco favoritos. Paga más porque basta un empate para perder.",
+      "selecciones": [
+        {
+          "partido": "Kazajistán vs Moldavia",
+          "competencia": "Nations League C",
+          "hora": "9:00 a. m.",
+          "mercado": "Gana Kazajistán",
+          "cuota": 1.7,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Letonia vs Montenegro",
+          "competencia": "Nations League C",
+          "hora": "11:00 a. m.",
+          "mercado": "Gana Montenegro",
+          "cuota": 1.8,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Islas Feroe vs Eslovaquia",
+          "competencia": "Nations League C",
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Eslovaquia",
+          "cuota": 1.17,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Ucrania vs Irlanda del Norte",
+          "competencia": "Nations League B",
+          "hora": "Hora por confirmar",
+          "mercado": "Gana Ucrania",
+          "cuota": 1.85,
+          "estimada": false,
+          "estado": "pendiente"
+        },
+        {
+          "partido": "Deportivo Cali vs Alianza Valledupar",
+          "competencia": "Liga BetPlay",
+          "hora": "7:45 p. m.",
+          "mercado": "Gana Cali",
+          "cuota": 1.6,
+          "estimada": true,
+          "estado": "pendiente"
+        }
+      ],
+      "cuota": 10.6,
+      "estado": "pendiente"
+    }
+  ],
+  "partidos": [
+    {
+      "partido": "Corea del Sur vs Venezuela",
+      "competencia": "Amistoso internacional",
+      "hora": "6:00 a. m.",
+      "estadio": "Munsu, Ulsan",
+      "cuotas": [
+        {
+          "m": "Corea",
+          "c": 1.7
+        },
+        {
+          "m": "Empate",
+          "c": 3.5
+        },
+        {
+          "m": "Venezuela",
+          "c": 4.6
+        },
+        {
+          "m": "Menos de 2.5",
+          "c": 1.66
+        }
+      ],
+      "claves": [
+        "Corea goleó 3-0 a Ecuador en el debut de Gallardo.",
+        "Venezuela perdió 2-1 con Japón.",
+        "Pronósticos: 2-1 o 3-1 para Corea."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sportskeeda",
+          "url": "https://www.sportskeeda.com/football/south-korea-vs-venezuela-prediction-betting-tips-october-2nd-2026"
+        }
+      ]
+    },
+    {
+      "partido": "Kazajistán vs Moldavia",
+      "competencia": "Nations League C",
+      "hora": "9:00 a. m.",
+      "estadio": "Astana Arena",
+      "cuotas": [
+        {
+          "m": "Kazajistán",
+          "c": 1.7
+        },
+        {
+          "m": "Empate",
+          "c": 3.6
+        },
+        {
+          "m": "Moldavia",
+          "c": 4.5
+        }
+      ],
+      "claves": [
+        "Kazajistán vuelve a casa tras dos partidos de visitante y es más fuerte en Astana.",
+        "Se esperan pocos goles: el menos de 2.5 es la apuesta más repetida."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sportskeeda",
+          "url": "https://www.sportskeeda.com/football/kazakhstan-vs-moldova-prediction-betting-tips-october-2nd-2026"
+        }
+      ]
+    },
+    {
+      "partido": "Letonia vs Montenegro",
+      "competencia": "Nations League C",
+      "hora": "11:00 a. m.",
+      "estadio": "Riga",
+      "cuotas": [
+        {
+          "m": "Letonia",
+          "c": 4.75
+        },
+        {
+          "m": "Empate",
+          "c": 3.25
+        },
+        {
+          "m": "Montenegro",
+          "c": 1.8
+        }
+      ],
+      "claves": [
+        "Montenegro es líder del grupo C2 con dos victorias de dos (3-2 a Armenia).",
+        "Letonia: 2 victorias en sus últimos 15 partidos."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/latvia/uefa-nations-league/preview/latvia-vs-montenegro-prediction-team-news-lineups_606029.html"
+        }
+      ]
+    },
+    {
+      "partido": "Chipre vs Armenia",
+      "competencia": "Nations League C",
+      "hora": "11:00 a. m.",
+      "estadio": "Nicosia",
+      "cuotas": [
+        {
+          "m": "Chipre",
+          "c": 2.2
+        },
+        {
+          "m": "Empate",
+          "c": 3.1
+        },
+        {
+          "m": "Armenia",
+          "c": 3.1
+        }
+      ],
+      "claves": [
+        "Chipre tiene mejor historial directo y juega en casa.",
+        "Armenia recibió 3 goles ante Montenegro."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sportskeeda",
+          "url": "https://www.sportskeeda.com/football/cyprus-vs-armenia-prediction-betting-tips-october-2nd-2026"
+        }
+      ]
+    },
+    {
+      "partido": "Islas Feroe vs Eslovaquia",
+      "competencia": "Nations League C",
+      "hora": "1:45 p. m.",
+      "estadio": "Tórsvøllur, Tórshavn",
+      "cuotas": [
+        {
+          "m": "Eslovaquia",
+          "c": 1.17
+        },
+        {
+          "m": "Empate",
+          "c": 7.24
+        },
+        {
+          "m": "Islas Feroe",
+          "c": 12.21
+        }
+      ],
+      "claves": [
+        "Eslovaquia es amplia favorita ante una de las selecciones más débiles de Europa."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Sofascore",
+          "url": "https://www.sofascore.com/football/match/slovakia-faroe-islands/Mlpsbmp"
+        }
+      ]
+    },
+    {
+      "partido": "Francia vs Italia",
+      "competencia": "Nations League A",
+      "hora": "1:45 p. m.",
+      "estadio": "Francia",
+      "cuotas": [
+        {
+          "m": "Francia",
+          "c": 1.44
+        },
+        {
+          "m": "Empate",
+          "c": 5.25
+        },
+        {
+          "m": "Italia",
+          "c": 6.25
+        },
+        {
+          "m": "Ambos marcan",
+          "c": 1.62
+        }
+      ],
+      "claves": [
+        "Francia es favorita en casa.",
+        "Ambos equipos marcaron en los últimos 5 cruces."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Football Faithful",
+          "url": "https://thefootballfaithful.com/france-vs-italy-prediction-betting-tips-02-10-2026"
+        }
+      ]
+    },
+    {
+      "partido": "Ucrania vs Irlanda del Norte",
+      "competencia": "Nations League B",
+      "hora": "Hora por confirmar",
+      "estadio": "Por confirmar",
+      "cuotas": [
+        {
+          "m": "Ucrania",
+          "c": 1.85
+        }
+      ],
+      "claves": [
+        "William Hill espera un partido cerrado y pronostica 1-0 para Ucrania."
+      ],
+      "fuentes": [
+        {
+          "nombre": "William Hill",
+          "url": "https://news.williamhill.com/football/ukraine-vs-northern-ireland-prediction-nations-league-tips-2026"
+        }
+      ]
+    },
+    {
+      "partido": "Colombia vs Paraguay",
+      "competencia": "Amistoso internacional (Nueva Jersey)",
+      "hora": "6:00 p. m.",
+      "estadio": "Sports Illustrated Stadium, Harrison (Nueva Jersey)",
+      "cuotas": [
+        {
+          "m": "Colombia",
+          "c": 1.5
+        }
+      ],
+      "claves": [
+        "Colombia empató 1-1 con México en su primer amistoso tras el Mundial.",
+        "Paraguay viene de ganarle 2-0 a Bolivia."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Gainblers",
+          "url": "https://gainblers.com/cl/pronosticos/futbol/internacional/amistosos/pronostico-colombia-paraguay-03-10-2026/"
+        }
+      ]
+    },
+    {
+      "partido": "Deportivo Cali vs Alianza Valledupar",
+      "competencia": "Liga BetPlay",
+      "hora": "7:45 p. m.",
+      "estadio": "Estadio Deportivo Cali, Palmira",
+      "cuotas": [],
+      "claves": [
+        "Cali pelea el liderato de la Liga BetPlay.",
+        "En el historial directo Alianza tiene más victorias (12 contra 9)."
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/colombia/deportes/2026/09/29/asi-quedo-la-tabla-de-posiciones-de-la-liga-betplay-2026-ii-finalizada-la-fecha-12-deportivo-cali-sumo-puntos-y-se-pelea-el-liderato/"
+        }
+      ]
+    }
+  ]
+}
