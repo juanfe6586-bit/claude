@@ -1,65 +1,84 @@
 {
-  "actualizado": "2026-10-01",
-  "reglas": [
-    {
-      "texto": "Un mismo partido no puede estar en las tres combinadas; como máximo en dos y con mercados distintos.",
-      "origen": "30 sep: Cienciano 1-1 tumbó las tres combinadas y la semanal."
-    },
-    {
-      "texto": "Favorito en mala racha o en la mitad baja de la tabla: se juega gana o empata, no la victoria.",
-      "origen": "30 sep: Cienciano, 14.º y viniendo de perder, empató en casa."
-    },
-    {
-      "texto": "Ligas débiles o con poca información (Perú, ligas inferiores inglesas): solo doble oportunidad.",
-      "origen": "30 sep: Gana Southend falló; Southend o empate se ganó."
-    },
-    {
-      "texto": "Visitantes favoritos: preferir doble oportunidad.",
-      "origen": "30 sep: Southend empató 1-1 en el minuto 89."
-    },
-    {
-      "texto": "Cuotas de 1.60 o más solo en la arriesgada; la segura y la media van con selecciones de hasta 1.40.",
-      "origen": "Hasta el 1 oct: cuotas menores a 1.35 acertaron 5 de 5; de 1.60 o más, 2 de 5."
-    },
-    {
-      "texto": "En amistosos, el favorito con gana o empata, no la victoria sola.",
-      "origen": "1 oct: Japón vs Ecuador 0-0 (Japón ganó en penales, que no cuentan)."
-    }
+  "actualizado": "2026-10-02",
+  "historial": [
+    "2 oct 2026: regla 9. Se rehízo la combinada del 3 oct con Nations League.",
+    "2 oct 2026: reglas 7 y 8. Falló Azerbaiyán 0-0, Gales 2-1 Noruega y Más de 2.5 en Alemania 2-0; Portugal 4-2, Grecia 2-2, Irlanda 2-2 acertaron la doble oportunidad. Inter-Once Caldas se aplazó al 4 oct.",
+    "1 oct 2026: reglas 5 y 6. Argentina 4-0 y Nacional 3-1 acertaron todo; Japón 0-0 tumbó la arriesgada del 1 oct.",
+    "30 sep 2026: reglas 1 a 4, tras perder las tres combinadas por Cienciano 1-1 y Southend 1-1."
   ],
   "mercados": [
     {
-      "tipo": "Gana el favorito",
-      "ganadas": 2,
-      "perdidas": 3
+      "ganadas": 4,
+      "perdidas": 5,
+      "tipo": "Gana el favorito"
     },
     {
-      "tipo": "Doble oportunidad",
-      "ganadas": 3,
-      "perdidas": 0
+      "ganadas": 6,
+      "perdidas": 0,
+      "tipo": "Doble oportunidad"
     },
     {
-      "tipo": "Gana + goles",
-      "ganadas": 2,
-      "perdidas": 0
-    },
-    {
-      "tipo": "Gana sin recibir gol",
-      "ganadas": 1,
-      "perdidas": 0
-    },
-    {
-      "tipo": "Hándicap / ganar por margen",
       "ganadas": 0,
-      "perdidas": 1
+      "perdidas": 2,
+      "tipo": "Hándicap / ganar por margen"
+    },
+    {
+      "ganadas": 2,
+      "perdidas": 0,
+      "tipo": "Gana + goles"
+    },
+    {
+      "ganadas": 1,
+      "perdidas": 0,
+      "tipo": "Gana sin recibir gol"
+    },
+    {
+      "ganadas": 0,
+      "perdidas": 1,
+      "tipo": "Más / menos goles"
+    }
+  ],
+  "reglas": [
+    {
+      "origen": "30 sep: Cienciano 1-1 tumbó las tres combinadas y la semanal.",
+      "texto": "Un mismo partido no puede estar en las tres combinadas; como máximo en dos y con mercados distintos."
+    },
+    {
+      "origen": "30 sep: Cienciano, 14.º y viniendo de perder, empató en casa.",
+      "texto": "Favorito en mala racha o en la mitad baja de la tabla: se juega gana o empata, no la victoria."
+    },
+    {
+      "origen": "30 sep: Gana Southend falló; Southend o empate se ganó.",
+      "texto": "Ligas débiles o con poca información (Perú, ligas inferiores inglesas): solo doble oportunidad."
+    },
+    {
+      "origen": "30 sep: Southend empató 1-1 en el minuto 89.",
+      "texto": "Visitantes favoritos: preferir doble oportunidad."
+    },
+    {
+      "origen": "Hasta el 1 oct: cuotas menores a 1.35 acertaron 5 de 5; de 1.60 o más, 2 de 5.",
+      "texto": "Cuotas de 1.60 o más solo en la arriesgada; la segura y la media van con selecciones de hasta 1.40."
+    },
+    {
+      "origen": "1 oct: Japón vs Ecuador 0-0 (Japón ganó en penales, que no cuentan).",
+      "texto": "En amistosos, el favorito con gana o empata, no la victoria sola."
+    },
+    {
+      "origen": "2 oct: Azerbaiyán 0-0 Liechtenstein (margen 0/2) y Alemania 2-0 Serbia (Más de 2.5 falló); doble oportunidad va 6/6.",
+      "texto": "No usar hándicap/ganar por margen ni Más de 2.5 goles en selecciones de Nations League: preferir doble oportunidad."
+    },
+    {
+      "origen": "2 oct: Gales 2-1 Noruega; Gana el favorito 4/9 vs doble oportunidad 6/6.",
+      "texto": "Favorito visitante en Nations League: solo doble oportunidad (Noruega perdió 2-1 en Gales con ventaja inicial)."
+    },
+    {
+      "origen": "2 oct: la combinada del 3 oct salió sin Nations League (creí que la fecha FIFA terminaba) y el usuario lo señaló.",
+      "texto": "En fecha FIFA, revisa el calendario de Nations League, eliminatorias y amistosos de cada día e inclúyelos en las combinadas junto a las ligas de clubes."
     }
   ],
   "vigilar": [
     "Amistosos de selecciones: Argentina sí goleó a Bolivia (4-0) pese a los cambios, pero Japón no le ganó a Ecuador en 90 minutos.",
     "\"Gana + goles\" acertó 2 de 2 en favoritos claros que juegan en casa (Argentina 4-0, Nacional 3-1).",
     "Liga BetPlay: 3 de 3. Liga 1 Perú: 0 de 2."
-  ],
-  "historial": [
-    "1 oct 2026: reglas 5 y 6. Argentina 4-0 y Nacional 3-1 acertaron todo; Japón 0-0 tumbó la arriesgada del 1 oct.",
-    "30 sep 2026: reglas 1 a 4, tras perder las tres combinadas por Cienciano 1-1 y Southend 1-1."
   ]
 }

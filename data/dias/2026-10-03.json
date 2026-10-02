@@ -1,0 +1,449 @@
+{
+  "combinadas": [
+    {
+      "cuota": 2.14,
+      "estado": "pendiente",
+      "nivel": "segura",
+      "prob": 0.38,
+      "razon": "Locales muy favoritos (España, Suiza, Bielorrusia) más doble oportunidad en Tolima e Inglaterra visitante (regla 8). Todas hasta 1.40 (regla 5).",
+      "selecciones": [
+        {
+          "competencia": "Nations League",
+          "cuota": 1.07,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana España",
+          "partido": "España vs Chequia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.33,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Suiza",
+          "partido": "Suiza vs Eslovenia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.1,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:00 a. m.",
+          "mercado": "Gana Bielorrusia",
+          "partido": "Bielorrusia vs San Marino"
+        },
+        {
+          "competencia": "Liga BetPlay",
+          "cuota": 1.12,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "4:05 p. m.",
+          "mercado": "Tolima o empate",
+          "partido": "Deportes Tolima vs Boyacá Chicó"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "10:00 a. m.",
+          "mercado": "Inglaterra o empate",
+          "partido": "Croacia vs Inglaterra"
+        }
+      ],
+      "titulo": "Favoritos de Nations League y Tolima"
+    },
+    {
+      "cuota": 5.49,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.13,
+      "razon": "Seis dobles oportunidades y Suiza, que ganó sus dos partidos 3-0. Escocia visitante solo con empate cubierto (regla 8).",
+      "selecciones": [
+        {
+          "competencia": "Nations League",
+          "cuota": 1.1,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:00 a. m.",
+          "mercado": "Islandia o empate",
+          "partido": "Islandia vs Bulgaria"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.15,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Escocia o empate",
+          "partido": "Macedonia del Norte vs Escocia"
+        },
+        {
+          "competencia": "Liga BetPlay",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Rionegro o empate",
+          "partido": "Rionegro Águilas vs Jaguares de Córdoba"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.35,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "5:00 p. m.",
+          "mercado": "Tucumán o empate",
+          "partido": "Atlético Tucumán vs Barracas Central"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.4,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "5:00 p. m.",
+          "mercado": "Newell's o empate",
+          "partido": "Newell's Old Boys vs Lanús"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.38,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:45 p. m.",
+          "mercado": "Defensa y Justicia o empate",
+          "partido": "Defensa y Justicia vs San Lorenzo"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.33,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Suiza",
+          "partido": "Suiza vs Eslovenia"
+        }
+      ],
+      "titulo": "Doble oportunidad en dos continentes"
+    },
+    {
+      "cuota": 9.25,
+      "estado": "pendiente",
+      "nivel": "arriesgada",
+      "prob": 0.07,
+      "razon": "Victorias de España, Islandia, Tolima y Rionegro; menos de 2.5 en un partido con dos equipos que no anotan, y más de 1.5 en Croacia-Inglaterra (no se usa más de 2.5, regla 7).",
+      "selecciones": [
+        {
+          "competencia": "Nations League",
+          "cuota": 1.07,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana España",
+          "partido": "España vs Chequia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.4,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:00 a. m.",
+          "mercado": "Gana Islandia",
+          "partido": "Islandia vs Bulgaria"
+        },
+        {
+          "competencia": "Liga BetPlay",
+          "cuota": 1.5,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "4:05 p. m.",
+          "mercado": "Gana Tolima",
+          "partido": "Deportes Tolima vs Boyacá Chicó"
+        },
+        {
+          "competencia": "Liga BetPlay",
+          "cuota": 1.95,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Rionegro",
+          "partido": "Rionegro Águilas vs Jaguares de Córdoba"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.65,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Menos de 2.5 goles",
+          "partido": "Macedonia del Norte vs Escocia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.28,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "10:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Croacia vs Inglaterra"
+        }
+      ],
+      "titulo": "Locales ganan y goles medidos"
+    }
+  ],
+  "fecha": "2026-10-03",
+  "nota": "Rehecha el 2 oct: la versión anterior dejó por fuera la Nations League por creer que la fecha FIFA terminaba (se juega del 1 al 6 oct). Ahora combina Nations League con Liga BetPlay y Liga Argentina. Todas las cuotas son estimadas (fuentes públicas, no Stake): confírmalas antes de apostar. La hora de Bielorrusia vs San Marino está por confirmar. Medellín vs Santa Fe no se incluye: una fuente lo ubica el 5 oct. Ningún partido está en las tres combinadas. Horas de Colombia.",
+  "partidos": [
+    {
+      "claves": [
+        "España líder del grupo con 2 de 2; Chequia último sin puntos.",
+        "España invicta en 40 partidos en 90 minutos."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.07,
+          "m": "Gana España"
+        }
+      ],
+      "estadio": "Carlos Tartiere (Oviedo)",
+      "fuentes": [
+        {
+          "nombre": "Goal",
+          "url": "https://www.goal.com/en/news/spain-czechia-uefa-nations-league-preview/blt1a30ce7ed5c64fff"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "España vs Chequia"
+    },
+    {
+      "claves": [
+        "Suiza ganó 3-0 a Macedonia y a Escocia.",
+        "Eslovenia sin Sesko, Verbič ni Šporar."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.33,
+          "m": "Gana Suiza"
+        }
+      ],
+      "estadio": "Thermoplan Arena (Lucerna)",
+      "fuentes": [
+        {
+          "nombre": "Football Whispers",
+          "url": "https://footballwhispers.com/blog/switzerland-vs-slovenia-prediction-03-10-2026/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Suiza vs Eslovenia"
+    },
+    {
+      "claves": [
+        "Liga C: San Marino sin puntos.",
+        "Bielorrusia necesita ganar para seguir en la pelea; hora por confirmar."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Gana Bielorrusia"
+        }
+      ],
+      "estadio": "Rudolf Illovszky (Budapest)",
+      "fuentes": [
+        {
+          "nombre": "Sportskeeda",
+          "url": "https://www.sportskeeda.com/football/belarus-vs-san-marino-prediction-betting-tips-october-3rd-2026"
+        }
+      ],
+      "hora": "11:00 a. m.",
+      "partido": "Bielorrusia vs San Marino"
+    },
+    {
+      "claves": [
+        "Islandia lidera con 4 puntos tras el 3-0 a Luxemburgo.",
+        "Pero solo 1 victoria en sus últimos 7; Bulgaria sin Despodov."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Islandia o empate"
+        },
+        {
+          "c": 1.4,
+          "m": "Gana Islandia"
+        }
+      ],
+      "estadio": "Laugardalsvöllur (Reikiavik)",
+      "fuentes": [
+        {
+          "nombre": "Easyodds",
+          "url": "https://easyodds.com/iceland-vs-bulgaria-betting-odds-tips-predictions-preview-3rd-october-2026"
+        }
+      ],
+      "hora": "11:00 a. m.",
+      "partido": "Islandia vs Bulgaria"
+    },
+    {
+      "claves": [
+        "Inglaterra ganó sus últimos 8 de visita; Croacia invicta en 9 en casa.",
+        "Inglaterra sin Rice ni Palmer; promedia 2.4 goles en 2026."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Inglaterra o empate"
+        },
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Croacia (a puerta cerrada)",
+      "fuentes": [
+        {
+          "nombre": "Football Whispers",
+          "url": "https://footballwhispers.com/blog/croatia-vs-england-prediction-preview-betting-tips-03-10-2026/"
+        }
+      ],
+      "hora": "10:00 a. m.",
+      "partido": "Croacia vs Inglaterra"
+    },
+    {
+      "claves": [
+        "Escocia lleva 422 minutos sin anotar; Macedonia, 6 partidos sin gol.",
+        "Escocia favorita a 1.73; se juega con empate cubierto."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.15,
+          "m": "Escocia o empate"
+        },
+        {
+          "c": 1.65,
+          "m": "Menos de 2.5 goles"
+        }
+      ],
+      "estadio": "Skopie",
+      "fuentes": [
+        {
+          "nombre": "Betfair",
+          "url": "https://betting.betfair.com/football/uefa-nations-league/north-macedonia-v-scotland-betting-tips-predictions-opta-stats-for-saturdays-match-021026-204.html"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Macedonia del Norte vs Escocia"
+    },
+    {
+      "claves": [
+        "Liga BetPlay fecha 13: Tolima local ante un Chicó de media tabla."
+      ],
+      "competencia": "Liga BetPlay",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Tolima o empate"
+        }
+      ],
+      "estadio": "",
+      "fuentes": [
+        {
+          "nombre": "Agenda",
+          "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/programacion-de-fecha-13-liga-betplay-ii-2026-partidos-horarios-y-como-ver-en-vivo-en-tv-colombia-273431"
+        }
+      ],
+      "hora": "4:05 p. m.",
+      "partido": "Deportes Tolima vs Boyacá Chicó"
+    },
+    {
+      "claves": [
+        "Liga BetPlay fecha 13: Rionegro local."
+      ],
+      "competencia": "Liga BetPlay",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Rionegro o empate"
+        }
+      ],
+      "estadio": "",
+      "fuentes": [
+        {
+          "nombre": "Agenda",
+          "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/programacion-de-fecha-13-liga-betplay-ii-2026-partidos-horarios-y-como-ver-en-vivo-en-tv-colombia-273431"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Rionegro Águilas vs Jaguares de Córdoba"
+    },
+    {
+      "claves": [
+        "Liga argentina: local con el empate cubierto."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.38,
+          "m": "Defensa y Justicia o empate"
+        }
+      ],
+      "estadio": "",
+      "fuentes": [
+        {
+          "nombre": "Agenda",
+          "url": "https://es.besoccer.com/livescore/2026-10-03"
+        }
+      ],
+      "hora": "2:45 p. m.",
+      "partido": "Defensa y Justicia vs San Lorenzo"
+    },
+    {
+      "claves": [
+        "Liga argentina: Newell's local con el empate cubierto."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.4,
+          "m": "Newell's o empate"
+        }
+      ],
+      "estadio": "",
+      "fuentes": [
+        {
+          "nombre": "Agenda",
+          "url": "https://es.besoccer.com/livescore/2026-10-03"
+        }
+      ],
+      "hora": "5:00 p. m.",
+      "partido": "Newell's Old Boys vs Lanús"
+    },
+    {
+      "claves": [
+        "Liga argentina: Tucumán local con el empate cubierto."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.35,
+          "m": "Tucumán o empate"
+        }
+      ],
+      "estadio": "",
+      "fuentes": [
+        {
+          "nombre": "Agenda",
+          "url": "https://es.besoccer.com/livescore/2026-10-03"
+        }
+      ],
+      "hora": "5:00 p. m.",
+      "partido": "Atlético Tucumán vs Barracas Central"
+    }
+  ]
+}
