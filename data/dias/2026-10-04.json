@@ -1,0 +1,468 @@
+{
+  "combinadas": [
+    {
+      "cuota": 2.18,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.5,
+      "razon": "Solo doble oportunidad y cuotas hasta 1.25 (reglas 5 y 8); visitantes favoritos (Alemania, Austria) cubiertos con empate.",
+      "selecciones": [
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Portugal o empate",
+          "partido": "Portugal vs Noruega",
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.1,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Países Bajos o empate",
+          "partido": "Países Bajos vs Serbia",
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Alemania o empate",
+          "partido": "Grecia vs Alemania",
+          "resultado": "0-0"
+        },
+        {
+          "competencia": "Nations League B",
+          "cuota": 1.18,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "6:00 a. m.",
+          "mercado": "Austria o empate",
+          "partido": "Kosovo vs Austria",
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "5:15 p. m.",
+          "mercado": "Argentinos o empate",
+          "partido": "Argentinos Juniors vs Tigre",
+          "resultado": "2-1"
+        }
+      ],
+      "titulo": "Doble oportunidad en Nations League y Argentinos"
+    },
+    {
+      "cuota": 5.62,
+      "estado": "perdida",
+      "nivel": "media",
+      "prob": 0.2,
+      "razon": "Cuotas hasta 1.35; mercados distintos a los de la segura en Países Bajos (regla 1). Ligas con poca información solo con doble oportunidad (regla 3).",
+      "selecciones": [
+        {
+          "competencia": "Nations League B",
+          "cuota": 1.22,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Irlanda o empate",
+          "partido": "Irlanda vs Israel",
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.35,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Dinamarca o empate",
+          "partido": "Gales vs Dinamarca",
+          "resultado": "0-1"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.35,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Talleres o empate",
+          "partido": "Talleres vs Belgrano",
+          "resultado": "0-1"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "12:45 p. m.",
+          "mercado": "Huracán o empate",
+          "partido": "Huracán vs Aldosivi",
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "7:30 p. m.",
+          "mercado": "Racing o empate",
+          "partido": "Estudiantes de Río Cuarto vs Racing Club",
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Países Bajos vs Serbia",
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Liga BetPlay",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "4:00 p. m.",
+          "mercado": "Tigres o empate",
+          "partido": "Tigres FC vs Internacional de Palmira",
+          "resultado": "1-0"
+        }
+      ],
+      "titulo": "Dobles oportunidades locales y goles de Países Bajos"
+    },
+    {
+      "cuota": 11.29,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.09,
+      "razon": "Únicas selecciones con victoria sola; ningún partido en las tres combinadas y mercados distintos entre combinadas.",
+      "selecciones": [
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.55,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Portugal",
+          "partido": "Portugal vs Noruega",
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Nations League B",
+          "cuota": 1.75,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Irlanda",
+          "partido": "Irlanda vs Israel",
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.8,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "5:15 p. m.",
+          "mercado": "Gana Argentinos",
+          "partido": "Argentinos Juniors vs Tigre",
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.85,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "12:45 p. m.",
+          "mercado": "Gana Huracán",
+          "partido": "Huracán vs Aldosivi",
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Menos de 3.5 goles",
+          "partido": "Gales vs Dinamarca",
+          "resultado": "0-1"
+        }
+      ],
+      "titulo": "Victorias de Portugal, Irlanda y locales argentinos"
+    }
+  ],
+  "fecha": "2026-10-04",
+  "nota": "Todas las cuotas son estimadas (no Stake) y las horas de Nations League/Argentina, convertidas a Colombia, están por confirmar: verifícalas. Inter de Bogotá vs Once Caldas se aplazó al 4 oct 4:05 p. m. y sigue pendiente de la combinada del 1 oct. Sin amistosos (Colombia 0-1 Paraguay, Corea 0-0 Venezuela).",
+  "partidos": [
+    {
+      "claves": [
+        "Fecha 3 de Nations League A, domingo 4 oct.",
+        "Noruega perdió 2-1 en Gales."
+      ],
+      "competencia": "Nations League A",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Portugal o empate"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Portugal"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21b5d2c2d501-a63c5628d09d-1000--uefa-nations-league-matchday-3-preview-players-to-watch-/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Portugal vs Noruega"
+    },
+    {
+      "claves": [
+        "Fecha 3 de Nations League A.",
+        "Serbia cayó 2-0 con Alemania."
+      ],
+      "competencia": "Nations League A",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Países Bajos o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21b5d2c2d501-a63c5628d09d-1000--uefa-nations-league-matchday-3-preview-players-to-watch-/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Países Bajos vs Serbia"
+    },
+    {
+      "claves": [
+        "Fecha 3 de Nations League A.",
+        "Alemania ganó 2-0 a Serbia; visitante: solo doble oportunidad."
+      ],
+      "competencia": "Nations League A",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Alemania o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21b5d2c2d501-a63c5628d09d-1000--uefa-nations-league-matchday-3-preview-players-to-watch-/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Grecia vs Alemania"
+    },
+    {
+      "claves": [
+        "Gales venció 2-1 a Noruega.",
+        "Dinamarca visitante: doble oportunidad."
+      ],
+      "competencia": "Nations League A",
+      "cuotas": [
+        {
+          "c": 1.35,
+          "m": "Dinamarca o empate"
+        },
+        {
+          "c": 1.25,
+          "m": "Menos de 3.5 goles"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21b5d2c2d501-a63c5628d09d-1000--uefa-nations-league-matchday-3-preview-players-to-watch-/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Gales vs Dinamarca"
+    },
+    {
+      "claves": [
+        "Fecha 3 de Nations League B.",
+        "Austria visitante: doble oportunidad."
+      ],
+      "competencia": "Nations League B",
+      "cuotas": [
+        {
+          "c": 1.18,
+          "m": "Austria o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21b5d2c2d501-a63c5628d09d-1000--uefa-nations-league-matchday-3-preview-players-to-watch-/"
+        }
+      ],
+      "hora": "6:00 a. m.",
+      "partido": "Kosovo vs Austria"
+    },
+    {
+      "claves": [
+        "Fecha 3 de Nations League B, en casa."
+      ],
+      "competencia": "Nations League B",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Irlanda o empate"
+        },
+        {
+          "c": 1.75,
+          "m": "Gana Irlanda"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21b5d2c2d501-a63c5628d09d-1000--uefa-nations-league-matchday-3-preview-players-to-watch-/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Irlanda vs Israel"
+    },
+    {
+      "claves": [
+        "Fecha 11 del Clausura argentino."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Huracán o empate"
+        },
+        {
+          "c": 1.85,
+          "m": "Gana Huracán"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "365Scores",
+          "url": "https://www.365scores.com/es/news/liga-profesional-fechas-4-a-7-agenda/"
+        }
+      ],
+      "hora": "12:45 p. m.",
+      "partido": "Huracán vs Aldosivi"
+    },
+    {
+      "claves": [
+        "Fecha 11 del Clausura argentino; clásico cordobés."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.35,
+          "m": "Talleres o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "365Scores",
+          "url": "https://www.365scores.com/es/news/liga-profesional-fechas-4-a-7-agenda/"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Talleres vs Belgrano"
+    },
+    {
+      "claves": [
+        "Fecha 11 del Clausura argentino."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Argentinos o empate"
+        },
+        {
+          "c": 1.8,
+          "m": "Gana Argentinos"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "365Scores",
+          "url": "https://www.365scores.com/es/news/liga-profesional-fechas-4-a-7-agenda/"
+        }
+      ],
+      "hora": "5:15 p. m.",
+      "partido": "Argentinos Juniors vs Tigre"
+    },
+    {
+      "claves": [
+        "Racing visitante: solo doble oportunidad."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.15,
+          "m": "Racing o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "365Scores",
+          "url": "https://www.365scores.com/es/news/liga-profesional-fechas-4-a-7-agenda/"
+        }
+      ],
+      "hora": "7:30 p. m.",
+      "partido": "Estudiantes de Río Cuarto vs Racing Club"
+    },
+    {
+      "claves": [
+        "Fecha 13 de la Liga BetPlay."
+      ],
+      "competencia": "Liga BetPlay",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Tigres o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "365Scores",
+          "url": "https://www.365scores.com/es/news/liga-profesional-fechas-4-a-7-agenda/"
+        }
+      ],
+      "hora": "4:00 p. m.",
+      "partido": "Tigres FC vs Internacional de Palmira"
+    }
+  ]
+}

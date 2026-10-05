@@ -1,0 +1,414 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.79,
+      "estado": "pendiente",
+      "nivel": "segura",
+      "prob": 0.58,
+      "razon": "Solo doble oportunidad y cuotas hasta 1.28 (reglas 5 y 8).",
+      "selecciones": [
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.1,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Inglaterra o empate",
+          "partido": "Inglaterra vs Chequia"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.28,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "España o empate",
+          "partido": "Croacia vs España"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.06,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Suiza o empate",
+          "partido": "Suiza vs Macedonia del Norte"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.2,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Eslovaquia o empate",
+          "partido": "Moldavia vs Eslovaquia"
+        }
+      ],
+      "titulo": "Doble oportunidad en Nations League"
+    },
+    {
+      "cuota": 5.4,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.2,
+      "razon": "Cuotas hasta 1.38; locales fuertes y doble oportunidad en los visitantes.",
+      "selecciones": [
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.38,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Inglaterra",
+          "partido": "Inglaterra vs Chequia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Suiza",
+          "partido": "Suiza vs Macedonia del Norte"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Escocia o empate",
+          "partido": "Escocia vs Eslovenia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.1,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Albania vs San Marino"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.2,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Finlandia o empate",
+          "partido": "Bielorrusia vs Finlandia"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.35,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Menos de 3.5 goles",
+          "partido": "Croacia vs España"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Bulgaria o empate",
+          "partido": "Luxemburgo vs Bulgaria"
+        }
+      ],
+      "titulo": "Favoritos locales de Nations League"
+    },
+    {
+      "cuota": 7.78,
+      "estado": "pendiente",
+      "nivel": "arriesgada",
+      "prob": 0.09,
+      "razon": "Dos victorias de cuota 1.65-1.85 más mercados bajos; ningún partido en más de dos combinadas.",
+      "selecciones": [
+        {
+          "competencia": "Nations League",
+          "cuota": 1.85,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Escocia",
+          "partido": "Escocia vs Eslovenia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.65,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Finlandia",
+          "partido": "Bielorrusia vs Finlandia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Islandia o empate",
+          "partido": "Estonia vs Islandia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.45,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Moldavia vs Eslovaquia"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.04,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Albania",
+          "partido": "Albania vs San Marino"
+        },
+        {
+          "competencia": "Nations League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Menos de 3.5 goles",
+          "partido": "Luxemburgo vs Bulgaria"
+        }
+      ],
+      "titulo": "Victorias de Escocia y Finlandia"
+    }
+  ],
+  "fecha": "2026-10-06",
+  "nota": "Cuotas todas estimadas (no Stake). Martes de fecha FIFA: agenda de Nations League tomada de UEFA/ESPN y horas convertidas a Colombia (por confirmar). Se evitó la Liga Profesional (agenda poco fiable) y el amistoso Colombia-Perú.",
+  "partidos": [
+    {
+      "claves": [
+        "Fecha de Nations League A, martes 6 oct (7:45 p. m. en Londres).",
+        "Inglaterra local y favorita del grupo."
+      ],
+      "competencia": "Nations League A",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Inglaterra o empate"
+        },
+        {
+          "c": 1.38,
+          "m": "Gana Inglaterra"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Inglaterra vs Chequia"
+    },
+    {
+      "claves": [
+        "Croacia local a puerta cerrada, en Split.",
+        "España favorita visitante: solo doble oportunidad (regla 8)."
+      ],
+      "competencia": "Nations League A",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "España o empate"
+        },
+        {
+          "c": 1.35,
+          "m": "Menos de 3.5 goles"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Croacia vs España"
+    },
+    {
+      "claves": [
+        "Suiza local y claramente superior."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.06,
+          "m": "Suiza o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Gana Suiza"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Suiza vs Macedonia del Norte"
+    },
+    {
+      "claves": [
+        "Escocia local; partido más parejo, por eso cuota mayor."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Escocia o empate"
+        },
+        {
+          "c": 1.85,
+          "m": "Gana Escocia"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Escocia vs Eslovenia"
+    },
+    {
+      "claves": [
+        "San Marino es el rival más débil de la fecha; Albania local."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.04,
+          "m": "Gana Albania"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Albania vs San Marino"
+    },
+    {
+      "claves": [
+        "Eslovaquia favorita visitante: doble oportunidad."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Eslovaquia o empate"
+        },
+        {
+          "c": 1.45,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Moldavia vs Eslovaquia"
+    },
+    {
+      "claves": [
+        "Finlandia algo superior en campo neutral."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Finlandia o empate"
+        },
+        {
+          "c": 1.65,
+          "m": "Gana Finlandia"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Bielorrusia vs Finlandia"
+    },
+    {
+      "claves": [
+        "Partido parejo y de pocos goles; sin gran información."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Bulgaria o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Menos de 3.5 goles"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Luxemburgo vs Bulgaria"
+    },
+    {
+      "claves": [
+        "Islandia favorita visitante: doble oportunidad."
+      ],
+      "competencia": "Nations League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Islandia o empate"
+        }
+      ],
+      "estadio": "Estadio por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea7079900a-801b2c5f6c9e-1000--2026-27-uefa-nations-league-league-phase-fixtures-by-team/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Estonia vs Islandia"
+    }
+  ]
+}

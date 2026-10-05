@@ -1,0 +1,418 @@
+{
+  "combinadas": [
+    {
+      "cuota": 2.1,
+      "estado": "pendiente",
+      "nivel": "segura",
+      "prob": 0.52,
+      "razon": "Solo doble oportunidad, cuotas hasta 1.25; visitante favorito (Rosario Central) cubierto con empate (reglas 5 y 8).",
+      "selecciones": [
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.2,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Francia o empate",
+          "partido": "Francia vs Bélgica"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.15,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "4:00 p. m.",
+          "mercado": "Vélez o empate",
+          "partido": "Vélez vs Platense"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.14,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "4:00 p. m.",
+          "mercado": "Estudiantes o empate",
+          "partido": "Estudiantes de La Plata vs Gimnasia de Mendoza"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.07,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Italia o empate",
+          "partido": "Italia vs Turquía"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:15 p. m.",
+          "mercado": "Rosario Central o empate",
+          "partido": "Banfield vs Rosario Central"
+        }
+      ],
+      "titulo": "Doble oportunidad: Francia, Italia y Argentina"
+    },
+    {
+      "cuota": 4.12,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.26,
+      "razon": "Cuotas hasta 1.30 y mercados distintos a la segura (regla 1). Suecia y Polonia cubiertos con empate.",
+      "selecciones": [
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Italia",
+          "partido": "Italia vs Turquía"
+        },
+        {
+          "competencia": "Nations League A",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Francia vs Bélgica"
+        },
+        {
+          "competencia": "Liga BetPlay 2026-II",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "7:00 p. m.",
+          "mercado": "Medellín o empate",
+          "partido": "Independiente Medellín vs Santa Fe"
+        },
+        {
+          "competencia": "Nations League B",
+          "cuota": 1.2,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Suecia o empate",
+          "partido": "Rumania vs Suecia"
+        },
+        {
+          "competencia": "Nations League B",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Polonia o empate",
+          "partido": "Bosnia y Herzegovina vs Polonia"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:15 p. m.",
+          "mercado": "Menos de 3.5 goles",
+          "partido": "Banfield vs Rosario Central"
+        }
+      ],
+      "titulo": "Italia y Francia con goles, doble oportunidad en B y Medellín"
+    },
+    {
+      "cuota": 9.43,
+      "estado": "pendiente",
+      "nivel": "arriesgada",
+      "prob": 0.09,
+      "razon": "Victorias locales de cuota 1.70-1.95 solo aquí (regla 5); Riestra y Hungría cubiertos con empate.",
+      "selecciones": [
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.75,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "4:00 p. m.",
+          "mercado": "Gana Vélez",
+          "partido": "Vélez vs Platense"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.7,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "4:00 p. m.",
+          "mercado": "Gana Estudiantes",
+          "partido": "Estudiantes de La Plata vs Gimnasia de Mendoza"
+        },
+        {
+          "competencia": "Liga BetPlay 2026-II",
+          "cuota": 1.95,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "7:00 p. m.",
+          "mercado": "Gana Medellín",
+          "partido": "Independiente Medellín vs Santa Fe"
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Riestra o empate",
+          "partido": "Deportivo Riestra vs Central Córdoba"
+        },
+        {
+          "competencia": "Nations League B",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Hungría o empate",
+          "partido": "Ucrania vs Hungría"
+        }
+      ],
+      "titulo": "Vélez, Estudiantes y Medellín ganan"
+    }
+  ],
+  "fecha": "2026-10-05",
+  "nota": "Cuotas todas estimadas (no Stake). Horas convertidas a Colombia y por confirmar; horarios de Argentina y Nations League B tomados de agendas parciales. Lunes de fecha FIFA con agenda corta.",
+  "partidos": [
+    {
+      "claves": [
+        "Jornada 4 en el Stade de France.",
+        "Francia lidera con 7 puntos; ganó 0-1 en Bruselas."
+      ],
+      "competencia": "Nations League A",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Francia o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://es.uefa.com/uefanationsleague/news/02aa-21bddf5fc56f-e45ef66939bf-1000--previa-de-la-jornada-4-de-la-uefa-nations-league-jugadore/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Francia vs Bélgica"
+    },
+    {
+      "claves": [
+        "Turquía tiene 0 puntos y 3 derrotas seguidas.",
+        "Italia empató 1-1 con Francia."
+      ],
+      "competencia": "Nations League A",
+      "cuotas": [
+        {
+          "c": 1.07,
+          "m": "Italia o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Gana Italia"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://es.uefa.com/uefanationsleague/news/02aa-21bddf5fc56f-e45ef66939bf-1000--previa-de-la-jornada-4-de-la-uefa-nations-league-jugadore/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Italia vs Turquía"
+    },
+    {
+      "claves": [
+        "Jornada 4 de Nations League B."
+      ],
+      "competencia": "Nations League B",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Suecia o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://es.uefa.com/uefanationsleague/news/02aa-21bddf5fc56f-e45ef66939bf-1000--previa-de-la-jornada-4-de-la-uefa-nations-league-jugadore/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Rumania vs Suecia"
+    },
+    {
+      "claves": [
+        "Jornada 4 de Nations League B."
+      ],
+      "competencia": "Nations League B",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Polonia o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://es.uefa.com/uefanationsleague/news/02aa-21bddf5fc56f-e45ef66939bf-1000--previa-de-la-jornada-4-de-la-uefa-nations-league-jugadore/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Bosnia y Herzegovina vs Polonia"
+    },
+    {
+      "claves": [
+        "Jornada 4 de Nations League B."
+      ],
+      "competencia": "Nations League B",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Hungría o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "UEFA",
+          "url": "https://es.uefa.com/uefanationsleague/news/02aa-21bddf5fc56f-e45ef66939bf-1000--previa-de-la-jornada-4-de-la-uefa-nations-league-jugadore/"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Ucrania vs Hungría"
+    },
+    {
+      "claves": [
+        "Fecha 11 del Clausura, lunes."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.15,
+          "m": "Vélez o empate"
+        },
+        {
+          "c": 1.75,
+          "m": "Gana Vélez"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/velez-sarsfield-vs-platense-por-el-torneo-clausura-2026-dia-hora-y-como-ver-online-nid04102026/"
+        }
+      ],
+      "hora": "4:00 p. m.",
+      "partido": "Vélez vs Platense"
+    },
+    {
+      "claves": [
+        "Fecha 11 del Clausura, lunes."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.14,
+          "m": "Estudiantes o empate"
+        },
+        {
+          "c": 1.7,
+          "m": "Gana Estudiantes"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "Masterbets",
+          "url": "https://blog.masterbets365.com/estudiantes-de-la-plata-vs-gimnasia-mendoza-pronsotico-liga-profesional-apuestas-jornada-11-apuestas-clausura-2026-previa-juego-de-futbol-cuotas/"
+        }
+      ],
+      "hora": "4:00 p. m.",
+      "partido": "Estudiantes de La Plata vs Gimnasia de Mendoza"
+    },
+    {
+      "claves": [
+        "Fecha 11 del Clausura, lunes."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Rosario Central o empate"
+        },
+        {
+          "c": 1.25,
+          "m": "Menos de 3.5 goles"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/banfield-vs-rosario-central-por-el-torneo-clausura-2026-dia-hora-y-como-ver-online-nid04102026/"
+        }
+      ],
+      "hora": "6:15 p. m.",
+      "partido": "Banfield vs Rosario Central"
+    },
+    {
+      "claves": [
+        "Fecha 11 del Clausura, lunes."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Riestra o empate"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "Somos Jujuy",
+          "url": "https://www.somosjujuy.com.ar/deportes/asi-continua-fecha-11-apertura-2026-fixture-resultados-liga-profesional-argentina-n115065"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Deportivo Riestra vs Central Córdoba"
+    },
+    {
+      "claves": [
+        "Fecha 13, partido aplazado."
+      ],
+      "competencia": "Liga BetPlay 2026-II",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Medellín o empate"
+        },
+        {
+          "c": 1.95,
+          "m": "Gana Medellín"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "Futbolred",
+          "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/programacion-de-fecha-13-liga-betplay-ii-2026-partidos-horarios-y-como-ver-en-vivo-en-tv-colombia-273431"
+        }
+      ],
+      "hora": "7:00 p. m.",
+      "partido": "Independiente Medellín vs Santa Fe"
+    }
+  ]
+}

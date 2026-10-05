@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 2.08,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "segura",
       "prob": 0.43,
       "razon": "Aplica las reglas aprendidas: todas las selecciones de 1.20 o menos, y en los amistosos (Corea, Colombia) se cubre el empate. Eslovaquia va con victoria porque su cuota ya es muy baja ante Islas Feroe.",
@@ -10,54 +10,59 @@
         {
           "competencia": "Amistoso internacional",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:00 a. m.",
           "mercado": "Corea del Sur o empate",
-          "partido": "Corea del Sur vs Venezuela"
+          "partido": "Corea del Sur vs Venezuela",
+          "resultado": "0-0"
         },
         {
           "competencia": "Nations League C",
           "cuota": 1.17,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": false,
           "hora": "1:45 p. m.",
           "mercado": "Gana Eslovaquia",
-          "partido": "Islas Feroe vs Eslovaquia"
+          "partido": "Islas Feroe vs Eslovaquia",
+          "resultado": "1-1"
         },
         {
           "competencia": "Nations League A",
           "cuota": 1.12,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Francia o empate",
-          "partido": "Francia vs Italia"
+          "partido": "Francia vs Italia",
+          "resultado": "1-1"
         },
         {
           "competencia": "Amistoso internacional (Nueva Jersey)",
           "cuota": 1.15,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
-          "hora": "6:00 p. m.",
+          "hora": "7:00 p. m.",
           "mercado": "Colombia o empate",
-          "partido": "Colombia vs Paraguay"
+          "partido": "Colombia vs Paraguay",
+          "resultado": "0-1"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.15,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "7:45 p. m.",
           "mercado": "Cali o empate",
-          "partido": "Deportivo Cali vs Alianza Valledupar"
+          "partido": "Deportivo Cali vs Alianza Valledupar",
+          "resultado": "3-1"
         }
       ],
       "titulo": "Cinco favoritos con el empate cubierto"
     },
     {
       "cuota": 5,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "media",
       "prob": 0.16,
       "razon": "Seis selecciones, casi todas de gana o empata: Kazajistán en Astana, Montenegro (líder con puntaje perfecto) de visitante, Ucrania, Chipre en casa ante una Armenia que recibe muchos goles, Francia ganando en casa y goles en Corea, que viene de golear.",
@@ -65,63 +70,69 @@
         {
           "competencia": "Amistoso internacional",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "6:00 a. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Corea del Sur vs Venezuela"
+          "partido": "Corea del Sur vs Venezuela",
+          "resultado": "0-0"
         },
         {
           "competencia": "Nations League C",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "9:00 a. m.",
           "mercado": "Kazajistán o empate",
-          "partido": "Kazajistán vs Moldavia"
+          "partido": "Kazajistán vs Moldavia",
+          "resultado": "1-2"
         },
         {
           "competencia": "Nations League C",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:00 a. m.",
           "mercado": "Montenegro o empate",
-          "partido": "Letonia vs Montenegro"
+          "partido": "Letonia vs Montenegro",
+          "resultado": "1-2"
         },
         {
           "competencia": "Nations League C",
           "cuota": 1.4,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:00 a. m.",
           "mercado": "Chipre o empate",
-          "partido": "Chipre vs Armenia"
+          "partido": "Chipre vs Armenia",
+          "resultado": "2-0"
         },
         {
           "competencia": "Nations League A",
           "cuota": 1.44,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": false,
           "hora": "1:45 p. m.",
           "mercado": "Gana Francia",
-          "partido": "Francia vs Italia"
+          "partido": "Francia vs Italia",
+          "resultado": "1-1"
         },
         {
           "competencia": "Nations League B",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "Hora por confirmar",
           "mercado": "Ucrania o empate",
-          "partido": "Ucrania vs Irlanda del Norte"
+          "partido": "Ucrania vs Irlanda del Norte",
+          "resultado": "0-3"
         }
       ],
       "titulo": "Nations League de la mañana"
     },
     {
       "cuota": 10.6,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.07,
       "razon": "Aquí sí se pide la victoria a cinco favoritos. Paga más porque basta un empate para perder.",
@@ -129,47 +140,52 @@
         {
           "competencia": "Nations League C",
           "cuota": 1.7,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": false,
           "hora": "9:00 a. m.",
           "mercado": "Gana Kazajistán",
-          "partido": "Kazajistán vs Moldavia"
+          "partido": "Kazajistán vs Moldavia",
+          "resultado": "1-2"
         },
         {
           "competencia": "Nations League C",
           "cuota": 1.8,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": false,
           "hora": "11:00 a. m.",
           "mercado": "Gana Montenegro",
-          "partido": "Letonia vs Montenegro"
+          "partido": "Letonia vs Montenegro",
+          "resultado": "1-2"
         },
         {
           "competencia": "Nations League C",
           "cuota": 1.17,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": false,
           "hora": "1:45 p. m.",
           "mercado": "Gana Eslovaquia",
-          "partido": "Islas Feroe vs Eslovaquia"
+          "partido": "Islas Feroe vs Eslovaquia",
+          "resultado": "1-1"
         },
         {
           "competencia": "Nations League B",
           "cuota": 1.85,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": false,
           "hora": "Hora por confirmar",
           "mercado": "Gana Ucrania",
-          "partido": "Ucrania vs Irlanda del Norte"
+          "partido": "Ucrania vs Irlanda del Norte",
+          "resultado": "0-3"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.6,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "7:45 p. m.",
           "mercado": "Gana Cali",
-          "partido": "Deportivo Cali vs Alianza Valledupar"
+          "partido": "Deportivo Cali vs Alianza Valledupar",
+          "resultado": "3-1"
         }
       ],
       "titulo": "Cinco favoritos a ganar"
@@ -390,7 +406,8 @@
     {
       "claves": [
         "Colombia empató 1-1 con México en su primer amistoso tras el Mundial.",
-        "Paraguay viene de ganarle 2-0 a Bolivia."
+        "Paraguay viene de ganarle 2-0 a Bolivia.",
+        "Aviso 2 oct: Lorenzo rota 5 fichas (sin James, Quintero ni Luis Díaz); se mantiene la doble oportunidad."
       ],
       "competencia": "Amistoso internacional (Nueva Jersey)",
       "cuotas": [
@@ -406,7 +423,7 @@
           "url": "https://gainblers.com/cl/pronosticos/futbol/internacional/amistosos/pronostico-colombia-paraguay-03-10-2026/"
         }
       ],
-      "hora": "6:00 p. m.",
+      "hora": "7:00 p. m.",
       "partido": "Colombia vs Paraguay"
     },
     {

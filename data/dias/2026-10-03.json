@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 2.14,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "segura",
       "prob": 0.38,
       "razon": "Locales muy favoritos (España, Suiza, Bielorrusia) más doble oportunidad en Tolima e Inglaterra visitante (regla 8). Todas hasta 1.40 (regla 5).",
@@ -10,54 +10,59 @@
         {
           "competencia": "Nations League",
           "cuota": 1.07,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana España",
-          "partido": "España vs Chequia"
+          "partido": "España vs Chequia",
+          "resultado": "3-1"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.33,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana Suiza",
-          "partido": "Suiza vs Eslovenia"
+          "partido": "Suiza vs Eslovenia",
+          "resultado": "2-1"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.1,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:00 a. m.",
           "mercado": "Gana Bielorrusia",
-          "partido": "Bielorrusia vs San Marino"
+          "partido": "Bielorrusia vs San Marino",
+          "resultado": "4-0"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.12,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "4:05 p. m.",
           "mercado": "Tolima o empate",
-          "partido": "Deportes Tolima vs Boyacá Chicó"
+          "partido": "Deportes Tolima vs Boyacá Chicó",
+          "resultado": "0-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "10:00 a. m.",
           "mercado": "Inglaterra o empate",
-          "partido": "Croacia vs Inglaterra"
+          "partido": "Croacia vs Inglaterra",
+          "resultado": "0-7"
         }
       ],
       "titulo": "Favoritos de Nations League y Tolima"
     },
     {
       "cuota": 5.49,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "media",
       "prob": 0.13,
       "razon": "Seis dobles oportunidades y Suiza, que ganó sus dos partidos 3-0. Escocia visitante solo con empate cubierto (regla 8).",
@@ -65,72 +70,79 @@
         {
           "competencia": "Nations League",
           "cuota": 1.1,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:00 a. m.",
           "mercado": "Islandia o empate",
-          "partido": "Islandia vs Bulgaria"
+          "partido": "Islandia vs Bulgaria",
+          "resultado": "3-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.15,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Escocia o empate",
-          "partido": "Macedonia del Norte vs Escocia"
+          "partido": "Macedonia del Norte vs Escocia",
+          "resultado": "0-2"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Rionegro o empate",
-          "partido": "Rionegro Águilas vs Jaguares de Córdoba"
+          "partido": "Rionegro Águilas vs Jaguares de Córdoba",
+          "resultado": "2-0"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.35,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "5:00 p. m.",
           "mercado": "Tucumán o empate",
-          "partido": "Atlético Tucumán vs Barracas Central"
+          "partido": "Atlético Tucumán vs Barracas Central",
+          "resultado": "2-3"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.4,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "5:00 p. m.",
           "mercado": "Newell's o empate",
-          "partido": "Newell's Old Boys vs Lanús"
+          "partido": "Newell's Old Boys vs Lanús",
+          "resultado": "0-0"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.38,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:45 p. m.",
           "mercado": "Defensa y Justicia o empate",
-          "partido": "Defensa y Justicia vs San Lorenzo"
+          "partido": "Defensa y Justicia vs San Lorenzo",
+          "resultado": "3-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.33,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana Suiza",
-          "partido": "Suiza vs Eslovenia"
+          "partido": "Suiza vs Eslovenia",
+          "resultado": "2-1"
         }
       ],
       "titulo": "Doble oportunidad en dos continentes"
     },
     {
       "cuota": 9.25,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.07,
       "razon": "Victorias de España, Islandia, Tolima y Rionegro; menos de 2.5 en un partido con dos equipos que no anotan, y más de 1.5 en Croacia-Inglaterra (no se usa más de 2.5, regla 7).",
@@ -138,56 +150,62 @@
         {
           "competencia": "Nations League",
           "cuota": 1.07,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana España",
-          "partido": "España vs Chequia"
+          "partido": "España vs Chequia",
+          "resultado": "3-1"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.4,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:00 a. m.",
           "mercado": "Gana Islandia",
-          "partido": "Islandia vs Bulgaria"
+          "partido": "Islandia vs Bulgaria",
+          "resultado": "3-0"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.5,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "4:05 p. m.",
           "mercado": "Gana Tolima",
-          "partido": "Deportes Tolima vs Boyacá Chicó"
+          "partido": "Deportes Tolima vs Boyacá Chicó",
+          "resultado": "0-0"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.95,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Gana Rionegro",
-          "partido": "Rionegro Águilas vs Jaguares de Córdoba"
+          "partido": "Rionegro Águilas vs Jaguares de Córdoba",
+          "resultado": "2-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.65,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Menos de 2.5 goles",
-          "partido": "Macedonia del Norte vs Escocia"
+          "partido": "Macedonia del Norte vs Escocia",
+          "resultado": "0-2"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.28,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "10:00 a. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Croacia vs Inglaterra"
+          "partido": "Croacia vs Inglaterra",
+          "resultado": "0-7"
         }
       ],
       "titulo": "Locales ganan y goles medidos"
