@@ -25,6 +25,7 @@ App personal de combinadas de fútbol del usuario (Colombia, hora America/Bogota
 - Nunca segunda división o inferiores. Siempre las tres combinadas: si no todo cumple las reglas, usa lo que más reglas cumpla y dilo en la nota.
 - Solo combinadas. Segura ~2 (3-5 selecciones), media ~4 (4-5), arriesgada ~10 (5-9). Muchas selecciones de cuota baja: gana el favorito, doble oportunidad, más de 1.5 goles. Nada de goleadas exactas ni "crear apuesta" dentro de un mismo partido.
 - **Aplica siempre las `reglas` de `data/meta/aprendizaje.json`. Antes de guardar, repasa cada selección contra cada regla.**
+- En cada selección pon `"reglas_rotas"`: lista con los números de las reglas que rompe (`[]` si las cumple todas). La app marca con un sello las combinadas que cumplen todas; prioriza armarlas así y dilo en el resumen.
 - Cuotas: intenta Stake; stake.com está bloqueado en este entorno, así que usa la cuota pública, pon `"estimada": true` cuando no la viste en una fuente y avisa en la nota. Cuota total = producto, 2 decimales. `prob` = probabilidad honesta (0-1).
 - Semanal: 8-12 selecciones de 1.10-1.35, cuota total 8-20, de lunes a domingo, un partido por selección; `dia` como "sáb 10 oct".
 - Formato: copia la estructura de `data/dias/2026-10-02.json` y `data/semanas/2026-09-28.json`. Por partido: 2-4 claves y 1-2 fuentes. Horas en hora de Colombia ("7:00 p. m.").

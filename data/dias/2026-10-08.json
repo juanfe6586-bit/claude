@@ -14,7 +14,8 @@
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Shamrock Rovers o empate",
-          "partido": "Shamrock Rovers vs Drogheda United"
+          "partido": "Shamrock Rovers vs Drogheda United",
+          "reglas_rotas": []
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -23,7 +24,10 @@
           "estimada": true,
           "hora": "6:30 p. m.",
           "mercado": "Fluminense o empate",
-          "partido": "Fluminense vs Coritiba"
+          "partido": "Fluminense vs Coritiba",
+          "reglas_rotas": [
+            3
+          ]
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -32,7 +36,10 @@
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Flamengo o empate",
-          "partido": "Santos vs Flamengo"
+          "partido": "Santos vs Flamengo",
+          "reglas_rotas": [
+            3
+          ]
         },
         {
           "competencia": "Liga 1 Perú",
@@ -41,7 +48,10 @@
           "estimada": true,
           "hora": "3:30 p. m.",
           "mercado": "Atlético Grau o empate",
-          "partido": "Atlético Grau vs Los Chankas"
+          "partido": "Atlético Grau vs Los Chankas",
+          "reglas_rotas": [
+            3
+          ]
         }
       ],
       "titulo": "Dobles oportunidades en cuatro ligas"
@@ -60,7 +70,8 @@
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Shamrock Rovers vs Drogheda United"
+          "partido": "Shamrock Rovers vs Drogheda United",
+          "reglas_rotas": []
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -69,7 +80,10 @@
           "estimada": true,
           "hora": "6:30 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Fluminense vs Coritiba"
+          "partido": "Fluminense vs Coritiba",
+          "reglas_rotas": [
+            3
+          ]
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -78,7 +92,10 @@
           "estimada": true,
           "hora": "6:30 p. m.",
           "mercado": "Palmeiras o empate",
-          "partido": "Palmeiras vs Bahia"
+          "partido": "Palmeiras vs Bahia",
+          "reglas_rotas": [
+            3
+          ]
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -87,7 +104,10 @@
           "estimada": true,
           "hora": "Por confirmar",
           "mercado": "Athletico-PR o empate",
-          "partido": "Athletico-PR vs Atlético-MG"
+          "partido": "Athletico-PR vs Atlético-MG",
+          "reglas_rotas": [
+            3
+          ]
         },
         {
           "competencia": "Liga 1 Perú",
@@ -96,7 +116,10 @@
           "estimada": true,
           "hora": "1:00 p. m.",
           "mercado": "Cienciano o empate",
-          "partido": "Deportivo Moquegua vs Cienciano"
+          "partido": "Deportivo Moquegua vs Cienciano",
+          "reglas_rotas": [
+            3
+          ]
         }
       ],
       "titulo": "Goles y empate cubierto"
@@ -115,7 +138,12 @@
           "estimada": true,
           "hora": "6:30 p. m.",
           "mercado": "Gana Palmeiras",
-          "partido": "Palmeiras vs Bahia"
+          "partido": "Palmeiras vs Bahia",
+          "reglas_rotas": [
+            3,
+            5,
+            6
+          ]
         },
         {
           "competencia": "Liga 1 Perú",
@@ -124,7 +152,12 @@
           "estimada": true,
           "hora": "3:30 p. m.",
           "mercado": "Gana Atlético Grau",
-          "partido": "Atlético Grau vs Los Chankas"
+          "partido": "Atlético Grau vs Los Chankas",
+          "reglas_rotas": [
+            3,
+            4,
+            5
+          ]
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -133,7 +166,10 @@
           "estimada": true,
           "hora": "Por confirmar",
           "mercado": "Menos de 3.5 goles",
-          "partido": "Athletico-PR vs Atlético-MG"
+          "partido": "Athletico-PR vs Atlético-MG",
+          "reglas_rotas": [
+            3
+          ]
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -142,7 +178,10 @@
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Menos de 3.5 goles",
-          "partido": "Santos vs Flamengo"
+          "partido": "Santos vs Flamengo",
+          "reglas_rotas": [
+            3
+          ]
         },
         {
           "competencia": "Liga 1 Perú",
@@ -151,7 +190,10 @@
           "estimada": true,
           "hora": "1:00 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Deportivo Moquegua vs Cienciano"
+          "partido": "Deportivo Moquegua vs Cienciano",
+          "reglas_rotas": [
+            3
+          ]
         }
       ],
       "titulo": "Palmeiras y Grau ganan"

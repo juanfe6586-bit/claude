@@ -20,6 +20,8 @@
   --orange-soft: rgba(255, 149, 0, 0.14);
   --red-soft: rgba(255, 59, 48, 0.12);
   --gold-soft: rgba(255, 204, 0, 0.18);
+  --seal: #5856d6;
+  --seal-soft: rgba(88, 86, 214, 0.14);
   --chrome: rgba(249, 249, 249, 0.72);
   --chrome-edge: rgba(0, 0, 0, 0.12);
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
@@ -34,6 +36,7 @@
     --label: #ffffff; --label-2: rgba(235, 235, 245, 0.6); --label-3: rgba(235, 235, 245, 0.3); --sep: rgba(84, 84, 88, 0.6);
     --blue: #0a84ff; --green: #30d158; --orange: #ff9f0a; --red: #ff453a; --gold: #ffd60a;
     --green-soft: rgba(48, 209, 88, 0.18); --orange-soft: rgba(255, 159, 10, 0.18); --red-soft: rgba(255, 69, 58, 0.18); --gold-soft: rgba(255, 214, 10, 0.16);
+    --seal: #5e5ce6; --seal-soft: rgba(94, 92, 230, 0.22);
     --chrome: rgba(22, 22, 24, 0.72); --chrome-edge: rgba(255, 255, 255, 0.1); --shadow: none;
     color-scheme: dark;
   }
@@ -43,6 +46,7 @@
   --label: #ffffff; --label-2: rgba(235, 235, 245, 0.6); --label-3: rgba(235, 235, 245, 0.3); --sep: rgba(84, 84, 88, 0.6);
   --blue: #0a84ff; --green: #30d158; --orange: #ff9f0a; --red: #ff453a; --gold: #ffd60a;
   --green-soft: rgba(48, 209, 88, 0.18); --orange-soft: rgba(255, 159, 10, 0.18); --red-soft: rgba(255, 69, 58, 0.18); --gold-soft: rgba(255, 214, 10, 0.16);
+    --seal: #5e5ce6; --seal-soft: rgba(94, 92, 230, 0.22);
   --chrome: rgba(22, 22, 24, 0.72); --chrome-edge: rgba(255, 255, 255, 0.1); --shadow: none;
   color-scheme: dark;
 }
@@ -119,6 +123,14 @@ button { cursor: pointer; border: 0; background: none; touch-action: manipulatio
 .combo[data-nivel="media"] { --tone: var(--orange); --tone-soft: var(--orange-soft); }
 .combo[data-nivel="arriesgada"] { --tone: var(--red); --tone-soft: var(--red-soft); }
 .combo[data-nivel="semanal"] { --tone: var(--gold); --tone-soft: var(--gold-soft); }
+.combo[data-cumple="si"] { box-shadow: 0 0 0 2.5px var(--seal), var(--shadow); }
+.seal { display: flex; align-items: center; gap: 8px; padding: 9px 16px; background: var(--seal); color: #fff; font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.01em; }
+.seal svg { flex: none; }
+.leg-rule { display: inline-block; margin-top: 4px; padding: 1px 7px; border-radius: 6px; background: var(--fill); color: var(--label-2); font-size: 0.6875rem; font-weight: 500; }
+.leg-rule[data-ok] { background: var(--seal-soft); color: var(--seal); }
+.rotas { margin: 0; font-size: 0.8125rem; color: var(--label-2); }
+.rotas b { color: var(--label); font-weight: 600; }
+.seg button[data-cumple="si"]::after { content: ""; display: inline-block; width: 7px; height: 7px; margin-left: 5px; border-radius: 50%; background: var(--seal); vertical-align: 1px; }
 .combo-head { padding: 16px 16px 14px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: end; }
 .combo-kicker { display: inline-flex; align-items: center; gap: 6px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; color: var(--tone); }
 .combo-kicker::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--tone); }
@@ -321,7 +333,7 @@ button { cursor: pointer; border: 0; background: none; touch-action: manipulatio
 <script>
 const NIVELES = [
   { key: "segura", nombre: "Segura", objetivo: 2 },
-  { key: "media", nombre: "Media", objetivo: 5 },
+  { key: "media", nombre: "Media", objetivo: 4 },
   { key: "arriesgada", nombre: "Arriesgada", objetivo: 10 },
 ];
 const ESTADOS = { pendiente: "Pendiente", ganada: "Ganada", perdida: "Perdida", nula: "Nula" };
@@ -363,6 +375,17 @@ $("monto").addEventListener("input", () => {
 $("monto").addEventListener("blur", () => { $("monto").value = monto().toLocaleString("es-CO"); });
 
 /* Componentes */
+// null: el día no trae la revisión de reglas; true/false: cumple o no todas.
+function cumpleTodas(c) {
+  const sel = c.selecciones || [];
+  if (!sel.length || sel.some((x) => !Array.isArray(x.reglas_rotas))) return null;
+  return sel.every((x) => x.reglas_rotas.length === 0);
+}
+function listaReglas(ns) {
+  const u = [...new Set(ns)].sort((a, b) => a - b);
+  return u.length === 1 ? `la regla ${u[0]}` : `las reglas ${u.slice(0, -1).join(", ")} y ${u[u.length - 1]}`;
+}
+const SELLO = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.4 1.8 3-.1.9 2.8 2.4 1.8-.9 2.8.9 2.8-2.4 1.8-.9 2.8-3-.1L12 21.5l-2.4-1.8-3 .1-.9-2.8-2.4-1.8.9-2.8-.9-2.8 2.4-1.8.9-2.8 3 .1z"/><path d="M8.5 12.2l2.3 2.3 4.7-4.8"/></svg>';
 function legHTML(s, semanal) {
   const hora = esc(s.hora).replace(/ /g, "&nbsp;");
   const cuando = semanal ? `<b>${esc(s.dia)}</b> · ${hora}` : hora;
@@ -371,6 +394,7 @@ function legHTML(s, semanal) {
     <div class="leg-main">
       <div class="leg-market">${esc(s.mercado)}</div>
       <div class="leg-match">${esc(s.partido)} · ${cuando}${s.resultado ? ` · <b>${esc(s.resultado)}</b>` : ""}</div>
+      ${Array.isArray(s.reglas_rotas) ? (s.reglas_rotas.length ? `<span class="leg-rule">Rompe ${listaReglas(s.reglas_rotas)}</span>` : `<span class="leg-rule" data-ok>Cumple todas</span>`) : ""}
     </div>
     <div class="leg-odd"><b${s.estimada ? ' class="est"' : ""}>${fmtCuota(s.cuota)}</b><small>${s.estimada ? "estimada" : "cuota"}</small></div>
   </li>`;
@@ -380,7 +404,10 @@ function comboHTML(c, nivel, kicker, semanal) {
   const prob = Math.round((c.prob || 0) * 100);
   const impl = c.cuota ? Math.round(100 / c.cuota) : 0;
   const estado = c.estado || "pendiente";
-  return `<article class="combo" data-nivel="${nivel}">
+  const ok = cumpleTodas(c);
+  const rotas = ok === false ? (c.selecciones || []).flatMap((x) => x.reglas_rotas) : [];
+  return `<article class="combo" data-nivel="${nivel}"${ok ? ' data-cumple="si"' : ""}>
+    ${ok ? `<div class="seal">${SELLO}Cumple todas las reglas</div>` : ""}
     <div class="combo-head">
       <span class="combo-kicker">${esc(kicker)}</span>
       <div class="odds-big"><small>Cuota total</small><b>${fmtCuota(c.cuota)}</b></div>
@@ -395,6 +422,7 @@ function comboHTML(c, nivel, kicker, semanal) {
       <div class="meter" style="margin-top:-6px"><span>Implícita en la cuota</span><span class="num">${impl}%</span></div>
       <div class="payout"><span>Cobrarías</span><b data-cuota="${c.cuota}">${fmtPesos(monto() * c.cuota)}</b></div>
       <p class="why">${esc(c.razon)}</p>
+      ${ok === false ? `<p class="rotas">No cumple todas: rompe <b>${listaReglas(rotas)}</b>.</p>` : ""}
       <span class="pill" data-e="${esc(estado)}">${iconoEstado(estado).replace("<svg", '<svg width="11" height="11"')}${esc(ESTADOS[estado] || "Pendiente")}</span>
     </div>
   </article>`;
@@ -422,6 +450,10 @@ function renderDia() {
     return c ? comboHTML(c, n.key, `${n.nombre} · objetivo ×${n.objetivo}`, false) : "";
   }).join("");
   $("tickets").innerHTML = html || `<div class="empty">Este día no tiene combinadas.</div>`;
+  $("seg").querySelectorAll("button").forEach((b, j) => {
+    const c = (d.combinadas || []).find((x) => x.nivel === NIVELES[j].key);
+    if (c && cumpleTodas(c)) b.dataset.cumple = "si"; else delete b.dataset.cumple;
+  });
   $("tickets").scrollLeft = 0;
   setNivel(0, false);
 
