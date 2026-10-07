@@ -1,7 +1,7 @@
 {
   "actualizado": "2026-10-07",
   "historial": [
-    "7 oct 2026: reglas 12 a 14. Revisión de todo: seguras 4/7 (4 seguidas), medias 0/7, arriesgadas 0/7. Doble oportunidad 44/51; Gana el favorito 20/36; cuotas de 1.35-1.59 12/20.",
+    "7 oct 2026: reglas 12 a 15. Revisión de todo: seguras 4/7 (4 seguidas), medias 0/7, arriesgadas 0/7. Doble oportunidad 44/51; Gana el favorito 20/36; cuotas de 1.35-1.59 12/20.",
     "7 oct 2026: verificados los 17 partidos pendientes del 5 y 6 oct (la rutina del 6 oct solo pudo marcar 2). Seguras del 5 y 6 ganadas; medias y arriesgadas cayeron por Medellín 0-1 Santa Fe y Escocia 1-2 Eslovenia; la semanal cayó por ambos.",
     "4 oct 2026: regla 10. Del 3 oct: Argentina 7-0, España, Inglaterra 0-7 en Croacia, Escocia, Islandia, Suiza y Defensa acertaron; fallaron Tucumán 2-3 Barracas (gol en el 90+) y Gana Tolima (0-0).",
     "2 oct 2026: regla 9. Se rehízo la combinada del 3 oct con Nations League.",
@@ -93,12 +93,16 @@
       "origen": "6 oct: la arriesgada llevó Gana Finlandia de visitante (rompe la regla 8) y Gana Escocia en mala racha (rompe la regla 2); las dos fallaron."
     },
     {
-      "texto": "Partidos parejos fuera, ni siquiera con doble oportunidad: rival en la mitad alta o a pocos puntos, o favorito con cuota de 1.80 o más.",
+      "texto": "Partidos parejos fuera, ni siquiera con doble oportunidad: rival en la mitad alta de la tabla o a pocos puntos. Y la victoria simple de un favorito que paga 1.80 o más no entra en ninguna combinada.",
       "origen": "5-6 oct: Medellín (7.º) 0-1 Santa Fe (5.º) y Escocia 1-2 Eslovenia (2.ª del grupo) tumbaron medias, arriesgadas y la semanal."
     },
     {
       "texto": "Media: máximo 5 selecciones, todas de 1.35 o menos (cuota objetivo 3.5-4.5).",
       "origen": "Hasta el 6 oct la media va 0 de 7 y siempre cayó por una sola selección: con 6-7 selecciones al 80 % la probabilidad baja a ~20 %."
+    },
+    {
+      "texto": "Si después de aplicar las reglas no quedan partidos suficientes, arma menos combinadas (o ninguna) en vez de forzar selecciones que rompan reglas.",
+      "origen": "7 oct: el 8 oct solo tenía 4 partidos de Brasileirão; dos eran parejos y las victorias pagaban 1.90-2.15."
     }
   ],
   "vigilar": [

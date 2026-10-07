@@ -1,11 +1,11 @@
 {
   "combinadas": [
     {
-      "cuota": 1.91,
+      "cuota": 1.68,
       "estado": "pendiente",
       "nivel": "segura",
-      "prob": 0.52,
-      "razon": "Tres locales fuertes (Palmeiras 2.º, Athletico 3.º, Fluminense 4.º) solo con doble oportunidad.",
+      "prob": 0.56,
+      "razon": "Solo dos partidos pasan las reglas: Fluminense (4.º) ante Coritiba (9.º, sin ganar en 3) y Flamengo líder de visita con empate cubierto (regla 4).",
       "selecciones": [
         {
           "competencia": "Brasileirão Serie A",
@@ -18,117 +18,19 @@
         },
         {
           "competencia": "Brasileirão Serie A",
-          "cuota": 1.25,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "6:30 p. m.",
-          "mercado": "Palmeiras o empate",
-          "partido": "Palmeiras vs Bahia"
-        },
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.25,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "Por confirmar",
-          "mercado": "Athletico-PR o empate",
-          "partido": "Athletico-PR vs Atlético-MG"
-        }
-      ]
-    },
-    {
-      "cuota": 2.8,
-      "estado": "pendiente",
-      "nivel": "media",
-      "prob": 0.34,
-      "razon": "Mezcla de goles y doble oportunidad al líder visitante (regla 8: visitante favorito, doble oportunidad).",
-      "selecciones": [
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.28,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "6:30 p. m.",
-          "mercado": "Más de 1.5 goles",
-          "partido": "Palmeiras vs Bahia"
-        },
-        {
-          "competencia": "Brasileirão Serie A",
           "cuota": 1.38,
           "estado": "pendiente",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Flamengo o empate",
           "partido": "Santos vs Flamengo"
-        },
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.3,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "6:30 p. m.",
-          "mercado": "Más de 1.5 goles",
-          "partido": "Fluminense vs Coritiba"
-        },
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.22,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "Por confirmar",
-          "mercado": "Menos de 3.5 goles",
-          "partido": "Athletico-PR vs Atlético-MG"
         }
-      ]
-    },
-    {
-      "cuota": 9.56,
-      "estado": "pendiente",
-      "nivel": "arriesgada",
-      "prob": 0.1,
-      "razon": "Tres locales ganando; el modelo les da 45-49% a cada uno.",
-      "selecciones": [
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.95,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "6:30 p. m.",
-          "mercado": "Gana Palmeiras",
-          "partido": "Palmeiras vs Bahia"
-        },
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.9,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "6:30 p. m.",
-          "mercado": "Gana Fluminense",
-          "partido": "Fluminense vs Coritiba"
-        },
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 2.15,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "Por confirmar",
-          "mercado": "Gana Athletico-PR",
-          "partido": "Athletico-PR vs Atlético-MG"
-        },
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.2,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "7:30 p. m.",
-          "mercado": "Menos de 3.5 goles",
-          "partido": "Santos vs Flamengo"
-        }
-      ]
+      ],
+      "titulo": "Día flojo: solo lo que pasa las reglas"
     }
   ],
   "fecha": "2026-10-08",
-  "nota": "Cuotas todas estimadas (no Stake). Día flojo: solo 4 partidos de Brasileirão (jueves, fecha 29); horas convertidas de Brasilia y la de Athletico-PR por confirmar. Con 4 partidos la regla 1 no es cumplible: Palmeiras, Fluminense y Athletico están en las tres combinadas con mercados distintos. Sin Nations League ni Europa ese día.",
+  "nota": "Rehecha el 7 oct con las reglas 12 a 14. Día flojo: solo 4 partidos de Brasileirão. Palmeiras (2.º) vs Bahia (5.º) y Athletico-PR (3.º) vs Atlético-MG (7.º) son partidos parejos (regla 13), y las victorias simples pagaban 1.90 o más. Con dos partidos válidos no se puede armar media ni arriesgada sin romper reglas: hoy no hay. La segura lleva 2 selecciones, menos de las 3 habituales. Cuotas estimadas (no Stake); confírmalas.",
   "partidos": [
     {
       "claves": [
