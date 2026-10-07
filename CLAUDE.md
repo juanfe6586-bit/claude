@@ -21,7 +21,8 @@ App personal de combinadas de fútbol del usuario (Colombia, hora America/Bogota
 
 ## Cómo armar las combinadas
 
-- Ligas: Europa top (Champions, Europa/Conference, Premier, LaLiga, Serie A, Bundesliga, Ligue 1) y Latinoamérica (BetPlay, Liga MX, Argentina, Brasil, Libertadores, Sudamericana). En días flojos: Portugal, Holanda, Turquía, inferiores inglesas, MLS, Ecuador, Chile, Perú. **En fecha FIFA**: revisa también Nations League y eliminatorias de ese día y úsalos; evita los amistosos (la fecha FIFA dura varios días; confirma el calendario, no supongas que ya terminó).
+- Ligas: Europa top (Champions, Europa/Conference, Premier, LaLiga, Serie A, Bundesliga, Ligue 1) y Latinoamérica (BetPlay, Liga MX, Argentina, Brasil, Libertadores, Sudamericana). En días flojos: Portugal, Holanda, Turquía, MLS, Ecuador, Chile, Perú. **En fecha FIFA**: revisa también Nations League y eliminatorias de ese día y úsalos; evita los amistosos (la fecha FIFA dura varios días; confirma el calendario, no supongas que ya terminó).
+- Nunca segunda división o inferiores. Siempre las tres combinadas: si no todo cumple las reglas, usa lo que más reglas cumpla y dilo en la nota.
 - Solo combinadas. Segura ~2 (3-5 selecciones), media ~4 (4-5), arriesgada ~10 (5-9). Muchas selecciones de cuota baja: gana el favorito, doble oportunidad, más de 1.5 goles. Nada de goleadas exactas ni "crear apuesta" dentro de un mismo partido.
 - **Aplica siempre las `reglas` de `data/meta/aprendizaje.json`. Antes de guardar, repasa cada selección contra cada regla.**
 - Cuotas: intenta Stake; stake.com está bloqueado en este entorno, así que usa la cuota pública, pon `"estimada": true` cuando no la viste en una fuente y avisa en la nota. Cuota total = producto, 2 decimales. `prob` = probabilidad honesta (0-1).
