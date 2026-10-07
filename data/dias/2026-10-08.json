@@ -1,36 +1,7 @@
 {
-  "combinadas": [
-    {
-      "cuota": 1.68,
-      "estado": "pendiente",
-      "nivel": "segura",
-      "prob": 0.56,
-      "razon": "Solo dos partidos pasan las reglas: Fluminense (4.º) ante Coritiba (9.º, sin ganar en 3) y Flamengo líder de visita con empate cubierto (regla 4).",
-      "selecciones": [
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.22,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "6:30 p. m.",
-          "mercado": "Fluminense o empate",
-          "partido": "Fluminense vs Coritiba"
-        },
-        {
-          "competencia": "Brasileirão Serie A",
-          "cuota": 1.38,
-          "estado": "pendiente",
-          "estimada": true,
-          "hora": "7:30 p. m.",
-          "mercado": "Flamengo o empate",
-          "partido": "Santos vs Flamengo"
-        }
-      ],
-      "titulo": "Día flojo: solo lo que pasa las reglas"
-    }
-  ],
+  "combinadas": [],
   "fecha": "2026-10-08",
-  "nota": "Rehecha el 7 oct con las reglas 12 a 14. Día flojo: solo 4 partidos de Brasileirão. Palmeiras (2.º) vs Bahia (5.º) y Athletico-PR (3.º) vs Atlético-MG (7.º) son partidos parejos (regla 13), y las victorias simples pagaban 1.90 o más. Con dos partidos válidos no se puede armar media ni arriesgada sin romper reglas: hoy no hay. La segura lleva 2 selecciones, menos de las 3 habituales. Cuotas estimadas (no Stake); confírmalas.",
+  "nota": "Sin combinadas: ningún partido del jueves alcanza para armar una sin romper las reglas (regla 1). Brasileirão: Palmeiras-Bahia (5.º) y Athletico-Atlético MG (7.º) son parejos; Coritiba (9.º) y Santos (8.º) también están en la mitad alta de una liga de 20, así que Fluminense y Flamengo quedan fuera (regla 3). Solo pasa Shamrock Rovers o empate (cuota ~1.08), y una sola selección no es combinada. Liga MX, LigaPro y la mayoría de Europa vuelven el viernes 9. Fechas dudosas no usadas: PSV-Heerenveen, West Ham-QPR y Gillingham-Port Vale (las fuentes no coinciden).",
   "partidos": [
     {
       "claves": [
@@ -151,6 +122,32 @@
       ],
       "hora": "Por confirmar",
       "partido": "Athletico-PR vs Atlético-MG"
+    },
+    {
+      "claves": [
+        "Rovers 3.º (59 pts) en casa; Drogheda 9.º (34 pts), sin ganarle desde mayo de 2022.",
+        "Liga de Irlanda: poca información, así que solo doble oportunidad (regla 4)."
+      ],
+      "competencia": "League of Ireland Premier Division",
+      "cuotas": [
+        {
+          "c": 1.08,
+          "m": "Shamrock Rovers o empate"
+        },
+        {
+          "c": 1.4,
+          "m": "Gana Shamrock Rovers"
+        }
+      ],
+      "estadio": "Tallaght Stadium",
+      "fuentes": [
+        {
+          "nombre": "MightyTips",
+          "url": "https://www.mightytips.com/football-predictions/shamrock-rovers-vs-drogheda-united-prediction-08-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Shamrock Rovers vs Drogheda United"
     }
   ]
 }
