@@ -1,0 +1,254 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.91,
+      "estado": "pendiente",
+      "nivel": "segura",
+      "prob": 0.52,
+      "razon": "Tres locales fuertes (Palmeiras 2.º, Athletico 3.º, Fluminense 4.º) solo con doble oportunidad.",
+      "selecciones": [
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:30 p. m.",
+          "mercado": "Fluminense o empate",
+          "partido": "Fluminense vs Coritiba"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:30 p. m.",
+          "mercado": "Palmeiras o empate",
+          "partido": "Palmeiras vs Bahia"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "Por confirmar",
+          "mercado": "Athletico-PR o empate",
+          "partido": "Athletico-PR vs Atlético-MG"
+        }
+      ]
+    },
+    {
+      "cuota": 2.8,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.34,
+      "razon": "Mezcla de goles y doble oportunidad al líder visitante (regla 8: visitante favorito, doble oportunidad).",
+      "selecciones": [
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.28,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:30 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Palmeiras vs Bahia"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.38,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "7:30 p. m.",
+          "mercado": "Flamengo o empate",
+          "partido": "Santos vs Flamengo"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:30 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Fluminense vs Coritiba"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "Por confirmar",
+          "mercado": "Menos de 3.5 goles",
+          "partido": "Athletico-PR vs Atlético-MG"
+        }
+      ]
+    },
+    {
+      "cuota": 9.56,
+      "estado": "pendiente",
+      "nivel": "arriesgada",
+      "prob": 0.1,
+      "razon": "Tres locales ganando; el modelo les da 45-49% a cada uno.",
+      "selecciones": [
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.95,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:30 p. m.",
+          "mercado": "Gana Palmeiras",
+          "partido": "Palmeiras vs Bahia"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.9,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:30 p. m.",
+          "mercado": "Gana Fluminense",
+          "partido": "Fluminense vs Coritiba"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 2.15,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "Por confirmar",
+          "mercado": "Gana Athletico-PR",
+          "partido": "Athletico-PR vs Atlético-MG"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.2,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "7:30 p. m.",
+          "mercado": "Menos de 3.5 goles",
+          "partido": "Santos vs Flamengo"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-08",
+  "nota": "Cuotas todas estimadas (no Stake). Día flojo: solo 4 partidos de Brasileirão (jueves, fecha 29); horas convertidas de Brasilia y la de Athletico-PR por confirmar. Con 4 partidos la regla 1 no es cumplible: Palmeiras, Fluminense y Athletico están en las tres combinadas con mercados distintos. Sin Nations League ni Europa ese día.",
+  "partidos": [
+    {
+      "claves": [
+        "Fecha 29: Palmeiras (2.º, 57 pts) invicto en 5 partidos.",
+        "Modelo: gana Palmeiras 48%, empate 25%, Bahia 27%."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Palmeiras o empate"
+        },
+        {
+          "c": 1.95,
+          "m": "Gana Palmeiras"
+        },
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "Valor Final",
+          "url": "https://valorfinal.com.br/brasileirao/2026/jogos/palmeiras-x-bahia"
+        },
+        {
+          "nombre": "Sport-Flash",
+          "url": "https://www.sport-flash.com/sports/football/br/calendar/2026-10-08/brasileirao-serie-a-2026"
+        }
+      ],
+      "hora": "6:30 p. m.",
+      "partido": "Palmeiras vs Bahia"
+    },
+    {
+      "claves": [
+        "Flamengo líder (60 pts) visita al Santos (8.º).",
+        "Modelo: Flamengo 42%, empate 26%, Santos 33%."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.38,
+          "m": "Flamengo o empate"
+        },
+        {
+          "c": 1.2,
+          "m": "Menos de 3.5 goles"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "Valor Final",
+          "url": "https://valorfinal.com.br/brasileirao/2026/jogos/santos-x-flamengo"
+        }
+      ],
+      "hora": "7:30 p. m.",
+      "partido": "Santos vs Flamengo"
+    },
+    {
+      "claves": [
+        "Fluminense 4.º en el Maracanã; Coritiba sin ganar en 3.",
+        "Modelo: Fluminense 49%, empate 25%, Coritiba 26%."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Fluminense o empate"
+        },
+        {
+          "c": 1.9,
+          "m": "Gana Fluminense"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "Valor Final",
+          "url": "https://valorfinal.com.br/brasileirao/2026/jogos/fluminense-x-coritiba"
+        }
+      ],
+      "hora": "6:30 p. m.",
+      "partido": "Fluminense vs Coritiba"
+    },
+    {
+      "claves": [
+        "Athletico (3.º) en casa: 9 victorias, 4 empates, 1 derrota.",
+        "Atlético-MG visitante: 4V-2E-8D."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Athletico-PR o empate"
+        },
+        {
+          "c": 2.15,
+          "m": "Gana Athletico-PR"
+        },
+        {
+          "c": 1.22,
+          "m": "Menos de 3.5 goles"
+        }
+      ],
+      "estadio": "Por confirmar",
+      "fuentes": [
+        {
+          "nombre": "Valor Final",
+          "url": "https://valorfinal.com.br/brasileirao/2026/jogos/athletico-pr-x-atletico-mg"
+        }
+      ],
+      "hora": "Por confirmar",
+      "partido": "Athletico-PR vs Atlético-MG"
+    }
+  ]
+}
