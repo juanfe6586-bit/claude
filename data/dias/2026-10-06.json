@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 1.79,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "segura",
       "prob": 0.58,
       "razon": "Solo doble oportunidad y cuotas hasta 1.28 (reglas 5 y 8).",
@@ -10,45 +10,49 @@
         {
           "competencia": "Nations League A",
           "cuota": 1.1,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Inglaterra o empate",
-          "partido": "Inglaterra vs Chequia"
+          "partido": "Inglaterra vs Chequia",
+          "resultado": "3-0"
         },
         {
           "competencia": "Nations League A",
           "cuota": 1.28,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "España o empate",
-          "partido": "Croacia vs España"
+          "partido": "Croacia vs España",
+          "resultado": "1-2"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.06,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Suiza o empate",
-          "partido": "Suiza vs Macedonia del Norte"
+          "partido": "Suiza vs Macedonia del Norte",
+          "resultado": "3-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Eslovaquia o empate",
-          "partido": "Moldavia vs Eslovaquia"
+          "partido": "Moldavia vs Eslovaquia",
+          "resultado": "0-4"
         }
       ],
       "titulo": "Doble oportunidad en Nations League"
     },
     {
       "cuota": 5.4,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "media",
       "prob": 0.2,
       "razon": "Cuotas hasta 1.38; locales fuertes y doble oportunidad en los visitantes.",
@@ -56,72 +60,79 @@
         {
           "competencia": "Nations League A",
           "cuota": 1.38,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana Inglaterra",
-          "partido": "Inglaterra vs Chequia"
+          "partido": "Inglaterra vs Chequia",
+          "resultado": "3-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana Suiza",
-          "partido": "Suiza vs Macedonia del Norte"
+          "partido": "Suiza vs Macedonia del Norte",
+          "resultado": "3-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Escocia o empate",
-          "partido": "Escocia vs Eslovenia"
+          "partido": "Escocia vs Eslovenia",
+          "resultado": "1-2"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.1,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Albania vs San Marino"
+          "partido": "Albania vs San Marino",
+          "resultado": "3-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Finlandia o empate",
-          "partido": "Bielorrusia vs Finlandia"
+          "partido": "Bielorrusia vs Finlandia",
+          "resultado": "0-0"
         },
         {
           "competencia": "Nations League A",
           "cuota": 1.35,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Menos de 3.5 goles",
-          "partido": "Croacia vs España"
+          "partido": "Croacia vs España",
+          "resultado": "1-2"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Bulgaria o empate",
-          "partido": "Luxemburgo vs Bulgaria"
+          "partido": "Luxemburgo vs Bulgaria",
+          "resultado": "0-2"
         }
       ],
       "titulo": "Favoritos locales de Nations League"
     },
     {
       "cuota": 7.78,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.09,
       "razon": "Dos victorias de cuota 1.65-1.85 más mercados bajos; ningún partido en más de dos combinadas.",
@@ -129,56 +140,62 @@
         {
           "competencia": "Nations League",
           "cuota": 1.85,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana Escocia",
-          "partido": "Escocia vs Eslovenia"
+          "partido": "Escocia vs Eslovenia",
+          "resultado": "1-2"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.65,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana Finlandia",
-          "partido": "Bielorrusia vs Finlandia"
+          "partido": "Bielorrusia vs Finlandia",
+          "resultado": "0-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Islandia o empate",
-          "partido": "Estonia vs Islandia"
+          "partido": "Estonia vs Islandia",
+          "resultado": "0-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.45,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Moldavia vs Eslovaquia"
+          "partido": "Moldavia vs Eslovaquia",
+          "resultado": "0-4"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.04,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana Albania",
-          "partido": "Albania vs San Marino"
+          "partido": "Albania vs San Marino",
+          "resultado": "3-0"
         },
         {
           "competencia": "Nations League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Menos de 3.5 goles",
-          "partido": "Luxemburgo vs Bulgaria"
+          "partido": "Luxemburgo vs Bulgaria",
+          "resultado": "0-2"
         }
       ],
       "titulo": "Victorias de Escocia y Finlandia"

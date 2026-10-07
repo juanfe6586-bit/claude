@@ -1,15 +1,25 @@
 {
-  "selecciones_cerradas": 12,
+  "selecciones_cerradas": 105,
   "por_mercado": {
-    "Gana el favorito": {
-      "ganadas": 2,
-      "perdidas": 3,
-      "acierto": 0.4
-    },
     "Doble oportunidad": {
-      "ganadas": 3,
-      "perdidas": 0,
-      "acierto": 1.0
+      "ganadas": 44,
+      "perdidas": 7,
+      "acierto": 0.86
+    },
+    "Gana el favorito": {
+      "ganadas": 20,
+      "perdidas": 16,
+      "acierto": 0.56
+    },
+    "Más / menos goles": {
+      "ganadas": 11,
+      "perdidas": 2,
+      "acierto": 0.85
+    },
+    "Hándicap / ganar por margen": {
+      "ganadas": 0,
+      "perdidas": 2,
+      "acierto": 0.0
     },
     "Gana + goles": {
       "ganadas": 2,
@@ -20,23 +30,48 @@
       "ganadas": 1,
       "perdidas": 0,
       "acierto": 1.0
-    },
-    "Hándicap / ganar por margen": {
-      "ganadas": 0,
-      "perdidas": 1,
-      "acierto": 0.0
     }
   },
   "por_competencia": {
+    "Nations League A": {
+      "ganadas": 20,
+      "perdidas": 3,
+      "acierto": 0.87
+    },
+    "Nations League": {
+      "ganadas": 19,
+      "perdidas": 3,
+      "acierto": 0.86
+    },
+    "Liga Profesional Argentina": {
+      "ganadas": 13,
+      "perdidas": 3,
+      "acierto": 0.81
+    },
+    "Nations League B": {
+      "ganadas": 6,
+      "perdidas": 3,
+      "acierto": 0.67
+    },
     "Amistoso internacional": {
+      "ganadas": 5,
+      "perdidas": 3,
+      "acierto": 0.62
+    },
+    "Liga BetPlay": {
+      "ganadas": 7,
+      "perdidas": 1,
+      "acierto": 0.88
+    },
+    "Nations League C": {
       "ganadas": 3,
-      "perdidas": 0,
-      "acierto": 1.0
+      "perdidas": 3,
+      "acierto": 0.5
     },
     "Liga BetPlay 2026-II": {
       "ganadas": 3,
-      "perdidas": 0,
-      "acierto": 1.0
+      "perdidas": 2,
+      "acierto": 0.6
     },
     "Liga 1 Perú": {
       "ganadas": 0,
@@ -52,46 +87,56 @@
       "ganadas": 1,
       "perdidas": 1,
       "acierto": 0.5
+    },
+    "Nations League D": {
+      "ganadas": 0,
+      "perdidas": 2,
+      "acierto": 0.0
     }
   },
   "por_cuota": {
-    "1.60-1.99": {
-      "ganadas": 2,
-      "perdidas": 3,
-      "acierto": 0.4
-    },
     "1.20-1.34": {
-      "ganadas": 3,
-      "perdidas": 0,
-      "acierto": 1.0
+      "ganadas": 35,
+      "perdidas": 6,
+      "acierto": 0.85
     },
     "1.00-1.19": {
-      "ganadas": 2,
-      "perdidas": 0,
-      "acierto": 1.0
+      "ganadas": 21,
+      "perdidas": 2,
+      "acierto": 0.91
     },
     "1.35-1.59": {
+      "ganadas": 12,
+      "perdidas": 8,
+      "acierto": 0.6
+    },
+    "1.60-1.99": {
+      "ganadas": 9,
+      "perdidas": 11,
+      "acierto": 0.45
+    },
+    "2.00+": {
       "ganadas": 1,
-      "perdidas": 1,
-      "acierto": 0.5
+      "perdidas": 0,
+      "acierto": 1.0
     }
   },
   "combinadas": {
     "segura": {
-      "ganadas": 0,
-      "perdidas": 1
+      "ganadas": 4,
+      "perdidas": 3
     },
     "media": {
       "ganadas": 0,
-      "perdidas": 1
+      "perdidas": 7
     },
     "arriesgada": {
       "ganadas": 0,
-      "perdidas": 2
+      "perdidas": 7
     },
     "semanal": {
       "ganadas": 0,
-      "perdidas": 1
+      "perdidas": 2
     }
   }
 }

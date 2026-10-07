@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 2.1,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "segura",
       "prob": 0.52,
       "razon": "Solo doble oportunidad, cuotas hasta 1.25; visitante favorito (Rosario Central) cubierto con empate (reglas 5 y 8).",
@@ -10,54 +10,59 @@
         {
           "competencia": "Nations League A",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Francia o empate",
-          "partido": "Francia vs Bélgica"
+          "partido": "Francia vs Bélgica",
+          "resultado": "4-1"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.15,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "4:00 p. m.",
           "mercado": "Vélez o empate",
-          "partido": "Vélez vs Platense"
+          "partido": "Vélez vs Platense",
+          "resultado": "2-2"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.14,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "4:00 p. m.",
           "mercado": "Estudiantes o empate",
-          "partido": "Estudiantes de La Plata vs Gimnasia de Mendoza"
+          "partido": "Estudiantes de La Plata vs Gimnasia de Mendoza",
+          "resultado": "2-1"
         },
         {
           "competencia": "Nations League A",
           "cuota": 1.07,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Italia o empate",
-          "partido": "Italia vs Turquía"
+          "partido": "Italia vs Turquía",
+          "resultado": "3-1"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:15 p. m.",
           "mercado": "Rosario Central o empate",
-          "partido": "Banfield vs Rosario Central"
+          "partido": "Banfield vs Rosario Central",
+          "resultado": "1-1"
         }
       ],
       "titulo": "Doble oportunidad: Francia, Italia y Argentina"
     },
     {
       "cuota": 4.12,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "media",
       "prob": 0.26,
       "razon": "Cuotas hasta 1.30 y mercados distintos a la segura (regla 1). Suecia y Polonia cubiertos con empate.",
@@ -65,63 +70,69 @@
         {
           "competencia": "Nations League A",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Gana Italia",
-          "partido": "Italia vs Turquía"
+          "partido": "Italia vs Turquía",
+          "resultado": "3-1"
         },
         {
           "competencia": "Nations League A",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Francia vs Bélgica"
+          "partido": "Francia vs Bélgica",
+          "resultado": "4-1"
         },
         {
           "competencia": "Liga BetPlay 2026-II",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "7:00 p. m.",
           "mercado": "Medellín o empate",
-          "partido": "Independiente Medellín vs Santa Fe"
+          "partido": "Independiente Medellín vs Santa Fe",
+          "resultado": "0-1"
         },
         {
           "competencia": "Nations League B",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Suecia o empate",
-          "partido": "Rumania vs Suecia"
+          "partido": "Rumania vs Suecia",
+          "resultado": "0-1"
         },
         {
           "competencia": "Nations League B",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Polonia o empate",
-          "partido": "Bosnia y Herzegovina vs Polonia"
+          "partido": "Bosnia y Herzegovina vs Polonia",
+          "resultado": "1-2"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:15 p. m.",
           "mercado": "Menos de 3.5 goles",
-          "partido": "Banfield vs Rosario Central"
+          "partido": "Banfield vs Rosario Central",
+          "resultado": "1-1"
         }
       ],
       "titulo": "Italia y Francia con goles, doble oportunidad en B y Medellín"
     },
     {
       "cuota": 9.43,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.09,
       "razon": "Victorias locales de cuota 1.70-1.95 solo aquí (regla 5); Riestra y Hungría cubiertos con empate.",
@@ -129,47 +140,52 @@
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.75,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "4:00 p. m.",
           "mercado": "Gana Vélez",
-          "partido": "Vélez vs Platense"
+          "partido": "Vélez vs Platense",
+          "resultado": "2-2"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.7,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "4:00 p. m.",
           "mercado": "Gana Estudiantes",
-          "partido": "Estudiantes de La Plata vs Gimnasia de Mendoza"
+          "partido": "Estudiantes de La Plata vs Gimnasia de Mendoza",
+          "resultado": "2-1"
         },
         {
           "competencia": "Liga BetPlay 2026-II",
           "cuota": 1.95,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "7:00 p. m.",
           "mercado": "Gana Medellín",
-          "partido": "Independiente Medellín vs Santa Fe"
+          "partido": "Independiente Medellín vs Santa Fe",
+          "resultado": "0-1"
         },
         {
           "competencia": "Liga Profesional Argentina",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Riestra o empate",
-          "partido": "Deportivo Riestra vs Central Córdoba"
+          "partido": "Deportivo Riestra vs Central Córdoba",
+          "resultado": "1-1"
         },
         {
           "competencia": "Nations League B",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:45 p. m.",
           "mercado": "Hungría o empate",
-          "partido": "Ucrania vs Hungría"
+          "partido": "Ucrania vs Hungría",
+          "resultado": "1-2"
         }
       ],
       "titulo": "Vélez, Estudiantes y Medellín ganan"

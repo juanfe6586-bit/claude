@@ -1,41 +1,45 @@
 {
-  "actualizado": "2026-10-02",
+  "actualizado": "2026-10-07",
   "historial": [
+    "7 oct 2026: verificados los 17 partidos pendientes del 5 y 6 oct (la rutina del 6 oct solo pudo marcar 2). Seguras del 5 y 6 ganadas; medias y arriesgadas cayeron por Medellín 0-1 Santa Fe y Escocia 1-2 Eslovenia; la semanal cayó por ambos.",
+    "4 oct 2026: regla 10. Del 3 oct: Argentina 7-0, España, Inglaterra 0-7 en Croacia, Escocia, Islandia, Suiza y Defensa acertaron; fallaron Tucumán 2-3 Barracas (gol en el 90+) y Gana Tolima (0-0).",
     "2 oct 2026: regla 9. Se rehízo la combinada del 3 oct con Nations League.",
     "2 oct 2026: reglas 7 y 8. Falló Azerbaiyán 0-0, Gales 2-1 Noruega y Más de 2.5 en Alemania 2-0; Portugal 4-2, Grecia 2-2, Irlanda 2-2 acertaron la doble oportunidad. Inter-Once Caldas se aplazó al 4 oct.",
     "1 oct 2026: reglas 5 y 6. Argentina 4-0 y Nacional 3-1 acertaron todo; Japón 0-0 tumbó la arriesgada del 1 oct.",
-    "30 sep 2026: reglas 1 a 4, tras perder las tres combinadas por Cienciano 1-1 y Southend 1-1."
+    "30 sep 2026: reglas 1 a 4, tras perder las tres combinadas por Cienciano 1-1 y Southend 1-1.",
+    "3 oct 2026: amistosos Colombia 0-1 Paraguay y Corea 0-0 Venezuela fallaron; doble oportunidad en Nations League acertó salvo Kazajistán 1-2 Moldavia y Ucrania 0-3 Irlanda del Norte (locales débiles).",
+    "5 oct 2026: del 4 oct, 22/24 selecciones acertaron; fallaron Talleres o empate (0-1 Belgrano) y Gana Irlanda (1-1). Doble oportunidad en Nations League 9/9."
   ],
   "mercados": [
     {
-      "ganadas": 4,
-      "perdidas": 5,
-      "tipo": "Gana el favorito"
+      "tipo": "Doble oportunidad",
+      "ganadas": 44,
+      "perdidas": 7
     },
     {
-      "ganadas": 6,
-      "perdidas": 0,
-      "tipo": "Doble oportunidad"
+      "tipo": "Gana el favorito",
+      "ganadas": 20,
+      "perdidas": 16
     },
     {
+      "tipo": "Más / menos goles",
+      "ganadas": 11,
+      "perdidas": 2
+    },
+    {
+      "tipo": "Hándicap / ganar por margen",
       "ganadas": 0,
-      "perdidas": 2,
-      "tipo": "Hándicap / ganar por margen"
+      "perdidas": 2
     },
     {
+      "tipo": "Gana + goles",
       "ganadas": 2,
-      "perdidas": 0,
-      "tipo": "Gana + goles"
+      "perdidas": 0
     },
     {
+      "tipo": "Gana sin recibir gol",
       "ganadas": 1,
-      "perdidas": 0,
-      "tipo": "Gana sin recibir gol"
-    },
-    {
-      "ganadas": 0,
-      "perdidas": 1,
-      "tipo": "Más / menos goles"
+      "perdidas": 0
     }
   ],
   "reglas": [
@@ -74,11 +78,22 @@
     {
       "origen": "2 oct: la combinada del 3 oct salió sin Nations League (creí que la fecha FIFA terminaba) y el usuario lo señaló. El usuario pidió evitar los amistosos.",
       "texto": "En fecha FIFA, revisa el calendario de Nations League y eliminatorias de cada día e inclúyelos en las combinadas junto a las ligas de clubes. Evita los amistosos (rotan mucho y son impredecibles)."
+    },
+    {
+      "origen": "3 oct: Atlético Tucumán 2-3 Barracas (gol en el descuento) y Tolima 0-0 Chicó; media perdió por Tucumán.",
+      "texto": "En Liga Profesional Argentina, local sin gran ventaja: solo doble oportunidad con cuota mínima y evita ponerlo en la combinada media si es de mitad de tabla."
+    },
+    {
+      "origen": "4 oct: Talleres (15.º, 8 pts) 0-1 Belgrano en el clásico; Irlanda 1-1 Israel (Gana Irlanda falló, Irlanda o empate sí).",
+      "texto": "Clásicos y equipos de la mitad baja (aunque sean locales): evitarlos. En Nations League, favorito local sin gran diferencia: solo doble oportunidad."
     }
   ],
   "vigilar": [
     "Amistosos de selecciones: Argentina sí goleó a Bolivia (4-0) pese a los cambios, pero Japón no le ganó a Ecuador en 90 minutos.",
     "\"Gana + goles\" acertó 2 de 2 en favoritos claros que juegan en casa (Argentina 4-0, Nacional 3-1).",
-    "Liga BetPlay: 3 de 3. Liga 1 Perú: 0 de 2."
+    "Liga BetPlay: 3 de 3. Liga 1 Perú: 0 de 2.",
+    "Local no favorito claro en Nations League C/D (Kazajistán, Ucrania): doble oportunidad también cayó; revisar forma antes de usarla.",
+    "Liga Profesional Argentina: doble oportunidad 2/3 (Tucumán 2-3 en casa); Newell's 0-0 y Defensa 3-0 sí acertaron.",
+    "Escocia en Nations League: 1-2 ante Eslovenia en casa tras 422 minutos sin gol; no ponerla como favorita hasta que vuelva a ganar."
   ]
 }

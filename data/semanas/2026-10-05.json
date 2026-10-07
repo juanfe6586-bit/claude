@@ -1,0 +1,132 @@
+{
+  "cuota": 8.58,
+  "estado": "perdida",
+  "nota": "Solo hay agenda confirmada del lunes 5 y martes 6 (fecha FIFA); sin datos fiables del fin de semana 10-11 oct, así que la semanal cubre esos dos días. Cuotas estimadas; horas por confirmar.",
+  "prob": 0.2,
+  "razon": "Once favoritos o equipos cubiertos con empate, de 1.12 a 1.30, un partido por selección.",
+  "selecciones": [
+    {
+      "competencia": "Nations League A",
+      "cuota": 1.2,
+      "dia": "lun 5 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "Francia o empate",
+      "partido": "Francia vs Bélgica",
+      "resultado": "4-1"
+    },
+    {
+      "competencia": "Nations League A",
+      "cuota": 1.3,
+      "dia": "lun 5 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "Gana Italia",
+      "partido": "Italia vs Turquía",
+      "resultado": "3-1"
+    },
+    {
+      "competencia": "Nations League B",
+      "cuota": 1.2,
+      "dia": "lun 5 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "Suecia o empate",
+      "partido": "Rumania vs Suecia",
+      "resultado": "0-1"
+    },
+    {
+      "competencia": "Nations League B",
+      "cuota": 1.25,
+      "dia": "lun 5 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "Polonia o empate",
+      "partido": "Bosnia y Herzegovina vs Polonia",
+      "resultado": "1-2"
+    },
+    {
+      "competencia": "Liga BetPlay 2026-II",
+      "cuota": 1.3,
+      "dia": "lun 5 oct",
+      "estado": "perdida",
+      "estimada": true,
+      "hora": "7:00 p. m.",
+      "mercado": "Medellín o empate",
+      "partido": "Independiente Medellín vs Santa Fe",
+      "resultado": "0-1"
+    },
+    {
+      "competencia": "Liga Profesional Argentina",
+      "cuota": 1.15,
+      "dia": "lun 5 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "4:00 p. m.",
+      "mercado": "Vélez o empate",
+      "partido": "Vélez vs Platense",
+      "resultado": "2-2"
+    },
+    {
+      "competencia": "Nations League A",
+      "cuota": 1.15,
+      "dia": "mar 6 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "España o empate",
+      "partido": "Croacia vs España",
+      "resultado": "1-2"
+    },
+    {
+      "competencia": "Nations League A",
+      "cuota": 1.12,
+      "dia": "mar 6 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "Gana Inglaterra",
+      "partido": "Inglaterra vs Chequia",
+      "resultado": "3-0"
+    },
+    {
+      "competencia": "Nations League B",
+      "cuota": 1.22,
+      "dia": "mar 6 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "Gana Suiza",
+      "partido": "Suiza vs Macedonia del Norte",
+      "resultado": "3-0"
+    },
+    {
+      "competencia": "Nations League B",
+      "cuota": 1.2,
+      "dia": "mar 6 oct",
+      "estado": "perdida",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "Escocia o empate",
+      "partido": "Escocia vs Eslovenia",
+      "resultado": "1-2"
+    },
+    {
+      "competencia": "Nations League B",
+      "cuota": 1.3,
+      "dia": "mar 6 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "11:00 a. m.",
+      "mercado": "Islandia o empate",
+      "partido": "Estonia vs Islandia",
+      "resultado": "0-0"
+    }
+  ],
+  "semana": "2026-10-05",
+  "titulo": "Semana fecha FIFA: 11 favoritos lunes y martes"
+}

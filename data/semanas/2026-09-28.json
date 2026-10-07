@@ -1,115 +1,121 @@
 {
-  "semana": "2026-09-28",
-  "titulo": "Semana especial: 10 favoritos hasta el sábado",
   "cuota": 9.07,
-  "prob": 0.08,
   "estado": "perdida",
   "nota": "Semana especial, de mañana miércoles al domingo, porque es fecha FIFA y las ligas europeas no juegan. La normal sale el lunes 5 de octubre. Horas en hora de Colombia.",
+  "prob": 0.08,
   "razon": "Diez favoritos claros: Eslovaquia y Bielorrusia ante dos de las selecciones más débiles de Europa, Argentina en casa en sus dos amistosos, Tolima (3.º) ante Chicó (último), Cienciano en la altura y Colombia ante Paraguay. Nacional, Cali y Southend van cubiertos con el empate.",
   "selecciones": [
     {
-      "partido": "Eastleigh vs Southend United",
       "competencia": "National League (Inglaterra)",
+      "cuota": 1.22,
       "dia": "mié 30 sep",
+      "estado": "ganada",
+      "estimada": true,
       "hora": "1:45 p. m.",
       "mercado": "Southend o empate",
-      "cuota": 1.22,
-      "estimada": true,
-      "estado": "ganada",
+      "partido": "Eastleigh vs Southend United",
       "resultado": "1-1"
     },
     {
-      "partido": "Cienciano vs Los Chankas",
       "competencia": "Liga 1 Perú",
+      "cuota": 1.37,
       "dia": "mié 30 sep",
+      "estado": "perdida",
+      "estimada": false,
       "hora": "3:00 p. m.",
       "mercado": "Gana Cienciano",
-      "cuota": 1.37,
-      "estimada": false,
-      "estado": "perdida",
+      "partido": "Cienciano vs Los Chankas",
       "resultado": "1-1"
     },
     {
-      "partido": "Argentina vs Bolivia",
       "competencia": "Amistoso internacional",
+      "cuota": 1.22,
       "dia": "mié 30 sep",
+      "estado": "ganada",
+      "estimada": true,
       "hora": "7:00 p. m.",
       "mercado": "Gana Argentina y más de 1.5 goles",
-      "cuota": 1.22,
-      "estimada": true,
-      "estado": "ganada",
+      "partido": "Argentina vs Bolivia",
       "resultado": "4-0"
     },
     {
-      "partido": "Atlético Nacional vs Junior",
       "competencia": "Liga BetPlay",
+      "cuota": 1.12,
       "dia": "mié 30 sep",
+      "estado": "ganada",
+      "estimada": true,
       "hora": "8:00 p. m.",
       "mercado": "Nacional o empate",
-      "cuota": 1.12,
-      "estimada": true,
-      "estado": "ganada",
+      "partido": "Atlético Nacional vs Junior",
       "resultado": "3-1"
     },
     {
-      "partido": "Islas Feroe vs Eslovaquia",
       "competencia": "Nations League C",
+      "cuota": 1.17,
       "dia": "vie 2 oct",
+      "estado": "perdida",
+      "estimada": false,
       "hora": "1:45 p. m.",
       "mercado": "Gana Eslovaquia",
-      "cuota": 1.17,
-      "estimada": false,
-      "estado": "pendiente"
+      "partido": "Islas Feroe vs Eslovaquia",
+      "resultado": "1-1"
     },
     {
-      "partido": "Colombia vs Paraguay",
       "competencia": "Amistoso internacional (Nueva Jersey)",
+      "cuota": 1.5,
       "dia": "vie 2 oct",
+      "estado": "perdida",
+      "estimada": false,
       "hora": "6:00 p. m.",
       "mercado": "Gana Colombia",
-      "cuota": 1.5,
-      "estimada": false,
-      "estado": "pendiente"
+      "partido": "Colombia vs Paraguay",
+      "resultado": "0-1"
     },
     {
-      "partido": "Deportivo Cali vs Alianza Valledupar",
       "competencia": "Liga BetPlay",
+      "cuota": 1.15,
       "dia": "vie 2 oct",
+      "estado": "ganada",
+      "estimada": true,
       "hora": "7:45 p. m.",
       "mercado": "Cali o empate",
-      "cuota": 1.15,
-      "estimada": true,
-      "estado": "pendiente"
+      "partido": "Deportivo Cali vs Alianza Valledupar",
+      "resultado": "3-1"
     },
     {
-      "partido": "Bielorrusia vs San Marino",
       "competencia": "Nations League C",
+      "cuota": 1.15,
       "dia": "sáb 3 oct",
+      "estado": "ganada",
+      "estimada": true,
       "hora": "11:00 a. m.",
       "mercado": "Gana Bielorrusia",
-      "cuota": 1.15,
-      "estimada": true,
-      "estado": "pendiente"
+      "partido": "Bielorrusia vs San Marino",
+      "resultado": "4-0"
     },
     {
-      "partido": "Argentina vs Burkina Faso",
       "competencia": "Amistoso internacional (Monumental)",
+      "cuota": 1.18,
       "dia": "sáb 3 oct",
+      "estado": "ganada",
+      "estimada": true,
       "hora": "Hora por confirmar",
       "mercado": "Gana Argentina",
-      "cuota": 1.18,
-      "estimada": true,
-      "estado": "pendiente"
+      "partido": "Argentina vs Burkina Faso",
+      "resultado": "7-0"
     },
     {
-      "partido": "Deportes Tolima vs Boyacá Chicó",
       "competencia": "Liga BetPlay",
+      "cuota": 1.45,
       "dia": "sáb 3 oct",
+      "estado": "perdida",
+      "estimada": true,
       "hora": "6:10 p. m.",
       "mercado": "Gana Tolima",
-      "cuota": 1.45,
-      "estimada": true,
-      "estado": "pendiente"
+      "partido": "Deportes Tolima vs Boyacá Chicó",
+      "resultado": "0-0"
     }
-  ]
+  ],
+  "semana": "2026-09-28",
+  "titulo": "Semana especial: 10 favoritos hasta el sábado"
 }
