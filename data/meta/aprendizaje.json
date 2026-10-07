@@ -1,6 +1,7 @@
 {
   "actualizado": "2026-10-07",
   "historial": [
+    "7 oct 2026: las 15 reglas se consolidaron en 8. Se resolvieron contradicciones (favorito de mitad baja: antes doble oportunidad en la 2 y fuera en la 11; local sin ventaja: doble oportunidad en la 10 y la 11, fuera en la 13) y se unieron repetidas (4 y 8; 5 y 14; 6 y 9; 12 y 15). Los textos antiguos que citan «regla N» usan la numeración vieja.",
     "7 oct 2026: reglas 12 a 15. Revisión de todo: seguras 4/7 (4 seguidas), medias 0/7, arriesgadas 0/7. Doble oportunidad 44/51; Gana el favorito 20/36; cuotas de 1.35-1.59 12/20.",
     "7 oct 2026: verificados los 17 partidos pendientes del 5 y 6 oct (la rutina del 6 oct solo pudo marcar 2). Seguras del 5 y 6 ganadas; medias y arriesgadas cayeron por Medellín 0-1 Santa Fe y Escocia 1-2 Eslovenia; la semanal cayó por ambos.",
     "4 oct 2026: regla 10. Del 3 oct: Argentina 7-0, España, Inglaterra 0-7 en Croacia, Escocia, Islandia, Suiza y Defensa acertaron; fallaron Tucumán 2-3 Barracas (gol en el 90+) y Gana Tolima (0-0).",
@@ -13,100 +14,71 @@
   ],
   "mercados": [
     {
-      "tipo": "Doble oportunidad",
       "ganadas": 44,
-      "perdidas": 7
+      "perdidas": 7,
+      "tipo": "Doble oportunidad"
     },
     {
-      "tipo": "Gana el favorito",
       "ganadas": 20,
-      "perdidas": 16
+      "perdidas": 16,
+      "tipo": "Gana el favorito"
     },
     {
-      "tipo": "Más / menos goles",
       "ganadas": 11,
-      "perdidas": 2
+      "perdidas": 2,
+      "tipo": "Más / menos goles"
     },
     {
-      "tipo": "Hándicap / ganar por margen",
       "ganadas": 0,
-      "perdidas": 2
+      "perdidas": 2,
+      "tipo": "Hándicap / ganar por margen"
     },
     {
-      "tipo": "Gana + goles",
       "ganadas": 2,
-      "perdidas": 0
+      "perdidas": 0,
+      "tipo": "Gana + goles"
     },
     {
-      "tipo": "Gana sin recibir gol",
       "ganadas": 1,
-      "perdidas": 0
+      "perdidas": 0,
+      "tipo": "Gana sin recibir gol"
     }
   ],
   "reglas": [
     {
-      "origen": "30 sep: Cienciano 1-1 tumbó las tres combinadas y la semanal.",
-      "texto": "Un mismo partido no puede estar en las tres combinadas; como máximo en dos y con mercados distintos."
+      "texto": "Antes de guardar, repasa cada selección contra todas estas reglas. Si una rompe alguna, cámbiala o sácala; si no quedan partidos suficientes, arma menos combinadas o ninguna.",
+      "origen": "Antes reglas 12 y 15. 6 oct: Gana Finlandia de visitante y Gana Escocia en mala racha se colaron rompiendo reglas y fallaron. 8 oct: solo 2 de 4 partidos pasaban las reglas."
     },
     {
-      "origen": "30 sep: Cienciano, 14.º y viniendo de perder, empató en casa.",
-      "texto": "Favorito en mala racha o en la mitad baja de la tabla: se juega gana o empata, no la victoria."
+      "texto": "Un mismo partido va como máximo en dos combinadas, y con mercados distintos.",
+      "origen": "Antes regla 1. 30 sep: Cienciano 1-1 tumbó las tres combinadas y la semanal."
     },
     {
-      "origen": "30 sep: Gana Southend falló; Southend o empate se ganó.",
-      "texto": "Ligas débiles o con poca información (Perú, ligas inferiores inglesas): solo doble oportunidad."
+      "texto": "Fuera, ni siquiera con doble oportunidad: clásicos, partidos parejos (rival en la mitad alta de la tabla o a pocos puntos) y favoritos que están en la mitad baja.",
+      "origen": "Une las reglas 2, 11 y 13. Talleres (15.º) 0-1 Belgrano en el clásico; Cienciano (14.º) 1-1; Medellín (7.º) 0-1 Santa Fe (5.º); Escocia 1-2 Eslovenia (2.ª del grupo)."
     },
     {
-      "origen": "30 sep: Southend empató 1-1 en el minuto 89.",
-      "texto": "Visitantes favoritos: preferir doble oportunidad."
+      "texto": "Solo doble oportunidad: favorito visitante, favorito en mala racha, local sin gran ventaja ante un rival de la mitad baja (Argentina, Nations League) y ligas débiles o con poca información (Perú, inferiores inglesas).",
+      "origen": "Une las reglas 2, 3, 4, 8, 10 y 11. Southend 1-1, Gales 2-1 Noruega, Irlanda 1-1 Israel, Bielorrusia 0-0 Finlandia: la victoria falló y la doble oportunidad acertó. Doble oportunidad 44/51 contra Gana el favorito 20/36."
     },
     {
-      "origen": "Hasta el 1 oct: cuotas menores a 1.35 acertaron 5 de 5; de 1.60 o más, 2 de 5.",
-      "texto": "Cuotas de 1.60 o más solo en la arriesgada; la segura y la media van con selecciones de hasta 1.40."
+      "texto": "La victoria simple solo para un favorito claro que juega en casa y llega en buena forma, y nunca si paga 1.80 o más.",
+      "origen": "Antes parte de la regla 13. Cuotas de 1.60-1.99 acertaron 9 de 20; Gana Escocia 1.85 y Gana Athletico-PR 2.15 eran victorias de partidos parejos."
     },
     {
-      "origen": "1 oct: Japón vs Ecuador 0-0 (Japón ganó en penales, que no cuentan).",
-      "texto": "En amistosos, el favorito con gana o empata, no la victoria sola."
+      "texto": "Cuota por selección: segura hasta 1.40; media hasta 1.35 y máximo 5 selecciones (cuota 3.5-4.5); de 1.41 a 1.79 solo en la arriesgada.",
+      "origen": "Une las reglas 5 y 14. Cuotas menores a 1.35 acertaron 56 de 64; la media iba 0 de 7 y siempre cayó por una sola selección."
     },
     {
-      "origen": "2 oct: Azerbaiyán 0-0 Liechtenstein (margen 0/2) y Alemania 2-0 Serbia (Más de 2.5 falló); doble oportunidad va 6/6.",
-      "texto": "No usar hándicap/ganar por margen ni Más de 2.5 goles en selecciones de Nations League: preferir doble oportunidad."
+      "texto": "Goles: solo Más de 1.5 o Menos de 3.5. Nada de hándicap, «gana por 2 o más» ni Más de 2.5.",
+      "origen": "Antes regla 7, ampliada a todas las ligas. Hándicap 0/2 (Cienciano, Azerbaiyán); Más de 2.5 falló en Alemania 2-0; Más/menos goles va 11/13."
     },
     {
-      "origen": "2 oct: Gales 2-1 Noruega; Gana el favorito 4/9 vs doble oportunidad 6/6.",
-      "texto": "Favorito visitante en Nations League: solo doble oportunidad (Noruega perdió 2-1 en Gales con ventaja inicial)."
-    },
-    {
-      "origen": "2 oct: la combinada del 3 oct salió sin Nations League (creí que la fecha FIFA terminaba) y el usuario lo señaló. El usuario pidió evitar los amistosos.",
-      "texto": "En fecha FIFA, revisa el calendario de Nations League y eliminatorias de cada día e inclúyelos en las combinadas junto a las ligas de clubes. Evita los amistosos (rotan mucho y son impredecibles)."
-    },
-    {
-      "origen": "3 oct: Atlético Tucumán 2-3 Barracas (gol en el descuento) y Tolima 0-0 Chicó; media perdió por Tucumán.",
-      "texto": "En Liga Profesional Argentina, local sin gran ventaja: solo doble oportunidad con cuota mínima y evita ponerlo en la combinada media si es de mitad de tabla."
-    },
-    {
-      "origen": "4 oct: Talleres (15.º, 8 pts) 0-1 Belgrano en el clásico; Irlanda 1-1 Israel (Gana Irlanda falló, Irlanda o empate sí).",
-      "texto": "Clásicos y equipos de la mitad baja (aunque sean locales): evitarlos. En Nations League, favorito local sin gran diferencia: solo doble oportunidad."
-    },
-    {
-      "texto": "Antes de guardar, revisa cada selección contra todas las reglas; si una rompe alguna, cámbiala o sácala.",
-      "origen": "6 oct: la arriesgada llevó Gana Finlandia de visitante (rompe la regla 8) y Gana Escocia en mala racha (rompe la regla 2); las dos fallaron."
-    },
-    {
-      "texto": "Partidos parejos fuera, ni siquiera con doble oportunidad: rival en la mitad alta de la tabla o a pocos puntos. Y la victoria simple de un favorito que paga 1.80 o más no entra en ninguna combinada.",
-      "origen": "5-6 oct: Medellín (7.º) 0-1 Santa Fe (5.º) y Escocia 1-2 Eslovenia (2.ª del grupo) tumbaron medias, arriesgadas y la semanal."
-    },
-    {
-      "texto": "Media: máximo 5 selecciones, todas de 1.35 o menos (cuota objetivo 3.5-4.5).",
-      "origen": "Hasta el 6 oct la media va 0 de 7 y siempre cayó por una sola selección: con 6-7 selecciones al 80 % la probabilidad baja a ~20 %."
-    },
-    {
-      "texto": "Si después de aplicar las reglas no quedan partidos suficientes, arma menos combinadas (o ninguna) en vez de forzar selecciones que rompan reglas.",
-      "origen": "7 oct: el 8 oct solo tenía 4 partidos de Brasileirão; dos eran parejos y las victorias pagaban 1.90-2.15."
+      "texto": "En fecha FIFA, revisa el calendario de cada día y usa Nations League y eliminatorias junto a las ligas de clubes. Amistosos no.",
+      "origen": "Une las reglas 6 y 9. 3 oct salió sin Nations League por suponer que la fecha FIFA terminaba; amistosos fallaron 3 de 8 (Japón 0-0, Colombia 0-1, Corea 0-0) y el usuario pidió evitarlos."
     }
   ],
   "vigilar": [
-    "Amistosos de selecciones: Argentina sí goleó a Bolivia (4-0) pese a los cambios, pero Japón no le ganó a Ecuador en 90 minutos.",
     "\"Gana + goles\" acertó 2 de 2 en favoritos claros que juegan en casa (Argentina 4-0, Nacional 3-1).",
     "Liga BetPlay: 3 de 3. Liga 1 Perú: 0 de 2.",
     "Local no favorito claro en Nations League C/D (Kazajistán, Ucrania): doble oportunidad también cayó; revisar forma antes de usarla.",
