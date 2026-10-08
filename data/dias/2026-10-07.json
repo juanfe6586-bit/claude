@@ -1,8 +1,8 @@
 {
   "combinadas": [
     {
-      "cuota": 2.04,
-      "estado": "pendiente",
+      "cuota": 1.7,
+      "estado": "ganada",
       "nivel": "segura",
       "prob": 0.52,
       "razon": "Solo mercados de goles bajos y una doble oportunidad; sin hándicaps (reglas 5 y 7).",
@@ -10,44 +10,48 @@
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Vitória o empate",
-          "partido": "Vitória vs Chapecoense"
+          "partido": "Vitória vs Chapecoense",
+          "resultado": "4-0"
         },
         {
           "competencia": "Liga BetPlay 2026-II",
-          "cuota": 1.2,
-          "estado": "pendiente",
+          "cuota": 1.0,
+          "estado": "nula",
           "estimada": true,
           "hora": "8:15 p. m.",
           "mercado": "Menos de 3.5 goles",
-          "partido": "Atlético Bucaramanga vs Independiente Medellín"
+          "partido": "Atlético Bucaramanga vs Independiente Medellín",
+          "resultado": "No se jugó (error: el partido fue el 17 sep)"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.18,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "9:30 p. m.",
           "mercado": "Menos de 3.5 goles",
-          "partido": "Botafogo vs Vasco da Gama"
+          "partido": "Botafogo vs Vasco da Gama",
+          "resultado": "1-2"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.15,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Menos de 3.5 goles",
-          "partido": "Remo vs Grêmio"
+          "partido": "Remo vs Grêmio",
+          "resultado": "1-1"
         }
       ]
     },
     {
-      "cuota": 3.52,
-      "estado": "pendiente",
+      "cuota": 2.52,
+      "estado": "ganada",
       "nivel": "media",
       "prob": 0.3,
       "razon": "Dobles oportunidades de 1.35-1.40 y Más de 1.5 en Vitória (regla 5).",
@@ -55,44 +59,48 @@
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.35,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "9:30 p. m.",
           "mercado": "Cruzeiro o empate",
-          "partido": "Cruzeiro vs São Paulo"
+          "partido": "Cruzeiro vs São Paulo",
+          "resultado": "2-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.35,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Vitória vs Chapecoense"
+          "partido": "Vitória vs Chapecoense",
+          "resultado": "4-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.38,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Grêmio o empate",
-          "partido": "Remo vs Grêmio"
+          "partido": "Remo vs Grêmio",
+          "resultado": "1-1"
         },
         {
           "competencia": "Liga BetPlay 2026-II",
-          "cuota": 1.4,
-          "estado": "pendiente",
+          "cuota": 1.0,
+          "estado": "nula",
           "estimada": true,
           "hora": "8:15 p. m.",
           "mercado": "Independiente Medellín o empate",
-          "partido": "Atlético Bucaramanga vs Independiente Medellín"
+          "partido": "Atlético Bucaramanga vs Independiente Medellín",
+          "resultado": "No se jugó (error: el partido fue el 17 sep)"
         }
       ]
     },
     {
-      "cuota": 9.17,
-      "estado": "pendiente",
+      "cuota": 7.05,
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.09,
       "razon": "Favoritos con cuota alta; solo aquí van cuotas de 1.60 o más (regla 5).",
@@ -100,53 +108,58 @@
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.8,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "9:30 p. m.",
           "mercado": "Gana Cruzeiro",
-          "partido": "Cruzeiro vs São Paulo"
+          "partido": "Cruzeiro vs São Paulo",
+          "resultado": "2-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.65,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Gana Vitória",
-          "partido": "Vitória vs Chapecoense"
+          "partido": "Vitória vs Chapecoense",
+          "resultado": "4-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.9,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Gana Grêmio",
-          "partido": "Remo vs Grêmio"
+          "partido": "Remo vs Grêmio",
+          "resultado": "1-1"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "9:30 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Botafogo vs Vasco da Gama"
+          "partido": "Botafogo vs Vasco da Gama",
+          "resultado": "1-2"
         },
         {
           "competencia": "Liga BetPlay 2026-II",
-          "cuota": 1.3,
-          "estado": "pendiente",
+          "cuota": 1.0,
+          "estado": "nula",
           "estimada": true,
           "hora": "8:15 p. m.",
           "mercado": "Más de 1.5 goles",
-          "partido": "Atlético Bucaramanga vs Independiente Medellín"
+          "partido": "Atlético Bucaramanga vs Independiente Medellín",
+          "resultado": "No se jugó (error: el partido fue el 17 sep)"
         }
       ]
     }
   ],
   "fecha": "2026-10-07",
-  "nota": "Cuotas todas estimadas (no Stake). Día flojo: solo 5 partidos confirmados (4 de Brasileirão y Bucaramanga-Medellín); horarios por confirmar. Con tan pocos partidos, algunos aparecen en las tres combinadas con mercados distintos (regla 1 no cumplible). Las Liga Profesional y Nations League no tienen fecha ese día.",
+  "nota": "Cuotas todas estimadas (no Stake). Día flojo: 4 partidos de Brasileirão; horarios por confirmar. Con tan pocos partidos, algunos aparecen en las tres combinadas con mercados distintos (regla 1 no cumplible). Las Liga Profesional y Nations League no tienen fecha ese día. Corrección 8 oct: Bucaramanga-Medellín no se jugaba ese día (fue el 17 sep, 2-2); se había tomado de un calendario del Brasileirão. Sus tres selecciones quedan nulas (cuota 1.00).",
   "partidos": [
     {
       "claves": [
@@ -233,36 +246,6 @@
       ],
       "hora": "7:30 p. m.",
       "partido": "Remo vs Grêmio"
-    },
-    {
-      "claves": [
-        "Liga BetPlay, miércoles 7 oct, 8:15 p. m.",
-        "Medellín visitante: doble oportunidad."
-      ],
-      "competencia": "Liga BetPlay 2026-II",
-      "cuotas": [
-        {
-          "c": 1.2,
-          "m": "Menos de 3.5 goles"
-        },
-        {
-          "c": 1.4,
-          "m": "Independiente Medellín o empate"
-        },
-        {
-          "c": 1.3,
-          "m": "Más de 1.5 goles"
-        }
-      ],
-      "estadio": "Estadio por confirmar",
-      "fuentes": [
-        {
-          "nombre": "Sport-Flash",
-          "url": "https://www.sport-flash.com/sports/football/br/calendar/2026-10-07/brasileirao-serie-a-2026"
-        }
-      ],
-      "hora": "8:15 p. m.",
-      "partido": "Atlético Bucaramanga vs Independiente Medellín"
     },
     {
       "claves": [
