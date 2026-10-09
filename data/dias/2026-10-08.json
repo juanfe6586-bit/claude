@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 2.15,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "segura",
       "prob": 0.42,
       "razon": "Rovers cumple todas las reglas. Fluminense, Flamengo y Grau rompen solo la regla 3 en su versión leve: Coritiba (9.º) y Santos (8.º) están justo en la mitad alta y Grau es 11.º.",
@@ -10,12 +10,13 @@
         {
           "competencia": "League of Ireland Premier Division",
           "cuota": 1.08,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
-          "hora": "vie 9 oct, 2:00 p. m.",
+          "hora": "2:00 p. m.",
           "mercado": "Shamrock Rovers o empate",
           "partido": "Shamrock Rovers vs Drogheda United",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-1"
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -61,7 +62,7 @@
     },
     {
       "cuota": 3.1,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "media",
       "prob": 0.21,
       "razon": "Cinco selecciones de hasta 1.30 (regla 6). Rovers cumple todo; las demás rompen solo la regla 3: Palmeiras-Bahia y Athletico-Atlético MG son parejos, y Moquegua y Cienciano están en la mitad baja.",
@@ -69,12 +70,13 @@
         {
           "competencia": "League of Ireland Premier Division",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
-          "hora": "vie 9 oct, 2:00 p. m.",
+          "hora": "2:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Shamrock Rovers vs Drogheda United",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-1"
         },
         {
           "competencia": "Brasileirão Serie A",
@@ -212,7 +214,7 @@
     }
   ],
   "fecha": "2026-10-08",
-  "nota": "Rehecha el 7 oct con la nueva regla 1: siempre tres combinadas con lo que más reglas cumple. Día flojo (solo Brasileirão, Irlanda y Perú). Solo Shamrock Rovers cumple todas las reglas; el resto rompe la regla 3 (rival en la mitad alta o favorito en la mitad baja) y la arriesgada además rompe las reglas 4, 5 y 6. Todas las cuotas son estimadas (no Stake); confírmalas. Las horas de Athletico-PR y de Grau están por confirmar. Sin segunda división (regla 9). Corrección 9 oct: Shamrock Rovers-Drogheda se juega el viernes 9 oct a las 2:00 p. m., no el 8 (la fuente de pronósticos tenía la fecha mal); sus dos selecciones siguen pendientes.",
+  "nota": "Rehecha el 7 oct con la nueva regla 1: siempre tres combinadas con lo que más reglas cumple. Día flojo (solo Brasileirão, Irlanda y Perú). Solo Shamrock Rovers cumple todas las reglas; el resto rompe la regla 3 (rival en la mitad alta o favorito en la mitad baja) y la arriesgada además rompe las reglas 4, 5 y 6. Todas las cuotas son estimadas (no Stake); confírmalas. Las horas de Athletico-PR y de Grau están por confirmar. Sin segunda división (regla 9).",
   "partidos": [
     {
       "claves": [
@@ -336,7 +338,6 @@
     },
     {
       "claves": [
-        "Corrección: se juega el viernes 9 oct, 2:00 p. m. (no el 8), Tallaght Stadium.",
         "Rovers 3.º (59 pts) en casa; Drogheda 9.º (34 pts), sin ganarle desde mayo de 2022.",
         "Liga de Irlanda: poca información, así que solo doble oportunidad (regla 4)."
       ],
@@ -354,8 +355,8 @@
       "estadio": "Tallaght Stadium",
       "fuentes": [
         {
-          "nombre": "ESPN",
-          "url": "https://espndeportes.espn.com/futbol/partido/_/juegoId/763199/drogheda-utd-shamrock-rovers"
+          "nombre": "The Journal",
+          "url": "https://www.thejournal.ie/shamrock-rovers-drogheda-united-league-of-ireland-3-7187599-Oct2026/"
         }
       ],
       "hora": "2:00 p. m.",

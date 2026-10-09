@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-08",
+  "actualizado": "2026-10-09",
   "historial": [
     "7 oct 2026: regla 1 cambiada (siempre tres combinadas, con lo que más reglas cumpla) y regla 9 nueva (sin segunda división o inferiores), a pedido del usuario.",
     "7 oct 2026: las 15 reglas se consolidaron en 8. Se resolvieron contradicciones (favorito de mitad baja: antes doble oportunidad en la 2 y fuera en la 11; local sin ventaja: doble oportunidad en la 10 y la 11, fuera en la 13) y se unieron repetidas (4 y 8; 5 y 14; 6 y 9; 12 y 15). Los textos antiguos que citan «regla N» usan la numeración vieja.",
@@ -12,23 +12,24 @@
     "30 sep 2026: reglas 1 a 4, tras perder las tres combinadas por Cienciano 1-1 y Southend 1-1.",
     "3 oct 2026: amistosos Colombia 0-1 Paraguay y Corea 0-0 Venezuela fallaron; doble oportunidad en Nations League acertó salvo Kazajistán 1-2 Moldavia y Ucrania 0-3 Irlanda del Norte (locales débiles).",
     "5 oct 2026: del 4 oct, 22/24 selecciones acertaron; fallaron Talleres o empate (0-1 Belgrano) y Gana Irlanda (1-1). Doble oportunidad en Nations League 9/9.",
-    "8 oct 2026: del 7 oct, Remo 1-1 Grêmio tumbó la arriesgada (Gana Grêmio visitante, ya cubierto por reglas 4 y 5); Brasileirão 9/10 en total. Bucaramanga-Medellín del 7 oct no existía (se jugó el 17 sep): sus selecciones quedan nulas y nace la regla 10."
+    "8 oct 2026: del 7 oct, Remo 1-1 Grêmio tumbó la arriesgada (Gana Grêmio visitante, ya cubierto por reglas 4 y 5); Brasileirão 9/10 en total. Bucaramanga-Medellín del 7 oct no existía (se jugó el 17 sep): sus selecciones quedan nulas y nace la regla 10.",
+    "9 oct 2026: del 8 oct, Shamrock Rovers 3-1 Drogheda: segura (2.15) y media (3.10) ganadas. Athletico-PR 2-2 Atlético-MG y Santos 2-2 Flamengo hicieron fallar Menos de 3.5 y, con Grau 0-0, tumbaron la arriesgada; doble oportunidad 7/7. Casi doy Shamrock-Drogheda por aplazado al 9 sin buscar el marcador: se endurece la regla 10."
   ],
   "mercados": [
     {
       "tipo": "Doble oportunidad",
-      "ganadas": 47,
+      "ganadas": 54,
       "perdidas": 7
     },
     {
       "tipo": "Gana el favorito",
-      "ganadas": 22,
-      "perdidas": 17
+      "ganadas": 23,
+      "perdidas": 18
     },
     {
       "tipo": "Más / menos goles",
-      "ganadas": 15,
-      "perdidas": 2
+      "ganadas": 18,
+      "perdidas": 4
     },
     {
       "tipo": "Hándicap / ganar por margen",
@@ -84,8 +85,8 @@
       "texto": "Nada de segunda división o inferiores (Championship, League One/Two, National League, Serie B, Segunda, Primera B, Expansión MX, Primera Nacional, etc.)."
     },
     {
-      "texto": "Cada partido se confirma con fecha y hora en una fuente de su propia liga (sitio oficial, ESPN o prensa local). Si no aparece en ninguna casa de apuestas o no tiene estadio confirmado, no se usa.",
-      "origen": "7 oct: se metió Bucaramanga-Medellín en las tres combinadas con una fuente del Brasileirão; ese partido ya se había jugado el 17 sep (2-2)."
+      "texto": "Cada partido se confirma con fecha y hora en dos fuentes, y una debe ser de su propia liga (sitio oficial, ESPN, FotMob o prensa local). Si las fuentes no coinciden en la fecha, o el partido no aparece en ninguna casa de apuestas o no tiene estadio confirmado, no se usa. Al verificar, nunca se da un partido por no jugado ni se le cambia la fecha sin buscar el marcador también en inglés o en FotMob/Sofascore.",
+      "origen": "7 oct: se metió Bucaramanga-Medellín en las tres combinadas con una fuente del Brasileirão; ese partido ya se había jugado el 17 sep (2-2). 9 oct: di Shamrock Rovers-Drogheda (8 oct) por aplazado al 9 por fichas de previa desactualizadas; se jugó el 8 (3-1)."
     }
   ],
   "vigilar": [
@@ -93,6 +94,7 @@
     "Liga BetPlay: 3 de 3. Liga 1 Perú: 0 de 2.",
     "Local no favorito claro en Nations League C/D (Kazajistán, Ucrania): doble oportunidad también cayó; revisar forma antes de usarla.",
     "Liga Profesional Argentina: doble oportunidad 2/3 (Tucumán 2-3 en casa); Newell's 0-0 y Defensa 3-0 sí acertaron.",
-    "Escocia en Nations League: 1-2 ante Eslovenia en casa tras 422 minutos sin gol; no ponerla como favorita hasta que vuelva a ganar."
+    "Escocia en Nations League: 1-2 ante Eslovenia en casa tras 422 minutos sin gol; no ponerla como favorita hasta que vuelva a ganar.",
+    "Menos de 3.5 falló 2 veces el 8 oct (2-2 en Brasileirão entre equipos de arriba); evitarlo en duelos parejos y ofensivos."
   ]
 }

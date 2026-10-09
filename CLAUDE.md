@@ -12,10 +12,10 @@ App personal de combinadas de fútbol del usuario (Colombia, hora America/Bogota
 ## Rutina diaria — siempre todos los pasos
 
 0. **Sincronizar.** Desde la raíz del repo: `ArtifactData list` de `dias`, `semanas` y `meta` con `out_dir: "data"` y `query.limit: 1000`. Anota la `version` de cada documento que vayas a cambiar (sale en el resultado).
-1. **Verificar.** `python3 tools/pendientes.py` lista solo los partidos pendientes que ya se jugaron. Busca cada marcador final (solo cuentan los 90 minutos; los penales no). Marca con `python3 tools/marcar.py '<json>'` (ver uso en el script): actualiza todas las combinadas y la semanal donde aparezca y las cierra (perdida si falla una; ganada si todas ganan).
+1. **Verificar.** `python3 tools/pendientes.py` lista solo los partidos pendientes que ya se jugaron. Busca cada marcador final (solo cuentan los 90 minutos; los penales no). Si no aparece, busca otra vez en inglés o en FotMob/Sofascore antes de concluir nada; nunca des un partido por aplazado ni le cambies la fecha sin una fuente de resultados que lo confirme. Marca con `python3 tools/marcar.py '<json>'` (ver uso en el script): actualiza todas las combinadas y la semanal donde aparezca y las cierra (perdida si falla una; ganada si todas ganan).
 2. **Aprender.** `python3 tools/estadisticas.py` actualiza `mercados` en `data/meta/aprendizaje.json`. Si un fallo enseña algo, edita en ese archivo `reglas` (con su origen), `vigilar` (pocos datos) e `historial`.
 3. **Hoy.** Si `dias/<hoy>` ya existe, no lo reemplaces: revisa bajas de última hora y avisa en el resumen.
-4. **Mañana (obligatorio).** Arma `data/dias/<mañana>.json`. Si mañana es lunes, arma también `data/semanas/<mañana>.json`.
+4. **Mañana (obligatorio).** Arma `data/dias/<mañana>.json`. Confirma la fecha de cada partido en dos fuentes, una de su propia liga (regla 10); si no coinciden, no lo uses. Si mañana es lunes, arma también `data/semanas/<mañana>.json`.
 5. **Guardar.** Un solo `ArtifactData batch` con todos los documentos cambiados (`file_path` + `if_version`; sin `if_version` solo los nuevos). Después `git add -A && git commit && git push` a `claude/cool-davinci-21v2qd`; si el push falla, sigue (la base ya quedó guardada) y dilo.
 6. **Resumen** de 10 líneas como máximo: resultados verificados, qué se aprendió, novedades de hoy y combinadas de mañana con cuotas.
 
