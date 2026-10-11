@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-10",
+  "actualizado": "2026-10-11",
   "historial": [
     "7 oct 2026: regla 1 cambiada (siempre tres combinadas, con lo que más reglas cumpla) y regla 9 nueva (sin segunda división o inferiores), a pedido del usuario.",
     "7 oct 2026: las 15 reglas se consolidaron en 8. Se resolvieron contradicciones (favorito de mitad baja: antes doble oportunidad en la 2 y fuera en la 11; local sin ventaja: doble oportunidad en la 10 y la 11, fuera en la 13) y se unieron repetidas (4 y 8; 5 y 14; 6 y 9; 12 y 15). Los textos antiguos que citan «regla N» usan la numeración vieja.",
@@ -14,38 +14,39 @@
     "5 oct 2026: del 4 oct, 22/24 selecciones acertaron; fallaron Talleres o empate (0-1 Belgrano) y Gana Irlanda (1-1). Doble oportunidad en Nations League 9/9.",
     "8 oct 2026: del 7 oct, Remo 1-1 Grêmio tumbó la arriesgada (Gana Grêmio visitante, ya cubierto por reglas 4 y 5); Brasileirão 9/10 en total. Bucaramanga-Medellín del 7 oct no existía (se jugó el 17 sep): sus selecciones quedan nulas y nace la regla 10.",
     "9 oct 2026: del 8 oct, Shamrock Rovers 3-1 Drogheda: segura (2.15) y media (3.10) ganadas. Athletico-PR 2-2 Atlético-MG y Santos 2-2 Flamengo hicieron fallar Menos de 3.5 y, con Grau 0-0, tumbaron la arriesgada; doble oportunidad 7/7. Casi doy Shamrock-Drogheda por aplazado al 9 sin buscar el marcador: se endurece la regla 10.",
+    "11 oct 2026: del 9 y 10 oct, media del 9 ganada (3.50, Juárez 1-1 Tijuana), segura del 10 ganada (2.06) y arriesgada del 10 ganada (4.38); la media del 10 cayó por Más de 1.5 en Real Madrid 1-0 y Vasco 0-0. Barcelona 3-0, Chelsea 5-1, Inter 3-0, Arsenal 2-1. Regla 7: Menos de 3.5 restringido; regla 3: hay que anotar la tabla.",
     "10 oct 2026: del 9 oct, Dortmund 2-2 Bremen (Gana Dortmund falló), Lens 2-1 Lyon (Lyon o empate falló), Puebla 1-1 León y Tigres 3-2 Toluca (Menos de 3.5 falló); Más de 1.5 4/4. Segura y arriesgada perdidas; media pendiente solo de Juárez–Tijuana, que se juega el 10 y no el 9 (selecciones movidas de fecha sin cerrar)."
   ],
   "mercados": [
     {
-      "ganadas": 58,
-      "perdidas": 8,
-      "tipo": "Doble oportunidad"
+      "tipo": "Doble oportunidad",
+      "ganadas": 60,
+      "perdidas": 8
     },
     {
-      "ganadas": 23,
-      "perdidas": 19,
-      "tipo": "Gana el favorito"
+      "tipo": "Gana el favorito",
+      "ganadas": 28,
+      "perdidas": 20
     },
     {
-      "ganadas": 23,
-      "perdidas": 5,
-      "tipo": "Más / menos goles"
+      "tipo": "Más / menos goles",
+      "ganadas": 27,
+      "perdidas": 7
     },
     {
+      "tipo": "Hándicap / ganar por margen",
       "ganadas": 0,
-      "perdidas": 2,
-      "tipo": "Hándicap / ganar por margen"
+      "perdidas": 2
     },
     {
+      "tipo": "Gana + goles",
       "ganadas": 2,
-      "perdidas": 0,
-      "tipo": "Gana + goles"
+      "perdidas": 0
     },
     {
+      "tipo": "Gana sin recibir gol",
       "ganadas": 1,
-      "perdidas": 0,
-      "tipo": "Gana sin recibir gol"
+      "perdidas": 0
     }
   ],
   "reglas": [
@@ -58,8 +59,8 @@
       "texto": "Un mismo partido va como máximo en dos combinadas, y con mercados distintos."
     },
     {
-      "origen": "Une las reglas 2, 11 y 13. Talleres (15.º) 0-1 Belgrano en el clásico; Cienciano (14.º) 1-1; Medellín (7.º) 0-1 Santa Fe (5.º); Escocia 1-2 Eslovenia (2.ª del grupo).",
-      "texto": "Fuera, ni siquiera con doble oportunidad: clásicos, partidos parejos (rival en la mitad alta de la tabla o a pocos puntos) y favoritos que están en la mitad baja."
+      "origen": "Une las reglas 2, 11 y 13. Talleres (15.º) 0-1 Belgrano en el clásico; Cienciano (14.º) 1-1; Medellín (7.º) 0-1 Santa Fe (5.º); Escocia 1-2 Eslovenia (2.ª del grupo). 10 oct: Juárez o empate quedó con reglas_rotas [] aunque Juárez era último (4 puntos en 11 fechas); se salvó con un 1-1 en el 90.",
+      "texto": "Fuera, ni siquiera con doble oportunidad: clásicos, partidos parejos (rival en la mitad alta de la tabla o a pocos puntos) y favoritos que están en la mitad baja. Antes de decidir, anota en las claves la posición y los puntos de ambos equipos en la tabla actual; si no los tienes, la selección rompe esta regla."
     },
     {
       "origen": "Une las reglas 2, 3, 4, 8, 10 y 11. Southend 1-1, Gales 2-1 Noruega, Irlanda 1-1 Israel, Bielorrusia 0-0 Finlandia: la victoria falló y la doble oportunidad acertó. Doble oportunidad 44/51 contra Gana el favorito 20/36.",
@@ -74,8 +75,8 @@
       "texto": "Cuota por selección: segura hasta 1.40; media hasta 1.35 y máximo 5 selecciones (cuota 3.5-4.5); de 1.41 a 1.79 solo en la arriesgada."
     },
     {
-      "origen": "Antes regla 7, ampliada a todas las ligas. Hándicap 0/2 (Cienciano, Azerbaiyán); Más de 2.5 falló en Alemania 2-0; Más/menos goles va 11/13.",
-      "texto": "Goles: solo Más de 1.5 o Menos de 3.5. Nada de hándicap, «gana por 2 o más» ni Más de 2.5."
+      "origen": "Antes regla 7, ampliada a todas las ligas. Hándicap 0/2 (Cienciano, Azerbaiyán); Más de 2.5 falló en Alemania 2-0; Más/menos goles va 11/13. 10 oct: Menos de 3.5 va 9/12 y sus 3 fallos fueron en 3 días seguidos (Athletico-PR 2-2 Atlético-MG, Santos 2-2 Flamengo, Tigres 3-2 Toluca).",
+      "texto": "Goles: solo Más de 1.5 o Menos de 3.5. Menos de 3.5 solo en partidos cerrados entre equipos de poco gol; nunca entre equipos de arriba ni en duelos ofensivos. Nada de hándicap, «gana por 2 o más» ni Más de 2.5."
     },
     {
       "origen": "Une las reglas 6 y 9. 3 oct salió sin Nations League por suponer que la fecha FIFA terminaba; amistosos fallaron 3 de 8 (Japón 0-0, Colombia 0-1, Corea 0-0) y el usuario pidió evitarlos.",
@@ -96,7 +97,6 @@
     "Local no favorito claro en Nations League C/D (Kazajistán, Ucrania): doble oportunidad también cayó; revisar forma antes de usarla.",
     "Liga Profesional Argentina: doble oportunidad 2/3 (Tucumán 2-3 en casa); Newell's 0-0 y Defensa 3-0 sí acertaron.",
     "Escocia en Nations League: 1-2 ante Eslovenia en casa tras 422 minutos sin gol; no ponerla como favorita hasta que vuelva a ganar.",
-    "Menos de 3.5 falló 2 veces el 8 oct (2-2 en Brasileirão entre equipos de arriba); evitarlo en duelos parejos y ofensivos.",
-    "Menos de 3.5 falló otra vez (Tigres 3-2 Toluca, Liga MX); 3 fallos en 3 días: evitarlo salvo en partidos cerrados."
+    "Más de 1.5 va 19/22: cayó con Vasco 0-0 Remo (dos equipos de la zona de descenso) y Real Madrid 1-0 Villarreal (roja a Vinícius). Cuidado con duelos de la zona baja."
   ]
 }

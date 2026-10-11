@@ -58,7 +58,7 @@
     },
     {
       "cuota": 3.5,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "media",
       "prob": 0.26,
       "razon": "Más de 1.5 goles en cuatro partidos y Juárez con empate cubierto; todas bajo 1.35 salvo Tigres-Toluca (1.35).",
@@ -119,12 +119,13 @@
         {
           "competencia": "Liga MX",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:00 p. m.",
           "mercado": "Juárez o empate",
           "partido": "FC Juárez vs Tijuana",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-1"
         }
       ],
       "titulo": "Goles en cuatro ligas"
@@ -197,7 +198,7 @@
         {
           "competencia": "Liga MX",
           "cuota": 1.75,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "6:00 p. m.",
           "mercado": "Gana Juárez",
@@ -206,7 +207,8 @@
             4,
             5,
             6
-          ]
+          ],
+          "resultado": "1-1"
         }
       ],
       "titulo": "Favoritos y empate cubierto"

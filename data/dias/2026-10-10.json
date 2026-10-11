@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 2.06,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "segura",
       "prob": 0.41,
       "razon": "Tres favoritos claros en casa (Barcelona, Inter, Arsenal), todos por debajo de 1.40. Cumple todas las reglas.",
@@ -10,38 +10,41 @@
         {
           "competencia": "LaLiga",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:30 a. m.",
           "mercado": "Gana Barcelona",
           "partido": "Barcelona vs Getafe",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-0"
         },
         {
           "competencia": "Serie A",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:00 a. m.",
           "mercado": "Gana Inter",
           "partido": "Inter vs Parma",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-0"
         },
         {
           "competencia": "Premier League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "9:00 a. m.",
           "mercado": "Gana Arsenal",
           "partido": "Arsenal vs Leeds United",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "2-1"
         }
       ]
     },
     {
       "cuota": 2.42,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "media",
       "prob": 0.45,
       "razon": "Cuatro «Más de 1.5 goles» de cuota baja en partidos de equipos ofensivos. Cumple todas las reglas; la cuota queda bajo el objetivo de ~4 por falta de partidos fiables.",
@@ -49,48 +52,52 @@
         {
           "competencia": "Premier League",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "9:00 a. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Chelsea vs AFC Bournemouth",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "5-1"
         },
         {
           "competencia": "LaLiga",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Real Madrid vs Villarreal",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Vasco da Gama vs Remo",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "0-0"
         },
         {
           "competencia": "Serie A",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:00 a. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Inter vs Parma",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-0"
         }
       ]
     },
     {
       "cuota": 4.38,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "arriesgada",
       "prob": 0.17,
       "razon": "Victorias de Madrid y Chelsea (1.41-1.79 solo aquí) más goles. Vasco o empate rompe la regla 3 (Vasco 16.º). Cuota bajo ~10: cada partido solo entra en dos combinadas.",
@@ -98,54 +105,59 @@
         {
           "competencia": "LaLiga",
           "cuota": 1.45,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Gana Real Madrid",
           "partido": "Real Madrid vs Villarreal",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-0"
         },
         {
           "competencia": "Premier League",
           "cuota": 1.55,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "9:00 a. m.",
           "mercado": "Gana Chelsea",
           "partido": "Chelsea vs AFC Bournemouth",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "5-1"
         },
         {
           "competencia": "LaLiga",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:30 a. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Barcelona vs Getafe",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-0"
         },
         {
           "competencia": "Premier League",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "9:00 a. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Arsenal vs Leeds United",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "2-1"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Vasco o empate",
           "partido": "Vasco da Gama vs Remo",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "0-0"
         }
       ]
     }
