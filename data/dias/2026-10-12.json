@@ -1,0 +1,307 @@
+{
+  "combinadas": [
+    {
+      "cuota": 2.03,
+      "estado": "pendiente",
+      "nivel": "segura",
+      "prob": 0.45,
+      "razon": "Tres dobles oportunidades. Newcastle y Athletico (4.º contra el último) cumplen todas las reglas; Lanús rompe la 3 (parejo).",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": false,
+          "hora": "2:00 p. m.",
+          "mercado": "Newcastle o empate",
+          "partido": "Coventry vs Newcastle",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "5:30 p. m.",
+          "mercado": "Athletico-PR o empate",
+          "partido": "Chapecoense vs Athletico-PR",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Lanús o empate",
+          "partido": "Lanús vs Vélez",
+          "reglas_rotas": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "cuota": 2.54,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.3,
+      "razon": "Tres «Más de 1.5» y Newell's o empate. Coventry lleva 1 gol en 5 jornadas: riesgo en el primero.",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": false,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Coventry vs Newcastle",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Liga de Primera Chile",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Universidad de Chile vs Ñublense",
+          "reglas_rotas": [
+            3
+          ]
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "4:30 p. m.",
+          "mercado": "Newell's o empate",
+          "partido": "Gimnasia (Mza.) vs Newell's",
+          "reglas_rotas": [
+            3
+          ]
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.28,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Lanús vs Vélez",
+          "reglas_rotas": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "cuota": 3.8,
+      "estado": "pendiente",
+      "nivel": "arriesgada",
+      "prob": 0.2,
+      "razon": "Victorias de Athletico (visitante, rompe la 4) y de la U (2.ª, local) más goles en Mendoza.",
+      "selecciones": [
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.75,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "5:30 p. m.",
+          "mercado": "Gana Athletico-PR",
+          "partido": "Chapecoense vs Athletico-PR",
+          "reglas_rotas": [
+            4
+          ]
+        },
+        {
+          "competencia": "Liga de Primera Chile",
+          "cuota": 1.55,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Gana Universidad de Chile",
+          "partido": "Universidad de Chile vs Ñublense",
+          "reglas_rotas": [
+            3
+          ]
+        },
+        {
+          "competencia": "Liga Profesional Argentina",
+          "cuota": 1.4,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "4:30 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Gimnasia (Mza.) vs Newell's",
+          "reglas_rotas": [
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-12",
+  "nota": "Rehecha el 11 oct: la versión anterior tenía la segura (2.11) pagando más que la media (2.08) y la arriesgada (1.89). Lunes festivo con agenda corta: 5 partidos válidos (se sumó Chapecoense–Athletico-PR; Racing–Belgrano y Talleres–Independiente se descartaron por fecha dudosa, regla 10). Con 5 partidos y máximo dos combinadas por partido (regla 2) no se llega a ~4 ni a ~10: segura 2.03, media 2.54, arriesgada 3.80. Cuotas estimadas salvo Coventry–Newcastle (no Stake). Las argentinas y la U rompen la 3 (parejos o tabla sin verificar).",
+  "partidos": [
+    {
+      "claves": [
+        "Coventry 18.º (3 pts), 1 gol en 5 jornadas; Newcastle 9.º (8 pts).",
+        "Bajas Coventry: Awoniyi (sanción), Wright; dudas Newcastle: Elanga, Burn."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Newcastle o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Coventry Building Society Arena",
+      "fuentes": [
+        {
+          "nombre": "Newcastle United (oficial)",
+          "url": "https://www.newcastleunited.com/en/news/coventry-city-a-premier-league-ticket-news-2026-27"
+        },
+        {
+          "nombre": "Sporting Life",
+          "url": "https://www.sportinglife.com/football/news/monday-night-football-tips-coventry-vs-newcastle-predictions-best-bets-and-preview/234733"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Coventry vs Newcastle"
+    },
+    {
+      "claves": [
+        "Lanús ~16 pts, Vélez ~20 pts (tabla tras fecha 10; sin actualizar).",
+        "Partido parejo: rompe regla 3."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Lanús o empate"
+        },
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "La Fortaleza",
+      "fuentes": [
+        {
+          "nombre": "El Economista",
+          "url": "https://eleconomista.com.ar/deportes/fecha-12-dias-horarios-torneo-clausura-futbol-argentino-n98745"
+        },
+        {
+          "nombre": "Todo Jujuy",
+          "url": "https://www.todojujuy.com/lanus-vs-velez-previa-horario-y-como-llegan-la-fecha-12-del-clausura-n297238"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Lanús vs Vélez"
+    },
+    {
+      "claves": [
+        "Gimnasia 17 pts, Newell's 16 pts (tabla tras fecha 10).",
+        "Gimnasia viene de perder; Newell's 1 victoria y 3 empates. Parejo: rompe regla 3."
+      ],
+      "competencia": "Liga Profesional Argentina",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Gimnasia (Mza.) o empate"
+        },
+        {
+          "c": 1.22,
+          "m": "Newell's o empate"
+        },
+        {
+          "c": 1.4,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Víctor Antonio Legrotaglie",
+      "fuentes": [
+        {
+          "nombre": "El Economista",
+          "url": "https://eleconomista.com.ar/deportes/fecha-12-dias-horarios-torneo-clausura-futbol-argentino-n98745"
+        },
+        {
+          "nombre": "Todo Jujuy",
+          "url": "https://www.todojujuy.com/gimnasia-mendoza-vs-newells-previa-horario-y-como-llegan-la-fecha-12-del-clausura-n297239"
+        }
+      ],
+      "hora": "4:30 p. m.",
+      "partido": "Gimnasia (Mza.) vs Newell's"
+    },
+    {
+      "claves": [
+        "U de Chile 2.ª, a 12 pts del líder Colo Colo; posición de Ñublense sin verificar (rompe regla 3).",
+        "Sede cambiada de Santa Laura a Rancagua por conciertos en el Nacional; hora adelantada a las 17:00 de Chile."
+      ],
+      "competencia": "Liga de Primera Chile",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Universidad de Chile"
+        },
+        {
+          "c": 1.12,
+          "m": "Universidad de Chile o empate"
+        }
+      ],
+      "estadio": "Estadio El Teniente (Rancagua)",
+      "fuentes": [
+        {
+          "nombre": "PrensaFútbol",
+          "url": "https://www.prensafutbol.cl/universidad-de-chile-cambio-fecha-estadio-bts/"
+        },
+        {
+          "nombre": "Starting11",
+          "url": "https://starting11.com/fixtures/universidad-de-chile-vs-nublense"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Universidad de Chile vs Ñublense"
+    },
+    {
+      "claves": [
+        "Athletico-PR 4.º (50 pts) tras la fecha 29; Chapecoense último (18 pts), viene de perder 4-0 con Vitória.",
+        "Athletico visitante: solo doble oportunidad (regla 4)."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Athletico-PR o empate"
+        },
+        {
+          "c": 1.75,
+          "m": "Gana Athletico-PR"
+        }
+      ],
+      "estadio": "Arena Condá",
+      "fuentes": [
+        {
+          "nombre": "Máquina do Esporte",
+          "url": "https://maquinadoesporte.com.br/onde-assistir/chapecoense-x-athletico-pr-onde-assistir-ao-jogo-da-30a-rodada-do-brasileirao/"
+        },
+        {
+          "nombre": "Lance (tabla)",
+          "url": "https://www.lance.com.br/tabela/brasileirao"
+        }
+      ],
+      "hora": "5:30 p. m.",
+      "partido": "Chapecoense vs Athletico-PR"
+    }
+  ]
+}

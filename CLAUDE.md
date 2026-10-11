@@ -17,7 +17,7 @@ App personal de combinadas de fútbol del usuario (Colombia, hora America/Bogota
 2. **Aprender.** `python3 tools/estadisticas.py` actualiza `mercados` en `data/meta/aprendizaje.json`. Si un fallo enseña algo, edita en ese archivo `reglas` (con su origen), `vigilar` (pocos datos) e `historial`.
 3. **Hoy.** Si `dias/<hoy>` ya existe, no lo reemplaces: revisa bajas de última hora y avisa en el resumen.
 4. **Mañana (obligatorio).** Arma `data/dias/<mañana>.json`. Confirma la fecha de cada partido en dos fuentes, una de su propia liga (regla 10); si no coinciden, no lo uses. Si mañana es lunes, arma también `data/semanas/<mañana>.json`.
-5. **Guardar.** Un solo `ArtifactData batch` con todos los documentos cambiados (`file_path` + `if_version`; sin `if_version` solo los nuevos). Después `git add -A && git commit && git push` a `claude/cool-davinci-21v2qd`; si el push falla, sigue (la base ya quedó guardada) y dilo.
+5. **Guardar.** Antes, `python3 tools/validar.py <mañana>` (revisa orden segura < media < arriesgada, conteos, reglas 2 y 6 y la semanal): corrige lo que marque, y lo que no se pueda corregir explícalo en la nota. Luego un solo `ArtifactData batch` con todos los documentos cambiados (`file_path` + `if_version`; sin `if_version` solo los nuevos). Después `git add -A && git commit && git push` a `claude/cool-davinci-21v2qd`; si el push falla, sigue (la base ya quedó guardada) y dilo.
 6. **Resumen** de 10 líneas como máximo: resultados verificados, qué se aprendió, novedades de hoy y combinadas de mañana con cuotas.
 
 ## Cómo armar las combinadas
