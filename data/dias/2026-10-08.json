@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 2.15,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "segura",
       "prob": 0.42,
       "razon": "Rovers cumple todas las reglas. Fluminense, Flamengo y Grau rompen solo la regla 3 en su versión leve: Coritiba (9.º) y Santos (8.º) están justo en la mitad alta y Grau es 11.º.",
@@ -10,55 +10,59 @@
         {
           "competencia": "League of Ireland Premier Division",
           "cuota": 1.08,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Shamrock Rovers o empate",
           "partido": "Shamrock Rovers vs Drogheda United",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-1"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:30 p. m.",
           "mercado": "Fluminense o empate",
           "partido": "Fluminense vs Coritiba",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "4-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.38,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Flamengo o empate",
           "partido": "Santos vs Flamengo",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "2-2"
         },
         {
           "competencia": "Liga 1 Perú",
           "cuota": 1.18,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:30 p. m.",
           "mercado": "Atlético Grau o empate",
           "partido": "Atlético Grau vs Los Chankas",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "0-0"
         }
       ],
       "titulo": "Dobles oportunidades en cuatro ligas"
     },
     {
       "cuota": 3.1,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "media",
       "prob": 0.21,
       "razon": "Cinco selecciones de hasta 1.30 (regla 6). Rovers cumple todo; las demás rompen solo la regla 3: Palmeiras-Bahia y Athletico-Atlético MG son parejos, y Moquegua y Cienciano están en la mitad baja.",
@@ -66,67 +70,72 @@
         {
           "competencia": "League of Ireland Premier Division",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Shamrock Rovers vs Drogheda United",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-1"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:30 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Fluminense vs Coritiba",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "4-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:30 p. m.",
           "mercado": "Palmeiras o empate",
           "partido": "Palmeiras vs Bahia",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "1-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "Por confirmar",
           "mercado": "Athletico-PR o empate",
           "partido": "Athletico-PR vs Atlético-MG",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "2-2"
         },
         {
           "competencia": "Liga 1 Perú",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:00 p. m.",
           "mercado": "Cienciano o empate",
           "partido": "Deportivo Moquegua vs Cienciano",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "0-2"
         }
       ],
       "titulo": "Goles y empate cubierto"
     },
     {
       "cuota": 6.45,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.11,
       "razon": "Única combinada que rompe más de una regla: Gana Palmeiras (1.95) rompe las reglas 3, 5 y 6, y Gana Grau rompe la 3 y la 4. El resto rompe solo la 3. Con esta agenda no da para 10.",
@@ -134,7 +143,7 @@
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.95,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:30 p. m.",
           "mercado": "Gana Palmeiras",
@@ -143,12 +152,13 @@
             3,
             5,
             6
-          ]
+          ],
+          "resultado": "1-0"
         },
         {
           "competencia": "Liga 1 Perú",
           "cuota": 1.7,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:30 p. m.",
           "mercado": "Gana Atlético Grau",
@@ -157,43 +167,47 @@
             3,
             4,
             5
-          ]
+          ],
+          "resultado": "0-0"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "Por confirmar",
           "mercado": "Menos de 3.5 goles",
           "partido": "Athletico-PR vs Atlético-MG",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "2-2"
         },
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "7:30 p. m.",
           "mercado": "Menos de 3.5 goles",
           "partido": "Santos vs Flamengo",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "2-2"
         },
         {
           "competencia": "Liga 1 Perú",
           "cuota": 1.33,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "1:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Deportivo Moquegua vs Cienciano",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "0-2"
         }
       ],
       "titulo": "Palmeiras y Grau ganan"
@@ -341,8 +355,8 @@
       "estadio": "Tallaght Stadium",
       "fuentes": [
         {
-          "nombre": "MightyTips",
-          "url": "https://www.mightytips.com/football-predictions/shamrock-rovers-vs-drogheda-united-prediction-08-10-2026/"
+          "nombre": "The Journal",
+          "url": "https://www.thejournal.ie/shamrock-rovers-drogheda-united-league-of-ireland-3-7187599-Oct2026/"
         }
       ],
       "hora": "2:00 p. m.",

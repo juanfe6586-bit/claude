@@ -1,0 +1,313 @@
+{
+  "combinadas": [
+    {
+      "cuota": 2.06,
+      "estado": "pendiente",
+      "nivel": "segura",
+      "prob": 0.41,
+      "razon": "Tres favoritos claros en casa (Barcelona, Inter, Arsenal), todos por debajo de 1.40. Cumple todas las reglas.",
+      "selecciones": [
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:30 a. m.",
+          "mercado": "Gana Barcelona",
+          "partido": "Barcelona vs Getafe",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:00 a. m.",
+          "mercado": "Gana Inter",
+          "partido": "Inter vs Parma",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Premier League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Gana Arsenal",
+          "partido": "Arsenal vs Leeds United",
+          "reglas_rotas": []
+        }
+      ]
+    },
+    {
+      "cuota": 2.42,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.45,
+      "razon": "Cuatro «Más de 1.5 goles» de cuota baja en partidos de equipos ofensivos. Cumple todas las reglas; la cuota queda bajo el objetivo de ~4 por falta de partidos fiables.",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Chelsea vs AFC Bournemouth",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Real Madrid vs Villarreal",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Vasco da Gama vs Remo",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Inter vs Parma",
+          "reglas_rotas": []
+        }
+      ]
+    },
+    {
+      "cuota": 4.38,
+      "estado": "pendiente",
+      "nivel": "arriesgada",
+      "prob": 0.17,
+      "razon": "Victorias de Madrid y Chelsea (1.41-1.79 solo aquí) más goles. Vasco o empate rompe la regla 3 (Vasco 16.º). Cuota bajo ~10: cada partido solo entra en dos combinadas.",
+      "selecciones": [
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.45,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Real Madrid",
+          "partido": "Real Madrid vs Villarreal",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Premier League",
+          "cuota": 1.55,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Gana Chelsea",
+          "partido": "Chelsea vs AFC Bournemouth",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.2,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Barcelona vs Getafe",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Premier League",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Arsenal vs Leeds United",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Vasco o empate",
+          "partido": "Vasco da Gama vs Remo",
+          "reglas_rotas": [
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-10",
+  "nota": "Sábado con Premier, LaLiga, Inter y Vasco. Todas las cuotas son estimadas (no Stake); confírmalas. Tabla y forma de Premier e Inter sin verificar; hora de Inter–Parma por confirmar. Segura y media cumplen todas las reglas; la arriesgada rompe la regla 3 en Vasco o empate. Cada partido va en máximo dos combinadas, por eso la arriesgada queda en ~4.38. No se usaron Liverpool–City ni Man United–Tottenham (partidos parejos, regla 3).",
+  "partidos": [
+    {
+      "claves": [
+        "Barcelona líder (21 pts, invicto, 7 triunfos seguidos); Getafe 11.º (8 pts).",
+        "Hora: 18:30 en España."
+      ],
+      "competencia": "LaLiga",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Gana Barcelona"
+        },
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Spotify Camp Nou",
+      "fuentes": [
+        {
+          "nombre": "LaLiga",
+          "url": "https://www.foxsports.com.mx/2026/10/06/barcelona-vs-getafe-en-vivo-donde-ver-en-tv-online-y-hora-laliga-de-espana-2026-27/"
+        }
+      ],
+      "hora": "11:30 a. m.",
+      "partido": "Barcelona vs Getafe"
+    },
+    {
+      "claves": [
+        "Jornada 6, anticipo por la Champions; hora por confirmar (18:00 en Italia).",
+        "Cuotas y tabla sin verificar."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Gana Inter"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "San Siro",
+      "fuentes": [
+        {
+          "nombre": "Inter.it",
+          "url": "https://www.inter.it/it/notizie/serie-a-2026-27-calendario-anticipi-posticipi-inter-6-12-giornata"
+        }
+      ],
+      "hora": "11:00 a. m.",
+      "partido": "Inter vs Parma"
+    },
+    {
+      "claves": [
+        "Arsenal líder (12 pts tras 4 fechas) en casa.",
+        "Cuotas estimadas; forma de Leeds sin verificar."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Gana Arsenal"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Emirates Stadium",
+      "fuentes": [
+        {
+          "nombre": "Premier League",
+          "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
+        }
+      ],
+      "hora": "9:00 a. m.",
+      "partido": "Arsenal vs Leeds United"
+    },
+    {
+      "claves": [
+        "Chelsea 7 pts tras 4 fechas, en casa; partidos abiertos (4-3 ante Brighton).",
+        "Cuotas estimadas."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Chelsea"
+        }
+      ],
+      "estadio": "Stamford Bridge",
+      "fuentes": [
+        {
+          "nombre": "Premier League",
+          "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
+        }
+      ],
+      "hora": "9:00 a. m.",
+      "partido": "Chelsea vs AFC Bournemouth"
+    },
+    {
+      "claves": [
+        "Madrid 4.º (15 pts) vs Villarreal 9.º (8 pts); Madrid ganó 5 de los últimos 6.",
+        "Oficial: sábado 21:00 en España."
+      ],
+      "competencia": "LaLiga",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.45,
+          "m": "Gana Real Madrid"
+        }
+      ],
+      "estadio": "Santiago Bernabéu",
+      "fuentes": [
+        {
+          "nombre": "LaLiga",
+          "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-real-madrid-villarreal-se-jugara-sabado-10-de-octubre-a-las-21-00-h-10-09-2026"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Real Madrid vs Villarreal"
+    },
+    {
+      "claves": [
+        "Fecha 30. Remo 19.º en descenso (-15 de saldo); Vasco 16.º (31 pts).",
+        "Hora: 17:00 de Brasilia."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.3,
+          "m": "Vasco o empate"
+        }
+      ],
+      "estadio": "São Januário",
+      "fuentes": [
+        {
+          "nombre": "Diário do Rio (tabla CBF)",
+          "url": "https://www.diariodorio.com/esporte/vasco-da-gama/2026/09/01/vasco-datas-e-horarios-dos-jogos-do-brasileirao-nas-rodadas-27-a-30.html"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Vasco da Gama vs Remo"
+    }
+  ]
+}

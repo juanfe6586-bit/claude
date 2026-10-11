@@ -1,0 +1,331 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.68,
+      "estado": "pendiente",
+      "nivel": "segura",
+      "prob": 0.55,
+      "razon": "Tres dobles oportunidades de local con ventaja (Bahia, Pachuca, Lazio). Cumple todas las reglas; cuota bajo ~2 por pocos partidos verificables.",
+      "selecciones": [
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.2,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:30 a. m.",
+          "mercado": "Bahia o empate",
+          "partido": "Bahia vs Mirassol",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:15 p. m.",
+          "mercado": "Pachuca o empate",
+          "partido": "Pachuca vs Necaxa",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.15,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Lazio o empate",
+          "partido": "Lazio vs Monza",
+          "reglas_rotas": []
+        }
+      ]
+    },
+    {
+      "cuota": 2.42,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.38,
+      "razon": "Cuatro «Más de 1.5 goles». Betis–Osasuna y Liverpool–City son partidos parejos (regla 3, solo en mercado de goles).",
+      "selecciones": [
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.28,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "11:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Bahia vs Mirassol",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.28,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:15 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Pachuca vs Necaxa",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.25,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Betis vs Osasuna",
+          "reglas_rotas": [
+            3
+          ]
+        },
+        {
+          "competencia": "Premier League",
+          "cuota": 1.18,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "10:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Liverpool vs Manchester City",
+          "reglas_rotas": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "cuota": 2.97,
+      "estado": "pendiente",
+      "nivel": "arriesgada",
+      "prob": 0.3,
+      "razon": "Gana Lazio más goles y dobles oportunidades en partidos parejos (rompe regla 3). Cuota muy bajo ~10: domingo con poca información verificable.",
+      "selecciones": [
+        {
+          "competencia": "Serie A",
+          "cuota": 1.55,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Gana Lazio",
+          "partido": "Lazio vs Monza",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.15,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Betis o empate",
+          "partido": "Betis vs Osasuna",
+          "reglas_rotas": [
+            3
+          ]
+        },
+        {
+          "competencia": "Premier League",
+          "cuota": 1.28,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Crystal Palace vs Nottingham Forest",
+          "reglas_rotas": [
+            3
+          ]
+        },
+        {
+          "competencia": "Premier League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "10:30 a. m.",
+          "mercado": "Liverpool o empate",
+          "partido": "Liverpool vs Manchester City",
+          "reglas_rotas": [
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-11",
+  "nota": "Domingo con poca información: todas las cuotas son estimadas (no Stake) y las tablas/forma de Lazio, Liverpool y Palace no se verificaron. Descartados por una sola fuente: Sassuolo–Milan, Como–Roma. Descartados por parejos: Pumas–Cruz Azul, Elche–Celta. La media y la arriesgada rompen la regla 3 (partidos parejos) en los mercados indicados; cuotas muy por debajo de los objetivos ~4 y ~10 (cada partido va en máximo dos combinadas). Horas por confirmar.",
+  "partidos": [
+    {
+      "claves": [
+        "Bahia 5.º (46 pts) en casa; Mirassol 15.º (32 pts).",
+        "Hora: 18:30 en Madrid; confirmar."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Bahia o empate"
+        },
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Arena Fonte Nova",
+      "fuentes": [
+        {
+          "nombre": "Futbol Total",
+          "url": "https://futboltotal.futbol/partido/bahia-vs-mirassol-campeonato-brasileno-de-serie-a-2026-10-12"
+        },
+        {
+          "nombre": "Sport Flash",
+          "url": "https://www.sport-flash.com/sports/football/br/calendar/2026-10-11/brasileirao-serie-a-2026"
+        }
+      ],
+      "hora": "11:30 a. m.",
+      "partido": "Bahia vs Mirassol"
+    },
+    {
+      "claves": [
+        "Pachuca ganó 5 y empató 1 de los últimos 6 duelos; Necaxa cayó 4-2 con América.",
+        "Pachuca perdió 1-0 con Santos la fecha pasada. Hora: 17:15 o 19:00 en México según fuente; confirmar."
+      ],
+      "competencia": "Liga MX",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Pachuca o empate"
+        },
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Estadio Hidalgo",
+      "fuentes": [
+        {
+          "nombre": "Mediotiempo",
+          "url": "https://www.mediotiempo.com/futbol/liga-mx/gratis-jornada-11-liga-mx-horarios-canales-apertura-2026"
+        },
+        {
+          "nombre": "Plano Informativo",
+          "url": "https://planoinformativo.com/planodeportivo/343852/-iquest-cuando-regresa-el-apertura-2026-partidos-y-horarios-de-la-jornada-11"
+        }
+      ],
+      "hora": "6:15 p. m.",
+      "partido": "Pachuca vs Necaxa"
+    },
+    {
+      "claves": [
+        "Lazio local en la jornada 6; forma y tabla sin verificar.",
+        "Hora: 15:00 en Italia."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.15,
+          "m": "Lazio o empate"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Lazio"
+        }
+      ],
+      "estadio": "Stadio Olimpico",
+      "fuentes": [
+        {
+          "nombre": "Fantamaster",
+          "url": "https://www.fantamaster.it/seriea-6-12-giornata-date-orari-calendario-quando-si-gioca-milan-inter/"
+        },
+        {
+          "nombre": "Gainblers",
+          "url": "https://gainblers.com/es/pronosticos/futbol/italia/serie-a/pronostico-lazio-monza-11-10-2026/"
+        }
+      ],
+      "hora": "8:00 a. m.",
+      "partido": "Lazio vs Monza"
+    },
+    {
+      "claves": [
+        "Betis 4.º (9 pts) vs Osasuna 8.º-10.º (7-8 pts).",
+        "Hora: 21:00 en España (Sport Flash dice 18:30); confirmar."
+      ],
+      "competencia": "LaLiga",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.15,
+          "m": "Betis o empate"
+        }
+      ],
+      "estadio": "Benito Villamarín",
+      "fuentes": [
+        {
+          "nombre": "Soccerway",
+          "url": "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-betis-osasuna-donde-ver-previa-alineaciones-probables-y-cuotas/4QbTWuR0"
+        },
+        {
+          "nombre": "Gainblers",
+          "url": "https://gainblers.com/es-us/pronosticos/futbol/espana/liga-primera-division/pronostico-betis-osasuna-11-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Betis vs Osasuna"
+    },
+    {
+      "claves": [
+        "Partido parejo y de goles; forma sin verificar.",
+        "Hora: 4:30 p. m. en Reino Unido (Sky Sports)."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.18,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.3,
+          "m": "Liverpool o empate"
+        }
+      ],
+      "estadio": "Anfield",
+      "fuentes": [
+        {
+          "nombre": "Sky Sports",
+          "url": "https://www.skysports.com/share/13574076"
+        },
+        {
+          "nombre": "Sport Flash",
+          "url": "https://www.sport-flash.com/sports/football/us/calendar/2026-10-11/premier-league-2026-2027"
+        }
+      ],
+      "hora": "10:30 a. m.",
+      "partido": "Liverpool vs Manchester City"
+    },
+    {
+      "claves": [
+        "Duelo parejo de media tabla; sin forma verificada.",
+        "Hora: 2 p. m. en Reino Unido (Sky Sports)."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Selhurst Park",
+      "fuentes": [
+        {
+          "nombre": "Sky Sports",
+          "url": "https://www.skysports.com/share/13574076"
+        },
+        {
+          "nombre": "Sport Flash",
+          "url": "https://www.sport-flash.com/sports/football/us/calendar/2026-10-11/premier-league-2026-2027"
+        }
+      ],
+      "hora": "8:00 a. m.",
+      "partido": "Crystal Palace vs Nottingham Forest"
+    }
+  ]
+}

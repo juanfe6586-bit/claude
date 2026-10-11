@@ -1,0 +1,369 @@
+{
+  "combinadas": [
+    {
+      "cuota": 2.33,
+      "estado": "perdida",
+      "nivel": "segura",
+      "prob": 0.5,
+      "razon": "Una selección por partido de cuota baja; Dortmund y Lyon con doble oportunidad, y menos de 3.5 en las dos de Liga MX.",
+      "selecciones": [
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:30 p. m.",
+          "mercado": "Borussia Dortmund o empate",
+          "partido": "Borussia Dortmund vs Werder Bremen",
+          "reglas_rotas": [],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.3,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Lyon o empate",
+          "partido": "Lens vs Lyon",
+          "reglas_rotas": [],
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Menos de 3.5 goles",
+          "partido": "Puebla vs León",
+          "reglas_rotas": [],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.3,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "10:00 p. m.",
+          "mercado": "Menos de 3.5 goles",
+          "partido": "Tigres vs Toluca",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "3-2"
+        }
+      ],
+      "titulo": "Cuatro mercados seguros"
+    },
+    {
+      "cuota": 3.5,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.26,
+      "razon": "Más de 1.5 goles en cuatro partidos y Juárez con empate cubierto; todas bajo 1.35 salvo Tigres-Toluca (1.35).",
+      "selecciones": [
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:30 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Borussia Dortmund vs Werder Bremen",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Lens vs Lyon",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Puebla vs León",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.35,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "10:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Tigres vs Toluca",
+          "reglas_rotas": [
+            2,
+            3
+          ],
+          "resultado": "3-2"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:00 p. m.",
+          "mercado": "Juárez o empate",
+          "partido": "FC Juárez vs Tijuana",
+          "reglas_rotas": []
+        }
+      ],
+      "titulo": "Goles en cuatro ligas"
+    },
+    {
+      "cuota": 9.14,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.09,
+      "razon": "Cuotas 1.45-1.75 permitidas solo aquí. Gana Dortmund (local fuerte); el resto con empate cubierto. Gana Juárez rompe la regla 5 (no es favorito claro).",
+      "selecciones": [
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.55,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:30 p. m.",
+          "mercado": "Gana Borussia Dortmund",
+          "partido": "Borussia Dortmund vs Werder Bremen",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.55,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Lens o empate",
+          "partido": "Lens vs Lyon",
+          "reglas_rotas": [
+            2,
+            3,
+            6
+          ],
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.5,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "León o empate",
+          "partido": "Puebla vs León",
+          "reglas_rotas": [
+            2,
+            3,
+            6
+          ],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.45,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "10:00 p. m.",
+          "mercado": "Tigres o empate",
+          "partido": "Tigres vs Toluca",
+          "reglas_rotas": [
+            2,
+            3,
+            6
+          ],
+          "resultado": "3-2"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.75,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "6:00 p. m.",
+          "mercado": "Gana Juárez",
+          "partido": "FC Juárez vs Tijuana",
+          "reglas_rotas": [
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "titulo": "Favoritos y empate cubierto"
+    }
+  ],
+  "fecha": "2026-10-09",
+  "nota": "Viernes flojo: solo 5 partidos válidos (Bundesliga, Ligue 1 y Liga MX), así que la regla 1 no se cumple del todo: cada partido aparece en las tres combinadas con mercados distintos (el de Juárez, solo en dos). Ninguna combinada cumple todas las reglas. Todas las cuotas son estimadas (no Stake): confírmalas. Horas por confirmar: Dortmund-Werder (viernes 9 o sábado 10) y Juárez-Tijuana (viernes o sábado). Se descartó Málaga-Espanyol por ser segunda división.",
+  "partidos": [
+    {
+      "claves": [
+        "Jornada 5; fecha por confirmar (viernes 9 o sábado 10 según la fuente).",
+        "Modelo: local 55%, empate 29%, visitante 16%. 6 bajas en cada equipo."
+      ],
+      "competencia": "Bundesliga",
+      "cuotas": [
+        {
+          "c": 1.15,
+          "m": "Borussia Dortmund o empate"
+        },
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Borussia Dortmund"
+        },
+        {
+          "c": 1.3,
+          "m": "Menos de 3.5 goles"
+        }
+      ],
+      "estadio": "Signal Iduna Park",
+      "fuentes": [
+        {
+          "nombre": "Football Predictions",
+          "url": "https://footballpredictions.com/footballpredictions/bundesligapredictions/borussia-dortmund-vs-werder-bremen-prediction-09-10-2026/"
+        }
+      ],
+      "hora": "2:30 p. m.",
+      "partido": "Borussia Dortmund vs Werder Bremen"
+    },
+    {
+      "claves": [
+        "Jornada 6: Lyon 2.º (11 pts), Lens 15.º (4 pts); Lens con 8 bajas.",
+        "Últimos 6 duelos: Lens 3, Lyon 1, 2 empates."
+      ],
+      "competencia": "Ligue 1",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Lyon o empate"
+        },
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Lens o empate"
+        }
+      ],
+      "estadio": "Stade Bollaert-Delelis",
+      "fuentes": [
+        {
+          "nombre": "Starting11",
+          "url": "https://starting11.com/fixtures/lens-vs-lyon-20261009"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Lens vs Lyon"
+    },
+    {
+      "claves": [
+        "Jornada 11 Apertura 2026. En la J10 León ganó 2-1 a Juárez y Puebla perdió 0-1 con Tigres.",
+        "Sin momios ni tabla actualizada: cuotas estimadas."
+      ],
+      "competencia": "Liga MX",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Menos de 3.5 goles"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.5,
+          "m": "León o empate"
+        }
+      ],
+      "estadio": "Estadio Cuauhtémoc",
+      "fuentes": [
+        {
+          "nombre": "Fox Sports MX",
+          "url": "https://www.foxsports.com.mx/2026/09/29/liga-mx-jornada-11-apertura-2026-fecha-fifa-partidos-horarios-online-gratis/"
+        }
+      ],
+      "hora": "8:00 p. m.",
+      "partido": "Puebla vs León"
+    },
+    {
+      "claves": [
+        "Toluca líder (20 pts) visita a Tigres, que ganó 1-0 a Puebla en la J10.",
+        "Partido parejo: solo mercados de goles y empate cubierto."
+      ],
+      "competencia": "Liga MX",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Menos de 3.5 goles"
+        },
+        {
+          "c": 1.35,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.45,
+          "m": "Tigres o empate"
+        }
+      ],
+      "estadio": "Estadio Universitario",
+      "fuentes": [
+        {
+          "nombre": "Claro Sports",
+          "url": "https://www.clarosports.com/futbol/liga-mx/jornada-11-liga-mx-en-vivo-horarios-pronosticos-y-donde-ver-los-partidos-del-apertura-2026/"
+        }
+      ],
+      "hora": "10:00 p. m.",
+      "partido": "Tigres vs Toluca"
+    },
+    {
+      "claves": [
+        "Jornada 11; una fuente lo pone el viernes 9 (6:00 p. m.) y otra el sábado 10: confirmar.",
+        "Juárez cayó 1-2 en León en la J10."
+      ],
+      "competencia": "Liga MX",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Juárez o empate"
+        },
+        {
+          "c": 1.75,
+          "m": "Gana Juárez"
+        }
+      ],
+      "estadio": "Estadio Olímpico Benito Juárez",
+      "fuentes": [
+        {
+          "nombre": "Claro Sports",
+          "url": "https://www.clarosports.com/futbol/liga-mx/jornada-11-liga-mx-en-vivo-horarios-pronosticos-y-donde-ver-los-partidos-del-apertura-2026/"
+        }
+      ],
+      "hora": "6:00 p. m.",
+      "partido": "FC Juárez vs Tijuana"
+    }
+  ]
+}
