@@ -1,0 +1,505 @@
+{
+  "combinadas": [
+    {
+      "cuota": 2.14,
+      "estado": "perdida",
+      "nivel": "segura",
+      "prob": 0.55,
+      "razon": "Victorias de Inter y Sporting, Más de 1.5 en Madrid y Bayern-Arsenal y Villa con doble oportunidad; cumple todas las reglas.",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.24,
+          "estado": "ganada",
+          "estimada": false,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Inter",
+          "partido": "Inter vs Shakhtar",
+          "reglas_rotas": [],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.25,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Sporting CP",
+          "partido": "Sporting CP vs LASK Linz",
+          "reglas_rotas": [],
+          "resultado": "2-3"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Real Madrid vs RB Leipzig",
+          "reglas_rotas": [],
+          "resultado": "4-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Bayern Munich vs Arsenal",
+          "reglas_rotas": [],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.07,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Aston Villa o empate",
+          "partido": "Aston Villa vs Viking",
+          "reglas_rotas": [],
+          "resultado": "3-1"
+        }
+      ]
+    },
+    {
+      "cuota": 3.46,
+      "estado": "ganada",
+      "nivel": "media",
+      "prob": 0.3,
+      "razon": "Victorias de Villa y Madrid más Más de 1.5 en Lille, Como y Brugge; cumple todas las reglas.",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.29,
+          "estado": "ganada",
+          "estimada": false,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Aston Villa",
+          "partido": "Aston Villa vs Viking",
+          "reglas_rotas": [],
+          "resultado": "3-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.29,
+          "estado": "ganada",
+          "estimada": false,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Real Madrid",
+          "partido": "Real Madrid vs RB Leipzig",
+          "reglas_rotas": [],
+          "resultado": "4-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Lille vs Galatasaray",
+          "reglas_rotas": [],
+          "resultado": "2-4"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Como vs Manchester United",
+          "reglas_rotas": [],
+          "resultado": "4-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Club Brugge vs Lens",
+          "reglas_rotas": [],
+          "resultado": "3-0"
+        }
+      ]
+    },
+    {
+      "cuota": 8.93,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.1,
+      "razon": "Betis gana y doble oportunidad en cuatro partidos parejos, más Más de 1.5 en Inter y Sporting y Brugge o empate; rompe la regla 3.",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.7,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Real Betis",
+          "partido": "Real Betis vs Feyenoord",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.4,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Arsenal o empate",
+          "partido": "Bayern Munich vs Arsenal",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.45,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Como o empate",
+          "partido": "Como vs Manchester United",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "4-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.5,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Galatasaray o empate",
+          "partido": "Lille vs Galatasaray",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-4"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.1,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Inter vs Shakhtar",
+          "reglas_rotas": [],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Sporting CP vs LASK Linz",
+          "reglas_rotas": [],
+          "resultado": "2-3"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.4,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Club Brugge o empate",
+          "partido": "Club Brugge vs Lens",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "3-0"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-21",
+  "nota": "Miércoles de Champions (jornada 3), 9 partidos; fecha confirmada en UEFA/Bayern y en Football Whispers y Ladbrokes; horas de Colombia desde CEST (21:00 = 2:00 p. m., 18:45 = 11:45 a. m.). Cuotas casi todas estimadas (stake.com bloqueado); Villa 1.29, Inter 1.24 y Madrid ≈1.29 vienen de 1xBet/BetRivers vía RG. Sin tabla de la fase de liga: la regla 3 se juzgó por la cuota del mercado. Segura y media cumplen todas las reglas; la arriesgada rompe la 3 (partidos parejos con doble oportunidad, y Betis) y queda en ~9 en vez de ~10.",
+  "partidos": [
+    {
+      "claves": [
+        "Villa 1.29 (1xBet, RG); Viking empató 3-3 con Bayern.",
+        "Kalshi da 78% a Villa; sin tabla de la fase de liga."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.29,
+          "m": "Gana Aston Villa"
+        },
+        {
+          "c": 1.07,
+          "m": "Aston Villa o empate"
+        },
+        {
+          "c": 1.15,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "RG cuotas jornada 3",
+          "url": "https://rg.org/news/soccer/psg-vs-barcelona-bayern-vs-arsenal-odds-every-champions-league-game"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Aston Villa vs Viking"
+    },
+    {
+      "claves": [
+        "Inter 1.24 (1xBet, RG); Shakhtar invicto pero 12.90 de cuota.",
+        "Kalshi da 82% a Inter."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.24,
+          "m": "Gana Inter"
+        },
+        {
+          "c": 1.04,
+          "m": "Inter o empate"
+        },
+        {
+          "c": 1.1,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "RG cuotas jornada 3",
+          "url": "https://rg.org/news/soccer/psg-vs-barcelona-bayern-vs-arsenal-odds-every-champions-league-game"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Inter vs Shakhtar"
+    },
+    {
+      "claves": [
+        "Madrid -345 (BetRivers, ≈1.29); Kalshi 78%.",
+        "Previas piden goles de ambos (Más de 1.5 muy probable)."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.29,
+          "m": "Gana Real Madrid"
+        },
+        {
+          "c": 1.15,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.05,
+          "m": "Real Madrid o empate"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "RG cuotas jornada 3",
+          "url": "https://rg.org/news/soccer/psg-vs-barcelona-bayern-vs-arsenal-odds-every-champions-league-game"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Real Madrid vs RB Leipzig"
+    },
+    {
+      "claves": [
+        "Kalshi da 80% a Sporting; previa lo ve ganar con goles.",
+        "Cuota estimada ≈1.25, sin bajas nuevas."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Gana Sporting CP"
+        },
+        {
+          "c": 1.04,
+          "m": "Sporting CP o empate"
+        },
+        {
+          "c": 1.12,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "Football Whispers previa",
+          "url": "https://footballwhispers.com/blog/sporting-lisbon-vs-lask-linz-prediction-21-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Sporting CP vs LASK Linz"
+    },
+    {
+      "claves": [
+        "Bayern 2.23, empate 3.92, Arsenal 3.21 (1xBet): partido parejo.",
+        "SportsLine y otras previas esperan goles de ambos."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.4,
+          "m": "Arsenal o empate"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "RG cuotas jornada 3",
+          "url": "https://rg.org/news/soccer/psg-vs-barcelona-bayern-vs-arsenal-odds-every-champions-league-game"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Bayern Munich vs Arsenal"
+    },
+    {
+      "claves": [
+        "Como 2.38, empate 3.85, United 2.97 (1xBet): parejo.",
+        "Previa Football Whispers: Como 2-1."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.45,
+          "m": "Como o empate"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "Football Whispers previa",
+          "url": "https://footballwhispers.com/blog/como-vs-manchester-united-prediction-21-10-2026/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Como vs Manchester United"
+    },
+    {
+      "claves": [
+        "Lille 2.24, empate 3.84, Galatasaray 3.25 (1xBet): parejo.",
+        "Proyecciones: 1-1."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.5,
+          "m": "Galatasaray o empate"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "RG cuotas jornada 3",
+          "url": "https://rg.org/news/soccer/psg-vs-barcelona-bayern-vs-arsenal-odds-every-champions-league-game"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Lille vs Galatasaray"
+    },
+    {
+      "claves": [
+        "Kalshi: Brugge 47%; modelo 3-1 Brugge (56%).",
+        "Partido parejo, sin tabla de la fase de liga."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.4,
+          "m": "Club Brugge o empate"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "RG cuotas jornada 3",
+          "url": "https://rg.org/news/soccer/psg-vs-barcelona-bayern-vs-arsenal-odds-every-champions-league-game"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Club Brugge vs Lens"
+    },
+    {
+      "claves": [
+        "Modelo 4-1 Betis (63%); empate 20% en Kalshi.",
+        "Cuota de victoria Betis estimada ≈1.70."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.7,
+          "m": "Gana Real Betis"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/024a-0e992388fe48-6c6a3e3c4a3d-1000--champions-league-matchday-three-what-to-get-excited-about"
+        },
+        {
+          "nombre": "RG cuotas jornada 3",
+          "url": "https://rg.org/news/soccer/psg-vs-barcelona-bayern-vs-arsenal-odds-every-champions-league-game"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Real Betis vs Feyenoord"
+    }
+  ]
+}

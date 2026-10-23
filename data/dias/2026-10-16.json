@@ -1,0 +1,301 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.84,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.62,
+      "razon": "Solo tres partidos; el viernes es flojo. Rompe la 2 (Frankfurt, Deportivo y Necaxa también están en otras dos combinadas) y la 3/10 en Frankfurt (sin tabla ni segunda fuente).",
+      "selecciones": [
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.18,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:30 p. m.",
+          "mercado": "Eintracht Frankfurt o empate",
+          "partido": "Eintracht Frankfurt vs Köln",
+          "reglas_rotas": [
+            2,
+            3,
+            10
+          ],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.22,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Deportivo o empate",
+          "partido": "Deportivo vs Levante",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Necaxa vs Atlas",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "0-2"
+        }
+      ]
+    },
+    {
+      "cuota": 2.72,
+      "estado": "perdida",
+      "nivel": "media",
+      "prob": 0.4,
+      "razon": "Cuatro partidos, uno por selección. Rompe la 2 en Frankfurt, Deportivo y Necaxa; queda bajo ~3 porque el tope de 1.35 por selección no da más con 4 partidos.",
+      "selecciones": [
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.15,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "1:30 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Eintracht Frankfurt vs Köln",
+          "reglas_rotas": [
+            2,
+            10
+          ],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.35,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Deportivo vs Levante",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Le Mans vs Toulouse",
+          "reglas_rotas": [],
+          "resultado": "0-3"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.35,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Necaxa o empate",
+          "partido": "Necaxa vs Atlas",
+          "reglas_rotas": [
+            2,
+            3
+          ],
+          "resultado": "0-2"
+        }
+      ]
+    },
+    {
+      "cuota": 10.33,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.1,
+      "razon": "Solo hay 4 partidos confirmados (pide 5-9). Rompe 2, 3, 4, 5 y 10 en varias selecciones.",
+      "selecciones": [
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.7,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:30 p. m.",
+          "mercado": "Gana Eintracht Frankfurt",
+          "partido": "Eintracht Frankfurt vs Köln",
+          "reglas_rotas": [
+            2,
+            3,
+            10
+          ],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.8,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Deportivo",
+          "partido": "Deportivo vs Levante",
+          "reglas_rotas": [
+            2,
+            5
+          ],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.35,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Toulouse o empate",
+          "partido": "Le Mans vs Toulouse",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "0-3"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 2.5,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Gana Necaxa",
+          "partido": "Necaxa vs Atlas",
+          "reglas_rotas": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "resultado": "0-2"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-16",
+  "nota": "Viernes flojo: solo 4 partidos confirmados (Frankfurt-Köln, Deportivo-Levante, Le Mans-Toulouse, Necaxa-Atlas); no hallé Brasileirão, Argentina, Portugal, Turquía ni MLS ese día. Cuotas todas estimadas (stake.com bloqueado). Con 4 partidos no se pueden cumplir los conteos: la arriesgada tiene 4 selecciones (pide 5-9), la media queda en ~2.7 (pide ~4) y Frankfurt, Deportivo y Necaxa van en 3 combinadas (regla 2). Frankfurt-Köln tiene una sola fuente de horario y sin tabla actual (reglas 3 y 10). Necaxa es local no favorito (reglas 3, 4, 5 en la victoria). Ninguna combinada cumple todas las reglas.",
+  "partidos": [
+    {
+      "claves": [
+        "Viernes 16 oct, 8:30 p. m. CEST; Frankfurt local y favorito, Köln 15.º en abril.",
+        "Sin tabla ni cuotas actuales de la jornada 6 (solo una fuente de horario)."
+      ],
+      "competencia": "Bundesliga",
+      "cuotas": [
+        {
+          "c": 1.18,
+          "m": "Eintracht Frankfurt o empate"
+        },
+        {
+          "c": 1.15,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Programa de la jornada Bundesliga (Unitel/agencias)",
+          "url": "https://unitel.bo/noticias/agencias/programa-de-la-jornada-de-la-bundesliga-y-clasificacion-AC24150132"
+        }
+      ],
+      "hora": "1:30 p. m.",
+      "partido": "Eintracht Frankfurt vs Köln"
+    },
+    {
+      "claves": [
+        "Deportivo 7.º con 10 puntos en 7 fechas; Levante 17.º con 5 en 6.",
+        "Riazor, jornada 9; 19:00 UTC según LaLiga."
+      ],
+      "competencia": "LaLiga",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Deportivo o empate"
+        },
+        {
+          "c": 1.35,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Riazor",
+      "fuentes": [
+        {
+          "nombre": "LaLiga (oficial)",
+          "url": "https://www.laliga.com/en-US"
+        },
+        {
+          "nombre": "Futbol Total",
+          "url": "https://futboltotal.futbol/partido/deportivo-la-coruna-vs-levante-la-liga-2026-10-16"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Deportivo vs Levante"
+    },
+    {
+      "claves": [
+        "Partido parejo: Kalshi Le Mans 30%, empate 27%, Toulouse 41%.",
+        "KickOff da 79% de al menos 2 goles; viernes 20:45 París."
+      ],
+      "competencia": "Ligue 1",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.35,
+          "m": "Toulouse o empate"
+        }
+      ],
+      "estadio": "Stade Marie-Marvingt",
+      "fuentes": [
+        {
+          "nombre": "Ligue 1 (oficial)",
+          "url": "https://ligue1.com/fr/articles/l1_article_5797-"
+        },
+        {
+          "nombre": "t-online",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/french-ligue-1/sdc_fm-58196/le-mans-toulouse-french-ligue-1-im-liveticker.html"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Le Mans vs Toulouse"
+    },
+    {
+      "claves": [
+        "Necaxa 15.º-17.º y Atlas 6.º-9.º según fuentes: local no favorito.",
+        "Jornada 12, 19:00 hora de México en Aguascalientes."
+      ],
+      "competencia": "Liga MX",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.35,
+          "m": "Necaxa o empate"
+        }
+      ],
+      "estadio": "Estadio Victoria",
+      "fuentes": [
+        {
+          "nombre": "Club Necaxa (oficial)",
+          "url": "https://www.clubnecaxa.mx/"
+        },
+        {
+          "nombre": "Telediario",
+          "url": "https://www.telediario.mx/futbol/liga-mx/necaxa-vs-atlas-horario-donde-ver-jornada-12-apertura-2026"
+        }
+      ],
+      "hora": "8:00 p. m.",
+      "partido": "Necaxa vs Atlas"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.94,
+      "estado": "perdida",
+      "nivel": "segura",
+      "prob": 0.6,
+      "razon": "Tres dobles oportunidades de local, partidos parejos (rompen la 3): Tottenham sin victorias en liga, Getafe-Rayo y Parma-Torino de mitad de tabla.",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Tottenham o empate",
+          "partido": "Tottenham vs Coventry",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "3-1"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Getafe o empate",
+          "partido": "Getafe vs Rayo Vallecano",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.33,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "11:30 a. m.",
+          "mercado": "Parma o empate",
+          "partido": "Parma vs Torino",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "0-3"
+        }
+      ]
+    },
+    {
+      "cuota": 2.24,
+      "estado": "perdida",
+      "nivel": "media",
+      "prob": 0.45,
+      "razon": "Tres «Más de 1.5». Getafe-Rayo es de poco gol y su cuota (1.38) pasa el tope de la media.",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Tottenham vs Coventry",
+          "reglas_rotas": [],
+          "resultado": "3-1"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Parma vs Torino",
+          "reglas_rotas": [],
+          "resultado": "0-3"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.38,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Getafe vs Rayo Vallecano",
+          "reglas_rotas": [
+            6
+          ],
+          "resultado": "1-1"
+        }
+      ]
+    },
+    {
+      "cuota": 3.67,
+      "estado": "ganada",
+      "nivel": "arriesgada",
+      "prob": 0.2,
+      "razon": "Victoria local de Tottenham y dobles oportunidades de los visitantes; usa por tercera vez cada partido (rompe la 2).",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.48,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Tottenham",
+          "partido": "Tottenham vs Coventry",
+          "reglas_rotas": [
+            3,
+            5
+          ],
+          "resultado": "3-1"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.55,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:30 a. m.",
+          "mercado": "Torino o empate",
+          "partido": "Parma vs Torino",
+          "reglas_rotas": [
+            2,
+            3
+          ],
+          "resultado": "0-3"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.6,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Rayo Vallecano o empate",
+          "partido": "Getafe vs Rayo Vallecano",
+          "reglas_rotas": [
+            2,
+            3
+          ],
+          "resultado": "1-1"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-19",
+  "nota": "Lunes con agenda mínima: solo 3 partidos válidos confirmados (Tottenham–Coventry, Getafe–Rayo, Parma–Torino). Liga MX, Ligue 1 y Brasileirão no juegan; Monterrey–Pachuca es el domingo; no se halló agenda de Argentina, Colombia, Portugal, Turquía ni Países Bajos del lunes (tope de búsquedas). Con 3 partidos y máximo 2 combinadas por partido no se llega a los conteos: segura 3, media 3 (pide 4-5) y arriesgada 3 (pide 5-9), y la arriesgada repite cada partido por tercera vez (rompe la 2). Cuotas bajas respecto al objetivo (1.94 / 2.24 / 3.67), todas estimadas, no vistas en Stake. Todas rompen la 3: son partidos parejos. Hora de Parma–Torino por confirmar (fuentes: 18:30 Italia o 14:45) y fecha respaldada por futboltotal y Goal Italia. Tottenham sin victorias en liga: ojo con la segura.",
+  "partidos": [
+    {
+      "claves": [
+        "Tottenham sin victoria en liga (mitad baja); Coventry ascendido, ganó a Forest y Newcastle.",
+        "Baja Tottenham: Bentancur (sanción). Cuotas casas: Spurs ~1.48."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Tottenham o empate"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.48,
+          "m": "Gana Tottenham"
+        }
+      ],
+      "estadio": "Tottenham Hotspur Stadium",
+      "fuentes": [
+        {
+          "nombre": "Sky Sports (Monday Night Football)",
+          "url": "https://www.skysports.com/share/13574076"
+        },
+        {
+          "nombre": "Flashscore",
+          "url": "https://www.flashscoreusa.com/game/soccer/coventry-GOvB22xg/tottenham-UDg08Ohm/odds/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Tottenham vs Coventry"
+    },
+    {
+      "claves": [
+        "Jornada 9 de LaLiga; 21:00 España. Partido parejo de poco gol; tabla sin verificar."
+      ],
+      "competencia": "LaLiga",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Getafe o empate"
+        },
+        {
+          "c": 1.38,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.6,
+          "m": "Rayo Vallecano o empate"
+        }
+      ],
+      "estadio": "Coliseum, Getafe",
+      "fuentes": [
+        {
+          "nombre": "Fichajes.com (calendario LaLiga)",
+          "url": "https://www.fichajes.com/espana/primera-division/calendario/"
+        },
+        {
+          "nombre": "Real Madrid (horarios jornada 9)",
+          "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/horarios-de-la-novena-jornada-de-liga-16-10-2026"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Getafe vs Rayo Vallecano"
+    },
+    {
+      "claves": [
+        "Jornada 7 de Serie A, lunes 19. Hora por confirmar (18:30 Italia según Goal)."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.33,
+          "m": "Parma o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Torino o empate"
+        }
+      ],
+      "estadio": "Stadio Ennio Tardini",
+      "fuentes": [
+        {
+          "nombre": "Goal Italia",
+          "url": "https://www.goal.com/it/liste/probabili-formazioni-parma-torino-chi-gioca-titolare-e-le-ultime-su-cutrone-pellegrino-asllani-ngonge-e-simeone/blta1c85e1257f26f98"
+        },
+        {
+          "nombre": "Futboltotal",
+          "url": "https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19"
+        }
+      ],
+      "hora": "11:30 a. m.",
+      "partido": "Parma vs Torino"
+    }
+  ]
+}

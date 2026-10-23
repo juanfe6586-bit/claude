@@ -1,0 +1,521 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.74,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.6,
+      "razon": "Cinco dobles oportunidades en favoritos (cuatro visitantes y Juventus local); en las cuatro visitantes falta confirmar la posición en liga (regla 3).",
+      "selecciones": [
+        {
+          "competencia": "Europa League",
+          "cuota": 1.06,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Bayer Leverkusen o empate",
+          "partido": "OFI Crete vs Bayer Leverkusen",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "0-2"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.1,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Brighton o empate",
+          "partido": "Jablonec vs Brighton",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "0-0"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.1,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Benfica o empate",
+          "partido": "Omonia Nicosia vs Benfica",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-4"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Real Sociedad o empate",
+          "partido": "Lillestrøm vs Real Sociedad",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "0-6"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.18,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Juventus o empate",
+          "partido": "Juventus vs Rennes",
+          "reglas_rotas": [],
+          "resultado": "2-2"
+        }
+      ]
+    },
+    {
+      "cuota": 3.27,
+      "estado": "perdida",
+      "nivel": "media",
+      "prob": 0.3,
+      "razon": "Dos dobles oportunidades de ~1.30 y tres «Más de 1.5»; cuota por debajo de 3.5 porque ninguna selección puede pasar de 1.35 (regla 6).",
+      "selecciones": [
+        {
+          "competencia": "Conference League",
+          "cuota": 1.34,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Monaco o empate",
+          "partido": "Monaco vs Freiburg",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "3-0"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.3,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Olympique Marseille o empate",
+          "partido": "Sturm Graz vs Olympique Marseille",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Braga vs Gent",
+          "reglas_rotas": [],
+          "resultado": "2-0"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Trabzonspor vs Hearts",
+          "reglas_rotas": [],
+          "resultado": "2-0"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Lillestrøm vs Real Sociedad",
+          "reglas_rotas": [],
+          "resultado": "0-6"
+        }
+      ]
+    },
+    {
+      "cuota": 9.59,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.12,
+      "razon": "Victorias de Juventus y Trabzonspor (locales, 1.50-1.60) más cinco «Más de 1.5» y Gana Braga (1.72, local sin gran ventaja: rompe reglas 3, 4 y 5); ningún partido en más de dos combinadas.",
+      "selecciones": [
+        {
+          "competencia": "Europa League",
+          "cuota": 1.6,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Gana Juventus",
+          "partido": "Juventus vs Rennes",
+          "reglas_rotas": [],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.5,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Gana Trabzonspor",
+          "partido": "Trabzonspor vs Hearts",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-0"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "OFI Crete vs Bayer Leverkusen",
+          "reglas_rotas": [],
+          "resultado": "0-2"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.15,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Jablonec vs Brighton",
+          "reglas_rotas": [],
+          "resultado": "0-0"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Omonia Nicosia vs Benfica",
+          "reglas_rotas": [],
+          "resultado": "1-4"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.22,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Monaco vs Freiburg",
+          "reglas_rotas": [],
+          "resultado": "3-0"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.2,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Sturm Graz vs Olympique Marseille",
+          "reglas_rotas": [],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.72,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Braga",
+          "partido": "Braga vs Gent",
+          "reglas_rotas": [
+            3,
+            4,
+            5
+          ],
+          "resultado": "2-0"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-22",
+  "nota": "Jueves de Europa y Conference League (jornada 2 de Conference, jornada 3 de Europa según UEFA). Fechas confirmadas en la página oficial de UEFA y en una previa de cada partido; horas de Colombia desde CEST (21:00 = 2:00 p. m., 18:45 = 11:45 a. m.). Todas las cuotas son estimadas (stake.com bloqueado). No pude confirmar posiciones en liga de varios equipos, así que 7 selecciones llevan la regla 3 como rota y ninguna combinada lleva el sello de cumplir todas. En la arriesgada se rompen las reglas 3, 4 y 5 solo con Gana Braga para acercarse a ~10.",
+  "partidos": [
+    {
+      "claves": [
+        "Juventus 1.º y Rennes 17.º según Kickoff; Juventus ha marcado en 6 partidos seguidos de Europa League.",
+        "Cuota Juventus ~1.60 (agregador); empate 3.90, Rennes 5.00."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.6,
+          "m": "Gana Juventus"
+        },
+        {
+          "c": 1.18,
+          "m": "Juventus o empate"
+        },
+        {
+          "c": 1.22,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Allianz Stadium",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europaleaguepredictions/juventus-vs-rennes-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Juventus vs Rennes"
+    },
+    {
+      "claves": [
+        "Leverkusen visitante favorito (1.28 en BetCity); OFI invicto en 6 y ganó 2-0 a Hoffenheim en la jornada 1: por eso solo doble oportunidad.",
+        "Posición de ambos en liga no confirmada."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.06,
+          "m": "Bayer Leverkusen o empate"
+        },
+        {
+          "c": 1.15,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Theodoros Vardinogiannis",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europaleaguepredictions/ofi-crete-vs-bayer-leverkusen-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "OFI Crete vs Bayer Leverkusen"
+    },
+    {
+      "claves": [
+        "Brighton visitante favorito: 1.36-1.38 a ganar; ganó 4-0 en la jornada 1.",
+        "Posición en liga no confirmada."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Brighton o empate"
+        },
+        {
+          "c": 1.15,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Stadion Střelnice",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--2026-27-conference-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europa-conference-league-predictions/jablonec-vs-brighton-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Jablonec vs Brighton"
+    },
+    {
+      "claves": [
+        "Benfica visitante 1.40 a ganar, Kalshi ~70%.",
+        "Posición en liga no confirmada; un modelo (Kickoff) lo ve parejo, el resto favorece a Benfica."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Benfica o empate"
+        },
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "GSP Stadium",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europaleaguepredictions/omonia-vs-benfica-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Omonia Nicosia vs Benfica"
+    },
+    {
+      "claves": [
+        "Real Sociedad visitante 1.53; doble oportunidad a ~1.15 en footballpredictions.ai.",
+        "Forma reciente de Sociedad floja (1.30 puntos por partido): solo doble oportunidad."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.15,
+          "m": "Real Sociedad o empate"
+        },
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Åråsen Stadion",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europaleaguepredictions/lillestrom-vs-real-sociedad-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Lillestrøm vs Real Sociedad"
+    },
+    {
+      "claves": [
+        "Trabzonspor local ~1.50 (LiveTipsPortal); BetClan 68% a ganar.",
+        "Posición en la Süper Lig no confirmada."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.5,
+          "m": "Gana Trabzonspor"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Papara Park",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--2026-27-conference-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europa-conference-league-predictions/trabzonspor-vs-hearts-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Trabzonspor vs Hearts"
+    },
+    {
+      "claves": [
+        "Marseille visitante 2.05 a ganar; empate o Marseille 1.30.",
+        "Ambos marcan 1.62: partido abierto. Posiciones en liga no confirmadas."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Olympique Marseille o empate"
+        },
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Merkur Arena",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europaleaguepredictions/sturm-graz-vs-marseille-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Sturm Graz vs Olympique Marseille"
+    },
+    {
+      "claves": [
+        "Monaco local 2.13, empate 3.64; 1X ~1.34.",
+        "Ambos marcan 1.52, Más de 2.5 a 1.58 en BetCity. Posiciones en liga no confirmadas."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.34,
+          "m": "Monaco o empate"
+        },
+        {
+          "c": 1.22,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Stade Louis II",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--2026-27-conference-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europa-conference-league-predictions/monaco-vs-freiburg-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Monaco vs Freiburg"
+    },
+    {
+      "claves": [
+        "Braga 1.72, empate 3.68, Gent 4.50; Gent en buena racha (G G E G G G).",
+        "Se usa solo Más de 1.5: partido parejo."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Estádio Municipal de Braga",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaconferenceleague/news/02a8-2174cb200f25-b94693ddff4e-1000--2026-27-conference-league-all-the-league-phase-fixtures/"
+        },
+        {
+          "nombre": "FootballPredictions",
+          "url": "https://footballpredictions.com/footballpredictions/europa-conference-league-predictions/braga-vs-gent-prediction-22-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Braga vs Gent"
+    }
+  ]
+}

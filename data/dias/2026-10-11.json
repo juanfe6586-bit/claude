@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 1.68,
-      "estado": "pendiente",
+      "estado": "ganada",
       "nivel": "segura",
       "prob": 0.55,
       "razon": "Tres dobles oportunidades de local con ventaja (Bahia, Pachuca, Lazio). Cumple todas las reglas; cuota bajo ~2 por pocos partidos verificables.",
@@ -10,38 +10,41 @@
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "11:30 a. m.",
           "mercado": "Bahia o empate",
           "partido": "Bahia vs Mirassol",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-0"
         },
         {
           "competencia": "Liga MX",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:15 p. m.",
           "mercado": "Pachuca o empate",
           "partido": "Pachuca vs Necaxa",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-3"
         },
         {
           "competencia": "Serie A",
           "cuota": 1.15,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "8:00 a. m.",
           "mercado": "Lazio o empate",
           "partido": "Lazio vs Monza",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-1"
         }
       ]
     },
     {
       "cuota": 2.42,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "media",
       "prob": 0.38,
       "razon": "Cuatro «Más de 1.5 goles». Betis–Osasuna y Liverpool–City son partidos parejos (regla 3, solo en mercado de goles).",
@@ -49,52 +52,56 @@
         {
           "competencia": "Brasileirão Serie A",
           "cuota": 1.28,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "11:30 a. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Bahia vs Mirassol",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-0"
         },
         {
           "competencia": "Liga MX",
           "cuota": 1.28,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "6:15 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Pachuca vs Necaxa",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-3"
         },
         {
           "competencia": "LaLiga",
           "cuota": 1.25,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Betis vs Osasuna",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "5-2"
         },
         {
           "competencia": "Premier League",
           "cuota": 1.18,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "10:30 a. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Liverpool vs Manchester City",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "0-3"
         }
       ]
     },
     {
       "cuota": 2.97,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.3,
       "razon": "Gana Lazio más goles y dobles oportunidades en partidos parejos (rompe regla 3). Cuota muy bajo ~10: domingo con poca información verificable.",
@@ -102,48 +109,52 @@
         {
           "competencia": "Serie A",
           "cuota": 1.55,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "8:00 a. m.",
           "mercado": "Gana Lazio",
           "partido": "Lazio vs Monza",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-1"
         },
         {
           "competencia": "LaLiga",
           "cuota": 1.15,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:00 p. m.",
           "mercado": "Betis o empate",
           "partido": "Betis vs Osasuna",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "5-2"
         },
         {
           "competencia": "Premier League",
           "cuota": 1.28,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "8:00 a. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Crystal Palace vs Nottingham Forest",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "3-1"
         },
         {
           "competencia": "Premier League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "10:30 a. m.",
           "mercado": "Liverpool o empate",
           "partido": "Liverpool vs Manchester City",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "0-3"
         }
       ]
     }

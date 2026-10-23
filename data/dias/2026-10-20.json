@@ -1,0 +1,499 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.91,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.55,
+      "razon": "Victorias de Roma y City en casa, Fenerbahçe con doble oportunidad y Más de 1.5 en Liverpool y PSG-Barça; cumple todas las reglas.",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.09,
+          "estado": "ganada",
+          "estimada": false,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Roma",
+          "partido": "Roma vs Slovan Bratislava",
+          "reglas_rotas": [],
+          "resultado": "4-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.18,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Manchester City",
+          "partido": "Manchester City vs AEK Athens",
+          "reglas_rotas": [],
+          "resultado": "5-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Liverpool vs Villarreal",
+          "reglas_rotas": [],
+          "resultado": "4-3"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Paris Saint-Germain vs Barcelona",
+          "reglas_rotas": [],
+          "resultado": "4-2"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Fenerbahçe o empate",
+          "partido": "Fenerbahçe vs Slavia Praha",
+          "reglas_rotas": [],
+          "resultado": "2-2"
+        }
+      ]
+    },
+    {
+      "cuota": 3.19,
+      "estado": "perdida",
+      "nivel": "media",
+      "prob": 0.42,
+      "razon": "Cinco «Más de 1.5» en partidos de Champions con equipos ofensivos; ninguna selección repite mercado con la segura. Cumple todas las reglas.",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.3,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Porto vs PSV Eindhoven",
+          "reglas_rotas": [],
+          "resultado": "0-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Stuttgart vs Atlético de Madrid",
+          "reglas_rotas": [],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Sabah vs Borussia Dortmund",
+          "reglas_rotas": [],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Napoli vs Bodø/Glimt",
+          "reglas_rotas": [],
+          "resultado": "4-3"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.18,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Roma vs Slovan Bratislava",
+          "reglas_rotas": [],
+          "resultado": "4-0"
+        }
+      ]
+    },
+    {
+      "cuota": 9.58,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.12,
+      "razon": "Victorias de Liverpool, Fenerbahçe y City «Más de 1.5» más Napoli y Dortmund de visita (rompen la 4) y dobles oportunidades de Stuttgart y Porto en partidos parejos (rompen la 3).",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.45,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Liverpool",
+          "partido": "Liverpool vs Villarreal",
+          "reglas_rotas": [],
+          "resultado": "4-3"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.58,
+          "estado": "perdida",
+          "estimada": false,
+          "hora": "11:45 a. m.",
+          "mercado": "Gana Fenerbahçe",
+          "partido": "Fenerbahçe vs Slavia Praha",
+          "reglas_rotas": [],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.55,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Napoli",
+          "partido": "Napoli vs Bodø/Glimt",
+          "reglas_rotas": [
+            4
+          ],
+          "resultado": "4-3"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.33,
+          "estado": "ganada",
+          "estimada": false,
+          "hora": "11:45 a. m.",
+          "mercado": "Gana Borussia Dortmund",
+          "partido": "Sabah vs Borussia Dortmund",
+          "reglas_rotas": [
+            4
+          ],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Manchester City vs AEK Athens",
+          "reglas_rotas": [],
+          "resultado": "5-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Stuttgart o empate",
+          "partido": "Stuttgart vs Atlético de Madrid",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.32,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Porto o empate",
+          "partido": "Porto vs PSV Eindhoven",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "0-1"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-20",
+  "nota": "Martes de Champions (jornada 3), 9 partidos confirmados por UEFA y un segundo sitio (The False 9; PSG-Barça también en el calendario del Barcelona); horas de Colombia desde CEST (21:00 = 2:00 p. m., 18:45 = 11:45 a. m.). Casi todas las cuotas son estimadas (stake.com bloqueado); Roma 1.09, Fenerbahçe 1.58 y Dortmund 1.33 vienen de Wincomparator. Sin tabla de la fase de liga: la regla 3 se juzgó por la cuota del mercado, como el 14 oct. Segura y media cumplen todas las reglas; la arriesgada rompe la 4 (Napoli y Dortmund) y la 3 (Stuttgart y Porto) y queda en ~9.6 en vez de ~10.",
+  "partidos": [
+    {
+      "claves": [
+        "Roma 3V-2E en los últimos 5; Slovan perdió 6-1 con PSG.",
+        "Cuota Roma 1.09 (Wincomparator), sin bajas nuevas."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.03,
+          "m": "Roma o empate"
+        },
+        {
+          "c": 1.09,
+          "m": "Gana Roma"
+        },
+        {
+          "c": 1.18,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Squawka previa",
+          "url": "https://www.squawka.com/ca/?p=16042"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Roma vs Slovan Bratislava"
+    },
+    {
+      "claves": [
+        "City ganó 2-0 en Porto; AEK 1-0 a LASK.",
+        "Bet365 da ~84% a City; sin bajas nuevas."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.04,
+          "m": "Manchester City o empate"
+        },
+        {
+          "c": 1.18,
+          "m": "Gana Manchester City"
+        },
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Squawka previa",
+          "url": "https://www.squawka.com/ca/?p=16045"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Manchester City vs AEK Athens"
+    },
+    {
+      "claves": [
+        "Liverpool ganó 6-3 en LASK en la jornada 2.",
+        "Cuotas estimadas; sin previa del partido encontrada."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Liverpool o empate"
+        },
+        {
+          "c": 1.15,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.45,
+          "m": "Gana Liverpool"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "The False 9: horarios jornada 3",
+          "url": "https://thefalse9.com/2026/10/champions-league-matchday-3-fixtures-kick-off-times.html"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Liverpool vs Villarreal"
+    },
+    {
+      "claves": [
+        "Duelo de gran nivel ofensivo; PSG goleó 6-1 a Slovan en su estreno.",
+        "Partido parejo: solo Más de 1.5."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "FC Barcelona (calendario)",
+          "url": "https://www.fcbarcelona.com/en/football/first-team/schedule"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Paris Saint-Germain vs Barcelona"
+    },
+    {
+      "claves": [
+        "Fenerbahçe 1.58, empate 4.10, Slavia 5.00; Slavia perdió 2-3 con Lens.",
+        "Fenerbahçe con 1 gol o menos en recibido en 5 partidos seguidos de Champions."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.15,
+          "m": "Fenerbahçe o empate"
+        },
+        {
+          "c": 1.58,
+          "m": "Gana Fenerbahçe"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Squawka previa",
+          "url": "https://www.squawka.com/us/?p=70623"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Fenerbahçe vs Slavia Praha"
+    },
+    {
+      "claves": [
+        "Dortmund 1.33, empate 5.50, Sabah 7.00 (Wincomparator).",
+        "Dortmund visitante en Bakú: solo doble oportunidad o goles."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.33,
+          "m": "Gana Borussia Dortmund"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Sky Sport Italia",
+          "url": "https://sport.sky.it/calcio/champions-league/partite/2026/giornata-3/sabah-borussia-dortmund"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Sabah vs Borussia Dortmund"
+    },
+    {
+      "claves": [
+        "Partido parejo entre dos equipos de ataque.",
+        "Cuotas estimadas."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.32,
+          "m": "Porto o empate"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "The False 9: horarios jornada 3",
+          "url": "https://thefalse9.com/2026/10/champions-league-matchday-3-fixtures-kick-off-times.html"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Porto vs PSV Eindhoven"
+    },
+    {
+      "claves": [
+        "Partido parejo; Stuttgart goleó 0-3 en Eslovaquia en la jornada 2.",
+        "Cuotas estimadas."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.28,
+          "m": "Stuttgart o empate"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "The False 9: horarios jornada 3",
+          "url": "https://thefalse9.com/2026/10/champions-league-matchday-3-fixtures-kick-off-times.html"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Stuttgart vs Atlético de Madrid"
+    },
+    {
+      "claves": [
+        "Napoli perdió 1-0 en Venezia (5 derrotas en 9): mala racha, solo goles o doble oportunidad.",
+        "Bodø/Glimt ganó 1-0 a Dortmund: cuidado con partido cerrado."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Napoli"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "The False 9: horarios jornada 3",
+          "url": "https://thefalse9.com/2026/10/champions-league-matchday-3-fixtures-kick-off-times.html"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Napoli vs Bodø/Glimt"
+    }
+  ]
+}

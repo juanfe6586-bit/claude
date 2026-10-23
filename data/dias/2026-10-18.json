@@ -1,0 +1,383 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.84,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.58,
+      "razon": "Doble oportunidad a favoritos visitantes ante rivales de la mitad baja; Arsenal repite en las tres (regla 2).",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.18,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "10:30 a. m.",
+          "mercado": "Arsenal o empate",
+          "partido": "Nottingham Forest vs Arsenal",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "0-1"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Cruzeiro o empate",
+          "partido": "Grêmio vs Cruzeiro",
+          "reglas_rotas": [
+            10
+          ],
+          "resultado": "2-4"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "5:30 p. m.",
+          "mercado": "Bragantino o empate",
+          "partido": "Remo vs Bragantino",
+          "reglas_rotas": [
+            10
+          ],
+          "resultado": "1-1"
+        }
+      ]
+    },
+    {
+      "cuota": 3.6,
+      "estado": "perdida",
+      "nivel": "media",
+      "prob": 0.23,
+      "razon": "Cuatro Más de 1.5 y Como o empate, todas de 1.28-1.30.",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Brighton vs Crystal Palace",
+          "reglas_rotas": [],
+          "resultado": "5-0"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Grêmio vs Cruzeiro",
+          "reglas_rotas": [
+            10
+          ],
+          "resultado": "2-4"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Como o empate",
+          "partido": "Fiorentina vs Como",
+          "reglas_rotas": [],
+          "resultado": "1-3"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Fluminense vs Santos",
+          "reglas_rotas": [
+            10
+          ],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "Premier League",
+          "cuota": 1.3,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "10:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Nottingham Forest vs Arsenal",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "0-1"
+        }
+      ]
+    },
+    {
+      "cuota": 8.03,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.1,
+      "razon": "Dos victorias de local/visitante favorito (Brighton, Bragantino, Arsenal) más Como Más de 1.5 y Fluminense o empate; rompe las reglas 2, 3, 4 y 10.",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.78,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Gana Brighton",
+          "partido": "Brighton vs Crystal Palace",
+          "reglas_rotas": [],
+          "resultado": "5-0"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.75,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "5:30 p. m.",
+          "mercado": "Gana Bragantino",
+          "partido": "Remo vs Bragantino",
+          "reglas_rotas": [
+            4,
+            10
+          ],
+          "resultado": "1-1"
+        },
+        {
+          "competencia": "Premier League",
+          "cuota": 1.55,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "10:30 a. m.",
+          "mercado": "Gana Arsenal",
+          "partido": "Nottingham Forest vs Arsenal",
+          "reglas_rotas": [
+            2,
+            4
+          ],
+          "resultado": "0-1"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Fiorentina vs Como",
+          "reglas_rotas": [],
+          "resultado": "1-3"
+        },
+        {
+          "competencia": "Brasileirão Serie A",
+          "cuota": 1.28,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Fluminense o empate",
+          "partido": "Fluminense vs Santos",
+          "reglas_rotas": [
+            3,
+            10
+          ],
+          "resultado": "1-2"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-18",
+  "nota": "Domingo con seis partidos útiles tras descartar los parejos por la regla 3 (Real Madrid-Sevilla, Milan-Atalanta, Juventus-Lazio, Leverkusen-Freiburg, Bahía-Flamengo, Bournemouth-Sunderland) y los que no logré confirmar (PSG-Rennes, Tucumán-Rosario, Leeds-United). Con seis partidos solo caben 12 usos y las tres combinadas piden 13, así que Forest-Arsenal va en las tres (rompe la regla 2). Brasileirão: fechas y horas salen de agendas y de la CBF vía Soccerway, sin estadio ni casa de apuestas confirmados (regla 10 marcada). Cuotas todas estimadas (stake.com bloqueado). Segura 1.84, media 3.6, arriesgada 8.0; no cumplen todas las reglas.",
+  "partidos": [
+    {
+      "claves": [
+        "Dom 18 oct, jornada 7; Arsenal 2.º con 15 pts (5-0-1) visita al Forest, 15.º con 5 pts.",
+        "Arsenal visitante favorito: solo doble oportunidad."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.18,
+          "m": "Arsenal o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Arsenal"
+        }
+      ],
+      "estadio": "City Ground",
+      "fuentes": [
+        {
+          "nombre": "Premier League: ajuste de partidos oct-nov",
+          "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+        },
+        {
+          "nombre": "ESPN: calendario Premier League",
+          "url": "https://www.espn.com/soccer/schedule/_/league/eng.1"
+        }
+      ],
+      "hora": "10:30 a. m.",
+      "partido": "Nottingham Forest vs Arsenal"
+    },
+    {
+      "claves": [
+        "Dom 18 oct, jornada 7; Brighton 3.º con 13 pts (+13), Palace 12.º con 7 pts.",
+        "Brighton local en buena forma ante rival de la mitad baja."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.78,
+          "m": "Gana Brighton"
+        }
+      ],
+      "estadio": "Amex Stadium",
+      "fuentes": [
+        {
+          "nombre": "Premier League: ajuste de partidos oct-nov",
+          "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+        },
+        {
+          "nombre": "Bets.co.za: fixtures 17-19 oct",
+          "url": "https://www.bets.co.za/soccer/english-premier-league/english-premier-league-fixtures-schedule-17-19-october-2026-20261013-0008/"
+        }
+      ],
+      "hora": "8:00 a. m.",
+      "partido": "Brighton vs Crystal Palace"
+    },
+    {
+      "claves": [
+        "Dom 18 oct, 16:00 Brasilia; Grêmio 18.º con 31 pts, Cruzeiro 6.º con 48 pts.",
+        "Cruzeiro visitante favorito ante un equipo de zona de descenso: solo doble oportunidad."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Cruzeiro o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Arena do Grêmio (por confirmar)",
+      "fuentes": [
+        {
+          "nombre": "Soccerway: CBF rondas 30-31",
+          "url": "https://br.soccerway.com/noticias/futebol-brasileirao-betano-cbf-detalha-rodadas-30-e-31-do-brasileirao-e-marca-jogos-na-sexta-feira-18-confira/ETQpFc9e"
+        },
+        {
+          "nombre": "Tabla Brasileirão (GCMais)",
+          "url": "https://gcmais.com.br/noticias/2026/10/14/tabela-do-brasileirao-2026-veja-classificacao-atualizada-e-proximos-jogos"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Grêmio vs Cruzeiro"
+    },
+    {
+      "claves": [
+        "Dom 18 oct, 19:30 Brasilia; Remo 19.º con 25 pts, Bragantino 9.º con 40 pts.",
+        "Bragantino visitante: solo doble oportunidad; sin Más de 1.5 por el 0-0 reciente de Remo."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Bragantino o empate"
+        },
+        {
+          "c": 1.75,
+          "m": "Gana Bragantino"
+        }
+      ],
+      "estadio": "por confirmar",
+      "fuentes": [
+        {
+          "nombre": "Soccerway: CBF rondas 30-31",
+          "url": "https://br.soccerway.com/noticias/futebol-brasileirao-betano-cbf-detalha-rodadas-30-e-31-do-brasileirao-e-marca-jogos-na-sexta-feira-18-confira/ETQpFc9e"
+        },
+        {
+          "nombre": "Tabla Brasileirão (GCMais)",
+          "url": "https://gcmais.com.br/noticias/2026/10/14/tabela-do-brasileirao-2026-veja-classificacao-atualizada-e-proximos-jogos"
+        }
+      ],
+      "hora": "5:30 p. m.",
+      "partido": "Remo vs Bragantino"
+    },
+    {
+      "claves": [
+        "Dom 18 oct, jornada 7, 15:00 CEST; Fiorentina 19.ª con 4 pts, Como 8.º con 11 pts.",
+        "Como visitante: solo doble oportunidad."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Como o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Stadio Artemio Franchi",
+      "fuentes": [
+        {
+          "nombre": "Sky Sport: calendario 7.ª jornada",
+          "url": "https://sport.sky.it/calcio/serie-a/2026/10/16/calendario-serie-a-7-giornata"
+        },
+        {
+          "nombre": "Virgilio Sport: 7.ª jornada",
+          "url": "https://sport.virgilio.it/serie-a-settima-giornata-calendario-orari-dove-vedere-partite-975831"
+        }
+      ],
+      "hora": "8:00 a. m.",
+      "partido": "Fiorentina vs Como"
+    },
+    {
+      "claves": [
+        "Dom 18 oct, 16:00 Brasilia; Fluminense 4.º con 51 pts, Santos 8.º con 42 pts.",
+        "Partido parejo: solo goles y doble oportunidad."
+      ],
+      "competencia": "Brasileirão Serie A",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.28,
+          "m": "Fluminense o empate"
+        }
+      ],
+      "estadio": "Maracanã (por confirmar)",
+      "fuentes": [
+        {
+          "nombre": "Soccerway: CBF rondas 30-31",
+          "url": "https://br.soccerway.com/noticias/futebol-brasileirao-betano-cbf-detalha-rodadas-30-e-31-do-brasileirao-e-marca-jogos-na-sexta-feira-18-confira/ETQpFc9e"
+        },
+        {
+          "nombre": "Tabla Brasileirão (GCMais)",
+          "url": "https://gcmais.com.br/noticias/2026/10/14/tabela-do-brasileirao-2026-veja-classificacao-atualizada-e-proximos-jogos"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Fluminense vs Santos"
+    }
+  ]
+}

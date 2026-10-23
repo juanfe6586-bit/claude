@@ -1,0 +1,94 @@
+{
+  "cuota": 5.76,
+  "estado": "perdida",
+  "nota": "Semana con pocos partidos confirmados: martes a viernes sin agenda verificada (Europa League/Libertadores sin horarios), por eso solo 8 selecciones y la cuota queda bajo 8. Fin de semana del 24-25 con horarios de agregadores (Aston Villa–City, Arsenal–Everton, Liverpool–Leeds, Lecce–Juventus, United–Bournemouth); todo estimado y por confirmar.",
+  "prob": 0.3,
+  "razon": "Ocho selecciones de 1.12 a 1.33, un partido por selección, de lunes a domingo; visitantes solo con doble oportunidad o goles.",
+  "selecciones": [
+    {
+      "competencia": "Premier League",
+      "cuota": 1.25,
+      "dia": "lun 19 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "2:00 p. m.",
+      "mercado": "Más de 1.5 goles",
+      "partido": "Tottenham vs Coventry",
+      "resultado": "3-1"
+    },
+    {
+      "competencia": "LaLiga",
+      "cuota": 1.3,
+      "dia": "lun 19 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "2:00 p. m.",
+      "mercado": "Getafe o empate",
+      "partido": "Getafe vs Rayo Vallecano",
+      "resultado": "1-1"
+    },
+    {
+      "competencia": "Serie A",
+      "cuota": 1.33,
+      "dia": "lun 19 oct",
+      "estado": "perdida",
+      "estimada": true,
+      "hora": "11:30 a. m.",
+      "mercado": "Parma o empate",
+      "partido": "Parma vs Torino",
+      "resultado": "0-3"
+    },
+    {
+      "competencia": "Premier League",
+      "cuota": 1.22,
+      "dia": "sáb 24 oct",
+      "estado": "pendiente",
+      "estimada": true,
+      "hora": "5:30 a. m.",
+      "mercado": "Manchester City o empate",
+      "partido": "Aston Villa vs Manchester City"
+    },
+    {
+      "competencia": "Premier League",
+      "cuota": 1.3,
+      "dia": "sáb 24 oct",
+      "estado": "pendiente",
+      "estimada": true,
+      "hora": "8:00 a. m.",
+      "mercado": "Gana Arsenal",
+      "partido": "Arsenal vs Everton"
+    },
+    {
+      "competencia": "Premier League",
+      "cuota": 1.12,
+      "dia": "sáb 24 oct",
+      "estado": "pendiente",
+      "estimada": true,
+      "hora": "9:00 a. m.",
+      "mercado": "Liverpool o empate",
+      "partido": "Liverpool vs Leeds United"
+    },
+    {
+      "competencia": "Serie A",
+      "cuota": 1.2,
+      "dia": "dom 25 oct",
+      "estado": "pendiente",
+      "estimada": true,
+      "hora": "12:00 p. m.",
+      "mercado": "Juventus o empate",
+      "partido": "Lecce vs Juventus"
+    },
+    {
+      "competencia": "Premier League",
+      "cuota": 1.25,
+      "dia": "dom 25 oct",
+      "estado": "pendiente",
+      "estimada": true,
+      "hora": "por confirmar",
+      "mercado": "Más de 1.5 goles",
+      "partido": "Manchester United vs Bournemouth"
+    }
+  ],
+  "semana": "2026-10-19",
+  "titulo": "Semanal 19-25 oct"
+}

@@ -1,0 +1,459 @@
+{
+  "combinadas": [
+    {
+      "cuota": 2.21,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.5,
+      "razon": "Cinco selecciones de Más de 1.5 y doble oportunidad del favorito visitante; todas cumplen las reglas.",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Arsenal vs Lille",
+          "reglas_rotas": [],
+          "resultado": "3-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.22,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Inter vs Club Brugge",
+          "reglas_rotas": [],
+          "resultado": "3-4"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Barcelona o empate",
+          "partido": "Galatasaray vs Barcelona",
+          "reglas_rotas": [],
+          "resultado": "1-4"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.08,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Viking vs Bayern Múnich",
+          "reglas_rotas": [],
+          "resultado": "3-3"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Atlético de Madrid vs Manchester United",
+          "reglas_rotas": [],
+          "resultado": "2-0"
+        }
+      ]
+    },
+    {
+      "cuota": 3.09,
+      "estado": "perdida",
+      "nivel": "media",
+      "prob": 0.32,
+      "razon": "Victoria de Inter local (clara) y Más de 1.5 en cuatro partidos; todas cumplen las reglas.",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.32,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Inter",
+          "partido": "Inter vs Club Brugge",
+          "reglas_rotas": [],
+          "resultado": "3-4"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.22,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "RB Leipzig vs PSV",
+          "reglas_rotas": [],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Villarreal vs Napoli",
+          "reglas_rotas": [],
+          "resultado": "3-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Lens vs Sporting CP",
+          "reglas_rotas": [],
+          "resultado": "0-2"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Galatasaray vs Barcelona",
+          "reglas_rotas": [],
+          "resultado": "1-4"
+        }
+      ]
+    },
+    {
+      "cuota": 5.62,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.17,
+      "razon": "Gana Arsenal y dobles oportunidades; cuatro son partidos parejos (rompen regla 3).",
+      "selecciones": [
+        {
+          "competencia": "Champions League",
+          "cuota": 1.38,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Arsenal",
+          "partido": "Arsenal vs Lille",
+          "reglas_rotas": [],
+          "resultado": "3-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.04,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Bayern Múnich o empate",
+          "partido": "Viking vs Bayern Múnich",
+          "reglas_rotas": [],
+          "resultado": "3-3"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.34,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Atlético de Madrid o empate",
+          "partido": "Atlético de Madrid vs Manchester United",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.39,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "RB Leipzig o empate",
+          "partido": "RB Leipzig vs PSV",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.45,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Villarreal o empate",
+          "partido": "Villarreal vs Napoli",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "3-1"
+        },
+        {
+          "competencia": "Champions League",
+          "cuota": 1.45,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Lens o empate",
+          "partido": "Lens vs Sporting CP",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "0-2"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-13",
+  "nota": "Martes solo con Champions (jornada 2; no hallé otra liga confirmada). Horas de Colombia convertidas desde UEFA (CEST), confirmadas con Excélsior (13:00 CDMX = 2:00 p. m.). Todas las cuotas son estimadas (stake.com bloqueado). Jornada 2: no hay tabla, la regla 3 se juzgó por cuota del mercado. La arriesgada queda en ~5.6 (bajo el objetivo 10): hay solo 8 partidos y la regla 2 limita a 2 combinadas por partido; sus cuatro dobles oportunidades de partidos parejos rompen la regla 3. Segura y media cumplen todas las reglas.",
+  "partidos": [
+    {
+      "claves": [
+        "Arsenal gana 72% según Opta; Lille de visita.",
+        "Matchday 2 de la fase de liga: sin tabla aún."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.38,
+          "m": "Gana Arsenal"
+        }
+      ],
+      "estadio": "Emirates Stadium",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Last Word On Football",
+          "url": "https://lastwordonsports.com/football/2026/10/12/champions-league-predictions-arsenal-lille/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Arsenal vs Lille"
+    },
+    {
+      "claves": [
+        "Bayern muy superior; mercado espera goleada.",
+        "Matchday 2: sin tabla aún."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.08,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.04,
+          "m": "Bayern Múnich o empate"
+        }
+      ],
+      "estadio": "Viking Stadion",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "MightyTips",
+          "url": "https://www.mightytips.com/football-predictions/viking-vs-bayern-munich-prediction-13-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Viking vs Bayern Múnich"
+    },
+    {
+      "claves": [
+        "Inter local, cuota de victoria ~1.32.",
+        "Matchday 2: sin tabla aún."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.32,
+          "m": "Gana Inter"
+        }
+      ],
+      "estadio": "San Siro",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "CBS Sports",
+          "url": "https://www.cbssports.com/soccer/champions-league/odds/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Inter vs Club Brugge"
+    },
+    {
+      "claves": [
+        "Barcelona favorito visitante (~1.34 a ganar); solo doble oportunidad o +1.5.",
+        "Matchday 2: sin tabla aún."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Barcelona o empate"
+        },
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "RAMS Park",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Excélsior",
+          "url": "https://www.excelsior.com.mx/deportes/champions-league-donde-ver-partidos-martes-13-miercoles-14-octubre"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Galatasaray vs Barcelona"
+    },
+    {
+      "claves": [
+        "Local 2.00 / empate 4.06 / visitante 3.70: parejo.",
+        "Matchday 2: sin tabla aún."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.34,
+          "m": "Atlético de Madrid o empate"
+        }
+      ],
+      "estadio": "Metropolitano",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Tips.gg",
+          "url": "https://tips.gg/article/atletico-madrid-vs-manchester-united-13-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Atlético de Madrid vs Manchester United"
+    },
+    {
+      "claves": [
+        "Leipzig 2.08 / empate 4.16 / PSV 3.41: parejo.",
+        "Matchday 2: sin tabla aún."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.22,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.39,
+          "m": "RB Leipzig o empate"
+        }
+      ],
+      "estadio": "Red Bull Arena",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "SportsGambler",
+          "url": "https://www.sportsgambler.com/betting-tips/football/rb-leipzig-vs-psv-prediction-lineups-odds-2026-10-13/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "RB Leipzig vs PSV"
+    },
+    {
+      "claves": [
+        "Villarreal 2.42 / empate 3.60 / Napoli 3.13: parejo.",
+        "Matchday 2: sin tabla aún."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.45,
+          "m": "Villarreal o empate"
+        }
+      ],
+      "estadio": "Estadio de la Cerámica",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Championsleagueschedule.net",
+          "url": "https://www.championsleagueschedule.net/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Villarreal vs Napoli"
+    },
+    {
+      "claves": [
+        "Duelo parejo; Lens local.",
+        "Matchday 2: sin tabla aún."
+      ],
+      "competencia": "Champions League",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.45,
+          "m": "Lens o empate"
+        }
+      ],
+      "estadio": "Stade Bollaert-Delelis",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "nombre": "Tips.gg",
+          "url": "https://tips.gg/article/lens-vs-sporting-cp-13-10-2026/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Lens vs Sporting CP"
+    }
+  ]
+}

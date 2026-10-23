@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-11",
+  "actualizado": "2026-10-23",
   "historial": [
     "7 oct 2026: regla 1 cambiada (siempre tres combinadas, con lo que más reglas cumpla) y regla 9 nueva (sin segunda división o inferiores), a pedido del usuario.",
     "7 oct 2026: las 15 reglas se consolidaron en 8. Se resolvieron contradicciones (favorito de mitad baja: antes doble oportunidad en la 2 y fuera en la 11; local sin ventaja: doble oportunidad en la 10 y la 11, fuera en la 13) y se unieron repetidas (4 y 8; 5 y 14; 6 y 9; 12 y 15). Los textos antiguos que citan «regla N» usan la numeración vieja.",
@@ -16,38 +16,48 @@
     "9 oct 2026: del 8 oct, Shamrock Rovers 3-1 Drogheda: segura (2.15) y media (3.10) ganadas. Athletico-PR 2-2 Atlético-MG y Santos 2-2 Flamengo hicieron fallar Menos de 3.5 y, con Grau 0-0, tumbaron la arriesgada; doble oportunidad 7/7. Casi doy Shamrock-Drogheda por aplazado al 9 sin buscar el marcador: se endurece la regla 10.",
     "11 oct 2026: rehecho el lunes 12 (segura 2.03, media 2.54, arriesgada 3.80; se sumó Chapecoense–Athletico-PR) y la semanal (9 selecciones de lunes a domingo, 6.53). Regla 11 y validador nuevos.",
     "11 oct 2026: del 9 y 10 oct, media del 9 ganada (3.50, Juárez 1-1 Tijuana), segura del 10 ganada (2.06) y arriesgada del 10 ganada (4.38); la media del 10 cayó por Más de 1.5 en Real Madrid 1-0 y Vasco 0-0. Barcelona 3-0, Chelsea 5-1, Inter 3-0, Arsenal 2-1. Regla 7: Menos de 3.5 restringido; regla 3: hay que anotar la tabla.",
-    "10 oct 2026: del 9 oct, Dortmund 2-2 Bremen (Gana Dortmund falló), Lens 2-1 Lyon (Lyon o empate falló), Puebla 1-1 León y Tigres 3-2 Toluca (Menos de 3.5 falló); Más de 1.5 4/4. Segura y arriesgada perdidas; media pendiente solo de Juárez–Tijuana, que se juega el 10 y no el 9 (selecciones movidas de fecha sin cerrar)."
+    "10 oct 2026: del 9 oct, Dortmund 2-2 Bremen (Gana Dortmund falló), Lens 2-1 Lyon (Lyon o empate falló), Puebla 1-1 León y Tigres 3-2 Toluca (Menos de 3.5 falló); Más de 1.5 4/4. Segura y arriesgada perdidas; media pendiente solo de Juárez–Tijuana, que se juega el 10 y no el 9 (selecciones movidas de fecha sin cerrar).",
+    "12 oct 2026: del 11 oct, Bahia 1-0 Mirassol (Más de 1.5 falló), Betis 5-2, Palace 3-1, Lazio 3-1, Pachuca 3-3 aciertos; Liverpool 0-3 City hizo caer Liverpool o empate (local no favorito claro vs equipo de arriba, regla 3). Armado el martes 13 (solo Champions).",
+    "13 oct 2026: del 12 oct, Athletico-PR 1-4 (ganada), Lanús 2-0 Vélez y U. de Chile 6-0 Ñublense acertaron; Coventry 4-1 Newcastle (Newcastle o empate falló) y Gimnasia 1-0 Newell's (ambas selecciones fallaron).",
+    "14 oct 2026: del 13 oct (Champions), Arsenal 3-0, Atlético 2-0, Barça 1-4 y Viking 3-3 Bayern acertaron (Bayern o empate ganó pese a la roja de Olise); Inter 3-4 Brugge (Gana Inter falló en casa vs rival que venía de ganar), Lens 0-2 Sporting (Lens o empate falló: local no favorito claro, regla 3) y Leipzig 1-0 PSV (Más de 1.5 falló). Más de 1.5 7/8 y Doble oportunidad 5/6.",
+    "15 oct 2026: del 14 oct (Champions), Villa 6-0, Feyenoord 3-2 Como, Liverpool 3-6 LASK (visitante), City 2-4 PSG (PSG o empate), Betis 3-2, Roma 3-4 Madrid y Slovan 0-3 Stuttgart acertaron; Bodø/Glimt 1-0 Dortmund falló (Gana Dortmund visitante a 1.50 y Más de 1.5 con 1 gol) y tumbó la segura y la arriesgada. La media (3.6) ganó.",
+    "16 oct 2026: del 15 oct (Europa/Conference) acertaron Atalanta 3-1, Benfica 4-1, Bournemouth 3-0, Brighton 4-0, Mónaco 1-2 en Sofía, Freiburg 3-2, Leverkusen 0-4 en Lech y Milan 0-4 en Salzburg; fallaron Ajax 1-2 en Hajduk (Gana Ajax, visitante) y Hoffenheim o empate (2-3 Beşiktaş, local en mala racha). Cayó la arriesgada (9.07); segura (1.79) y media (3.77) ganaron.",
+    "18 oct 2026: del 17 oct acertaron Bayern 6-1, Inter 1-3 en Bolonia, City 3-2, Roma 2-0 y Más de 1.5 en los 4 partidos; fallaron Venezia 1-0 Napoli (Napoli o empate, visitante en mala racha, 9.º) y Gana Werder Bremen (2-2 vs Paderborn en casa). Cayó la arriesgada (3.51); segura (1.49) y media (1.90) ganaron. Más de 1.5 5/5.",
+    "19 oct 2026: del 18 oct acertaron Brighton 5-0, Como 1-3 en Florencia, Cruzeiro 4-2 en Grêmio, Real Madrid 4-1, Arsenal 0-1 en Forest y Bragantino o empate (1-1 en Remo); fallaron Fluminense o empate (1-2 Santos), Gana Bragantino y Más de 1.5 en Forest 0-1 Arsenal. Cayeron la media (3.6) y la arriesgada (8.03); la segura (1.84) ganó. Semanal 12-18 oct perdida (Napoli, Newcastle y Forest-Arsenal Más de 1.5).",
+    "20 oct 2026: del 19 oct, Getafe 1-1 Rayo (Más de 1.5 falló, dobles acertaron), Parma 0-3 Torino (Parma o empate falló, local débil) y Tottenham 3-1 Coventry (todo acertó, incluida la victoria). Se armó el 21 oct (Champions jornada 3): segura 2.14, media 3.46, arriesgada 8.93.",
+    "21 oct 2026: del 20 oct (Champions J3) ganó la segura (1.91: Roma 4-0, City 5-1, Liverpool 4-3, PSG 4-2, Fenerbahçe 2-2); cayeron la media (3.19, Porto 0-1 PSV en Más de 1.5) y la arriesgada (9.58, Gana Fenerbahçe y Porto o empate). Se armó el 22 oct (Europa y Conference): segura 1.74, media 3.27, arriesgada 9.59.",
+    "23 oct 2026: del 21 y 22 oct, Betis 1-0 Feyenoord ganó; Europa/Conference: Braga 2-0 Gent, Monaco 3-0 Freiburg, Leverkusen 2-0 en OFI, Benfica 4-1 en Omonia, Real Sociedad 6-0 en Lillestrøm, Trabzonspor 2-0 Hearts y Juventus o empate (2-2) acertaron. Cayeron Sturm Graz 1-0 Marseille (Más de 1.5 y Marseille o empate), Jablonec 0-0 Brighton (Más de 1.5) y Gana Juventus (2-2). Segura del 22 ganada (1.74); media y arriesgada perdidas. La rutina del 23 oct no pudo armar el 24 oct: las búsquedas no devolvieron tablas ni cuotas confiables."
   ],
   "mercados": [
     {
-      "ganadas": 60,
-      "perdidas": 8,
-      "tipo": "Doble oportunidad"
+      "tipo": "Doble oportunidad",
+      "ganadas": 106,
+      "perdidas": 19
     },
     {
-      "ganadas": 28,
-      "perdidas": 20,
-      "tipo": "Gana el favorito"
+      "tipo": "Más / menos goles",
+      "ganadas": 83,
+      "perdidas": 19
     },
     {
-      "ganadas": 27,
-      "perdidas": 7,
-      "tipo": "Más / menos goles"
+      "tipo": "Gana el favorito",
+      "ganadas": 62,
+      "perdidas": 30
     },
     {
+      "tipo": "Hándicap / ganar por margen",
       "ganadas": 0,
-      "perdidas": 2,
-      "tipo": "Hándicap / ganar por margen"
+      "perdidas": 2
     },
     {
+      "tipo": "Gana + goles",
       "ganadas": 2,
-      "perdidas": 0,
-      "tipo": "Gana + goles"
+      "perdidas": 0
     },
     {
+      "tipo": "Gana sin recibir gol",
       "ganadas": 1,
-      "perdidas": 0,
-      "tipo": "Gana sin recibir gol"
+      "perdidas": 0
     }
   ],
   "reglas": [
@@ -92,8 +102,8 @@
       "texto": "Cada partido se confirma con fecha y hora en dos fuentes, y una debe ser de su propia liga (sitio oficial, ESPN, FotMob o prensa local). Si las fuentes no coinciden en la fecha, o el partido no aparece en ninguna casa de apuestas o no tiene estadio confirmado, no se usa. Al verificar, nunca se da un partido por no jugado ni se le cambia la fecha sin buscar el marcador también en inglés o en FotMob/Sofascore."
     },
     {
-      "texto": "La segura siempre paga menos que la media y la media menos que la arriesgada. Si hay pocos partidos, reparte primero las selecciones más seguras a la segura y las victorias a la arriesgada; nunca al revés. La semanal cubre de lunes a domingo: si el lunes es corto, se completa con el fin de semana.",
-      "origen": "11 oct: la rutina armó el lunes 12 con la segura en 2.11, la media en 2.08 y la arriesgada en 1.89, y una semanal solo con partidos del lunes (2.37). Nace tools/validar.py para detectarlo antes de guardar."
+      "origen": "11 oct: la rutina armó el lunes 12 con la segura en 2.11, la media en 2.08 y la arriesgada en 1.89, y una semanal solo con partidos del lunes (2.37). Nace tools/validar.py para detectarlo antes de guardar.",
+      "texto": "La segura siempre paga menos que la media y la media menos que la arriesgada. Si hay pocos partidos, reparte primero las selecciones más seguras a la segura y las victorias a la arriesgada; nunca al revés. La semanal cubre de lunes a domingo: si el lunes es corto, se completa con el fin de semana."
     }
   ],
   "vigilar": [
@@ -102,6 +112,18 @@
     "Local no favorito claro en Nations League C/D (Kazajistán, Ucrania): doble oportunidad también cayó; revisar forma antes de usarla.",
     "Liga Profesional Argentina: doble oportunidad 2/3 (Tucumán 2-3 en casa); Newell's 0-0 y Defensa 3-0 sí acertaron.",
     "Escocia en Nations League: 1-2 ante Eslovenia en casa tras 422 minutos sin gol; no ponerla como favorita hasta que vuelva a ganar.",
-    "Más de 1.5 va 19/22: cayó con Vasco 0-0 Remo (dos equipos de la zona de descenso) y Real Madrid 1-0 Villarreal (roja a Vinícius). Cuidado con duelos de la zona baja."
+    "Más de 1.5 va 19/22: cayó con Vasco 0-0 Remo (dos equipos de la zona de descenso) y Real Madrid 1-0 Villarreal (roja a Vinícius). Cuidado con duelos de la zona baja.",
+    "Más de 1.5 va 22/26 tras Bahia 1-0 Mirassol (duelo cerrado de mitad de tabla).",
+    "Visitante con doble oportunidad en liga: Newcastle (4-1 en Coventry, ascendido) y Newell's (0-1 en Mendoza) cayeron el 12 oct; la regla 4 ya pide solo doble oportunidad a favoritos visitantes, vigilar visitantes en Premier recién ascendidos y en Argentina.",
+    "Champions jornada 2: favoritos locales fuertes cayeron (Inter 3-4 Brugge); Gana el favorito 32/53. En Champions preferir doble oportunidad aun a locales grandes y no poner local no favorito claro (Lens).",
+    "Champions jornada 2: victoria de visitante a 1.50 (Dortmund en Bodø) falló, rompía la regla 4; confirma doble oportunidad para visitantes. Más de 1.5 cayó con 1-0 en cancha difícil (Noruega). Viernes flojos: con menos de 5 partidos no se alcanzan los conteos; buscar Portugal/Turquía/Países Bajos con más tiempo.",
+    "Conference/Europa jornada 1-2: victoria de visitante (Ajax en Hajduk) y local en mala racha con doble oportunidad (Hoffenheim, 4 derrotas en 5) fallaron el 15 oct; ambos rompían las reglas 3-4. Más de 1.5 acertó 6/6 ese día.",
+    "16 oct: Gana Necaxa (local) cayó 0-2 con Atlas y Más de 1.5 falló en Frankfurt 1-0; doble oportunidad acertó 3 de 4.",
+    "Napoli (5 derrotas en 9) perdió en Venezia, último y sin victorias: ni la doble oportunidad de grandes en mala racha es segura; Gana local vs ascendido/recién llegado (Werder 2-2 Paderborn) falló, victoria simple sigue 47/73.",
+    "Más de 1.5 va 25/30 tras Forest 0-1 Arsenal (duelo cerrado entre equipos de arriba); Más de 1.5 en Premier de visitante fuerte con partido trabado sigue siendo el riesgo. Local con doble oportunidad contra visitante en racha (Fluminense 1-2 Santos) también cayó; Brasileirão Gana el visitante a ~1.9 falló con Remo 1-1.",
+    "19 oct: Más de 1.5 cayó con Getafe 1-1 Rayo (expulsión temprana y partido trabado); Parma (15.º) perdió 0-3 como local con doble oportunidad: locales de la mitad baja siguen siendo riesgo.",
+    "20 oct (Champions J3): Porto 0-1 PSV (Más de 1.5 y Porto o empate fallaron; local sin victorias europeas) y Gana Fenerbahçe cayó con 2-2. Stuttgart 1-1 Atlético dio Más de 1.5 y doble oportunidad. Local en mala racha europea sigue siendo riesgo aun con doble oportunidad.",
+    "21 oct (Champions J3): Inter 1-0 Shakhtar (Más de 1.5 cayó, 1-0 con roja a Bastoni) y Gana Sporting cayó 2-3 ante LASK en casa; Más de 1.5 acertó 7/8. Doble oportunidad visitante 3/3 (Arsenal, Galatasaray, Como/local ok).",
+    "22 oct (Europa/Conference J3): Más de 1.5 cayó con 0-0 (Jablonec-Brighton) y 1-0 (Sturm Graz-Marseille), 7/9 ese día; visitante grande con doble oportunidad cayó en Graz. Victoria local de favorito no claro (Juventus 2-2) volvió a fallar."
   ]
 }

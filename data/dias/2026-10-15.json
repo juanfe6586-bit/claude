@@ -1,0 +1,525 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.79,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.62,
+      "razon": "Brighton, Benfica y Bournemouth locales claros y Leverkusen visitante favorito con doble oportunidad; cumple todas las reglas.",
+      "selecciones": [
+        {
+          "competencia": "Conference League",
+          "cuota": 1.05,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Brighton",
+          "partido": "Brighton vs Kauno Žalgiris",
+          "reglas_rotas": [],
+          "resultado": "4-0"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.27,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Benfica",
+          "partido": "Benfica vs Celtic",
+          "reglas_rotas": [],
+          "resultado": "4-1"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Bayer Leverkusen o empate",
+          "partido": "Lech Poznań vs Bayer Leverkusen",
+          "reglas_rotas": [],
+          "resultado": "0-4"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Bournemouth",
+          "partido": "Bournemouth vs Sturm Graz",
+          "reglas_rotas": [],
+          "resultado": "3-0"
+        }
+      ]
+    },
+    {
+      "cuota": 3.77,
+      "estado": "ganada",
+      "nivel": "media",
+      "prob": 0.3,
+      "razon": "Victorias de Freiburg y Atalanta en casa más tres «Más de 1.5» en partidos abiertos; Freiburg (1.36) y Atalanta (1.48) pasan el tope de 1.35.",
+      "selecciones": [
+        {
+          "competencia": "Conference League",
+          "cuota": 1.36,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Freiburg",
+          "partido": "Freiburg vs Jablonec",
+          "reglas_rotas": [
+            6
+          ],
+          "resultado": "3-2"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.48,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Gana Atalanta",
+          "partido": "Atalanta vs Pafos",
+          "reglas_rotas": [
+            6
+          ],
+          "resultado": "3-1"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Hoffenheim vs Beşiktaş",
+          "reglas_rotas": [],
+          "resultado": "2-3"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Salzburg vs Milan",
+          "reglas_rotas": [],
+          "resultado": "0-4"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Benfica vs Celtic",
+          "reglas_rotas": [],
+          "resultado": "4-1"
+        }
+      ]
+    },
+    {
+      "cuota": 9.07,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.1,
+      "razon": "Victorias de visitantes favoritos (Leverkusen, Ajax, Mónaco; rompen la 4) y «Más de 1.5» en cinco partidos.",
+      "selecciones": [
+        {
+          "competencia": "Europa League",
+          "cuota": 1.64,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Gana Bayer Leverkusen",
+          "partido": "Lech Poznań vs Bayer Leverkusen",
+          "reglas_rotas": [
+            4
+          ],
+          "resultado": "0-4"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.49,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Gana Ajax",
+          "partido": "Hajduk Split vs Ajax",
+          "reglas_rotas": [
+            4
+          ],
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.44,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Gana Mónaco",
+          "partido": "CSKA Sofia vs Mónaco",
+          "reglas_rotas": [
+            4
+          ],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Atalanta vs Pafos",
+          "reglas_rotas": [],
+          "resultado": "3-1"
+        },
+        {
+          "competencia": "Conference League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Freiburg vs Jablonec",
+          "reglas_rotas": [],
+          "resultado": "3-2"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.1,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Bournemouth vs Sturm Graz",
+          "reglas_rotas": [],
+          "resultado": "3-0"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:45 a. m.",
+          "mercado": "Milan o empate",
+          "partido": "Salzburg vs Milan",
+          "reglas_rotas": [],
+          "resultado": "0-4"
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.25,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "2:00 p. m.",
+          "mercado": "Hoffenheim o empate",
+          "partido": "Hoffenheim vs Beşiktaş",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-3"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-15",
+  "nota": "Jueves de Europa League (jornada 2) y Conference League (jornada 1): fechas de UEFA y un segundo sitio (Claro Sports/ESPN/previas); horas de Colombia desde CEST (18:45 = 11:45 a. m., 21:00 = 2:00 p. m.). Todas las cuotas son estimadas (stake.com bloqueado). Sin tablas en la fase liga: la regla 3 se juzgó por cuota del mercado. Segura cumple todas las reglas. Media rompe la 6 (Freiburg 1.36 y Atalanta 1.48) para llegar a ~3.5. Arriesgada rompe la 4 (tres victorias de visitante) y la 3 (Hoffenheim o empate); queda en ~9.",
+  "partidos": [
+    {
+      "claves": [
+        "Brighton, favorito del torneo, recibe al Kauno en el debut de la fase liga.",
+        "Cuota de Brighton 1/20 (Oddschecker)."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.05,
+          "m": "Gana Brighton"
+        },
+        {
+          "c": 1.18,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Amex Stadium",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://es.uefa.com/uefaconferenceleague/news/02a8-217720797b12-efe7d3aa394c-1000--conference-league-2026-27-calendario-fechas-y-horarios-d/"
+        },
+        {
+          "nombre": "Claro Sports",
+          "url": "https://www.clarosports.com/futbol/uefa-conference-league/conference-league-2026-jornada-1-en-vivo-horarios-y-donde-ver-los-partidos-de-la-fase-de-liga/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Brighton vs Kauno Žalgiris"
+    },
+    {
+      "claves": [
+        "Atalanta local ante Pafos en el debut; Oddschecker 10/21 (~1.48)."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.48,
+          "m": "Gana Atalanta"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Gewiss Stadium",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://es.uefa.com/uefaconferenceleague/news/02a8-217720797b12-efe7d3aa394c-1000--conference-league-2026-27-calendario-fechas-y-horarios-d/"
+        },
+        {
+          "nombre": "Claro Sports",
+          "url": "https://www.clarosports.com/futbol/uefa-conference-league/conference-league-2026-jornada-1-en-vivo-horarios-y-donde-ver-los-partidos-de-la-fase-de-liga/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Atalanta vs Pafos"
+    },
+    {
+      "claves": [
+        "Freiburg local ante Jablonec; Oddschecker 4/11 (~1.36)."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.36,
+          "m": "Gana Freiburg"
+        },
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Europa-Park Stadion",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://es.uefa.com/uefaconferenceleague/news/02a8-217720797b12-efe7d3aa394c-1000--conference-league-2026-27-calendario-fechas-y-horarios-d/"
+        },
+        {
+          "nombre": "Claro Sports",
+          "url": "https://www.clarosports.com/futbol/uefa-conference-league/conference-league-2026-jornada-1-en-vivo-horarios-y-donde-ver-los-partidos-de-la-fase-de-liga/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Freiburg vs Jablonec"
+    },
+    {
+      "claves": [
+        "Ajax visitante favorito: 1.49 a ganar, Hajduk 5.25 (Oddsportal)."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Ajax o empate"
+        },
+        {
+          "c": 1.49,
+          "m": "Gana Ajax"
+        }
+      ],
+      "estadio": "Poljud",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://es.uefa.com/uefaconferenceleague/news/02a8-217720797b12-efe7d3aa394c-1000--conference-league-2026-27-calendario-fechas-y-horarios-d/"
+        },
+        {
+          "nombre": "Claro Sports",
+          "url": "https://www.clarosports.com/futbol/uefa-conference-league/conference-league-2026-jornada-1-en-vivo-horarios-y-donde-ver-los-partidos-de-la-fase-de-liga/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Hajduk Split vs Ajax"
+    },
+    {
+      "claves": [
+        "Mónaco visitante favorito: 1.44 a ganar (Oddsportal)."
+      ],
+      "competencia": "Conference League",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Mónaco o empate"
+        },
+        {
+          "c": 1.44,
+          "m": "Gana Mónaco"
+        }
+      ],
+      "estadio": null,
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://es.uefa.com/uefaconferenceleague/news/02a8-217720797b12-efe7d3aa394c-1000--conference-league-2026-27-calendario-fechas-y-horarios-d/"
+        },
+        {
+          "nombre": "Claro Sports",
+          "url": "https://www.clarosports.com/futbol/uefa-conference-league/conference-league-2026-jornada-1-en-vivo-horarios-y-donde-ver-los-partidos-de-la-fase-de-liga/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "CSKA Sofia vs Mónaco"
+    },
+    {
+      "claves": [
+        "Benfica local fuerte: 1.27 vs 11.90 de Celtic (22bet)."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.27,
+          "m": "Gana Benfica"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Estádio da Luz",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "MightyTips",
+          "url": "https://www.mightytips.com/football-predictions/benfica-vs-celtic-prediction-15-10-2026/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Benfica vs Celtic"
+    },
+    {
+      "claves": [
+        "Leverkusen visitante favorito: 1.64 a ganar, Lech 4.60 (tips.gg)."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Bayer Leverkusen o empate"
+        },
+        {
+          "c": 1.64,
+          "m": "Gana Bayer Leverkusen"
+        }
+      ],
+      "estadio": "Enea Stadion",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "tips.gg",
+          "url": "https://tips.gg/article/lech-poznan-vs-bayer-leverkusen-15-10-2026/"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Lech Poznań vs Bayer Leverkusen"
+    },
+    {
+      "claves": [
+        "Bournemouth local: 1.20 a ganar, Sturm 11.00 (footballpredictions.ai); KickOff 79%."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Gana Bournemouth"
+        },
+        {
+          "c": 1.1,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Vitality Stadium",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "KickOff",
+          "url": "https://www.kickoff.co.uk/uefa-europa-league-predictions-stats-odds/bournemouth-vs-sk-sturm-graz/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Bournemouth vs Sturm Graz"
+    },
+    {
+      "claves": [
+        "Partido abierto: ambos marcan -238 (Sportsgambler)."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.2,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.25,
+          "m": "Hoffenheim o empate"
+        }
+      ],
+      "estadio": "PreZero Arena",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "Sportsgambler",
+          "url": "https://www.sportsgambler.com/betting-tips/football/hoffenheim-vs-besiktas-prediction-lineups-odds-2026-10-15/"
+        }
+      ],
+      "hora": "2:00 p. m.",
+      "partido": "Hoffenheim vs Beşiktaş"
+    },
+    {
+      "claves": [
+        "Tip de ambos marcan a 1.56 (dailysports); Milan visitante favorito."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Milan o empate"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Red Bull Arena",
+      "fuentes": [
+        {
+          "nombre": "UEFA (oficial)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "DailySports",
+          "url": "https://dailysports.net/predictions/salzburg-vs-milan-can-milan-win-in-the-uefa-europa-league"
+        }
+      ],
+      "hora": "11:45 a. m.",
+      "partido": "Salzburg vs Milan"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.49,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.8,
+      "razon": "Solo tres partidos confirmados. Doble oportunidad en los tres; Bremen sin tabla actual (reglas 3 y 10).",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.04,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Manchester City o empate",
+          "partido": "Manchester City vs Ipswich",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "3-2"
+        },
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:30 a. m.",
+          "mercado": "Bayern o empate",
+          "partido": "Bayern vs Leipzig",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "6-1"
+        },
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:30 a. m.",
+          "mercado": "Werder Bremen o empate",
+          "partido": "Werder Bremen vs Paderborn",
+          "reglas_rotas": [
+            2,
+            3,
+            10
+          ],
+          "resultado": "2-2"
+        }
+      ]
+    },
+    {
+      "cuota": 1.9,
+      "estado": "ganada",
+      "nivel": "media",
+      "prob": 0.62,
+      "razon": "Más de 1.5 goles en los tres; Bremen-Paderborn a 1.40 supera el límite de la media (regla 6).",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.18,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Manchester City vs Ipswich",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "3-2"
+        },
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Bayern vs Leipzig",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "6-1"
+        },
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.4,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Werder Bremen vs Paderborn",
+          "reglas_rotas": [
+            2,
+            6
+          ],
+          "resultado": "2-2"
+        }
+      ]
+    },
+    {
+      "cuota": 3.51,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.38,
+      "razon": "Victorias de los tres locales; Bremen a ~1.95 rompe las reglas 3, 5 y 10.",
+      "selecciones": [
+        {
+          "competencia": "Premier League",
+          "cuota": 1.2,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Gana Manchester City",
+          "partido": "Manchester City vs Ipswich",
+          "reglas_rotas": [
+            2
+          ],
+          "resultado": "3-2"
+        },
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.5,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:30 a. m.",
+          "mercado": "Gana Bayern",
+          "partido": "Bayern vs Leipzig",
+          "reglas_rotas": [
+            2,
+            6
+          ],
+          "resultado": "6-1"
+        },
+        {
+          "competencia": "Bundesliga",
+          "cuota": 1.95,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "8:30 a. m.",
+          "mercado": "Gana Werder Bremen",
+          "partido": "Werder Bremen vs Paderborn",
+          "reglas_rotas": [
+            2,
+            3,
+            5,
+            6,
+            10
+          ],
+          "resultado": "2-2"
+        }
+      ]
+    }
+  ],
+  "fecha": "2026-10-17",
+  "nota": "Sábado con poca información: agoté las 25 búsquedas y solo confirmé tres partidos con fecha en dos fuentes (City-Ipswich, Bayern-Leipzig, Bremen-Paderborn). Descarté Arsenal-Forest, Brentford-Liverpool y LaLiga por una sola fuente o sin horario, y Tottenham-Coventry porque una fuente lo ubica el lunes 19. Con tres partidos no se cumplen los conteos (segura 3, media 3, arriesgada 3 en vez de 5-9) ni la regla 2 (cada partido en las tres combinadas). Cuotas todas estimadas (stake.com bloqueado). Horas por confirmar, sobre todo City-Ipswich (15:00 UK, una sola fuente). Revisa Brasileirão/Argentina/Liga MX si quieres ampliarla.",
+  "partidos": [
+    {
+      "claves": [
+        "Sáb 17 oct, jornada 7; City ganó sus 6 partidos (diferencia +11), Ipswich -3.",
+        "Ipswich sin Fatawu (sancionado)."
+      ],
+      "competencia": "Premier League",
+      "cuotas": [
+        {
+          "c": 1.04,
+          "m": "Manchester City o empate"
+        },
+        {
+          "c": 1.18,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.2,
+          "m": "Gana Manchester City"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Squawka previa",
+          "url": "https://www.squawka.com/ca/?p=15833"
+        },
+        {
+          "nombre": "Premier League: calendario 2026/27",
+          "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
+        }
+      ],
+      "hora": "9:00 a. m.",
+      "partido": "Manchester City vs Ipswich"
+    },
+    {
+      "claves": [
+        "Sáb 17 oct, 15:30 CEST, Allianz Arena; Bayern 2.º con 10 pts tras 4 fechas, Leipzig 6 pts.",
+        "Tabla de la fecha 5 no confirmada."
+      ],
+      "competencia": "Bundesliga",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Bayern o empate"
+        },
+        {
+          "c": 1.15,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.5,
+          "m": "Gana Bayern"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "t-online liveticker",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/bundesliga/sdc_fm-59333/bayern-leipzig-bundesliga-im-liveticker.html"
+        },
+        {
+          "nombre": "anstosszeiten.de Spieltag 6",
+          "url": "https://anstosszeiten.de/bundesliga/spieltag-6/"
+        }
+      ],
+      "hora": "8:30 a. m.",
+      "partido": "Bayern vs Leipzig"
+    },
+    {
+      "claves": [
+        "Sáb 17 oct, 15:30 CEST, Weserstadion; Bremen 7 pts, Paderborn 4 pts tras 4 fechas.",
+        "Sin tabla de la fecha 5 ni cuotas actuales."
+      ],
+      "competencia": "Bundesliga",
+      "cuotas": [
+        {
+          "c": 1.28,
+          "m": "Werder Bremen o empate"
+        },
+        {
+          "c": 1.4,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.95,
+          "m": "Gana Werder Bremen"
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "t-online liveticker",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/bundesliga/sdc_fm-59337/bremen-paderborn-bundesliga-im-liveticker.html"
+        },
+        {
+          "nombre": "hessenschau Bundesliga fecha 6",
+          "url": "https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-6.html"
+        }
+      ],
+      "hora": "8:30 a. m.",
+      "partido": "Werder Bremen vs Paderborn"
+    }
+  ]
+}
