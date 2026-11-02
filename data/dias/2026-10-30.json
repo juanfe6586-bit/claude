@@ -1,0 +1,299 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.78,
+      "estado": "perdida",
+      "nivel": "segura",
+      "prob": 0.62,
+      "razon": "Villarreal y Lille o empate en casa ante rivales de la mitad baja, PSG o empate de visitante y Más de 1.5 en Corinthians-Mirassol.",
+      "selecciones": [
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.12,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Villarreal o empate",
+          "partido": "Villarreal vs Espanyol",
+          "reglas_rotas": [],
+          "resultado": "0-1"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.12,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "3:05 p. m.",
+          "mercado": "Lille o empate",
+          "partido": "Lille vs Lens",
+          "reglas_rotas": [],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.05,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:00 p. m.",
+          "mercado": "PSG o empate",
+          "partido": "Le Havre vs PSG",
+          "reglas_rotas": [
+            3,
+            10
+          ],
+          "resultado": "1-5"
+        },
+        {
+          "competencia": "Brasileirão",
+          "cuota": 1.35,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "6:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Corinthians vs Mirassol",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-0"
+        }
+      ],
+      "titulo": "Dobles oportunidades del viernes"
+    },
+    {
+      "cuota": 2.85,
+      "estado": "perdida",
+      "nivel": "media",
+      "prob": 0.38,
+      "razon": "Más de 1.5 en tres partidos de equipos que marcan y Mirassol o empate de visitante.",
+      "selecciones": [
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.3,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Villarreal vs Espanyol",
+          "reglas_rotas": [],
+          "resultado": "0-1"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.3,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "3:05 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Lille vs Lens",
+          "reglas_rotas": [],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Le Havre vs PSG",
+          "reglas_rotas": [
+            3,
+            10
+          ],
+          "resultado": "1-5"
+        },
+        {
+          "competencia": "Brasileirão",
+          "cuota": 1.35,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "6:00 p. m.",
+          "mercado": "Mirassol o empate",
+          "partido": "Corinthians vs Mirassol",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-0"
+        }
+      ],
+      "titulo": "Goles y doble oportunidad"
+    },
+    {
+      "cuota": 3.35,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.27,
+      "razon": "Victorias de Villarreal y Lille en casa ante rivales de la zona baja, más Más de 1.5 en Brasil.",
+      "selecciones": [
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.55,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Gana Villarreal",
+          "partido": "Villarreal vs Espanyol",
+          "reglas_rotas": [],
+          "resultado": "0-1"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.6,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "3:05 p. m.",
+          "mercado": "Gana Lille",
+          "partido": "Lille vs Lens",
+          "reglas_rotas": [],
+          "resultado": "1-0"
+        },
+        {
+          "competencia": "Brasileirão",
+          "cuota": 1.35,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "6:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Corinthians vs Mirassol",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-0"
+        }
+      ],
+      "titulo": "Locales favoritos"
+    }
+  ],
+  "fecha": "2026-10-30",
+  "nota": "Viernes 30 con agenda muy corta: solo 4 partidos confirmados (el buscador no devolvió Bundesliga, Eredivisie, Premier, Liga MX ni Argentina para ese día). Por eso cada partido va en dos o tres combinadas, la arriesgada tiene solo 3 selecciones (cuota 3.35, lejos de ~10) y la media 2.85 (lejos de ~4). Cuotas todas estimadas (stake.com bloqueado). Le Havre-PSG: fecha de dos calendarios, sin fuente de la LFP ni tabla (reglas 3 y 10 rotas). Corinthians-Mirassol es parejo (regla 3). Corinthians-Mirassol repite Más de 1.5 en segura y arriesgada. Úsalas con cautela.",
+  "partidos": [
+    {
+      "claves": [
+        "Jornada 11 de LaLiga, viernes 30 oct 21:00 CET.",
+        "Villarreal 10.º con 12 pts (forma GGPEG); Espanyol 18.º con 8 pts (PPEPP). Villarreal ganó los últimos 6 duelos."
+      ],
+      "competencia": "LaLiga",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Villarreal o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Villarreal"
+        }
+      ],
+      "estadio": "Estadio de la Cerámica, Villarreal",
+      "fuentes": [
+        {
+          "nombre": "Fichajes (calendario LaLiga)",
+          "url": "https://www.fichajes.com/espana/primera-division/calendario/"
+        },
+        {
+          "nombre": "Futboltotal (ficha)",
+          "url": "https://futboltotal.futbol/partido/villarreal-cf-vs-rcd-espanyol-laliga-1570442"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Villarreal vs Espanyol"
+    },
+    {
+      "claves": [
+        "Viernes 30 oct 21:05 (París). Lille 4.º con 10 pts; Lens 15.º con 4 pts tras 5 partidos.",
+        "Lille ganó 4 de los últimos 6 duelos."
+      ],
+      "competencia": "Ligue 1",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Lille o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.6,
+          "m": "Gana Lille"
+        }
+      ],
+      "estadio": "Stade Pierre-Mauroy, Lille",
+      "fuentes": [
+        {
+          "nombre": "Football Web Pages (calendario Ligue 1)",
+          "url": "https://www.footballwebpages.co.uk/french-ligue-1/fixtures-results"
+        },
+        {
+          "nombre": "Futboltotal (ficha)",
+          "url": "https://futboltotal.futbol/partido/lille-vs-lens-ligue-1-2026-10-30"
+        }
+      ],
+      "hora": "3:05 p. m.",
+      "partido": "Lille vs Lens"
+    },
+    {
+      "claves": [
+        "Viernes 30 oct 19:00 (París). No se halló la tabla actual ni fuente oficial de la LFP (regla 3 y 10 rotas).",
+        "PSG de visitante: solo doble oportunidad."
+      ],
+      "competencia": "Ligue 1",
+      "cuotas": [
+        {
+          "c": 1.05,
+          "m": "PSG o empate"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Stade Océane, Le Havre",
+      "fuentes": [
+        {
+          "nombre": "Sport Flash (calendario Ligue 1)",
+          "url": "https://www.sport-flash.com/sports/football/fr/calendar/2026-10-30/ligue-1-2026-2027"
+        },
+        {
+          "nombre": "Football Web Pages (calendario Ligue 1)",
+          "url": "https://www.footballwebpages.co.uk/french-ligue-1/fixtures-results"
+        }
+      ],
+      "hora": "1:00 p. m.",
+      "partido": "Le Havre vs PSG"
+    },
+    {
+      "claves": [
+        "Ronda 33, viernes 30 oct 20:00 (Brasilia). Corinthians 17.º (33 pts, seis derrotas seguidas); Mirassol 15.º (37 pts): partido parejo.",
+        "Solo Más de 1.5 y doble oportunidad del visitante."
+      ],
+      "competencia": "Brasileirão",
+      "cuotas": [
+        {
+          "c": 1.35,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.35,
+          "m": "Mirassol o empate"
+        }
+      ],
+      "estadio": "Neo Química Arena, São Paulo",
+      "fuentes": [
+        {
+          "nombre": "CBF vía Soccerway (ronda 33)",
+          "url": "https://br.soccerway.com/noticias/futebol-brasileirao-betano-cbf-detalha-rodadas-30-e-31-do-brasileirao-e-marca-jogos-na-sexta-feira-18-confira/ETQpFc9e"
+        },
+        {
+          "nombre": "ValorFinal (ficha)",
+          "url": "https://valorfinal.com.br/brasileirao/jogos/corinthians-x-mirassol"
+        }
+      ],
+      "hora": "6:00 p. m.",
+      "partido": "Corinthians vs Mirassol"
+    }
+  ]
+}

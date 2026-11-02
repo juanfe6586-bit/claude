@@ -1,0 +1,433 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.87,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.52,
+      "razon": "Doble oportunidad a Athletic en casa, Cruz Azul visitante y PSG local, más el empate cubierto. Rompe la regla 3 (posiciones no confirmadas) y la 10 (hora de Athletic sin confirmar).",
+      "selecciones": [
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Athletic o empate",
+          "partido": "Athletic Club vs Getafe",
+          "reglas_rotas": [
+            3,
+            10
+          ],
+          "resultado": "4-0"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Cruz Azul o empate",
+          "partido": "Querétaro vs Cruz Azul",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-3"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.15,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:45 p. m.",
+          "mercado": "Paris Saint-Germain o empate",
+          "partido": "Paris Saint-Germain vs Lyon",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-0"
+        }
+      ],
+      "titulo": "Tres dobles oportunidades del domingo"
+    },
+    {
+      "cuota": 3.85,
+      "estado": "ganada",
+      "nivel": "media",
+      "prob": 0.26,
+      "razon": "Más de 1.5 en cinco partidos con equipos de ataque (Inter, Marseille, América, Atlas, Querétaro-Cruz Azul); cada uno con cuota 1.25-1.35.",
+      "selecciones": [
+        {
+          "competencia": "Serie A",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "6:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Inter vs Fiorentina",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.33,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:15 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Marseille vs Le Havre",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "4-3"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "América vs Pachuca",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.32,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "6:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Atlas vs Puebla",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "4-3"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.35,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Querétaro vs Cruz Azul",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-3"
+        }
+      ],
+      "titulo": "Cinco partidos con goles"
+    },
+    {
+      "cuota": 10.3,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.09,
+      "razon": "Victorias de Inter, Marseille y América en casa ante rivales más débiles, Atlas local y goles en PSG-Lyon y Athletic-Getafe.",
+      "selecciones": [
+        {
+          "competencia": "Serie A",
+          "cuota": 1.45,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "6:30 a. m.",
+          "mercado": "Gana Inter",
+          "partido": "Inter vs Fiorentina",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-1"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.5,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "11:15 a. m.",
+          "mercado": "Gana Marseille",
+          "partido": "Marseille vs Le Havre",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "4-3"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.55,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "8:00 p. m.",
+          "mercado": "Gana América",
+          "partido": "América vs Pachuca",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "Liga MX",
+          "cuota": 1.7,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "6:00 p. m.",
+          "mercado": "Gana Atlas",
+          "partido": "Atlas vs Puebla",
+          "reglas_rotas": [
+            3,
+            5
+          ],
+          "resultado": "4-3"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.55,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "8:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Athletic Club vs Getafe",
+          "reglas_rotas": [
+            3,
+            10
+          ],
+          "resultado": "4-0"
+        },
+        {
+          "competencia": "Ligue 1",
+          "cuota": 1.16,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Paris Saint-Germain vs Lyon",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-0"
+        }
+      ],
+      "titulo": "Favoritos que ganan"
+    }
+  ],
+  "fecha": "2026-10-25",
+  "nota": "Domingo 25: pocos partidos con fecha confirmada en dos fuentes; se usan 7 (Serie A, Ligue 1, LaLiga, Liga MX). Descartados: Premier (jornada es sábado), Bundesliga (Termin offen), Brasileirão y Argentina (solo una fuente), Clásico Barça-Madrid, Monaco-Lille y Tijuana-Santos (parejo/sin fuentes). No pude confirmar las tablas actuales (búsquedas sin datos), así que todas las selecciones rompen la regla 3 salvo que se indique; no hay sello. Athletic-Getafe: hora en conflicto entre fuentes (14:00 España = 8:00 a. m. Colombia, lo más probable) y rompe la 10. Gana Atlas rompe la 5. Todas las cuotas son estimadas (stake.com bloqueado). Horas de Colombia: tras el cambio de hora europeo (25 oct) Europa va 6 h por delante; México +1 h.",
+  "partidos": [
+    {
+      "claves": [
+        "Inter local ante Fiorentina; Serie A confirma 12:30 CET del domingo 25 (inter.it); posiciones sin confirmar.",
+        "Cuotas estimadas: Inter ~1.45, Más de 1.5 ~1.25."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.45,
+          "m": "Gana Inter"
+        }
+      ],
+      "estadio": "San Siro",
+      "fuentes": [
+        {
+          "nombre": "Inter.it (club)",
+          "url": "https://www.inter.it/en/news/serie-a-2026-27-schedule-inter-matchdays-6-12"
+        },
+        {
+          "nombre": "Fantacalcio",
+          "url": "https://www.fantacalcio.it/serie-a/calendario/8/2026-27/inter-fiorentina/18029"
+        }
+      ],
+      "hora": "6:30 a. m.",
+      "partido": "Inter vs Fiorentina"
+    },
+    {
+      "claves": [
+        "Le Havre lleva 7 partidos sin ganar (Wikipedia); Marseille entre los cinco primeros a un punto tras la J7.",
+        "Programado 17:15 CET del domingo 25 (Ligue 1)."
+      ],
+      "competencia": "Ligue 1",
+      "cuotas": [
+        {
+          "c": 1.33,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.5,
+          "m": "Gana Marseille"
+        }
+      ],
+      "estadio": "Stade Vélodrome",
+      "fuentes": [
+        {
+          "nombre": "Ligue1.com",
+          "url": "https://ligue1.com/en/articles/l1_article_5797-programmations-tv-j6-j7-et-j8-l1-2627"
+        },
+        {
+          "nombre": "PSG.fr (J8)",
+          "url": "https://www.psg.fr/content/paris-lyon-le-2510-a-20h45-psg-ligue-1-programmation-calendrier-programme-8e-journee-2026-2027/"
+        }
+      ],
+      "hora": "11:15 a. m.",
+      "partido": "Marseille vs Le Havre"
+    },
+    {
+      "claves": [
+        "PSG-Lyon domingo 25 a las 20:45 CET (Ligue 1 y PSG.fr); Lyon recuperó el liderato en la J7, partido exigente.",
+        "Se usa PSG o empate y Más de 1.5 por ataque de ambos."
+      ],
+      "competencia": "Ligue 1",
+      "cuotas": [
+        {
+          "c": 1.15,
+          "m": "Paris Saint-Germain o empate"
+        },
+        {
+          "c": 1.16,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Parc des Princes",
+      "fuentes": [
+        {
+          "nombre": "PSG.fr",
+          "url": "https://www.psg.fr/content/paris-lyon-le-2510-a-20h45-psg-ligue-1-programmation-calendrier-programme-8e-journee-2026-2027/"
+        },
+        {
+          "nombre": "Ligue1.com",
+          "url": "https://ligue1.com/en/articles/l1_article_5797-programmations-tv-j6-j7-et-j8-l1-2627"
+        }
+      ],
+      "hora": "2:45 p. m.",
+      "partido": "Paris Saint-Germain vs Lyon"
+    },
+    {
+      "claves": [
+        "América líder con 21 pts tras la J11 (Excélsior); Pachuca 11 pts en la J9, sin tabla más reciente.",
+        "Domingo 25, 19:00 hora de México (Fox Sports y Sport Flash)."
+      ],
+      "competencia": "Liga MX",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana América"
+        }
+      ],
+      "estadio": "Estadio Azteca",
+      "fuentes": [
+        {
+          "nombre": "Fox Sports MX",
+          "url": "https://www.foxsports.com.mx/2026/10/18/liga-mx-jornada-13-cuando-y-cuales-son-los-partidos-de-la-fecha-doble/"
+        },
+        {
+          "nombre": "Sport Flash",
+          "url": "https://www.sport-flash.com/sports/football/mx/calendar/2026-10-25/liga-mx-apertura-2026"
+        }
+      ],
+      "hora": "8:00 p. m.",
+      "partido": "América vs Pachuca"
+    },
+    {
+      "claves": [
+        "Atlas 9.º con 14 pts en la J10; tabla actual sin confirmar.",
+        "Jornada 14, domingo 25 a las 17:00 México (Fox Sports y 365Scores)."
+      ],
+      "competencia": "Liga MX",
+      "cuotas": [
+        {
+          "c": 1.32,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.7,
+          "m": "Gana Atlas"
+        }
+      ],
+      "estadio": "Estadio Jalisco",
+      "fuentes": [
+        {
+          "nombre": "Fox Sports MX",
+          "url": "https://www.foxsports.com.mx/2026/10/18/liga-mx-jornada-13-cuando-y-cuales-son-los-partidos-de-la-fecha-doble/"
+        },
+        {
+          "nombre": "365Scores",
+          "url": "https://www.365scores.com/zh/football/match/liga-mx-141/atlas-puebla-1252-1258-141"
+        }
+      ],
+      "hora": "6:00 p. m.",
+      "partido": "Atlas vs Puebla"
+    },
+    {
+      "claves": [
+        "Cruz Azul 15 pts y Querétaro 13 pts tras la J8 (Mediotiempo); partido parejo, tabla actual sin confirmar.",
+        "Domingo 25, 19:00 México (Fox Sports y Sport Flash)."
+      ],
+      "competencia": "Liga MX",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Cruz Azul o empate"
+        },
+        {
+          "c": 1.35,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Estadio Corregidora",
+      "fuentes": [
+        {
+          "nombre": "Fox Sports MX",
+          "url": "https://www.foxsports.com.mx/2026/10/18/liga-mx-jornada-13-cuando-y-cuales-son-los-partidos-de-la-fecha-doble/"
+        },
+        {
+          "nombre": "Sport Flash",
+          "url": "https://www.sport-flash.com/sports/football/mx/calendar/2026-10-25/liga-mx-apertura-2026"
+        }
+      ],
+      "hora": "8:00 p. m.",
+      "partido": "Querétaro vs Cruz Azul"
+    },
+    {
+      "claves": [
+        "Jornada 10 de LaLiga, domingo 25; hora en conflicto: 14:00 España (Futboltotal) vs 20:00 (Comuniate).",
+        "Se asume 14:00 España = 8:00 a. m. Colombia; confirmar antes de apostar."
+      ],
+      "competencia": "LaLiga",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Athletic o empate"
+        },
+        {
+          "c": 1.55,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "San Mamés",
+      "fuentes": [
+        {
+          "nombre": "Futboltotal",
+          "url": "https://futboltotal.futbol/partido/athletic-club-vs-getafe-la-liga-2026-10-25"
+        },
+        {
+          "nombre": "Comuniate",
+          "url": "https://www.comuniate.com/partido/26/1/10/athletic-club-getafe"
+        }
+      ],
+      "hora": "8:00 a. m.",
+      "partido": "Athletic Club vs Getafe"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""Revisa un día (y su semanal) antes de guardar: orden de cuotas, conteos y límites de las reglas 2 y 6.
+"""Revisa un día (y su semanal) antes de guardar: orden de cuotas, conteos y las reglas 2, 5, 6, 7, 12 y 13.
 
 Uso:
   python3 tools/validar.py 2026-10-12
@@ -12,7 +12,8 @@ from collections import defaultdict
 
 from comun import DATA
 
-OBJETIVO = {"segura": (3, 5, 2), "media": (4, 5, 4), "arriesgada": (5, 9, 10)}
+OBJETIVO = {"segura": (3, 5, 2), "media": (4, 5, 4), "arriesgada": (7, 9, 10)}
+TOPE = {"segura": 1.40, "media": 1.35, "arriesgada": 1.59}
 fecha = sys.argv[1]
 problemas = []
 
@@ -37,11 +38,16 @@ def revisar_dia(doc):
             usos[s["partido"]].append((nivel, s["mercado"]))
             if "reglas_rotas" not in s:
                 problemas.append(f"{nivel}: {s['partido']} sin reglas_rotas")
-            q = s["cuota"]
-            if nivel == "segura" and q > 1.40 or nivel == "media" and q > 1.35:
-                problemas.append(f"{nivel}: {s['partido']} {s['mercado']} {q} pasa el tope de la regla 6")
-            if q >= 1.80:
-                problemas.append(f"{nivel}: {s['partido']} {s['mercado']} {q} (>= 1.80, regla 5/6)")
+            q, m = s["cuota"], s["mercado"].strip()
+            local = s["partido"].split(" vs ")[0].strip().lower()
+            if q > TOPE[nivel]:
+                problemas.append(f"{nivel}: {s['partido']} {m} {q} pasa el tope de {TOPE[nivel]} (reglas 6 y 12)")
+            if m.lower().startswith("gana ") and m[5:].strip().lower() != local:
+                problemas.append(f"{nivel}: {s['partido']} {m}: victoria del visitante (regla 12)")
+            if "o empate" in m.lower() and m.lower().replace(" o empate", "").strip() == local and q >= 1.20:
+                problemas.append(f"{nivel}: {s['partido']} {m} {q}: doble oportunidad local a 1.20 o más (regla 13)")
+            if "goles" in m.lower() and "más de 1.5" not in m.lower():
+                problemas.append(f"{nivel}: {s['partido']} {m}: solo Más de 1.5 (regla 7)")
     if not combos["segura"]["cuota"] < combos["media"]["cuota"] < combos["arriesgada"]["cuota"]:
         problemas.append("orden de cuotas: debe ser segura < media < arriesgada "
                          f"({combos['segura']['cuota']}, {combos['media']['cuota']}, {combos['arriesgada']['cuota']})")

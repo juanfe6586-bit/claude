@@ -1,0 +1,400 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.82,
+      "estado": "perdida",
+      "nivel": "segura",
+      "prob": 0.6,
+      "razon": "Roma y Milan o empate en casa, Napoli o empate en Monza y Más de 1.5 en Fiorentina-Atalanta.",
+      "selecciones": [
+        {
+          "competencia": "Serie A",
+          "cuota": 1.1,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Roma o empate",
+          "partido": "Roma vs Cagliari",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "4-2"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.12,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "12:30 p. m.",
+          "mercado": "Milan o empate",
+          "partido": "Milan vs Bologna",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-4"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.18,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:45 p. m.",
+          "mercado": "Napoli o empate",
+          "partido": "Monza vs Napoli",
+          "reglas_rotas": [
+            3,
+            4
+          ],
+          "resultado": "1-4"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "por confirmar",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Fiorentina vs Atalanta",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-2"
+        }
+      ],
+      "titulo": "Dobles oportunidades de Serie A"
+    },
+    {
+      "cuota": 3.38,
+      "estado": "ganada",
+      "nivel": "media",
+      "prob": 0.4,
+      "razon": "Más de 1.5 en cuatro partidos y Atalanta o empate en Florencia.",
+      "selecciones": [
+        {
+          "competencia": "Serie A",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Roma vs Cagliari",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "4-2"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.28,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "12:30 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Milan vs Bologna",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-4"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.25,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "por confirmar",
+          "mercado": "Atalanta o empate",
+          "partido": "Fiorentina vs Atalanta",
+          "reglas_rotas": [
+            3,
+            4
+          ],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Monza vs Napoli",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "1-4"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Frosinone vs Lecce",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "5-1"
+        }
+      ],
+      "titulo": "Goles y doble oportunidad en Serie A"
+    },
+    {
+      "cuota": 9,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.14,
+      "razon": "Gana Roma y Milan en casa, Napoli y Atalanta de visitante (rompe la 4) y Frosinone o empate.",
+      "selecciones": [
+        {
+          "competencia": "Serie A",
+          "cuota": 1.5,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Gana Roma",
+          "partido": "Roma vs Cagliari",
+          "reglas_rotas": [
+            2,
+            3
+          ],
+          "resultado": "4-2"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.55,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "12:30 p. m.",
+          "mercado": "Gana Milan",
+          "partido": "Milan vs Bologna",
+          "reglas_rotas": [
+            2,
+            3
+          ],
+          "resultado": "2-4"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.55,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "2:45 p. m.",
+          "mercado": "Gana Napoli",
+          "partido": "Monza vs Napoli",
+          "reglas_rotas": [
+            2,
+            3,
+            4
+          ],
+          "resultado": "1-4"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.85,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "por confirmar",
+          "mercado": "Gana Atalanta",
+          "partido": "Fiorentina vs Atalanta",
+          "reglas_rotas": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "resultado": "2-2"
+        },
+        {
+          "competencia": "Serie A",
+          "cuota": 1.35,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "9:00 a. m.",
+          "mercado": "Frosinone o empate",
+          "partido": "Frosinone vs Lecce",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "5-1"
+        }
+      ],
+      "titulo": "Victorias de Roma, Milan, Napoli y Atalanta"
+    }
+  ],
+  "fecha": "2026-10-28",
+  "nota": "Miércoles 28 con datos flojos: el buscador no devolvió tabla, bajas ni cuotas de la Serie A 2026-27, así que NINGUNA selección tiene posiciones confirmadas (regla 3 rota en todas) y todas las cuotas son estimadas (stake.com bloqueado). Fechas de la jornada 9 (miércoles 28) tomadas de la ficha de t-online de cada partido y del calendario de la Serie A (Inter/Atalanta), que son provisionales; Fiorentina-Atalanta sin hora confirmada. Solo hay 5 partidos, así que rompe la regla 2 en la arriesgada (Roma, Milan, Napoli y Atalanta en tres combinadas) y Gana Atalanta paga 1.85 (>=1.80). Úsalas con cautela o confirma las alineaciones antes de apostar. Agenda de Libertadores/Sudamericana, Brasileirão y Liga BetPlay del 28 no se pudo confirmar.",
+  "partidos": [
+    {
+      "claves": [
+        "Jornada 9 de la Serie A, miércoles 28 oct (ronda de entre semana).",
+        "Sin posiciones, bajas ni cuotas verificadas: el buscador no devolvió tabla ni previa de 2026-27.",
+        "Cuotas estimadas."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Roma o empate"
+        },
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.5,
+          "m": "Gana Roma"
+        }
+      ],
+      "estadio": "Stadio Olimpico, Roma",
+      "fuentes": [
+        {
+          "nombre": "t-online (ficha)",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/serie-a/sdc_fm-57505/as-rom-cagliari-serie-a-im-liveticker.html"
+        },
+        {
+          "nombre": "Inter (calendario Serie A 2026-27)",
+          "url": "https://www.inter.it/en/news/serie-a-dates-calendar-2026-2027-season"
+        }
+      ],
+      "hora": "9:00 a. m.",
+      "partido": "Roma vs Cagliari"
+    },
+    {
+      "claves": [
+        "Jornada 9 de la Serie A, miércoles 28 oct (ronda de entre semana).",
+        "Sin posiciones, bajas ni cuotas verificadas: el buscador no devolvió tabla ni previa de 2026-27.",
+        "Cuotas estimadas."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.12,
+          "m": "Milan o empate"
+        },
+        {
+          "c": 1.28,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Milan"
+        }
+      ],
+      "estadio": "San Siro, Milán",
+      "fuentes": [
+        {
+          "nombre": "t-online (ficha)",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/serie-a/sdc_fm-57502/ac-mailand-bologna-serie-a-im-liveticker.html"
+        },
+        {
+          "nombre": "Inter (calendario Serie A 2026-27)",
+          "url": "https://www.inter.it/en/news/serie-a-dates-calendar-2026-2027-season"
+        }
+      ],
+      "hora": "12:30 p. m.",
+      "partido": "Milan vs Bologna"
+    },
+    {
+      "claves": [
+        "Jornada 9 de la Serie A, miércoles 28 oct (ronda de entre semana).",
+        "Sin posiciones, bajas ni cuotas verificadas: el buscador no devolvió tabla ni previa de 2026-27.",
+        "Cuotas estimadas."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.25,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.25,
+          "m": "Atalanta o empate"
+        },
+        {
+          "c": 1.85,
+          "m": "Gana Atalanta"
+        }
+      ],
+      "estadio": "Stadio Artemio Franchi, Florencia",
+      "fuentes": [
+        {
+          "nombre": "Atalanta (calendario oficial)",
+          "url": "https://en.atalanta.it/news/serie-a-enilive-2026-27-il-calendario"
+        },
+        {
+          "nombre": "Inter (calendario Serie A 2026-27)",
+          "url": "https://www.inter.it/en/news/serie-a-dates-calendar-2026-2027-season"
+        }
+      ],
+      "hora": "por confirmar",
+      "partido": "Fiorentina vs Atalanta"
+    },
+    {
+      "claves": [
+        "Jornada 9 de la Serie A, miércoles 28 oct (ronda de entre semana).",
+        "Sin posiciones, bajas ni cuotas verificadas: el buscador no devolvió tabla ni previa de 2026-27.",
+        "Cuotas estimadas."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.18,
+          "m": "Napoli o empate"
+        },
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.55,
+          "m": "Gana Napoli"
+        }
+      ],
+      "estadio": "U-Power Stadium, Monza",
+      "fuentes": [
+        {
+          "nombre": "t-online (ficha)",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/serie-a/sdc_fm-57503/monza-neapel-serie-a-im-liveticker.html"
+        },
+        {
+          "nombre": "Inter (calendario Serie A 2026-27)",
+          "url": "https://www.inter.it/en/news/serie-a-dates-calendar-2026-2027-season"
+        }
+      ],
+      "hora": "2:45 p. m.",
+      "partido": "Monza vs Napoli"
+    },
+    {
+      "claves": [
+        "Jornada 9 de la Serie A, miércoles 28 oct (ronda de entre semana).",
+        "Sin posiciones, bajas ni cuotas verificadas: el buscador no devolvió tabla ni previa de 2026-27.",
+        "Cuotas estimadas."
+      ],
+      "competencia": "Serie A",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.35,
+          "m": "Frosinone o empate"
+        }
+      ],
+      "estadio": "Stadio Benito Stirpe, Frosinone",
+      "fuentes": [
+        {
+          "nombre": "t-online (ficha)",
+          "url": "https://www.t-online.de/sport/live-ticker/fussball/serie-a/sdc_fm-57500/frosinone-calcio-us-lecce-serie-a-im-liveticker.html"
+        },
+        {
+          "nombre": "Inter (calendario Serie A 2026-27)",
+          "url": "https://www.inter.it/en/news/serie-a-dates-calendar-2026-2027-season"
+        }
+      ],
+      "hora": "9:00 a. m.",
+      "partido": "Frosinone vs Lecce"
+    }
+  ]
+}

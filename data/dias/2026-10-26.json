@@ -1,0 +1,193 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.43,
+      "estado": "ganada",
+      "nivel": "segura",
+      "prob": 0.62,
+      "razon": "Benfica o empate en Ponta Delgada (Benfica 2.º, 4-1 en su último partido) y Más de 1.5 en Sevilla-Osasuna. Solo hay dos partidos confirmados, así que no hay 3 selecciones distintas.",
+      "selecciones": [
+        {
+          "competencia": "Liga Portugal",
+          "cuota": 1.1,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Benfica o empate",
+          "partido": "Santa Clara vs Benfica",
+          "reglas_rotas": [
+            3,
+            10
+          ],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Sevilla vs Osasuna",
+          "reglas_rotas": [
+            3
+          ],
+          "resultado": "2-0"
+        }
+      ],
+      "titulo": "Benfica y goles en Sevilla"
+    },
+    {
+      "cuota": 1.59,
+      "estado": "ganada",
+      "nivel": "media",
+      "prob": 0.52,
+      "razon": "Más de 1.5 en Santa Clara-Benfica (Benfica 16 victorias y 3 empates en 20 ligas en las Azores) y Sevilla o empate en casa.",
+      "selecciones": [
+        {
+          "competencia": "Liga Portugal",
+          "cuota": 1.22,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Santa Clara vs Benfica",
+          "reglas_rotas": [
+            2,
+            10
+          ],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.3,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Sevilla o empate",
+          "partido": "Sevilla vs Osasuna",
+          "reglas_rotas": [
+            2,
+            3
+          ],
+          "resultado": "2-0"
+        }
+      ],
+      "titulo": "Goles de Benfica y Sevilla o empate"
+    },
+    {
+      "cuota": 2.11,
+      "estado": "perdida",
+      "nivel": "arriesgada",
+      "prob": 0.42,
+      "razon": "Gana Benfica visitante (rompe la 4) con Osasuna o empate, que llega con 2-0 mientras Sevilla lleva 3 partidos sin ganar.",
+      "selecciones": [
+        {
+          "competencia": "Liga Portugal",
+          "cuota": 1.36,
+          "estado": "ganada",
+          "estimada": true,
+          "hora": "1:45 p. m.",
+          "mercado": "Gana Benfica",
+          "partido": "Santa Clara vs Benfica",
+          "reglas_rotas": [
+            2,
+            4,
+            10
+          ],
+          "resultado": "1-2"
+        },
+        {
+          "competencia": "LaLiga",
+          "cuota": 1.55,
+          "estado": "perdida",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Osasuna o empate",
+          "partido": "Sevilla vs Osasuna",
+          "reglas_rotas": [
+            2,
+            3,
+            4
+          ],
+          "resultado": "2-0"
+        }
+      ],
+      "titulo": "Gana Benfica y Osasuna o empate"
+    }
+  ],
+  "fecha": "2026-10-26",
+  "nota": "Lunes 26 con muy pocos partidos confirmados en dos fuentes: solo Sevilla-Osasuna (LaLiga/Real Madrid.com, Sky, Movistar: 21:00 España) y Santa Clara-Benfica (slbenfica.pt y Sofascore: 18:45 Lisboa). No pude armar combinadas con selecciones distintas: cada partido aparece en las tres (mercados distintos), se rompe la regla 2, no hay sello, y la segura (1.43) queda por debajo de ~2. Descartados por fechas en conflicto o una sola fuente: Instituto-Riestra (25 o 26), Unión-Estudiantes, Tijuana-Santos, Flamengo-Atlético-MG, Coritiba-Grêmio, Sassuolo-Lazio (parece martes 27), PSG-Lyon (es del domingo 25). Sin posiciones de tabla confirmadas para Sevilla y Osasuna. Cuotas todas estimadas (stake.com bloqueado). Horas de Colombia tras el cambio de hora europeo (−5 h con Lisboa, −6 h con España).",
+  "partidos": [
+    {
+      "claves": [
+        "Santa Clara 4.º (18 pts) vs Benfica 2.º (19 pts), jornada 9 de la Liga Portugal.",
+        "Benfica 16 victorias y 3 empates en 20 ligas en las Azores; Pavlidis (8 goles) en duda.",
+        "Cuotas estimadas: Benfica o empate ~1.10, Gana Benfica ~1.36, Más de 1.5 ~1.22."
+      ],
+      "competencia": "Liga Portugal",
+      "cuotas": [
+        {
+          "c": 1.1,
+          "m": "Benfica o empate"
+        },
+        {
+          "c": 1.36,
+          "m": "Gana Benfica"
+        },
+        {
+          "c": 1.22,
+          "m": "Más de 1.5 goles"
+        }
+      ],
+      "estadio": "Estádio de São Miguel, Ponta Delgada",
+      "fuentes": [
+        {
+          "nombre": "SL Benfica (club)",
+          "url": "https://www.slbenfica.pt/pt-pt/futebol/match-center/santa-clara-benfica-26-outubro-2026"
+        },
+        {
+          "nombre": "Sofascore",
+          "url": "https://www.sofascore.com/football/match/santa-clara-benfica/gkbslkb"
+        }
+      ],
+      "hora": "1:45 p. m.",
+      "partido": "Santa Clara vs Benfica"
+    },
+    {
+      "claves": [
+        "Cierre de la jornada 10 de LaLiga, lunes 21:00 España.",
+        "Sevilla sin ganar en 3 partidos y derrotado en el último; Osasuna viene de ganar 2-0 a Racing.",
+        "Cuotas estimadas: Más de 1.5 ~1.30, Sevilla o empate ~1.30, Osasuna o empate ~1.55."
+      ],
+      "competencia": "LaLiga",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.3,
+          "m": "Sevilla o empate"
+        },
+        {
+          "c": 1.55,
+          "m": "Osasuna o empate"
+        }
+      ],
+      "estadio": "Ramón Sánchez-Pizjuán",
+      "fuentes": [
+        {
+          "nombre": "Real Madrid.com (calendario LaLiga)",
+          "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/horarios-de-la-decima-jornada-de-liga-23-10-2026"
+        },
+        {
+          "nombre": "Sky Sports",
+          "url": "https://www.skysports.com/football-scores-fixtures/2026-10-26"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Sevilla vs Osasuna"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "cuota": 1.43,
+  "estado": "ganada",
+  "nota": "Semanal incompleta: solo hay dos partidos del lunes confirmados en dos fuentes; la agenda de martes a domingo no está verificada. Cuota muy por debajo de 8-20. Completar con partidos confirmados en las próximas rutinas.",
+  "prob": 0.7,
+  "razon": "Dos selecciones de 1.10 y 1.30 en partidos confirmados.",
+  "selecciones": [
+    {
+      "competencia": "Liga Portugal",
+      "cuota": 1.1,
+      "dia": "lun 26 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "1:45 p. m.",
+      "mercado": "Benfica o empate",
+      "partido": "Santa Clara vs Benfica",
+      "resultado": "1-2"
+    },
+    {
+      "competencia": "LaLiga",
+      "cuota": 1.3,
+      "dia": "lun 26 oct",
+      "estado": "ganada",
+      "estimada": true,
+      "hora": "3:00 p. m.",
+      "mercado": "Más de 1.5 goles",
+      "partido": "Sevilla vs Osasuna",
+      "resultado": "2-0"
+    }
+  ],
+  "semana": "2026-10-26",
+  "titulo": "Semanal 26 oct-1 nov"
+}

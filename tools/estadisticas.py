@@ -30,6 +30,20 @@ def tipo_mercado(m):
     return "Otro"
 
 
+def tipo_fino(s):
+    """Separa local y visitante: rinden muy distinto (ver reglas 12 y 13)."""
+    m, partes = s["mercado"].strip(), s["partido"].split(" vs ")
+    local = partes[0].strip().lower()
+    base = tipo_mercado(m)
+    if base == "Doble oportunidad":
+        return "Doble oportunidad local" if m.lower().replace(" o empate", "").strip() == local else "Doble oportunidad visitante"
+    if base == "Gana el favorito":
+        return "Gana el local" if m[5:].strip().lower() == local else "Gana el visitante"
+    if base == "Más / menos goles":
+        return "Más de 1.5 goles" if "más de 1.5" in m.lower() else "Otros goles (Menos de 3.5, Más de 2.5)"
+    return base
+
+
 def rango_cuota(c):
     for tope, nombre in ((1.20, "1.00-1.19"), (1.35, "1.20-1.34"), (1.60, "1.35-1.59"), (2.00, "1.60-1.99")):
         if c < tope:
@@ -78,6 +92,7 @@ if __name__ == "__main__":
     stats = {
         "selecciones_cerradas": len(filas),
         "por_mercado": resumir(filas, lambda s: tipo_mercado(s["mercado"])),
+        "por_tipo": resumir(filas, tipo_fino),
         "por_competencia": resumir(filas, lambda s: liga(s["competencia"])),
         "por_cuota": resumir(filas, lambda s: rango_cuota(s["cuota"])),
         "combinadas": combinadas(),
@@ -86,10 +101,10 @@ if __name__ == "__main__":
 
     ruta_meta = os.path.join(DATA, "meta", "aprendizaje.json")
     meta = json.load(open(ruta_meta))
-    meta["mercados"] = [{"tipo": k, "ganadas": v["ganadas"], "perdidas": v["perdidas"]} for k, v in stats["por_mercado"].items()]
+    meta["mercados"] = [{"tipo": k, "ganadas": v["ganadas"], "perdidas": v["perdidas"]} for k, v in stats["por_tipo"].items()]
     meta["actualizado"] = hoy().isoformat()
     guardar(ruta_meta, meta)
 
     print(f"{len(filas)} selecciones cerradas")
-    for nombre in ("por_mercado", "por_competencia", "por_cuota", "combinadas"):
+    for nombre in ("por_tipo", "por_competencia", "por_cuota", "combinadas"):
         print(nombre + ": " + "; ".join(f"{k} {v['ganadas']}/{v['ganadas'] + v['perdidas']}" for k, v in stats[nombre].items()))
