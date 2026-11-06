@@ -1,0 +1,424 @@
+{
+  "combinadas": [
+    {
+      "cuota": 1.7,
+      "estado": "pendiente",
+      "nivel": "segura",
+      "prob": 0.62,
+      "razon": "Leverkusen (líder), Bournemouth (líder) y Juventus con doble oportunidad.",
+      "selecciones": [
+        {
+          "competencia": "Europa League",
+          "cuota": 1.12,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Leverkusen o empate",
+          "partido": "Leverkusen vs Marseille",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.17,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "12:45 p. m.",
+          "mercado": "Bournemouth o empate",
+          "partido": "Sparta Praga vs Bournemouth",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Juventus o empate",
+          "partido": "AZ vs Juventus",
+          "reglas_rotas": [
+            3
+          ]
+        }
+      ],
+      "titulo": "Tres dobles de favoritos"
+    },
+    {
+      "cuota": 2.68,
+      "estado": "pendiente",
+      "nivel": "media",
+      "prob": 0.42,
+      "razon": "Dobles en Palace, Milan y Sunderland más Más de 1.5 en Celtic; partidos de tabla incierta.",
+      "selecciones": [
+        {
+          "competencia": "Europa League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "12:45 p. m.",
+          "mercado": "Crystal Palace o empate",
+          "partido": "Crystal Palace vs Hoffenheim",
+          "reglas_rotas": [
+            13
+          ]
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "12:45 p. m.",
+          "mercado": "Milan o empate",
+          "partido": "Milan vs Ferencváros",
+          "reglas_rotas": [
+            3,
+            13
+          ]
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Celtic vs Beşiktaş",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Sunderland o empate",
+          "partido": "Sunderland vs Dinamo Zagreb",
+          "reglas_rotas": [
+            3,
+            13
+          ]
+        }
+      ],
+      "titulo": "Dobles y goles en partidos parejos"
+    },
+    {
+      "cuota": 7.23,
+      "estado": "pendiente",
+      "nivel": "arriesgada",
+      "prob": 0.12,
+      "razon": "Leverkusen gana y Más de 1.5 en cinco partidos, más Beşiktaş con doble.",
+      "selecciones": [
+        {
+          "competencia": "Europa League",
+          "cuota": 1.41,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Gana Leverkusen",
+          "partido": "Leverkusen vs Marseille",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.32,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "AZ vs Juventus",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "12:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Sparta Praga vs Bournemouth",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "12:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Crystal Palace vs Hoffenheim",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.33,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "12:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Milan vs Ferencváros",
+          "reglas_rotas": []
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.3,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Beşiktaş o empate",
+          "partido": "Celtic vs Beşiktaş",
+          "reglas_rotas": [
+            3
+          ]
+        },
+        {
+          "competencia": "Europa League",
+          "cuota": 1.33,
+          "estado": "pendiente",
+          "estimada": true,
+          "hora": "3:00 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "partido": "Sunderland vs Dinamo Zagreb",
+          "reglas_rotas": []
+        }
+      ],
+      "titulo": "Siete partidos de Europa League"
+    }
+  ],
+  "fecha": "2026-11-05",
+  "nota": "Europa League jornada 4, jueves (UEFA lista 17 partidos; solo 7 tienen fecha en dos fuentes y datos, por eso 7 partidos para 3 combinadas). Cuotas estimadas desde rg.org/Dailysports/Owen y mi estimación (stake.com bloqueado): confírmalas en Stake. Horas: 12:45 p. m. confirmadas para Milan, Sparta y Palace; 3:00 p. m. para Leverkusen y Celtic; AZ-Juventus y Sunderland asumidas 3:00 p. m. (confirmar). La arriesgada queda en ~7 (lejos de 10) y la media en ~2.6 (con 7 partidos y 2 combinadas por partido no alcanza más sin romper reglas 5 y 6). Media y arriesgada son débiles: apuesta poco o repasa con más partidos.",
+  "partidos": [
+    {
+      "claves": [
+        "Leverkusen 9 pts (3-0-0), líder; Ratingbet: 68% local.",
+        "Cuota local ~1.41 (rg.org -244)."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.41,
+          "m": "Gana Leverkusen"
+        },
+        {
+          "c": 1.12,
+          "m": "Leverkusen o empate"
+        }
+      ],
+      "estadio": "BayArena, Leverkusen",
+      "fuentes": [
+        {
+          "nombre": "UEFA (calendario Europa League J4)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "rg.org (cuotas Europa League J4)",
+          "url": "https://rg.org/news/soccer/leverkusen-vs-marseille-az-vs-juventus-europa-league-matchday-4-odds"
+        },
+        {
+          "nombre": "Ratingbet (Leverkusen-Marseille)",
+          "url": "https://ratingbet.com/predictions/bayer-vs-marseille-prediction-teams-form-analysis-possible-lineups-on-november-5-2026/"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Leverkusen vs Marseille"
+    },
+    {
+      "claves": [
+        "Juventus 7 pts (2-1-0, 9-3); AZ sin tabla confirmada.",
+        "rg.org: Juventus -105, partido abierto."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.32,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.3,
+          "m": "Juventus o empate"
+        }
+      ],
+      "estadio": "AFAS Stadion, Alkmaar",
+      "fuentes": [
+        {
+          "nombre": "UEFA (calendario Europa League J4)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "rg.org (cuotas Europa League J4)",
+          "url": "https://rg.org/news/soccer/leverkusen-vs-marseille-az-vs-juventus-europa-league-matchday-4-odds"
+        },
+        {
+          "nombre": "VAVEL (tabla Europa League)",
+          "url": "https://www.vavel.com/en-us/data/uefa-europa-league/standings/"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "AZ vs Juventus"
+    },
+    {
+      "claves": [
+        "Bournemouth 9 pts (3-0-0, 8-1); Bournemouth -200.",
+        "Owen: 0-3 Bournemouth."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.17,
+          "m": "Bournemouth o empate"
+        }
+      ],
+      "estadio": "Generali Arena, Praga",
+      "fuentes": [
+        {
+          "nombre": "UEFA (calendario Europa League J4)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "Hollywoodbets - Michael Owen (4-5 nov)",
+          "url": "https://blog.hollywoodbets.net/soccer/michael-owens-uefa-europa-league-conference-league-predictions-04-to-05-november-2026/"
+        },
+        {
+          "nombre": "VAVEL (tabla Europa League)",
+          "url": "https://www.vavel.com/en-us/data/uefa-europa-league/standings/"
+        }
+      ],
+      "hora": "12:45 p. m.",
+      "partido": "Sparta Praga vs Bournemouth"
+    },
+    {
+      "claves": [
+        "Hoffenheim +250 de visitante; Owen: 2-0 Palace.",
+        "Sin tabla confirmada de ambos."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.3,
+          "m": "Crystal Palace o empate"
+        }
+      ],
+      "estadio": "Selhurst Park, Londres",
+      "fuentes": [
+        {
+          "nombre": "UEFA (calendario Europa League J4)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "rg.org (cuotas Europa League J4)",
+          "url": "https://rg.org/news/soccer/leverkusen-vs-marseille-az-vs-juventus-europa-league-matchday-4-odds"
+        },
+        {
+          "nombre": "Hollywoodbets - Michael Owen (4-5 nov)",
+          "url": "https://blog.hollywoodbets.net/soccer/michael-owens-uefa-europa-league-conference-league-predictions-04-to-05-november-2026/"
+        }
+      ],
+      "hora": "12:45 p. m.",
+      "partido": "Crystal Palace vs Hoffenheim"
+    },
+    {
+      "claves": [
+        "Milan cayó 0-3 en Bournemouth; sin posición confirmada.",
+        "Dailysports: Milan 1.53."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.33,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.22,
+          "m": "Milan o empate"
+        }
+      ],
+      "estadio": "San Siro, Milán",
+      "fuentes": [
+        {
+          "nombre": "UEFA (calendario Europa League J4)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "rg.org (cuotas Europa League J4)",
+          "url": "https://rg.org/news/soccer/leverkusen-vs-marseille-az-vs-juventus-europa-league-matchday-4-odds"
+        },
+        {
+          "nombre": "Dailysports (Celtic-Besiktas)",
+          "url": "https://dailysports.net/predictions/will-celtic-end-winless-streak-celtic-vs-besiktas-prediction-november-5/"
+        }
+      ],
+      "hora": "12:45 p. m.",
+      "partido": "Milan vs Ferencváros"
+    },
+    {
+      "claves": [
+        "Celtic 0 pts (-6) tras 1-2 con Celta; Beşiktaş ~2.10.",
+        "Owen: 1-2 Beşiktaş."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.3,
+          "m": "Beşiktaş o empate"
+        }
+      ],
+      "estadio": "Celtic Park, Glasgow",
+      "fuentes": [
+        {
+          "nombre": "UEFA (calendario Europa League J4)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "Hollywoodbets - Michael Owen (4-5 nov)",
+          "url": "https://blog.hollywoodbets.net/soccer/michael-owens-uefa-europa-league-conference-league-predictions-04-to-05-november-2026/"
+        },
+        {
+          "nombre": "Dailysports (Celtic-Besiktas)",
+          "url": "https://dailysports.net/predictions/will-celtic-end-winless-streak-celtic-vs-besiktas-prediction-november-5/"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Celtic vs Beşiktaş"
+    },
+    {
+      "claves": [
+        "Sin tabla ni cuotas confirmadas: cuotas estimadas.",
+        "Local de Premier ante equipo croata."
+      ],
+      "competencia": "Europa League",
+      "cuotas": [
+        {
+          "c": 1.33,
+          "m": "Más de 1.5 goles"
+        },
+        {
+          "c": 1.3,
+          "m": "Sunderland o empate"
+        }
+      ],
+      "estadio": "Stadium of Light, Sunderland",
+      "fuentes": [
+        {
+          "nombre": "UEFA (calendario Europa League J4)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+        },
+        {
+          "nombre": "Hollywoodbets - Michael Owen (4-5 nov)",
+          "url": "https://blog.hollywoodbets.net/soccer/michael-owens-uefa-europa-league-conference-league-predictions-04-to-05-november-2026/"
+        }
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Sunderland vs Dinamo Zagreb"
+    }
+  ]
+}
