@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-02",
+  "actualizado": "2026-11-06",
   "historial": [
     "7 oct 2026: regla 1 cambiada (siempre tres combinadas, con lo que más reglas cumpla) y regla 9 nueva (sin segunda división o inferiores), a pedido del usuario.",
     "7 oct 2026: las 15 reglas se consolidaron en 8. Se resolvieron contradicciones (favorito de mitad baja: antes doble oportunidad en la 2 y fuera en la 11; local sin ventaja: doble oportunidad en la 10 y la 11, fuera en la 13) y se unieron repetidas (4 y 8; 5 y 14; 6 y 9; 12 y 15). Los textos antiguos que citan «regla N» usan la numeración vieja.",
@@ -30,28 +30,31 @@
     "25 oct 2026: del 24 oct acertaron Arsenal 2-0, Leipzig 4-0, Palmeiras 2-0, América 3-1 Cúcuta y Más de 1.5 en los 6 partidos (Santos 1-1 Bahia incluido); fallaron Villa 2-1 City (Gana City y City o empate, visitante, regla 4) y Fluminense o empate (1-2 en Chapecoense, último de la tabla). Media ganó (4.07); segura (1.65) y arriesgada (7.65) cayeron. Liverpool-Leeds de la semanal no existía el 24 (regla 10): nula.",
     "28 oct 2026: del 25-26 oct acertaron 18 de 20 selecciones (Más de 1.5 en los 10 partidos: Atlas 4-3, Marseille 4-3, Athletic 4-0, PSG 2-0, Sevilla 2-0, Cruz Azul 3-1, Benfica 2-1, Juventus 2-0, Bournemouth 3-0). Cayeron Gana América (1-2 Pachuca, local líder pero Gana el favorito) y Osasuna o empate (0-2 en Sevilla, visitante).",
     "29 oct 2026: del 28 oct acertaron Roma 4-2 Cagliari (Gana Roma, Roma o empate, Más de 1.5), Monza 1-4 Napoli (las tres) y Más de 1.5 en Milan 2-4 Bologna; cayeron Gana Milan y Milan o empate (local grande de 5.º puesto, perdió 2-4). Fiorentina-Atalanta y Frosinone-Lecce se juegan el jueves 29 (no el 28, según Lega Serie A/Sky): siguen pendientes; la segura y la media del 28 dependen de ellos. Roma-Cagliari se jugó el 27. La rutina no armó el 29 (solo había esos dos partidos de Serie A en las ligas permitidas).",
-    "2 nov 2026: del 29-30 oct acertaron Fiorentina 2-2 Atalanta (Atalanta o empate, Más de 1.5), Frosinone 5-1 Lecce, Le Havre 1-5 PSG, Lille 1-0 Lens (victoria y doble) y Más de 1.5 en Corinthians 2-0 Mirassol; fallaron Gana Atalanta, Mirassol o empate, Más de 1.5 en Lille, y Villarreal 0-1 Espanyol (las tres). Media del 28 ganada (3.38); las tres del 30 perdidas (se armaron con solo 4 partidos). Revisión general: nacen las reglas 12-14, se endurecen 5-7 y validar.py las comprueba."
+    "2 nov 2026: del 29-30 oct acertaron Fiorentina 2-2 Atalanta (Atalanta o empate, Más de 1.5), Frosinone 5-1 Lecce, Le Havre 1-5 PSG, Lille 1-0 Lens (victoria y doble) y Más de 1.5 en Corinthians 2-0 Mirassol; fallaron Gana Atalanta, Mirassol o empate, Más de 1.5 en Lille, y Villarreal 0-1 Espanyol (las tres). Media del 28 ganada (3.38); las tres del 30 perdidas (se armaron con solo 4 partidos). Revisión general: nacen las reglas 12-14, se endurecen 5-7 y validar.py las comprueba.",
+    "3 nov 2026: del 2 nov acertaron 9 de 14 selecciones. Cayeron Atalanta o empate (0-3 vs Parma, 15.º, otra vez local de mitad baja/grande en mala racha), Lorient o empate (0-2 Brest), Newcastle o empate (0-1 Everton) y Más de 1.5 en 1-0/1-1 (Benfica-Alverca, Bucaramanga-Nacional, Águilas-Fortaleza, Newcastle-Everton). Dobles de local fallaron 3 de 7 este día.",
+    "4 nov 2026: del 2 y 3 nov acertaron Más de 1.5 en 12 de 16 partidos (cayeron Benfica 1-0, Newcastle-Everton 0-1, Águilas 1-0, Bodø/Glimt 0-0, Shakhtar 0-1) y las dobles fallaron en Atalanta 0-3 Parma, Lorient 0-2 Brest, Newcastle y Roma (3-2 en Old Trafford). Segura del 3 ganada (2.2); media y arriesgada del 3, y las tres del 2, perdidas. Champions J4: Barça, PSG, Inter y Bayern ganaron fuera/dentro sin problemas. Se armaron el 4 (Champions) y el 5 (Europa League, solo 7 partidos confirmables).",
+    "6 nov 2026: del 4 nov (Champions) acertaron 21 de 24 selecciones: cayeron Liverpool o empate (3-2 en Fenerbahçe) y PSV o empate (1-2 Brujas); Más de 1.5 fue 9/9. Media del 4 ganada; segura y arriesgada perdidas. Del 5 nov (Europa League) cayeron las dobles: Milan o empate (0-2 Ferencváros), Leverkusen (0-1 Marsella, también la victoria), Sunderland o empate (0-2 Dinamo) y Beşiktaş o empate (3-2 en Celtic); Más de 1.5 fue 6/6. Las tres del 5 y la semanal 2-8 nov perdidas."
   ],
   "mercados": [
     {
       "tipo": "Más de 1.5 goles",
-      "ganadas": 98,
-      "perdidas": 17
-    },
-    {
-      "tipo": "Gana el local",
-      "ganadas": 57,
+      "ganadas": 124,
       "perdidas": 22
     },
     {
       "tipo": "Doble oportunidad visitante",
-      "ganadas": 63,
-      "perdidas": 11
+      "ganadas": 75,
+      "perdidas": 14
+    },
+    {
+      "tipo": "Gana el local",
+      "ganadas": 61,
+      "perdidas": 23
     },
     {
       "tipo": "Doble oportunidad local",
-      "ganadas": 55,
-      "perdidas": 14
+      "ganadas": 62,
+      "perdidas": 21
     },
     {
       "tipo": "Gana el visitante",
@@ -125,16 +128,16 @@
       "texto": "La segura siempre paga menos que la media y la media menos que la arriesgada. Si hay pocos partidos, reparte primero las selecciones más seguras a la segura y las victorias a la arriesgada; nunca al revés. La semanal cubre de lunes a domingo: si el lunes es corto, se completa con el fin de semana."
     },
     {
-      "texto": "Prohibido: la victoria del visitante y cualquier selección de 1.60 o más, en cualquier combinada.",
-      "origen": "Balance del 30 sep al 30 oct (384 selecciones): Gana el visitante acertó 16 de 29 (55%) y devolvía 0.89 por peso apostado; las selecciones de 1.60 o más acertaron 21 de 40. Últimos casos: City en Villa (2-1), Atalanta en Florencia (2-2)."
+      "origen": "Balance del 30 sep al 30 oct (384 selecciones): Gana el visitante acertó 16 de 29 (55%) y devolvía 0.89 por peso apostado; las selecciones de 1.60 o más acertaron 21 de 40. Últimos casos: City en Villa (2-1), Atalanta en Florencia (2-2).",
+      "texto": "Prohibido: la victoria del visitante y cualquier selección de 1.60 o más, en cualquier combinada."
     },
     {
-      "texto": "Orden de preferencia: 1) Más de 1.5 en partidos de equipos que marcan; 2) doble oportunidad del visitante claramente mejor; 3) victoria del local favorito claro a menos de 1.60; 4) doble oportunidad del local solo si paga menos de 1.20 (si paga más, el partido es parejo y entra en la regla 3).",
-      "origen": "Balance al 30 oct: devolvieron más de lo apostado Doble oportunidad visitante (87%, 1.09 por peso), Más de 1.5 (85%, 1.07) y Gana el local (74%, 1.06). Doble oportunidad local a 1.20-1.34 acertó solo 70% (Milan 2-4 Bologna, Villarreal 0-1 Espanyol, Parma 0-3 Torino)."
+      "origen": "Balance al 30 oct: devolvieron más de lo apostado Doble oportunidad visitante (87%, 1.09 por peso), Más de 1.5 (85%, 1.07) y Gana el local (74%, 1.06). Doble oportunidad local a 1.20-1.34 acertó solo 70% (Milan 2-4 Bologna, Villarreal 0-1 Espanyol, Parma 0-3 Torino).",
+      "texto": "Orden de preferencia: 1) Más de 1.5 en partidos de equipos que marcan; 2) doble oportunidad del visitante claramente mejor; 3) victoria del local favorito claro a menos de 1.60; 4) doble oportunidad del local solo si paga menos de 1.20 (si paga más, el partido es parejo y entra en la regla 3)."
     },
     {
-      "texto": "Nunca un día sin combinadas. Cada corrida revisa hoy y mañana (y la semanal de la semana en curso) y arma lo que falte. Si las ligas principales tienen pocos partidos, se completa con las de respaldo de primera división (Portugal, Holanda, Turquía, Bélgica, Escocia, MLS, Ecuador, Chile, Perú, Uruguay, Paraguay) antes de romper reglas.",
-      "origen": "Pedido del usuario el 2 nov: faltaron el 23, 27, 29 y 31 oct y el 1-2 nov (la rutina solo armaba mañana y se rendía con pocos partidos; del 30 oct al 2 nov no corrió). El 30 oct se armó con 4 partidos y cayeron las tres."
+      "origen": "Pedido del usuario el 2 nov: faltaron el 23, 27, 29 y 31 oct y el 1-2 nov (la rutina solo armaba mañana y se rendía con pocos partidos; del 30 oct al 2 nov no corrió). El 30 oct se armó con 4 partidos y cayeron las tres.",
+      "texto": "Nunca un día sin combinadas. Cada corrida revisa hoy y mañana (y la semanal de la semana en curso) y arma lo que falte. Si las ligas principales tienen pocos partidos, se completa con las de respaldo de primera división (Portugal, Holanda, Turquía, Bélgica, Escocia, MLS, Ecuador, Chile, Perú, Uruguay, Paraguay) antes de romper reglas."
     }
   ],
   "vigilar": [
@@ -159,6 +162,9 @@
     "24 oct: visitante grande con doble oportunidad cayó otra vez (Fluminense en Chapecoense, 20.º) y Gana visitante (City en Villa). Más de 1.5 fue 6/6 ese día. Lunes y martes de la semana con pocos partidos confirmados: buscar agenda antes.",
     "Más de 1.5 fue 10/10 el 25-26 oct (va ~110/129); Gana el favorito local volvió a fallar con América 1-2 Pachuca; doble oportunidad de visitante cayó en Sevilla-Osasuna.",
     "Milan o empate (local grande, 5.º) cayó 2-4 ante Bologna el 28 oct: doble oportunidad de grandes en casa también falla; fechas de jornadas entre semana de Serie A salieron mal (calendario provisional): confirmar en la Lega Serie A.",
-    "2 nov: LaLiga va 13/21, la peor de las ligas grandes (Villarreal 0-1 Espanyol, Sevilla, Getafe-Rayo): preferir Más de 1.5 y dobles muy claras ahí."
+    "2 nov: LaLiga va 13/21, la peor de las ligas grandes (Villarreal 0-1 Espanyol, Sevilla, Getafe-Rayo): preferir Más de 1.5 y dobles muy claras ahí.",
+    "3 nov: Más de 1.5 cayó 4 de 7 el 2 nov (lunes, ligas cerradas con penales y 1-0). Doble oportunidad de local falló 3/7 (Atalanta, Lorient, Newcastle); preferir visitante o Más de 1.5 en partidos abiertos.",
+    "2-3 nov: Más de 1.5 va ~109/131 (83%); los fallos fueron 1-0 y 0-0 en partidos cerrados. Doble oportunidad de locales de la mitad media (Atalanta, Lorient, Newcastle) cayó 3 de 3 el 2 nov; Premier de local con doble oportunidad sigue siendo riesgo.",
+    "6 nov: en Europa League las dobles de local (Milan, Leverkusen, Sunderland) cayeron 3 de 4 y la doble del visitante Beşiktaş también; Más de 1.5 fue 15/15 entre el 4 y el 5 nov. En copas europeas, preferir Más de 1.5 y usar dobles solo con favoritos muy claros."
   ]
 }

@@ -1,131 +1,141 @@
 {
-  "semana": "2026-11-02",
-  "titulo": "Semanal 2-8 nov",
   "cuota": 8.22,
-  "estado": "pendiente",
+  "estado": "perdida",
+  "nota": "Cuotas estimadas (stake.com bloqueado). Champions del martes y miércoles con horarios de UEFA, Dimers y Vavel; sábado con calendario de ESPN y la Premier League. Sin Bayern: Mainz-Bayern sale el sábado en ESPN y el domingo en otra fuente (regla 10).",
   "prob": 0.2,
   "razon": "Doce selecciones de 1.12 a 1.25, un partido por selección: Más de 1.5 en partidos de goles, dobles de visitantes grandes (PSG, Liverpool, Real Madrid, Arsenal) y Arsenal en casa ante el ascendido Hull.",
-  "nota": "Cuotas estimadas (stake.com bloqueado). Champions del martes y miércoles con horarios de UEFA, Dimers y Vavel; sábado con calendario de ESPN y la Premier League. Sin Bayern: Mainz-Bayern sale el sábado en ESPN y el domingo en otra fuente (regla 10).",
   "selecciones": [
     {
       "competencia": "Serie A",
       "cuota": 1.22,
-      "estado": "pendiente",
+      "dia": "lun 2 nov",
+      "estado": "ganada",
       "estimada": true,
       "hora": "2:45 p. m.",
       "mercado": "Más de 1.5 goles",
       "partido": "Atalanta vs Parma",
-      "dia": "lun 2 nov"
+      "resultado": "0-3"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.2,
-      "estado": "pendiente",
+      "dia": "mar 3 nov",
+      "estado": "ganada",
       "estimada": true,
       "hora": "3:00 p. m.",
       "mercado": "PSG o empate",
       "partido": "Villarreal vs PSG",
-      "dia": "mar 3 nov"
+      "resultado": "0-6"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.18,
-      "estado": "pendiente",
+      "dia": "mar 3 nov",
+      "estado": "ganada",
       "estimada": true,
       "hora": "3:00 p. m.",
       "mercado": "Más de 1.5 goles",
       "partido": "LASK vs Slovan Bratislava",
-      "dia": "mar 3 nov"
+      "resultado": "4-0"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.22,
-      "estado": "pendiente",
+      "dia": "mar 3 nov",
+      "estado": "perdida",
       "estimada": true,
       "hora": "3:00 p. m.",
       "mercado": "Más de 1.5 goles",
       "partido": "Bodø/Glimt vs Lille",
-      "dia": "mar 3 nov"
+      "resultado": "0-0"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.22,
-      "estado": "pendiente",
+      "dia": "mar 3 nov",
+      "estado": "ganada",
       "estimada": true,
       "hora": "12:45 p. m.",
       "mercado": "Más de 1.5 goles",
       "partido": "Galatasaray vs Stuttgart",
-      "dia": "mar 3 nov"
+      "resultado": "2-0"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.25,
-      "estado": "pendiente",
+      "dia": "mar 3 nov",
+      "estado": "ganada",
       "estimada": true,
       "hora": "3:00 p. m.",
       "mercado": "Más de 1.5 goles",
       "partido": "Manchester United vs Roma",
-      "dia": "mar 3 nov"
+      "resultado": "3-2"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.17,
-      "estado": "pendiente",
+      "dia": "mié 4 nov",
+      "estado": "perdida",
       "estimada": true,
       "hora": "12:45 p. m.",
       "mercado": "Liverpool o empate",
       "partido": "Fenerbahçe vs Liverpool",
-      "dia": "mié 4 nov"
+      "resultado": "3-2"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.12,
-      "estado": "pendiente",
+      "dia": "mié 4 nov",
+      "estado": "ganada",
       "estimada": true,
       "hora": "12:45 p. m.",
       "mercado": "Real Madrid o empate",
       "partido": "AEK Atenas vs Real Madrid",
-      "dia": "mié 4 nov"
+      "resultado": "2-3"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.15,
-      "estado": "pendiente",
+      "dia": "mié 4 nov",
+      "estado": "ganada",
       "estimada": true,
       "hora": "3:00 p. m.",
       "mercado": "Arsenal o empate",
       "partido": "Slavia Praga vs Arsenal",
-      "dia": "mié 4 nov"
+      "resultado": "1-2"
     },
     {
       "competencia": "Champions League",
       "cuota": 1.15,
-      "estado": "pendiente",
+      "dia": "mié 4 nov",
+      "estado": "ganada",
       "estimada": true,
       "hora": "3:00 p. m.",
       "mercado": "Más de 1.5 goles",
       "partido": "Leipzig vs Manchester City",
-      "dia": "mié 4 nov"
+      "resultado": "2-3"
     },
     {
       "competencia": "Premier League",
       "cuota": 1.18,
+      "dia": "sáb 7 nov",
       "estado": "pendiente",
       "estimada": true,
       "hora": "10:00 a. m.",
       "mercado": "Gana Arsenal",
-      "partido": "Arsenal vs Hull City",
-      "dia": "sáb 7 nov"
+      "partido": "Arsenal vs Hull City"
     },
     {
       "competencia": "LaLiga",
       "cuota": 1.25,
+      "dia": "sáb 7 nov",
       "estado": "pendiente",
       "estimada": true,
       "hora": "3:00 p. m.",
       "mercado": "Real Madrid o empate",
-      "partido": "Valencia vs Real Madrid",
-      "dia": "sáb 7 nov"
+      "partido": "Valencia vs Real Madrid"
     }
-  ]
+  ],
+  "semana": "2026-11-02",
+  "titulo": "Semanal 2-8 nov"
 }

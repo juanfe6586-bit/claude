@@ -1,0 +1,531 @@
+{
+  "fecha": "2026-11-07",
+  "nota": "Sábado de ligas europeas. Se dejaron fuera Leeds-Tottenham, Fulham-Newcastle y Paderborn-Frankfurt por parejos (regla 3). La media llega a 3.2 con Gana Dortmund a 1.38 (regla 6: tope 1.35). En la arriesgada, Stuttgart a 1.55 y Arsenal Más de 1.5 a 1.15 se salen del rango 1.25-1.45 (regla 6), y Torino-Lecce y Cagliari-Frosinone van sin tabla confirmada (regla 3). La segura cumple todas las reglas. Cuotas en su mayoría estimadas (stake.com bloqueado): confírmalas en Stake.",
+  "partidos": [
+    {
+      "partido": "Arsenal vs Hull City",
+      "competencia": "Premier League",
+      "hora": "10:00 a. m.",
+      "estadio": "Emirates Stadium, Londres",
+      "claves": [
+        "Arsenal líder 8-0-1 (24 pts) y perfecto en casa; Hull 2-5-2 (11 pts).",
+        "Arsenal -700 (ESPN); sin Saka ni Dowman."
+      ],
+      "cuotas": [
+        {
+          "m": "Gana Arsenal",
+          "c": 1.14
+        },
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.15
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Premier League (cambios de noviembre)",
+          "url": "https://www.premierleague.com/en/news/4725574/fixture-amendments-for-premier-league-matches-in-november"
+        },
+        {
+          "nombre": "ESPN (Arsenal-Hull, cuotas)",
+          "url": "https://www.espn.com/soccer/odds/_/gameId/401878760"
+        }
+      ]
+    },
+    {
+      "partido": "Nottingham Forest vs Manchester City",
+      "competencia": "Premier League",
+      "hora": "12:30 p. m.",
+      "estadio": "City Ground, Nottingham",
+      "claves": [
+        "City claramente mejor (modelos ~51% City, predicción 1-3).",
+        "Forest en la mitad baja (posición sin confirmar)."
+      ],
+      "cuotas": [
+        {
+          "m": "Manchester City o empate",
+          "c": 1.22
+        },
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.27
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Premier League (cambios de noviembre)",
+          "url": "https://www.premierleague.com/en/news/4725574/fixture-amendments-for-premier-league-matches-in-november"
+        },
+        {
+          "nombre": "Racing Post (previas sábado)",
+          "url": "https://www.racingpost.com/sport/football-tips/premier-league/premier-league-match-predictions-odds-tips-az8Ym8T0SldR/"
+        }
+      ]
+    },
+    {
+      "partido": "Borussia Dortmund vs Elversberg",
+      "competencia": "Bundesliga",
+      "hora": "9:30 a. m.",
+      "estadio": "Signal Iduna Park, Dortmund",
+      "claves": [
+        "Opta: BVB 68.9%, empate 17%, Elversberg 14%; Elversberg recién ascendido y de partidos abiertos."
+      ],
+      "cuotas": [
+        {
+          "m": "Gana Borussia Dortmund",
+          "c": 1.38
+        },
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.15
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Wettbasis (9. Spieltag)",
+          "url": "https://www.wettbasis.com/sportwetten-tipps/bundesliga-9-spieltag-wett-tipps-spielplan-prognosen-2026-27"
+        },
+        {
+          "nombre": "Sportschau (9. Spieltag)",
+          "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga/spiele-und-ergebnisse"
+        }
+      ]
+    },
+    {
+      "partido": "RB Leipzig vs Augsburg",
+      "competencia": "Bundesliga",
+      "hora": "9:30 a. m.",
+      "estadio": "Red Bull Arena, Leipzig",
+      "claves": [
+        "Opta: Leipzig 61.8%, Augsburg 19.3%.",
+        "Victoria Leipzig 1.41-1.47 (Wettfreunde)."
+      ],
+      "cuotas": [
+        {
+          "m": "Gana RB Leipzig",
+          "c": 1.44
+        },
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.18
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Wettbasis (9. Spieltag)",
+          "url": "https://www.wettbasis.com/sportwetten-tipps/bundesliga-9-spieltag-wett-tipps-spielplan-prognosen-2026-27"
+        },
+        {
+          "nombre": "Wettfreunde (9. Spieltag)",
+          "url": "https://www.wettfreunde.net/bundesliga-tipps/bundesliga-prognosen-experten-tipps-9-spieltag-2026-27/"
+        }
+      ]
+    },
+    {
+      "partido": "Mainz vs Bayern",
+      "competencia": "Bundesliga",
+      "hora": "9:30 a. m.",
+      "estadio": "Mewa Arena, Maguncia",
+      "claves": [
+        "Bayern gran favorito (victoria ~1.40; pronósticos 1-2).",
+        "Visitante claramente mejor: doble oportunidad."
+      ],
+      "cuotas": [
+        {
+          "m": "Bayern o empate",
+          "c": 1.1
+        },
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.12
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Wettbasis (9. Spieltag)",
+          "url": "https://www.wettbasis.com/sportwetten-tipps/bundesliga-9-spieltag-wett-tipps-spielplan-prognosen-2026-27"
+        },
+        {
+          "nombre": "Footballpredictions (Mainz-Bayern)",
+          "url": "https://footballpredictions.com/footballpredictions/bundesligapredictions/mainz-vs-bayern-munich-prediction-07-11-2026/"
+        }
+      ]
+    },
+    {
+      "partido": "Stuttgart vs Werder Bremen",
+      "competencia": "Bundesliga",
+      "hora": "12:30 p. m.",
+      "estadio": "MHPArena, Stuttgart",
+      "claves": [
+        "Opta: Stuttgart 56.3%, Bremen 23%.",
+        "Victoria Stuttgart ~1.55."
+      ],
+      "cuotas": [
+        {
+          "m": "Gana Stuttgart",
+          "c": 1.55
+        },
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.22
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Wettbasis (9. Spieltag)",
+          "url": "https://www.wettbasis.com/sportwetten-tipps/bundesliga-9-spieltag-wett-tipps-spielplan-prognosen-2026-27"
+        },
+        {
+          "nombre": "Sport1 (Spielplan)",
+          "url": "https://www.sport1.de/daten/fussball/bundesliga/spielplan"
+        }
+      ]
+    },
+    {
+      "partido": "Roma vs Sassuolo",
+      "competencia": "Serie A",
+      "hora": "2:45 p. m.",
+      "estadio": "Estadio Olímpico, Roma",
+      "claves": [
+        "Roma 3.ª con 24 pts; Sassuolo 17.º con 8.",
+        "Gana Roma 1.32; Over 3.5 a ~1.85."
+      ],
+      "cuotas": [
+        {
+          "m": "Gana Roma",
+          "c": 1.32
+        },
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.18
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Movieplayer (Serie A J11)",
+          "url": "https://movieplayer.it/news/serie-a-dove-vedere-11-giornata-dazn-sky-now_171850/"
+        },
+        {
+          "nombre": "Oddschecker (Roma-Sassuolo)",
+          "url": "https://www.oddschecker.com/it/pronostici/calcio/serie-a/20261107-roma-sassuolo-pronostico-quote"
+        }
+      ]
+    },
+    {
+      "partido": "Parma vs Bologna",
+      "competencia": "Serie A",
+      "hora": "12:00 p. m.",
+      "estadio": "Estadio Tardini, Parma",
+      "claves": [
+        "Bologna, visitante mejor en el papel; tabla sin confirmar."
+      ],
+      "cuotas": [
+        {
+          "m": "Bologna o empate",
+          "c": 1.33
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Movieplayer (Serie A J11)",
+          "url": "https://movieplayer.it/news/serie-a-dove-vedere-11-giornata-dazn-sky-now_171850/"
+        },
+        {
+          "nombre": "Torresette (programa del fin de semana)",
+          "url": "https://www.torresette.news/sport/2026/11/06/torna-la-serie-a-il-programma-del-weekend-e-dove-vedere-le-partite-in-tv"
+        }
+      ]
+    },
+    {
+      "partido": "Torino vs Lecce",
+      "competencia": "Serie A",
+      "hora": "9:00 a. m.",
+      "estadio": "Estadio Olímpico Grande Torino, Turín",
+      "claves": [
+        "Tabla sin confirmar; Serie A de goles medios."
+      ],
+      "cuotas": [
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.4
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Movieplayer (Serie A J11)",
+          "url": "https://movieplayer.it/news/serie-a-dove-vedere-11-giornata-dazn-sky-now_171850/"
+        },
+        {
+          "nombre": "Calciomagazine (partidos 7 nov)",
+          "url": "https://www.calciomagazine.net/partite-7-novembre-2026-252531.html"
+        }
+      ]
+    },
+    {
+      "partido": "Cagliari vs Frosinone",
+      "competencia": "Serie A",
+      "hora": "9:00 a. m.",
+      "estadio": "Unipol Domus, Cagliari",
+      "claves": [
+        "Frosinone recién ascendido; tabla sin confirmar."
+      ],
+      "cuotas": [
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.38
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Movieplayer (Serie A J11)",
+          "url": "https://movieplayer.it/news/serie-a-dove-vedere-11-giornata-dazn-sky-now_171850/"
+        },
+        {
+          "nombre": "Calciomagazine (partidos 7 nov)",
+          "url": "https://www.calciomagazine.net/partite-7-novembre-2026-252531.html"
+        }
+      ]
+    },
+    {
+      "partido": "Valencia vs Real Madrid",
+      "competencia": "LaLiga",
+      "hora": "3:00 p. m.",
+      "estadio": "Mestalla, Valencia",
+      "claves": [
+        "Real Madrid invicto en Champions y gran favorito (1.30 / 7.14 / 9.09).",
+        "Visitante claramente mejor."
+      ],
+      "cuotas": [
+        {
+          "m": "Real Madrid o empate",
+          "c": 1.08
+        },
+        {
+          "m": "Más de 1.5 goles",
+          "c": 1.18
+        }
+      ],
+      "fuentes": [
+        {
+          "nombre": "Real Madrid (fecha y hora oficial)",
+          "url": "https://www.realmadrid.com/de-DE/news/fussball/erste-mannshaft/latest-news/el-valencia-real-madrid-se-jugara-el-sabado-7-de-noviembre-a-las-21-00-h-12-10-2026"
+        },
+        {
+          "nombre": "Futbolred (pronóstico y cuotas)",
+          "url": "https://www.futbolred.com/apuestas/pronosticos-valencia-vs-real-madrid-la-liga-07-11-2026-274919"
+        }
+      ]
+    }
+  ],
+  "combinadas": [
+    {
+      "nivel": "segura",
+      "titulo": "Favoritos y goles en Europa",
+      "razon": "Arsenal en casa, dobles de Bayern y Real Madrid fuera, y Más de 1.5 con Roma y Dortmund.",
+      "cuota": 1.87,
+      "prob": 0.62,
+      "estado": "pendiente",
+      "selecciones": [
+        {
+          "partido": "Arsenal vs Hull City",
+          "competencia": "Premier League",
+          "hora": "10:00 a. m.",
+          "mercado": "Gana Arsenal",
+          "cuota": 1.14,
+          "estado": "pendiente",
+          "reglas_rotas": []
+        },
+        {
+          "partido": "Valencia vs Real Madrid",
+          "competencia": "LaLiga",
+          "hora": "3:00 p. m.",
+          "mercado": "Real Madrid o empate",
+          "cuota": 1.08,
+          "estado": "pendiente",
+          "reglas_rotas": [],
+          "estimada": true
+        },
+        {
+          "partido": "Mainz vs Bayern",
+          "competencia": "Bundesliga",
+          "hora": "9:30 a. m.",
+          "mercado": "Bayern o empate",
+          "cuota": 1.1,
+          "estado": "pendiente",
+          "reglas_rotas": [],
+          "estimada": true
+        },
+        {
+          "partido": "Roma vs Sassuolo",
+          "competencia": "Serie A",
+          "hora": "2:45 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.2,
+          "estado": "pendiente",
+          "reglas_rotas": [],
+          "estimada": true
+        },
+        {
+          "partido": "Borussia Dortmund vs Elversberg",
+          "competencia": "Bundesliga",
+          "hora": "9:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.15,
+          "estado": "pendiente",
+          "reglas_rotas": [],
+          "estimada": true
+        }
+      ]
+    },
+    {
+      "nivel": "media",
+      "titulo": "Roma, City y goles alemanes",
+      "razon": "Roma ante el 17.º, doble de City y Más de 1.5 en Stuttgart y Leipzig, con Dortmund en casa.",
+      "cuota": 3.2,
+      "prob": 0.3,
+      "estado": "pendiente",
+      "selecciones": [
+        {
+          "partido": "Roma vs Sassuolo",
+          "competencia": "Serie A",
+          "hora": "2:45 p. m.",
+          "mercado": "Gana Roma",
+          "cuota": 1.32,
+          "estado": "pendiente",
+          "reglas_rotas": []
+        },
+        {
+          "partido": "Nottingham Forest vs Manchester City",
+          "competencia": "Premier League",
+          "hora": "12:30 p. m.",
+          "mercado": "Manchester City o empate",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "reglas_rotas": [],
+          "estimada": true
+        },
+        {
+          "partido": "Borussia Dortmund vs Elversberg",
+          "competencia": "Bundesliga",
+          "hora": "9:30 a. m.",
+          "mercado": "Gana Borussia Dortmund",
+          "cuota": 1.38,
+          "estado": "pendiente",
+          "reglas_rotas": [
+            6
+          ],
+          "estimada": true
+        },
+        {
+          "partido": "Stuttgart vs Werder Bremen",
+          "competencia": "Bundesliga",
+          "hora": "12:30 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.22,
+          "estado": "pendiente",
+          "reglas_rotas": [],
+          "estimada": true
+        },
+        {
+          "partido": "RB Leipzig vs Augsburg",
+          "competencia": "Bundesliga",
+          "hora": "9:30 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.18,
+          "estado": "pendiente",
+          "reglas_rotas": [],
+          "estimada": true
+        }
+      ]
+    },
+    {
+      "nivel": "arriesgada",
+      "titulo": "Sábado largo",
+      "razon": "Leipzig y Stuttgart en casa, doble de Bologna y goles en Italia e Inglaterra.",
+      "cuota": 8.38,
+      "prob": 0.1,
+      "estado": "pendiente",
+      "selecciones": [
+        {
+          "partido": "RB Leipzig vs Augsburg",
+          "competencia": "Bundesliga",
+          "hora": "9:30 a. m.",
+          "mercado": "Gana RB Leipzig",
+          "cuota": 1.44,
+          "estado": "pendiente",
+          "reglas_rotas": []
+        },
+        {
+          "partido": "Nottingham Forest vs Manchester City",
+          "competencia": "Premier League",
+          "hora": "12:30 p. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.27,
+          "estado": "pendiente",
+          "reglas_rotas": [],
+          "estimada": true
+        },
+        {
+          "partido": "Parma vs Bologna",
+          "competencia": "Serie A",
+          "hora": "12:00 p. m.",
+          "mercado": "Bologna o empate",
+          "cuota": 1.33,
+          "estado": "pendiente",
+          "reglas_rotas": [
+            3
+          ],
+          "estimada": true
+        },
+        {
+          "partido": "Torino vs Lecce",
+          "competencia": "Serie A",
+          "hora": "9:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.4,
+          "estado": "pendiente",
+          "reglas_rotas": [
+            3
+          ],
+          "estimada": true
+        },
+        {
+          "partido": "Cagliari vs Frosinone",
+          "competencia": "Serie A",
+          "hora": "9:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.38,
+          "estado": "pendiente",
+          "reglas_rotas": [
+            3
+          ],
+          "estimada": true
+        },
+        {
+          "partido": "Stuttgart vs Werder Bremen",
+          "competencia": "Bundesliga",
+          "hora": "12:30 p. m.",
+          "mercado": "Gana Stuttgart",
+          "cuota": 1.55,
+          "estado": "pendiente",
+          "reglas_rotas": [
+            6
+          ],
+          "estimada": true
+        },
+        {
+          "partido": "Arsenal vs Hull City",
+          "competencia": "Premier League",
+          "hora": "10:00 a. m.",
+          "mercado": "Más de 1.5 goles",
+          "cuota": 1.15,
+          "estado": "pendiente",
+          "reglas_rotas": [
+            6
+          ],
+          "estimada": true
+        }
+      ]
+    }
+  ]
+}

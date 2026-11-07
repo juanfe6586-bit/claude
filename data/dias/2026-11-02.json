@@ -1,10 +1,8 @@
 {
-  "fecha": "2026-11-02",
-  "nota": "Armado de emergencia el mismo lunes a mediodía (la rutina no corrió del 30 oct al 2 nov). Día flojo: 7 partidos y poca información de tablas y cuotas, así que todas las cuotas son estimadas y casi ninguna combinada tiene sello. Benfica-Alverca y Lorient-Brest solo salen en las agendas de hoy (un calendario automático daba el Benfica el 1 nov: regla 10). La arriesgada llega solo a 6.51 y usa dobles locales en partidos parejos (regla 13); Más de 1.5 de Águilas-Fortaleza pasa el tope de la media (regla 6). Apuesta poco hoy; mañana (Champions) es mucho mejor.",
   "combinadas": [
     {
       "cuota": 1.75,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "segura",
       "prob": 0.65,
       "razon": "Atalanta en casa con doble oportunidad (paga 1.12), victoria de Benfica ante Alverca y Más de 1.5 en Newcastle-Everton.",
@@ -12,19 +10,20 @@
         {
           "competencia": "Serie A",
           "cuota": 1.12,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "2:45 p. m.",
           "mercado": "Atalanta o empate",
           "partido": "Atalanta vs Parma",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "0-3"
         },
         {
           "competencia": "Liga Portugal",
           "cuota": 1.2,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:15 p. m.",
           "mercado": "Gana Benfica",
@@ -32,26 +31,28 @@
           "reglas_rotas": [
             3,
             10
-          ]
+          ],
+          "resultado": "1-0"
         },
         {
           "competencia": "Premier League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Newcastle vs Everton",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "0-1"
         }
       ],
       "titulo": "Atalanta, Benfica y goles en Newcastle"
     },
     {
       "cuota": 3.27,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "media",
       "prob": 0.41,
       "razon": "Más de 1.5 en tres partidos y Nacional (líder) sin perder en Bucaramanga.",
@@ -59,55 +60,59 @@
         {
           "competencia": "LaLiga",
           "cuota": 1.35,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Deportivo La Coruña vs Osasuna",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "2-1"
         },
         {
           "competencia": "Ligue 1",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:45 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Lorient vs Brest",
           "reglas_rotas": [
             10
-          ]
+          ],
+          "resultado": "0-2"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.33,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "8:15 p. m.",
           "mercado": "Atlético Nacional o empate",
           "partido": "Bucaramanga vs Atlético Nacional",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "1-1"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.4,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "4:05 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Águilas Doradas vs Fortaleza",
           "reglas_rotas": [
             6
-          ]
+          ],
+          "resultado": "1-0"
         }
       ],
       "titulo": "Goles del lunes"
     },
     {
       "cuota": 6.51,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.23,
       "razon": "Una selección por partido: goles donde hay favorito claro y dobles en los parejos.",
@@ -115,29 +120,31 @@
         {
           "competencia": "Serie A",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "2:45 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Atalanta vs Parma",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "0-3"
         },
         {
           "competencia": "Liga Portugal",
           "cuota": 1.15,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:15 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Benfica vs Alverca",
           "reglas_rotas": [
             10
-          ]
+          ],
+          "resultado": "1-0"
         },
         {
           "competencia": "Premier League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Newcastle o empate",
@@ -145,12 +152,13 @@
           "reglas_rotas": [
             3,
             13
-          ]
+          ],
+          "resultado": "0-1"
         },
         {
           "competencia": "LaLiga",
           "cuota": 1.4,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Deportivo La Coruña o empate",
@@ -158,12 +166,13 @@
           "reglas_rotas": [
             3,
             13
-          ]
+          ],
+          "resultado": "2-1"
         },
         {
           "competencia": "Ligue 1",
           "cuota": 1.4,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "2:45 p. m.",
           "mercado": "Lorient o empate",
@@ -172,12 +181,13 @@
             3,
             10,
             13
-          ]
+          ],
+          "resultado": "0-2"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "4:05 p. m.",
           "mercado": "Águilas Doradas o empate",
@@ -185,46 +195,48 @@
           "reglas_rotas": [
             3,
             13
-          ]
+          ],
+          "resultado": "1-0"
         },
         {
           "competencia": "Liga BetPlay",
           "cuota": 1.4,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "8:15 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Bucaramanga vs Atlético Nacional",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-1"
         }
       ],
       "titulo": "Siete del lunes"
     }
   ],
+  "fecha": "2026-11-02",
+  "nota": "Armado de emergencia el mismo lunes a mediodía (la rutina no corrió del 30 oct al 2 nov). Día flojo: 7 partidos y poca información de tablas y cuotas, así que todas las cuotas son estimadas y casi ninguna combinada tiene sello. Benfica-Alverca y Lorient-Brest solo salen en las agendas de hoy (un calendario automático daba el Benfica el 1 nov: regla 10). La arriesgada llega solo a 6.51 y usa dobles locales en partidos parejos (regla 13); Más de 1.5 de Águilas-Fortaleza pasa el tope de la media (regla 6). Apuesta poco hoy; mañana (Champions) es mucho mejor.",
   "partidos": [
     {
-      "partido": "Atalanta vs Parma",
-      "competencia": "Serie A",
-      "hora": "2:45 p. m.",
-      "estadio": "Gewiss Stadium, Bérgamo",
       "claves": [
         "Jornada 10. Cuotas 1X2: Atalanta 1.49, empate 4.65, Parma 6.60.",
         "Atalanta viene de 2-2 en Florencia y 4-4 con Frosinone: marca y recibe."
       ],
+      "competencia": "Serie A",
       "cuotas": [
         {
-          "m": "Atalanta o empate",
-          "c": 1.12
+          "c": 1.12,
+          "m": "Atalanta o empate"
         },
         {
-          "m": "Más de 1.5 goles",
-          "c": 1.22
+          "c": 1.22,
+          "m": "Más de 1.5 goles"
         },
         {
-          "m": "Gana Atalanta",
-          "c": 1.49
+          "c": 1.49,
+          "m": "Gana Atalanta"
         }
       ],
+      "estadio": "Gewiss Stadium, Bérgamo",
       "fuentes": [
         {
           "nombre": "El Comercio (agenda 2 nov)",
@@ -234,27 +246,27 @@
           "nombre": "LiveTipsPortal",
           "url": "https://www.livetipsportal.com/it/pronostici-scommesse-sportive/atalanta-vs-parma-serie-a-12131080/"
         }
-      ]
+      ],
+      "hora": "2:45 p. m.",
+      "partido": "Atalanta vs Parma"
     },
     {
-      "partido": "Newcastle vs Everton",
-      "competencia": "Premier League",
-      "hora": "3:00 p. m.",
-      "estadio": "St James' Park, Newcastle",
       "claves": [
         "Lunes por la noche en Inglaterra.",
         "Legalbet recomienda «Everton no pierde» a 1.70: partido más parejo de lo que parece."
       ],
+      "competencia": "Premier League",
       "cuotas": [
         {
-          "m": "Más de 1.5 goles",
-          "c": 1.3
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
         },
         {
-          "m": "Newcastle o empate",
-          "c": 1.3
+          "c": 1.3,
+          "m": "Newcastle o empate"
         }
       ],
+      "estadio": "St James' Park, Newcastle",
       "fuentes": [
         {
           "nombre": "Infobae (agenda 2 nov)",
@@ -264,27 +276,27 @@
           "nombre": "Legalbet",
           "url": "https://legalbet.es/pronosticos-deportivos/apuesta-combinada-de-futbol-para-el-2-de-noviembre-sergio-gonzalez"
         }
-      ]
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Newcastle vs Everton"
     },
     {
-      "partido": "Deportivo La Coruña vs Osasuna",
-      "competencia": "LaLiga",
-      "hora": "3:00 p. m.",
-      "estadio": "Riazor, La Coruña",
       "claves": [
         "Jornada 11. Modelo de Foresportia: Deportivo 43%, empate 32%.",
         "Deportivo recién ascendido."
       ],
+      "competencia": "LaLiga",
       "cuotas": [
         {
-          "m": "Más de 1.5 goles",
-          "c": 1.35
+          "c": 1.35,
+          "m": "Más de 1.5 goles"
         },
         {
-          "m": "Deportivo La Coruña o empate",
-          "c": 1.4
+          "c": 1.4,
+          "m": "Deportivo La Coruña o empate"
         }
       ],
+      "estadio": "Riazor, La Coruña",
       "fuentes": [
         {
           "nombre": "El Comercio (agenda 2 nov)",
@@ -294,27 +306,27 @@
           "nombre": "Foresportia",
           "url": "https://www.foresportia.com/es/pronostico/laliga/deportivo-de-la-coruna-ca-osasuna-2026-11-02/"
         }
-      ]
+      ],
+      "hora": "3:00 p. m.",
+      "partido": "Deportivo La Coruña vs Osasuna"
     },
     {
-      "partido": "Benfica vs Alverca",
-      "competencia": "Liga Portugal",
-      "hora": "3:15 p. m.",
-      "estadio": "Estádio da Luz, Lisboa",
       "claves": [
         "Benfica pagaba 1.16 en el duelo de febrero en casa.",
         "Fecha solo en agendas de hoy; un calendario automático daba el 1 nov."
       ],
+      "competencia": "Liga Portugal",
       "cuotas": [
         {
-          "m": "Gana Benfica",
-          "c": 1.2
+          "c": 1.2,
+          "m": "Gana Benfica"
         },
         {
-          "m": "Más de 1.5 goles",
-          "c": 1.15
+          "c": 1.15,
+          "m": "Más de 1.5 goles"
         }
       ],
+      "estadio": "Estádio da Luz, Lisboa",
       "fuentes": [
         {
           "nombre": "El Comercio (agenda 2 nov)",
@@ -324,53 +336,53 @@
           "nombre": "Infobae (agenda 2 nov)",
           "url": "https://www.infobae.com/peru/deportes/2026/11/02/partidos-de-hoy-lunes-2-de-noviembre-de-2026-programacion-canales-tv-y-resultados-en-vivo/"
         }
-      ]
+      ],
+      "hora": "3:15 p. m.",
+      "partido": "Benfica vs Alverca"
     },
     {
-      "partido": "Lorient vs Brest",
-      "competencia": "Ligue 1",
-      "hora": "2:45 p. m.",
-      "estadio": "Stade du Moustoir, Lorient",
       "claves": [
         "Solo aparece en las agendas de hoy.",
         "Partido parejo de mitad de tabla."
       ],
+      "competencia": "Ligue 1",
       "cuotas": [
         {
-          "m": "Más de 1.5 goles",
-          "c": 1.3
+          "c": 1.3,
+          "m": "Más de 1.5 goles"
         },
         {
-          "m": "Lorient o empate",
-          "c": 1.4
+          "c": 1.4,
+          "m": "Lorient o empate"
         }
       ],
+      "estadio": "Stade du Moustoir, Lorient",
       "fuentes": [
         {
           "nombre": "El Comercio (agenda 2 nov)",
           "url": "https://elcomercio.pe/deporte-total/futbol-mundial/partidos-de-hoy-lunes-2-de-noviembre-del-2026-horarios-canales-tv-y-donde-ver-futbol-en-vivo-online-gratis-noticia/"
         }
-      ]
+      ],
+      "hora": "2:45 p. m.",
+      "partido": "Lorient vs Brest"
     },
     {
-      "partido": "Águilas Doradas vs Fortaleza",
-      "competencia": "Liga BetPlay",
-      "hora": "4:05 p. m.",
-      "estadio": "Estadio Alberto Grisales, Rionegro",
       "claves": [
         "Fortaleza era 15.º con 11 pts el 9 oct.",
         "Por RCN y Win+."
       ],
+      "competencia": "Liga BetPlay",
       "cuotas": [
         {
-          "m": "Águilas Doradas o empate",
-          "c": 1.3
+          "c": 1.3,
+          "m": "Águilas Doradas o empate"
         },
         {
-          "m": "Más de 1.5 goles",
-          "c": 1.4
+          "c": 1.4,
+          "m": "Más de 1.5 goles"
         }
       ],
+      "estadio": "Estadio Alberto Grisales, Rionegro",
       "fuentes": [
         {
           "nombre": "El Comercio (agenda 2 nov)",
@@ -380,27 +392,27 @@
           "nombre": "Infobae (agenda 2 nov)",
           "url": "https://www.infobae.com/peru/deportes/2026/11/02/partidos-de-hoy-lunes-2-de-noviembre-de-2026-programacion-canales-tv-y-resultados-en-vivo/"
         }
-      ]
+      ],
+      "hora": "4:05 p. m.",
+      "partido": "Águilas Doradas vs Fortaleza"
     },
     {
-      "partido": "Bucaramanga vs Atlético Nacional",
-      "competencia": "Liga BetPlay",
-      "hora": "8:15 p. m.",
-      "estadio": "Estadio Américo Montanini, Bucaramanga",
       "claves": [
         "Nacional líder con 32 pts (29 oct); Bucaramanga estaba igualado con Nacional el 9 oct: parejo.",
         "Por RCN y Win+."
       ],
+      "competencia": "Liga BetPlay",
       "cuotas": [
         {
-          "m": "Atlético Nacional o empate",
-          "c": 1.33
+          "c": 1.33,
+          "m": "Atlético Nacional o empate"
         },
         {
-          "m": "Más de 1.5 goles",
-          "c": 1.4
+          "c": 1.4,
+          "m": "Más de 1.5 goles"
         }
       ],
+      "estadio": "Estadio Américo Montanini, Bucaramanga",
       "fuentes": [
         {
           "nombre": "El Comercio (agenda 2 nov)",
@@ -410,7 +422,9 @@
           "nombre": "Vanguardia (tabla 29 oct)",
           "url": "https://www.vanguardia.com/deportes/futbol/2026/10/29/asi-esta-la-tabla-de-posiciones-en-la-liga-betplay-ii-2026-once-caldas-vuelve-al-grupo-de-los-ocho-y-medellin-se-complica/"
         }
-      ]
+      ],
+      "hora": "8:15 p. m.",
+      "partido": "Bucaramanga vs Atlético Nacional"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "combinadas": [
     {
       "cuota": 1.7,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "segura",
       "prob": 0.62,
       "razon": "Leverkusen (líder), Bournemouth (líder) y Juventus con doble oportunidad.",
@@ -10,41 +10,44 @@
         {
           "competencia": "Europa League",
           "cuota": 1.12,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Leverkusen o empate",
           "partido": "Leverkusen vs Marseille",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "0-1"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.17,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "12:45 p. m.",
           "mercado": "Bournemouth o empate",
           "partido": "Sparta Praga vs Bournemouth",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-3"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Juventus o empate",
           "partido": "AZ vs Juventus",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "1-2"
         }
       ],
       "titulo": "Tres dobles de favoritos"
     },
     {
       "cuota": 2.68,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "media",
       "prob": 0.42,
       "razon": "Dobles en Palace, Milan y Sunderland más Más de 1.5 en Celtic; partidos de tabla incierta.",
@@ -52,19 +55,20 @@
         {
           "competencia": "Europa League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "12:45 p. m.",
           "mercado": "Crystal Palace o empate",
           "partido": "Crystal Palace vs Hoffenheim",
           "reglas_rotas": [
             13
-          ]
+          ],
+          "resultado": "1-1"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.22,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "12:45 p. m.",
           "mercado": "Milan o empate",
@@ -72,22 +76,24 @@
           "reglas_rotas": [
             3,
             13
-          ]
+          ],
+          "resultado": "0-2"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Celtic vs Beşiktaş",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "3-2"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Sunderland o empate",
@@ -95,14 +101,15 @@
           "reglas_rotas": [
             3,
             13
-          ]
+          ],
+          "resultado": "0-2"
         }
       ],
       "titulo": "Dobles y goles en partidos parejos"
     },
     {
       "cuota": 7.23,
-      "estado": "pendiente",
+      "estado": "perdida",
       "nivel": "arriesgada",
       "prob": 0.12,
       "razon": "Leverkusen gana y Más de 1.5 en cinco partidos, más Beşiktaş con doble.",
@@ -110,74 +117,81 @@
         {
           "competencia": "Europa League",
           "cuota": 1.41,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Gana Leverkusen",
           "partido": "Leverkusen vs Marseille",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "0-1"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.32,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "AZ vs Juventus",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-2"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "12:45 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Sparta Praga vs Bournemouth",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-3"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "12:45 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Crystal Palace vs Hoffenheim",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "1-1"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.33,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "12:45 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Milan vs Ferencváros",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "0-2"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.3,
-          "estado": "pendiente",
+          "estado": "perdida",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Beşiktaş o empate",
           "partido": "Celtic vs Beşiktaş",
           "reglas_rotas": [
             3
-          ]
+          ],
+          "resultado": "3-2"
         },
         {
           "competencia": "Europa League",
           "cuota": 1.33,
-          "estado": "pendiente",
+          "estado": "ganada",
           "estimada": true,
           "hora": "3:00 p. m.",
           "mercado": "Más de 1.5 goles",
           "partido": "Sunderland vs Dinamo Zagreb",
-          "reglas_rotas": []
+          "reglas_rotas": [],
+          "resultado": "0-2"
         }
       ],
       "titulo": "Siete partidos de Europa League"
